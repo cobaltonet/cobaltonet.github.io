@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2019-03-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/contato/</loc>
+    <lastmod>2019-03-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/sobre/</loc>
+    <lastmod>2019-03-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categorias/</loc>
+    <lastmod>2018-12-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/introdu%C3%A7%C3%A3o/</loc>
+    <lastmod>2018-12-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categorias/meta/</loc>
+    <lastmod>2018-12-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/hello-world-outra-vez/</loc>
+    <lastmod>2018-12-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2018-12-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2018-12-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/.net/</loc>
+    <lastmod>2018-09-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/android/</loc>
+    <lastmod>2018-09-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categorias/desenvolvimento/</loc>
+    <lastmod>2018-09-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/dotnet/</loc>
+    <lastmod>2018-09-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/resolvendo-erro-virtual-box-w10/</loc>
+    <lastmod>2018-09-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/virtualbox/</loc>
+    <lastmod>2018-09-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/visualstudio/</loc>
+    <lastmod>2018-09-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/windows/</loc>
+    <lastmod>2018-09-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/app-xamarin-forms-fecha-iniciado/</loc>
+    <lastmod>2017-02-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/maratonaxamarin/</loc>
+    <lastmod>2017-02-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/xamarin/</loc>
+    <lastmod>2017-02-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/instalando-configurando-xamarin-vs2015/</loc>
+    <lastmod>2017-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/vamos-escrever-mas-sobre-o-que/</loc>
+    <lastmod>2016-10-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/hello-world/</loc>
+    <lastmod>2016-10-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/arquivo/</loc>
+  </url>
+  
+</urlset>

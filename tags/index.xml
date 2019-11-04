@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on .\Cobalto.net</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on .\Cobalto.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>introdução</title>
+      <link>/tags/introdu%C3%A7%C3%A3o/</link>
+      <pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/introdu%C3%A7%C3%A3o/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>.Net</title>
+      <link>/tags/.net/</link>
+      <pubDate>Sun, 23 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/.net/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Android</title>
+      <link>/tags/android/</link>
+      <pubDate>Sun, 23 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dotnet</title>
+      <link>/tags/dotnet/</link>
+      <pubDate>Sun, 23 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/dotnet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VirtualBox</title>
+      <link>/tags/virtualbox/</link>
+      <pubDate>Sun, 23 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/virtualbox/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VisualStudio</title>
+      <link>/tags/visualstudio/</link>
+      <pubDate>Sun, 23 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/visualstudio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows</title>
+      <link>/tags/windows/</link>
+      <pubDate>Sun, 23 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MaratonaXamarin</title>
+      <link>/tags/maratonaxamarin/</link>
+      <pubDate>Sat, 11 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/maratonaxamarin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xamarin</title>
+      <link>/tags/xamarin/</link>
+      <pubDate>Sat, 11 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/xamarin/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
