@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MaratonaXamarin on .\Cobalto.net</title>
+    <link>/tags/maratonaxamarin/</link>
+    <description>Recent content in MaratonaXamarin on .\Cobalto.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 11 Feb 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/maratonaxamarin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>App Xamarin Forms fecha assim que é iniciado no Visual Studio Emulator, o que fazer?</title>
+      <link>/post/app-xamarin-forms-fecha-iniciado/</link>
+      <pubDate>Sat, 11 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/app-xamarin-forms-fecha-iniciado/</guid>
+      <description>Continuando a #MaratonaXamarin, encontrei um novo problema ao tentar debugar meu app em Xarmarin Forms no emulador Android do Visual Studio.
+Ao tentar debugar o app no emulador, logo após o fim do processo de rebuild o Visual Studio iniciava o processo no emulador, mas antes de aparecer qualquer coisa na tela o aplicativo era encerrado e o Visual Studio não informava nenhum tipo de erro. Ao tentar fazer o deploy, ele era feito corretamente porém o aplicativo instalado no Emulador travava e era exibida a tela de erro da aplicação padrão do Android.</description>
+    </item>
+    
+    <item>
+      <title>Instalando e configurando (do jeito certo) o Xamarin no Visual Studio 2015</title>
+      <link>/post/instalando-configurando-xamarin-vs2015/</link>
+      <pubDate>Mon, 06 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/instalando-configurando-xamarin-vs2015/</guid>
+      <description>E é assim, ou mais ou menos, nessa situação que toda vez que penso em escrever e aí fica por isso mesmo, cada um no seu canto (eu no meu canto e o blog largado, no caso) e ninguém entra nesse assunto. Parafraseando Aécio Neves, e ele falou muito isso durante as eleições, “infelizmente a verdade é essa”, eu não tenho mais o que escrever.
+Eu já não tenho mais saco pra tentar ser engraçadinho com tudo, o tempo me deu uma vergonha na cara grande demais para falar besteira por falar e isso seca a fonte de inspirações para postagens tal qual o Cantareira está agora.</description>
+    </item>
+    
+  </channel>
+</rss>

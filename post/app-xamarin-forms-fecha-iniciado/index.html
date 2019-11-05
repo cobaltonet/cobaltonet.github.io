@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>App Xamarin Forms fecha assim que é iniciado no Visual Studio Emulator, o que fazer? :: .\Cobalto.net</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="Continuando a #MaratonaXamarin, encontrei um novo problema ao tentar debugar meu app em Xarmarin Forms no emulador Android do Visual Studio.
+Ao tentar debugar o app no emulador, logo após o fim do processo de rebuild o Visual Studio iniciava o processo no emulador, mas antes de aparecer qualquer coisa na tela o aplicativo era encerrado e o Visual Studio não informava nenhum tipo de erro. Ao tentar fazer o deploy, ele era feito corretamente porém o aplicativo instalado no Emulador travava e era exibida a tela de erro da aplicação padrão do Android."/>
+<meta name="keywords" content="Daniel Pessoa, Cobalto, Blog, Desenvolvimento, .Net, C#, Xamarin, Developer, ASP.NET, Core"/>
+<meta name="robots" content="noodp"/>
+<meta name="author" content="Daniel Cobalto">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon.png?v=dLJ58OLkKj">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=dLJ58OLkKj">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=dLJ58OLkKj">
+<link rel="manifest" href="/site.webmanifest?v=dLJ58OLkKj">
+<link rel="shortcut icon" href="/favicon.ico?v=dLJ58OLkKj">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#ffffff">
+<link rel="canonical" href="/post/app-xamarin-forms-fecha-iniciado/" />
+
+
+
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+
+<link rel="stylesheet" href="/style.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="/img/favicon.png">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="App Xamarin Forms fecha assim que é iniciado no Visual Studio Emulator, o que fazer?"/>
+<meta name="twitter:description" content="Continuando a #MaratonaXamarin, encontrei um novo problema ao tentar debugar meu app em Xarmarin Forms no emulador Android do Visual Studio."/>
+
+
+
+<meta property="og:title" content="App Xamarin Forms fecha assim que é iniciado no Visual Studio Emulator, o que fazer?" />
+<meta property="og:description" content="Continuando a #MaratonaXamarin, encontrei um novo problema ao tentar debugar meu app em Xarmarin Forms no emulador Android do Visual Studio." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/app-xamarin-forms-fecha-iniciado/" />
+<meta property="article:published_time" content="2017-02-11T00:00:00+00:00" />
+<meta property="article:modified_time" content="2017-02-11T00:00:00+00:00" /><meta property="og:site_name" content=".\Cobalto.net" />
+
+
+
+
+
+
+  </head>
+  <body class="dark-theme">
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a href="/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
+</svg>
+</span>
+    <span class="logo__text">.\cobalto.net</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/sobre">Sobre</a></li>
+        
+      
+        
+          <li><a href="/contato">Contato</a></li>
+        
+      
+        
+          <li><a href="/arquivo">Arquivo</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/sobre">Sobre</a></li>
+      
+    
+      
+        <li><a href="/contato">Contato</a></li>
+      
+    
+      
+        <li><a href="/arquivo">Arquivo</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  <div class="post">
+    <h2 class="post-title"><a href="/post/app-xamarin-forms-fecha-iniciado/">App Xamarin Forms fecha assim que é iniciado no Visual Studio Emulator, o que fazer?</a></h2>
+    <div class="post-meta">
+      
+        <span class="post-date">
+            2017-02-11
+        </span>
+      
+      <span class="post-author">— Escrito por Cobalto</span>
+      
+        <span class="post-read-time">— 1 min de leitura</span>
+      
+    </div>
+
+    
+      <span class="post-tags">
+        
+          #<a href="/tags/xamarin/">Xamarin</a>&nbsp;
+        
+          #<a href="/tags/.net/">.Net</a>&nbsp;
+        
+          #<a href="/tags/dotnet/">dotnet</a>&nbsp;
+        
+          #<a href="/tags/maratonaxamarin/">MaratonaXamarin</a>&nbsp;
+        
+          #<a href="/tags/android/">Android</a>&nbsp;
+        
+          #<a href="/tags/visualstudio/">VisualStudio</a>&nbsp;
+        
+      </span>
+    
+
+    
+      
+        <img src="/img/ms_xamarin.jpg" class="post-cover" />
+      
+    
+
+    <div class="post-content">
+      <p>Continuando a #MaratonaXamarin, encontrei um novo problema ao tentar debugar meu app em Xarmarin Forms no emulador Android do Visual Studio.</p>
+
+<p>Ao tentar debugar o app no emulador, logo após o fim do processo de rebuild o Visual Studio iniciava o processo no emulador, mas antes de aparecer qualquer coisa na tela o aplicativo era encerrado e o Visual Studio não informava nenhum tipo de erro. Ao tentar fazer o deploy, ele era feito corretamente porém o aplicativo instalado no Emulador travava e era exibida a tela de erro da aplicação padrão do Android.</p>
+
+<p>Como resolver? Simples (mas não tão óbvio).</p>
+
+<p>Primeiramente encerre a máquina virtual de forma normal.
+Abra o gerenciador do Hyper-V (basta digitar Hyper-V na busca).
+Encontre a máquina virtual que estava sendo utilizada.
+Com o botão direito selecione Propriedades (Fig.1).</p>
+
+
+  <figure class="center" >
+    <img src="/img/hypper_v_1.jpg"  alt="Fig.1"   />
+    
+      <figcaption class="center" >Fig.1</figcaption>
+    
+  </figure>
+
+
+
+<p>No menu lateral, abra a árvore do item Processador.
+Selecione o item Compatibilidade.
+Marque a caixa “Migrar para um computador físico com versão diferente de processador” (Fig.2) que estará desmarcarda.</p>
+
+
+  <figure class="center" >
+    <img src="/img/hypper_v_2.jpg"  alt="Fig.2"   />
+    
+      <figcaption class="center" >Fig.2</figcaption>
+    
+  </figure>
+
+
+
+<p>Confirme e feche todas as janelas do Hyper-V.
+Volte ao Visual Studio e tente rodar o projeto novamente.</p>
+
+<p>Isso deve resolver o problema.
+Funcionou comigo.</p>
+
+    </div>
+    
+      <div class="pagination">
+        <div class="pagination__title">
+          <span class="pagination__title-h">Leia outros artigos</span>
+          <hr />
+        </div>
+        <div class="pagination__buttons">
+          
+            <span class="button previous">
+              <a href="/post/resolvendo-erro-virtual-box-w10/">
+                <span class="button__icon">←</span>
+                <span class="button__text">Resolvendo o erro “VT-x is not available” do Virtual Box no Windows 10</span>
+              </a>
+            </span>
+          
+          
+            <span class="button next">
+              <a href="/post/instalando-configurando-xamarin-vs2015/">
+                <span class="button__text">Instalando e configurando (do jeito certo) o Xamarin no Visual Studio 2015</span>
+                <span class="button__icon">→</span>
+              </a>
+            </span>
+          
+        </div>
+      </div>
+    
+
+    
+
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cobline" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+    </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <a href="/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
+</svg>
+</span>
+    <span class="logo__text">.\cobalto.net</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+      <div class="copyright">
+        <span>© 2019 Powered by <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span>
+        <span>Theme created by <a href="https://twitter.com/panr" target="_blank" rel="noopener">panr</a></span>
+      </div>
+    
+  </div>
+</footer>
+
+<script src="/assets/main.js"></script>
+<script src="/assets/prism.js"></script>
+
+
+      
+    </div>
+
+    
+  </body>
+</html>
