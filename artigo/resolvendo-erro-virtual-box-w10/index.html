@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='50 anos em 3 ou talvez até mais. Mas não é só de pandemia que vivem as mudanças. Mas vamos com calma...'><title>Uma breve história sobre tudo isso que vem acontecendo em todo lugar</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Pra quem fica migrando pra lá e pra cá entre Hyper-V e Virtual box (se você já precisou usar o Docker e o Android Emulator na mesma máquina sabe do que estou falando) é muito comum dar aquele branco e esquecer que um não vive muito bem com o outro e acabar tendo que fazer uma reinicialização da máquina não programada porque esqueceu pra qual dos dois a máquina estava configurada (me disseram que isso é comum, nunca aconteceu comigo 🙄).'><title>Resolvendo o erro “VT-x is not available” do Virtual Box no Windows 10</title>
 
-<link rel='canonical' href='/artigo/uma-breve-hist%C3%B3ria-sobre-tudo-isso-que-vem-acontecendo-em-todo-lugar/'>
+<link rel='canonical' href='/artigo/resolvendo-erro-virtual-box-w10/'>
 
-<link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='Uma breve história sobre tudo isso que vem acontecendo em todo lugar'>
-<meta property='og:description' content='50 anos em 3 ou talvez até mais. Mas não é só de pandemia que vivem as mudanças. Mas vamos com calma...'>
-<meta property='og:url' content='/artigo/uma-breve-hist%C3%B3ria-sobre-tudo-isso-que-vem-acontecendo-em-todo-lugar/'>
+<link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='Resolvendo o erro “VT-x is not available” do Virtual Box no Windows 10'>
+<meta property='og:description' content='Pra quem fica migrando pra lá e pra cá entre Hyper-V e Virtual box (se você já precisou usar o Docker e o Android Emulator na mesma máquina sabe do que estou falando) é muito comum dar aquele branco e esquecer que um não vive muito bem com o outro e acabar tendo que fazer uma reinicialização da máquina não programada porque esqueceu pra qual dos dois a máquina estava configurada (me disseram que isso é comum, nunca aconteceu comigo 🙄).'>
+<meta property='og:url' content='/artigo/resolvendo-erro-virtual-box-w10/'>
 <meta property='og:site_name' content='Cobalto.net'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Coronga' /><meta property='article:tag' content='Mudanças' /><meta property='article:tag' content='Novo Normal' /><meta property='article:tag' content='Great Reset' /><meta property='article:published_time' content='2020-12-28T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2020-12-28T00:00:00&#43;00:00'/><meta property='og:image' content='/artigo/uma-breve-hist%C3%B3ria-sobre-tudo-isso-que-vem-acontecendo-em-todo-lugar/timelapse.png' />
-<meta name="twitter:site" content="cobalto"><meta name="twitter:title" content="Uma breve história sobre tudo isso que vem acontecendo em todo lugar">
-<meta name="twitter:description" content="50 anos em 3 ou talvez até mais. Mas não é só de pandemia que vivem as mudanças. Mas vamos com calma..."><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='/artigo/uma-breve-hist%C3%B3ria-sobre-tudo-isso-que-vem-acontecendo-em-todo-lugar/timelapse.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='.Net' /><meta property='article:tag' content='VirtualBox' /><meta property='article:published_time' content='2018-09-23T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2018-09-23T00:00:00&#43;00:00'/><meta property='og:image' content='/artigo/resolvendo-erro-virtual-box-w10/ms_xamarin.jpg' />
+<meta name="twitter:site" content="cobalto"><meta name="twitter:title" content="Resolvendo o erro “VT-x is not available” do Virtual Box no Windows 10">
+<meta name="twitter:description" content="Pra quem fica migrando pra lá e pra cá entre Hyper-V e Virtual box (se você já precisou usar o Docker e o Android Emulator na mesma máquina sabe do que estou falando) é muito comum dar aquele branco e esquecer que um não vive muito bem com o outro e acabar tendo que fazer uma reinicialização da máquina não programada porque esqueceu pra qual dos dois a máquina estava configurada (me disseram que isso é comum, nunca aconteceu comigo 🙄)."><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='/artigo/resolvendo-erro-virtual-box-w10/ms_xamarin.jpg' />
     </head>
     <body class="">
     <script>
@@ -185,13 +185,13 @@
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/artigo/uma-breve-hist%C3%B3ria-sobre-tudo-isso-que-vem-acontecendo-em-todo-lugar/">
-                <img src="/artigo/uma-breve-hist%C3%B3ria-sobre-tudo-isso-que-vem-acontecendo-em-todo-lugar/timelapse_hu5f41e3ef896f2e469f35a28c45ee7ff2_1560692_800x0_resize_box_2.png"
-                        srcset="/artigo/uma-breve-hist%C3%B3ria-sobre-tudo-isso-que-vem-acontecendo-em-todo-lugar/timelapse_hu5f41e3ef896f2e469f35a28c45ee7ff2_1560692_800x0_resize_box_2.png 800w, /artigo/uma-breve-hist%C3%B3ria-sobre-tudo-isso-que-vem-acontecendo-em-todo-lugar/timelapse_hu5f41e3ef896f2e469f35a28c45ee7ff2_1560692_1600x0_resize_box_2.png 1600w"
+            <a href="/artigo/resolvendo-erro-virtual-box-w10/">
+                <img src="/artigo/resolvendo-erro-virtual-box-w10/ms_xamarin_hu1a9ad216cf0ffee772f581039196fc8b_24131_800x0_resize_q75_box.jpg"
+                        srcset="/artigo/resolvendo-erro-virtual-box-w10/ms_xamarin_hu1a9ad216cf0ffee772f581039196fc8b_24131_800x0_resize_q75_box.jpg 800w, /artigo/resolvendo-erro-virtual-box-w10/ms_xamarin_hu1a9ad216cf0ffee772f581039196fc8b_24131_1600x0_resize_q75_box.jpg 1600w"
                         width="800" 
-                        height="450" 
+                        height="451" 
                         loading="lazy"
-                        alt="Featured image of post Uma breve história sobre tudo isso que vem acontecendo em todo lugar" />
+                        alt="Featured image of post Resolvendo o erro “VT-x is not available” do Virtual Box no Windows 10" />
                 
             </a>
         </div>
@@ -201,25 +201,17 @@
     
     <header class="article-category">
         
-            <a href="/categoria/meta/" style="background-color: #999; color: #FFF;">
-                Meta
-            </a>
-        
-            <a href="/categoria/pessoal/" style="background-color: #0047AB; color: #FFF;">
-                Pessoal
+            <a href="/categoria/programacao/" style="background-color: #FFEF0D; color: #000;">
+                Programação
             </a>
         
     </header>
     
 
     <h2 class="article-title">
-        <a href="/artigo/uma-breve-hist%C3%B3ria-sobre-tudo-isso-que-vem-acontecendo-em-todo-lugar/">Uma breve história sobre tudo isso que vem acontecendo em todo lugar</a>
+        <a href="/artigo/resolvendo-erro-virtual-box-w10/">Resolvendo o erro “VT-x is not available” do Virtual Box no Windows 10</a>
     </h2>
 
-    
-    <h3 class="article-subtitle">
-        50 anos em 3 ou talvez até mais. Mas não é só de pandemia que vivem as mudanças. Mas vamos com calma...
-    </h3>
     <footer class="article-time">
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <path stroke="none" d="M0 0h24v24H0z"/>
@@ -229,28 +221,45 @@
 
 
 
-        <time class="article-time--published">Dec 28, 2020</time>
+        <time class="article-time--published">Sep 23, 2018</time>
     </footer></div>
 </header>
 
     <section class="article-content">
-    <p>Os últimos três anos foram repletos de mudanças. Obviamente, os dois primeiros não chegam aos pés deste último se formos pensar em números absolutos, mas se formos pensar por total de pessoas afetadas, pobres 2018 e 2019, seriam completamente massacrados por esse ano de 2020 que espalhou mudanças feito uma pandemia 👀</p>
-<p>O que de forma algum tira o mérito de 2018 e 2019, principalmente porque o principal (e virtualmente único) afetado nas mudanças ocorridas neles foi uma pessoa que eu considero bem importante (spoiler: eu).</p>
-<p>Mas veja bem, eu estou até hoje (Vinte e Nove de DEZEMBRO de DOIS MIL E VINTE) enrolando para escrever sobre os dois ultimos anos anteriores, seria inocente achar que eu conseguiria motivação, força de vontade e capacidade (vide subtitulo do blog, logo abaixo do <em>power ranger</em> de terninho) para escreve-los assim de supetação agora, com a corda no pescoço, apenas para evitar a entrada em mais um ano aumentando a vergonha do atraso.</p>
-<p>Repito: Seria infantil achar isso 🙄</p>
-<p>Esse post vem cumprir duas funções:</p>
-<ul>
-<li>Firmar o compromisso de que eu ainda vou SIM escrever um post sobre 2018 e 2019 caso eu consiga sobreviver até o tal inicio de 2021 (uns dizem que depois de 31/12/2020 entraremos em 01/13/2020 e assim por diante).</li>
-<li>Demonstrar que até o presente momento eu ainda estou vivo, o que se tornou algo de muito mais mérito esse ano do que nos anteriores.</li>
-</ul>
-<p>Mas que fique <em>a nível de</em> (sic) relato alguns spoilers:</p>
-<ul>
-<li>Eu mudei meu estilo de vida de forma brusca (e emagreci muito)</li>
-<li>Eu mudei de emprego duas vezes</li>
-<li>Eu mudei de Estado (não, não foi do sólido pro líquido ou gasoso, ba-dum-tss)</li>
-</ul>
-<p>(Eu falei que a pessoa mais importante dos meus relatos de 2018 e 2019 era um cara importante, né?)</p>
-<p>Então aguardem, eles aparecem por aqui em breve caso eu não morra antes (essa frase não soa tão engraçada durante uma pandemia e ela já nem era tão engraçada assim antes, mas piorou)</p>
+    <p>Pra quem fica migrando pra lá e pra cá entre Hyper-V e Virtual box (se você já precisou usar o Docker e o Android Emulator na mesma máquina sabe do que estou falando) é muito comum dar aquele branco e esquecer que um não vive muito bem com o outro e acabar tendo que fazer uma reinicialização da máquina não programada porque esqueceu pra qual dos dois a máquina estava configurada (me disseram que isso é comum, nunca aconteceu comigo 🙄).</p>
+
+  <figure class="center" >
+    <img src="vtx-1.jpg"  alt="Tira casaco, coloca casaco..."   />
+    
+      <figcaption class="center" >Tira casaco, coloca casaco&hellip;</figcaption>
+    
+  </figure>
+
+
+<h4 id="mas-e-quando-isso-não-resolve">Mas e quando isso não resolve?</h4>
+<p>Depois de um bom tempo mantendo sempre o Hyper-V configurado e usando até minhas máquinas virtuais linux nele, resolvi fazer uns testes no virtual box e eis que para minha surpresa o procedimento não resolveu meu problema e toda vez que tentava ativar a máquina virtual no Virtual Box era apresentado o seguinte erro:</p>
+<h2 id="vt-x-is-not-available-verr_vmx_no_vmx">“VT-x is not available (VERR_VMX_NO_VMX)”</h2>
+<p>Mas se isso funcionava antes, o que raios pode estar acontecendo agora pra não funcionar? É verdade que se passou bastante tempo, várias atualizações do Windows 10 vieram, várias configurações foram alteradas pelos mais variados motivos, então ficou bem difícil encontrar um culpa de cabeça. Mas não estamos aqui para julgar, estamos aqui para achar culpados.</p>
+<p>Então, conto de uma vez que o culpado é esse rapaz aqui:</p>
+
+  <figure class="center" >
+    <img src="vtx-2.png"  alt="Central de Segurança  Isolamento de Núcleo"   />
+    
+      <figcaption class="center" >Central de Segurança &gt; Isolamento de Núcleo</figcaption>
+    
+  </figure>
+
+
+
+  <figure class="center" >
+    <img src="vtx-3.png"  alt="Integridade da Memória [ Ativado ]"   />
+    
+      <figcaption class="center" >Integridade da Memória [ Ativado ]</figcaption>
+    
+  </figure>
+
+
+<p>Basta tratá-lo como é feito com o Hyper-V e a virtualização do Virtual Box voltará ao normal como nunca deveria ter deixado de ser.</p>
 
 </section>
 
@@ -259,13 +268,9 @@
     
     <section class="article-tags">
         
-            <a href="/tag/coronga/">Coronga</a>
+            <a href="/tag/.net/">.Net</a>
         
-            <a href="/tag/mudan%C3%A7as/">Mudanças</a>
-        
-            <a href="/tag/novo-normal/">Novo Normal</a>
-        
-            <a href="/tag/great-reset/">Great Reset</a>
+            <a href="/tag/virtualbox/">VirtualBox</a>
         
     </section>
 
