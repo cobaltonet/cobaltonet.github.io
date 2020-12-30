@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>introdução on Cobalto.net</title>
+    <link>/tag/introdu%C3%A7%C3%A3o/</link>
+    <description>Recent content in introdução on Cobalto.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Fri, 21 Dec 2018 00:00:00 +0000</lastBuildDate><atom:link href="/tag/introdu%C3%A7%C3%A3o/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Olá mundo, outra vez.</title>
+      <link>/artigo/ol%C3%A1-mundo-outra-vez./</link>
+      <pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/artigo/ol%C3%A1-mundo-outra-vez./</guid>
+      <description>Parece que alguém está de volta 😉 Não vou colocar uma meta, vou deixar a meta aberta pra quem sabe poder dobra-la.</description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>/artigo/hello-world/</link>
+      <pubDate>Sun, 16 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/artigo/hello-world/</guid>
+      <description>E lá vamos nós mais uma vez.
+Agora em uma empreitada um pouco maior, de volta ao wordpress usando Hugo.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Cobalto.net</title>
+    <link>/page/</link>
+    <description>Recent content in Pages on Cobalto.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="/page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arquivo</title>
+      <link>/arquivo/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/arquivo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sobre</title>
+      <link>/sobre/</link>
+      <pubDate>Sat, 16 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/sobre/</guid>
+      <description>Olá e bem vindo ao meu blog.
+Nesse espaço pretendo (não posso prometer) colocar tudo que fique melhor escrito por extenso e de forma mais detalhada do que as as redes sociais permitem (estou olhando pra você, twitter).
+Não tenho nenhuma pretensão de seguir uma linha editorial ou sequer alguma frequência definida, então pense nisso mais como um repositório de textos que eu queira manter indeterminadamente.
+Se você quiser saber mais sobre mim, recomendo dar uma olhada no meu perfil online que fica em Cobalto.</description>
+    </item>
+    
+    <item>
+      <title>Busca</title>
+      <link>/busca/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/busca/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

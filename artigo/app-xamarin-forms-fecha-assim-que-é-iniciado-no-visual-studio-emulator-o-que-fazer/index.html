@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Continuando a'><title>App Xamarin Forms fecha assim que é iniciado no Visual Studio Emulator, o que fazer?</title>
+
+<link rel='canonical' href='/artigo/app-xamarin-forms-fecha-assim-que-%C3%A9-iniciado-no-visual-studio-emulator-o-que-fazer/'>
+
+<link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='App Xamarin Forms fecha assim que é iniciado no Visual Studio Emulator, o que fazer?'>
+<meta property='og:description' content='Continuando a'>
+<meta property='og:url' content='/artigo/app-xamarin-forms-fecha-assim-que-%C3%A9-iniciado-no-visual-studio-emulator-o-que-fazer/'>
+<meta property='og:site_name' content='Cobalto.net'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='.Net' /><meta property='article:tag' content='Xamarin' /><meta property='article:published_time' content='2017-02-11T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2017-02-11T00:00:00&#43;00:00'/><meta property='og:image' content='/artigo/app-xamarin-forms-fecha-assim-que-%C3%A9-iniciado-no-visual-studio-emulator-o-que-fazer/ms_xamarin.jpg' />
+<meta name="twitter:site" content="cobalto"><meta name="twitter:title" content="App Xamarin Forms fecha assim que é iniciado no Visual Studio Emulator, o que fazer?">
+<meta name="twitter:description" content="Continuando a"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='/artigo/app-xamarin-forms-fecha-assim-que-%C3%A9-iniciado-no-visual-studio-emulator-o-que-fazer/ms_xamarin.jpg' />
+    </head>
+    <body class="">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "dark");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.body.dataset.scheme = 'dark';
+        } else {
+            document.body.dataset.scheme = 'light';
+        }
+    })();
+</script><div class="container main-container flex on-phone--column extended article-page with-toolbar">
+            <aside class="sidebar left-sidebar sticky">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Alternar Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header class="site-info">
+        
+            <figure class="site-avatar">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/profile_hud778ea97b7ccc7fbd8ab9926b82be2bb_368480_300x0_resize_q75_box.jpg" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+
+                
+                    <span class="emoji">🍾</span>
+                
+            </figure>
+        
+        <h1 class="site-name"><a href="/">Cobalto.net</a></h1>
+        <h2 class="site-description">O importante é ter experiência em conseguir fazer as coisas.</h2>
+    </header>
+
+    <ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/sobre'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>Sobre</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/arquivo'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Arquivo</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/busca'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Busca</span>
+            </a>
+        </li>
+        
+
+        
+            <li id="dark-mode-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <span>Dark Mode</span>
+            </li>
+        
+    </ol>
+</aside>
+
+            <main class="main full-width">
+    <div id="article-toolbar">
+        <a href="/" class="back-home">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="15 6 9 12 15 18" />
+</svg>
+
+
+
+            <span>Back</span>
+        </a>
+    </div>
+
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/artigo/app-xamarin-forms-fecha-assim-que-%C3%A9-iniciado-no-visual-studio-emulator-o-que-fazer/">
+                <img src="/artigo/app-xamarin-forms-fecha-assim-que-%C3%A9-iniciado-no-visual-studio-emulator-o-que-fazer/ms_xamarin_hu1a9ad216cf0ffee772f581039196fc8b_24131_800x0_resize_q75_box.jpg"
+                        srcset="/artigo/app-xamarin-forms-fecha-assim-que-%C3%A9-iniciado-no-visual-studio-emulator-o-que-fazer/ms_xamarin_hu1a9ad216cf0ffee772f581039196fc8b_24131_800x0_resize_q75_box.jpg 800w, /artigo/app-xamarin-forms-fecha-assim-que-%C3%A9-iniciado-no-visual-studio-emulator-o-que-fazer/ms_xamarin_hu1a9ad216cf0ffee772f581039196fc8b_24131_1600x0_resize_q75_box.jpg 1600w"
+                        width="800" 
+                        height="451" 
+                        loading="lazy"
+                        alt="Featured image of post App Xamarin Forms fecha assim que é iniciado no Visual Studio Emulator, o que fazer?" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categoria/programacao/" style="background-color: #FFEF0D; color: #000;">
+                Programação
+            </a>
+        
+    </header>
+    
+
+    <h2 class="article-title">
+        <a href="/artigo/app-xamarin-forms-fecha-assim-que-%C3%A9-iniciado-no-visual-studio-emulator-o-que-fazer/">App Xamarin Forms fecha assim que é iniciado no Visual Studio Emulator, o que fazer?</a>
+    </h2>
+
+    
+    <h3 class="article-subtitle">
+        Continuando a
+    </h3>
+    <footer class="article-time">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <time class="article-time--published">Feb 11, 2017</time>
+    </footer></div>
+</header>
+
+    <section class="article-content">
+    <p>Ao tentar debugar o app no emulador, logo após o fim do processo de rebuild o Visual Studio iniciava o processo no emulador, mas antes de aparecer qualquer coisa na tela o aplicativo era encerrado e o Visual Studio não informava nenhum tipo de erro. Ao tentar fazer o deploy, ele era feito corretamente porém o aplicativo instalado no Emulador travava e era exibida a tela de erro da aplicação padrão do Android.</p>
+<p>Como resolver? Simples (mas não tão óbvio).</p>
+<p>Primeiramente encerre a máquina virtual de forma normal.
+Abra o gerenciador do Hyper-V (basta digitar Hyper-V na busca).
+Encontre a máquina virtual que estava sendo utilizada.
+Com o botão direito selecione Propriedades (Fig.1).</p>
+
+  <figure class="center" >
+    <img src="hypper_v_1.jpg"  alt="Fig.1"   />
+    
+      <figcaption class="center" >Fig.1</figcaption>
+    
+  </figure>
+
+
+<p>No menu lateral, abra a árvore do item Processador.
+Selecione o item Compatibilidade.
+Marque a caixa “Migrar para um computador físico com versão diferente de processador” (Fig.2) que estará desmarcarda.</p>
+
+  <figure class="center" >
+    <img src="hypper_v_2.jpg"  alt="Fig.2"   />
+    
+      <figcaption class="center" >Fig.2</figcaption>
+    
+  </figure>
+
+
+<p>Confirme e feche todas as janelas do Hyper-V.
+Volte ao Visual Studio e tente rodar o projeto novamente.</p>
+<p>Isso deve resolver o problema.
+Funcionou comigo.</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tag/.net/">.Net</a>
+        
+            <a href="/tag/xamarin/">Xamarin</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+    
+</article>
+
+    <aside class="related-contents--wrapper">
+    
+    
+</aside>
+
+
+    
+        
+    <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "cobalto" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2010 - 
+        
+        2020 Cobalto.net
+    </section>
+    
+    <section class="powerby">
+        
+            忘れたくないこと <br/>
+        Criado com <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Tema <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="2.0.1">Stack</a></b> desenvolvido por <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css">
+            </main>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"
+    integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g=" crossorigin="anonymous"></script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

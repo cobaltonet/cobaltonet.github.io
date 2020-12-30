@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-	<meta name="generator" content="Hugo 0.59.1" />
-    
-      <title>.\Cobalto.net</title>
-    
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<html lang="pt-br">
+    <head>
+	<meta name="generator" content="Hugo 0.79.0" /><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='O importante é ter experiência em conseguir fazer as coisas.'><title>Cobalto.net</title>
+
+<link rel='canonical' href='/'>
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 <meta name="description" content=""/>
 <meta name="keywords" content="Daniel Pessoa, Cobalto, Blog, Desenvolvimento, .Net, C#, Xamarin, Developer, ASP.NET, Core"/>
@@ -18,418 +18,610 @@
 <link rel="shortcut icon" href="/favicon.ico?v=dLJ58OLkKj">
 <meta name="msapplication-TileColor" content="#2d89ef">
 <meta name="theme-color" content="#ffffff">
-<link rel="canonical" href="/" />
 
+<link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='Cobalto.net'>
+<meta property='og:description' content='O importante é ter experiência em conseguir fazer as coisas.'>
+<meta property='og:url' content='/'>
+<meta property='og:site_name' content='Cobalto.net'>
+<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2020-12-28T00:00:00&#43;00:00 '/>
+<meta name="twitter:site" content="cobalto"><meta name="twitter:title" content="Cobalto.net">
+<meta name="twitter:description" content="O importante é ter experiência em conseguir fazer as coisas."><link rel="alternate" type="application/rss&#43;xml" href="/index.xml">
+    </head>
+    <body class="">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "dark");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
 
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
 
-
-
-<link rel="stylesheet" href="/assets/style.css">
-
-
-<link rel="stylesheet" href="/style.css">
-
-
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
-<link rel="shortcut icon" href="/img/favicon.png">
-
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content=".\Cobalto.net"/>
-<meta name="twitter:description" content=""/>
-
-
-
-<meta property="og:title" content=".\Cobalto.net" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="/" />
-
-<meta property="og:updated_time" content="2019-11-19T00:00:00+00:00" /><meta property="og:site_name" content=".\Cobalto.net" />
-
-
-
-<link rel="alternate" type="application/rss+xml" href="/index.xml" title=".\Cobalto.net" />
-
-
-
-  </head>
-  <body class="dark-theme">
-    <div class="container">
-      <header class="header">
-  <span class="header__inner">
-    <a href="/" class="logo" style="text-decoration: none;">
-  
-    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
-  <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
-</svg>
-</span>
-    <span class="logo__text">.\cobalto.net</span>
-    <span class="logo__cursor"></span>
-  
-</a>
-
-    <span class="header__right">
-      
-        <nav class="menu">
-  <ul class="menu__inner menu__inner--desktop">
-    
-      
-        
-          <li><a href="/sobre">Sobre</a></li>
-        
-      
-        
-          <li><a href="/contato">Contato</a></li>
-        
-      
-        
-          <li><a href="/arquivo">Arquivo</a></li>
-        
-      
-      
-    
-  </ul>
-
-  <ul class="menu__inner menu__inner--mobile">
-    
-      
-        <li><a href="/sobre">Sobre</a></li>
-      
-    
-      
-        <li><a href="/contato">Contato</a></li>
-      
-    
-      
-        <li><a href="/arquivo">Arquivo</a></li>
-      
-    
-  </ul>
-</nav>
-
-        <span class="menu-trigger">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path d="M0 0h24v24H0z" fill="none"/>
-            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
-          </svg>
+            document.body.dataset.scheme = 'dark';
+        } else {
+            document.body.dataset.scheme = 'light';
+        }
+    })();
+</script><div class="container main-container flex on-phone--column extended ">
+            <aside class="sidebar left-sidebar sticky">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Alternar Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
         </span>
-      
-      <span class="theme-toggle">
-        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
-  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
-  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+    </button>
+
+    <header class="site-info">
+        
+            <figure class="site-avatar">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/profile_hud778ea97b7ccc7fbd8ab9926b82be2bb_368480_300x0_resize_q75_box.jpg" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+
+                
+                    <span class="emoji">🍾</span>
+                
+            </figure>
+        
+        <h1 class="site-name"><a href="/">Cobalto.net</a></h1>
+        <h2 class="site-description">O importante é ter experiência em conseguir fazer as coisas.</h2>
+    </header>
+
+    <ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li  class='current' >
+            <a href='/'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
 </svg>
 
-      </span>
-    </span>
-  </span>
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/sobre'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>Sobre</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/arquivo'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Arquivo</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/busca'>
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Busca</span>
+            </a>
+        </li>
+        
+
+        
+            <li id="dark-mode-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <span>Dark Mode</span>
+            </li>
+        
+    </ol>
+</aside>
+
+            <main class="main full-width">
+    
+    
+    
+    
+
+    <section class="article-list">
+        
+            
+<article class="has-image">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/artigo/uma-breve-hist%C3%B3ria-sobre-tudo-isso-que-vem-acontecendo-em-todo-lugar/">
+                <img src="/artigo/uma-breve-hist%C3%B3ria-sobre-tudo-isso-que-vem-acontecendo-em-todo-lugar/timelapse_hu5f41e3ef896f2e469f35a28c45ee7ff2_1560692_800x0_resize_box_2.png"
+                        srcset="/artigo/uma-breve-hist%C3%B3ria-sobre-tudo-isso-que-vem-acontecendo-em-todo-lugar/timelapse_hu5f41e3ef896f2e469f35a28c45ee7ff2_1560692_800x0_resize_box_2.png 800w, /artigo/uma-breve-hist%C3%B3ria-sobre-tudo-isso-que-vem-acontecendo-em-todo-lugar/timelapse_hu5f41e3ef896f2e469f35a28c45ee7ff2_1560692_1600x0_resize_box_2.png 1600w"
+                        width="800" 
+                        height="450" 
+                        loading="lazy"
+                        alt="Featured image of post Uma breve história sobre tudo isso que vem acontecendo em todo lugar" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categoria/meta/" style="background-color: #999; color: #FFF;">
+                Meta
+            </a>
+        
+            <a href="/categoria/pessoal/" style="background-color: #0047AB; color: #FFF;">
+                Pessoal
+            </a>
+        
+    </header>
+    
+
+    <h2 class="article-title">
+        <a href="/artigo/uma-breve-hist%C3%B3ria-sobre-tudo-isso-que-vem-acontecendo-em-todo-lugar/">Uma breve história sobre tudo isso que vem acontecendo em todo lugar</a>
+    </h2>
+
+    
+    <h3 class="article-subtitle">
+        50 anos em 3 ou talvez até mais. Mas não é só de pandemia que vivem as mudanças. Mas vamos com calma...
+    </h3>
+    <footer class="article-time">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <time class="article-time--published">Dec 28, 2020</time>
+    </footer></div>
 </header>
-
-
-      <div class="content">
+</article>
         
-  <div class="posts">
+            
+<article class="has-image">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/artigo/sobre-carros-velozes-estrat%C3%A9gia-champanhe-e-hannah-schmitz/">
+                <img src="/artigo/sobre-carros-velozes-estrat%C3%A9gia-champanhe-e-hannah-schmitz/gp_brasil_2019_podio_talvez_photoshopado_hu667fd632184166de28325d83d0233b0a_67045_800x0_resize_q75_box.jpg"
+                        srcset="/artigo/sobre-carros-velozes-estrat%C3%A9gia-champanhe-e-hannah-schmitz/gp_brasil_2019_podio_talvez_photoshopado_hu667fd632184166de28325d83d0233b0a_67045_800x0_resize_q75_box.jpg 800w, /artigo/sobre-carros-velozes-estrat%C3%A9gia-champanhe-e-hannah-schmitz/gp_brasil_2019_podio_talvez_photoshopado_hu667fd632184166de28325d83d0233b0a_67045_1600x0_resize_q75_box.jpg 1600w"
+                        width="800" 
+                        height="600" 
+                        loading="lazy"
+                        alt="Featured image of post Sobre carros velozes, estratégia, champanhe e Hannah Schmitz" />
+                
+            </a>
+        </div>
     
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categoria/formula1/" style="background-color: #27929C; color: #FFF;">
+                Formula 1
+            </a>
+        
+    </header>
     
 
-    
-    
-      
-    
-    
+    <h2 class="article-title">
+        <a href="/artigo/sobre-carros-velozes-estrat%C3%A9gia-champanhe-e-hannah-schmitz/">Sobre carros velozes, estratégia, champanhe e Hannah Schmitz</a>
+    </h2>
 
     
-    <div class="post on-list">
-      <h1 class="post-title"><a href="/post/sobre-formula1-estrategia-e-a-hannah/">Sobre carros velozes, estratégia, champanhe e Hannah Schmitz</a></h1>
-      <div class="post-meta">
-        <span class="post-date">
-          2019-11-19
-        </span>
-        <span class="post-author">— Escrito por Cobalto</span>
-        
-          <span class="post-read-time">— 2 min de leitura</span>
-        
-      </div>
-
-
-      
-        <span class="post-tags">
-          
-            #<a href="/tags/formula-1/">Formula 1</a>&nbsp;
-          
-            #<a href="/tags/grande-pr%C3%AAmio-do-brasil/">Grande Prêmio do Brasil</a>&nbsp;
-          
-            #<a href="/tags/brazil-gp/">Brazil GP</a>&nbsp;
-          
-            #<a href="/tags/max-verstappen/">Max Verstappen</a>&nbsp;
-          
-            #<a href="/tags/red-bull/">Red Bull</a>&nbsp;
-          
-            #<a href="/tags/toro-rosso/">Toro Rosso</a>&nbsp;
-          
-            #<a href="/tags//"></a>&nbsp;
-          
-            #<a href="/tags/interlagos/">Interlagos</a>&nbsp;
-          
-            #<a href="/tags/hannah-macmillan/">Hannah Macmillan</a>&nbsp;
-          
-            #<a href="/tags/hannah-schmitz/">Hannah Schmitz</a>&nbsp;
-          
-        </span>
-      
-
-      
-        
-          <img src="/img/gp_brasil_2019_podio_talvez_photoshopado.jpg" class="post-cover" />
-        
-      
-
-      <div class="post-content">
-        
-          Quando uma coisa normal é tratada de forma tão normal que até soa&hellip; curioso.
-        
-      </div>
-      <div><a class="read-more button" href="/post/sobre-formula1-estrategia-e-a-hannah/">Leia mais →</a></div>
-    </div>
-    
-    <div class="post on-list">
-      <h1 class="post-title"><a href="/post/hello-world-outra-vez/">Olá mundo, outra vez.</a></h1>
-      <div class="post-meta">
-        <span class="post-date">
-          2018-12-21
-        </span>
-        <span class="post-author">— Escrito por Cobalto</span>
-        
-          <span class="post-read-time">— 1 min de leitura</span>
-        
-      </div>
-
-
-      
-        <span class="post-tags">
-          
-            #<a href="/tags/introdu%C3%A7%C3%A3o/">introdução</a>&nbsp;
-          
-        </span>
-      
-
-      
-        
-          <img src="/img/hello.png" class="post-cover" />
-        
-      
-
-      <div class="post-content">
-        
-          Mais um post de re-introdução que vai envelhecer extremamente mal, quer apostar?
-        
-      </div>
-      <div><a class="read-more button" href="/post/hello-world-outra-vez/">Leia mais →</a></div>
-    </div>
-    
-    <div class="post on-list">
-      <h1 class="post-title"><a href="/post/resolvendo-erro-virtual-box-w10/">Resolvendo o erro “VT-x is not available” do Virtual Box no Windows 10</a></h1>
-      <div class="post-meta">
-        <span class="post-date">
-          2018-09-23
-        </span>
-        <span class="post-author">— Escrito por Cobalto</span>
-        
-          <span class="post-read-time">— 2 min de leitura</span>
-        
-      </div>
-
-
-      
-        <span class="post-tags">
-          
-            #<a href="/tags/windows/">Windows</a>&nbsp;
-          
-            #<a href="/tags/.net/">.Net</a>&nbsp;
-          
-            #<a href="/tags/dotnet/">dotnet</a>&nbsp;
-          
-            #<a href="/tags/virtualbox/">VirtualBox</a>&nbsp;
-          
-            #<a href="/tags/android/">Android</a>&nbsp;
-          
-            #<a href="/tags/visualstudio/">VisualStudio</a>&nbsp;
-          
-        </span>
-      
-
-      
-        
-          <img src="/img/ms_xamarin.jpg" class="post-cover" />
-        
-      
-
-      <div class="post-content">
-        
-          
-            Pra quem fica migrando pra lá e pra cá entre Hyper-V e Virtual box (se você já precisou usar o Docker e o Android Emulator na mesma máquina sabe do que estou falando) é muito comum dar aquele branco e esquecer que um não vive muito bem com o outro e acabar tendo que fazer uma reinicialização da máquina não programada porque esqueceu pra qual dos dois a máquina estava configurada (me disseram que isso é comum, nunca aconteceu comigo 🙄).
-          
-        
-      </div>
-      <div><a class="read-more button" href="/post/resolvendo-erro-virtual-box-w10/">Leia mais →</a></div>
-    </div>
-    
-    <div class="post on-list">
-      <h1 class="post-title"><a href="/post/app-xamarin-forms-fecha-iniciado/">App Xamarin Forms fecha assim que é iniciado no Visual Studio Emulator, o que fazer?</a></h1>
-      <div class="post-meta">
-        <span class="post-date">
-          2017-02-11
-        </span>
-        <span class="post-author">— Escrito por Cobalto</span>
-        
-          <span class="post-read-time">— 1 min de leitura</span>
-        
-      </div>
-
-
-      
-        <span class="post-tags">
-          
-            #<a href="/tags/xamarin/">Xamarin</a>&nbsp;
-          
-            #<a href="/tags/.net/">.Net</a>&nbsp;
-          
-            #<a href="/tags/dotnet/">dotnet</a>&nbsp;
-          
-            #<a href="/tags/maratonaxamarin/">MaratonaXamarin</a>&nbsp;
-          
-            #<a href="/tags/android/">Android</a>&nbsp;
-          
-            #<a href="/tags/visualstudio/">VisualStudio</a>&nbsp;
-          
-        </span>
-      
-
-      
-        
-          <img src="/img/ms_xamarin.jpg" class="post-cover" />
-        
-      
-
-      <div class="post-content">
-        
-          Continuando a #MaratonaXamarin, encontrei um novo problema ao tentar debugar meu app em Xarmarin Forms no emulador Android do Visual Studio.
-        
-      </div>
-      <div><a class="read-more button" href="/post/app-xamarin-forms-fecha-iniciado/">Leia mais →</a></div>
-    </div>
-    
-    <div class="post on-list">
-      <h1 class="post-title"><a href="/post/instalando-configurando-xamarin-vs2015/">Instalando e configurando (do jeito certo) o Xamarin no Visual Studio 2015</a></h1>
-      <div class="post-meta">
-        <span class="post-date">
-          2017-02-06
-        </span>
-        <span class="post-author">— Escrito por Cobalto</span>
-        
-          <span class="post-read-time">— 2 min de leitura</span>
-        
-      </div>
-
-
-      
-        <span class="post-tags">
-          
-            #<a href="/tags/xamarin/">Xamarin</a>&nbsp;
-          
-            #<a href="/tags/.net/">.Net</a>&nbsp;
-          
-            #<a href="/tags/dotnet/">dotnet</a>&nbsp;
-          
-            #<a href="/tags/maratonaxamarin/">MaratonaXamarin</a>&nbsp;
-          
-            #<a href="/tags/android/">Android</a>&nbsp;
-          
-            #<a href="/tags/visualstudio/">VisualStudio</a>&nbsp;
-          
-        </span>
-      
-
-      
-        
-          <img src="/img/ms_xamarin.jpg" class="post-cover" />
-        
-      
-
-      <div class="post-content">
-        
-          E é assim, ou mais ou menos, nessa situação que toda vez que penso em escrever e aí fica por isso mesmo, cada um no seu canto (eu no meu canto e o blog largado, no caso) e ninguém entra nesse assunto. Parafraseando Aécio Neves, e ele falou muito isso durante as eleições, “infelizmente a verdade é essa”, eu não tenho mais o que escrever.
-        
-      </div>
-      <div><a class="read-more button" href="/post/instalando-configurando-xamarin-vs2015/">Leia mais →</a></div>
-    </div>
-    
-    <div class="pagination">
-  <div class="pagination__buttons">
-    
-    
-      <span class="button next">
-        <a href="/page/2/">
-          <span class="button__text">Artigos mais antigos</span>
-          <span class="button__icon">→</span>
-        </a>
-      </span>
-    
-  </div>
-</div>
-
-  </div>
-
-      </div>
-
-      
-        <footer class="footer">
-  <div class="footer__inner">
-    
-      <a href="/" class="logo" style="text-decoration: none;">
-  
-    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
-  <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
+    <h3 class="article-subtitle">
+        Quando uma coisa normal é tratada de forma tão normal que até soa... curioso.
+    </h3>
+    <footer class="article-time">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
 </svg>
-</span>
-    <span class="logo__text">.\cobalto.net</span>
-    <span class="logo__cursor"></span>
-  
-</a>
 
-      <div class="copyright">
-        <span>© 2019 Powered by <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span>
-        <span>Theme created by <a href="https://twitter.com/panr" target="_blank" rel="noopener">panr</a></span>
-      </div>
+
+
+        <time class="article-time--published">Nov 19, 2019</time>
+    </footer></div>
+</header>
+</article>
+        
+            
+<article class="has-image">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/artigo/ol%C3%A1-mundo-outra-vez./">
+                <img src="/artigo/ol%C3%A1-mundo-outra-vez./hello_hu8e0fbae7e81df82b1928b0e55cae6d61_265238_800x0_resize_box_2.png"
+                        srcset="/artigo/ol%C3%A1-mundo-outra-vez./hello_hu8e0fbae7e81df82b1928b0e55cae6d61_265238_800x0_resize_box_2.png 800w, /artigo/ol%C3%A1-mundo-outra-vez./hello_hu8e0fbae7e81df82b1928b0e55cae6d61_265238_1600x0_resize_box_2.png 1600w"
+                        width="800" 
+                        height="390" 
+                        loading="lazy"
+                        alt="Featured image of post Olá mundo, outra vez." />
+                
+            </a>
+        </div>
     
-  </div>
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categoria/meta/" style="background-color: #999; color: #FFF;">
+                Meta
+            </a>
+        
+    </header>
+    
+
+    <h2 class="article-title">
+        <a href="/artigo/ol%C3%A1-mundo-outra-vez./">Olá mundo, outra vez.</a>
+    </h2>
+
+    
+    <h3 class="article-subtitle">
+        Mais um post de re-introdução que vai envelhecer extremamente mal, quer apostar?
+    </h3>
+    <footer class="article-time">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <time class="article-time--published">Dec 21, 2018</time>
+    </footer></div>
+</header>
+</article>
+        
+            
+<article class="has-image">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/artigo/resolvendo-o-erro-vt-x-is-not-available-do-virtual-box-no-windows-10/">
+                <img src="/artigo/resolvendo-o-erro-vt-x-is-not-available-do-virtual-box-no-windows-10/ms_xamarin_hu1a9ad216cf0ffee772f581039196fc8b_24131_800x0_resize_q75_box.jpg"
+                        srcset="/artigo/resolvendo-o-erro-vt-x-is-not-available-do-virtual-box-no-windows-10/ms_xamarin_hu1a9ad216cf0ffee772f581039196fc8b_24131_800x0_resize_q75_box.jpg 800w, /artigo/resolvendo-o-erro-vt-x-is-not-available-do-virtual-box-no-windows-10/ms_xamarin_hu1a9ad216cf0ffee772f581039196fc8b_24131_1600x0_resize_q75_box.jpg 1600w"
+                        width="800" 
+                        height="451" 
+                        loading="lazy"
+                        alt="Featured image of post Resolvendo o erro “VT-x is not available” do Virtual Box no Windows 10" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categoria/programacao/" style="background-color: #FFEF0D; color: #000;">
+                Programação
+            </a>
+        
+    </header>
+    
+
+    <h2 class="article-title">
+        <a href="/artigo/resolvendo-o-erro-vt-x-is-not-available-do-virtual-box-no-windows-10/">Resolvendo o erro “VT-x is not available” do Virtual Box no Windows 10</a>
+    </h2>
+
+    <footer class="article-time">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <time class="article-time--published">Sep 23, 2018</time>
+    </footer></div>
+</header>
+</article>
+        
+            
+<article class="has-image">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/artigo/app-xamarin-forms-fecha-assim-que-%C3%A9-iniciado-no-visual-studio-emulator-o-que-fazer/">
+                <img src="/artigo/app-xamarin-forms-fecha-assim-que-%C3%A9-iniciado-no-visual-studio-emulator-o-que-fazer/ms_xamarin_hu1a9ad216cf0ffee772f581039196fc8b_24131_800x0_resize_q75_box.jpg"
+                        srcset="/artigo/app-xamarin-forms-fecha-assim-que-%C3%A9-iniciado-no-visual-studio-emulator-o-que-fazer/ms_xamarin_hu1a9ad216cf0ffee772f581039196fc8b_24131_800x0_resize_q75_box.jpg 800w, /artigo/app-xamarin-forms-fecha-assim-que-%C3%A9-iniciado-no-visual-studio-emulator-o-que-fazer/ms_xamarin_hu1a9ad216cf0ffee772f581039196fc8b_24131_1600x0_resize_q75_box.jpg 1600w"
+                        width="800" 
+                        height="451" 
+                        loading="lazy"
+                        alt="Featured image of post App Xamarin Forms fecha assim que é iniciado no Visual Studio Emulator, o que fazer?" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categoria/programacao/" style="background-color: #FFEF0D; color: #000;">
+                Programação
+            </a>
+        
+    </header>
+    
+
+    <h2 class="article-title">
+        <a href="/artigo/app-xamarin-forms-fecha-assim-que-%C3%A9-iniciado-no-visual-studio-emulator-o-que-fazer/">App Xamarin Forms fecha assim que é iniciado no Visual Studio Emulator, o que fazer?</a>
+    </h2>
+
+    
+    <h3 class="article-subtitle">
+        Continuando a
+    </h3>
+    <footer class="article-time">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <time class="article-time--published">Feb 11, 2017</time>
+    </footer></div>
+</header>
+</article>
+        
+    </section>
+    <nav class='pagination'>
+        
+        
+
+        
+            
+                <span class='page-link current'>1</span>
+                
+            
+            
+                    <a class='page-link' href='/page/2/'>2</a>
+                
+            
+    </nav>
+
+<footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2010 - 
+        
+        2020 Cobalto.net
+    </section>
+    
+    <section class="powerby">
+        
+            忘れたくないこと <br/>
+        Criado com <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Tema <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="2.0.1">Stack</a></b> desenvolvido por <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
 </footer>
+            </main>
+    
+    
+    <aside class="sidebar right-sidebar sticky">
+        
+            <form action="/search" class="search-form widget" >
+    <p>
+        <label>Busca</label>
+        <input name="keyword" required placeholder="Digite algo..." />
+    
+        <button title="Search">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
 
-<script src="/assets/main.js"></script>
-<script src="/assets/prism.js"></script>
 
-<script data-ad-client="ca-pub-9023151247957578" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
-      
+        </button>
+    </p>
+</form>
+        
+            <section class="widget archives">
+    <div class="widget-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-infinity" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M9.828 9.172a4 4 0 1 0 0 5.656 a10 10 0 0 0 2.172 -2.828a10 10 0 0 1 2.172 -2.828 a4 4 0 1 1 0 5.656a10 10 0 0 1 -2.172 -2.828a10 10 0 0 0 -2.172 -2.828" />
+</svg>
+
+
+
     </div>
+    <h2 class="widget-title section-title">Arquivos</h2>
 
     
-      
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-1802062-6', 'auto');
-	
-	ga('send', 'pageview');
-}
+    
+    
+    
+    
+    <div class="widget-archive--list">
+        <div class="archives-year">
+                <a href="/arquivo#2020">
+                    
+                        <span class="year">2020</span>
+                        <span class="count">1</span>
+                    
+                </a> 
+            </div>
+        <div class="archives-year">
+                <a href="/arquivo#2019">
+                    
+                        <span class="year">2019</span>
+                        <span class="count">1</span>
+                    
+                </a> 
+            </div>
+        <div class="archives-year">
+                <a href="/arquivo#2018">
+                    
+                        <span class="year">2018</span>
+                        <span class="count">2</span>
+                    
+                </a> 
+            </div>
+        <div class="archives-year">
+                <a href="/arquivo#2017">
+                    
+                        <span class="year">2017</span>
+                        <span class="count">1</span>
+                    
+                </a> 
+            </div>
+        <div class="archives-year">
+                <a href="/arquivo#2016">
+                    
+                        <span class="year">2016</span>
+                        <span class="count">2</span>
+                    
+                </a> 
+            </div>
+        
+    </div>
+</section>
+        
+            <section class="widget tagCloud">
+    <div class="widget-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+    </div>
+    <h2 class="widget-title section-title">Tags</h2>
+
+    <div class="tagCloud-tags">
+        
+            <a href="/tag/.net/" class="font_size_2">
+                .Net
+            </a>
+        
+            <a href="/tag/coronga/" class="font_size_1">
+                Coronga
+            </a>
+        
+            <a href="/tag/great-reset/" class="font_size_1">
+                Great Reset
+            </a>
+        
+            <a href="/tag/max-verstappen/" class="font_size_1">
+                Max Verstappen
+            </a>
+        
+            <a href="/tag/mudan%C3%A7as/" class="font_size_1">
+                Mudanças
+            </a>
+        
+            <a href="/tag/novo-normal/" class="font_size_1">
+                Novo Normal
+            </a>
+        
+            <a href="/tag/red-bull/" class="font_size_1">
+                Red Bull
+            </a>
+        
+            <a href="/tag/virtualbox/" class="font_size_1">
+                VirtualBox
+            </a>
+        
+            <a href="/tag/xamarin/" class="font_size_1">
+                Xamarin
+            </a>
+        
+    </div>
+</section>
+        
+    </aside>
+
+
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"
+    integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g=" crossorigin="anonymous"></script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
 </script>
 
-    
-  </body>
+    </body>
 </html>

@@ -1,175 +1,90 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on .\Cobalto.net</title>
+    <title>Tags on Cobalto.net</title>
     <link>/tags/</link>
-    <description>Recent content in Tags on .\Cobalto.net</description>
+    <description>Recent content in Tags on Cobalto.net</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 19 Nov 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>pt-br</language>
+    <lastBuildDate>Mon, 28 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Brazil GP</title>
-      <link>/tags/brazil-gp/</link>
-      <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
+      <title>Coronga</title>
+      <link>/tag/coronga/</link>
+      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/brazil-gp/</guid>
+      <guid>/tag/coronga/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Formula 1</title>
-      <link>/tags/formula-1/</link>
-      <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
+      <title>Great Reset</title>
+      <link>/tag/great-reset/</link>
+      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/formula-1/</guid>
+      <guid>/tag/great-reset/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Grande Prêmio do Brasil</title>
-      <link>/tags/grande-pr%C3%AAmio-do-brasil/</link>
-      <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
+      <title>Mudanças</title>
+      <link>/tag/mudan%C3%A7as/</link>
+      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/grande-pr%C3%AAmio-do-brasil/</guid>
+      <guid>/tag/mudan%C3%A7as/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Hannah Macmillan</title>
-      <link>/tags/hannah-macmillan/</link>
-      <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
+      <title>Novo Normal</title>
+      <link>/tag/novo-normal/</link>
+      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/hannah-macmillan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hannah Schmitz</title>
-      <link>/tags/hannah-schmitz/</link>
-      <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/hannah-schmitz/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Interlagos</title>
-      <link>/tags/interlagos/</link>
-      <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/interlagos/</guid>
+      <guid>/tag/novo-normal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Max Verstappen</title>
-      <link>/tags/max-verstappen/</link>
+      <link>/tag/max-verstappen/</link>
       <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/max-verstappen/</guid>
+      <guid>/tag/max-verstappen/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Red Bull</title>
-      <link>/tags/red-bull/</link>
+      <link>/tag/red-bull/</link>
       <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/red-bull/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Toro Rosso</title>
-      <link>/tags/toro-rosso/</link>
-      <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/toro-rosso/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>introdução</title>
-      <link>/tags/introdu%C3%A7%C3%A3o/</link>
-      <pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/introdu%C3%A7%C3%A3o/</guid>
+      <guid>/tag/red-bull/</guid>
       <description></description>
     </item>
     
     <item>
       <title>.Net</title>
-      <link>/tags/.net/</link>
+      <link>/tag/.net/</link>
       <pubDate>Sun, 23 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/.net/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Android</title>
-      <link>/tags/android/</link>
-      <pubDate>Sun, 23 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/android/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>dotnet</title>
-      <link>/tags/dotnet/</link>
-      <pubDate>Sun, 23 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/dotnet/</guid>
+      <guid>/tag/.net/</guid>
       <description></description>
     </item>
     
     <item>
       <title>VirtualBox</title>
-      <link>/tags/virtualbox/</link>
+      <link>/tag/virtualbox/</link>
       <pubDate>Sun, 23 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/virtualbox/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>VisualStudio</title>
-      <link>/tags/visualstudio/</link>
-      <pubDate>Sun, 23 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/visualstudio/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Windows</title>
-      <link>/tags/windows/</link>
-      <pubDate>Sun, 23 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/windows/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>MaratonaXamarin</title>
-      <link>/tags/maratonaxamarin/</link>
-      <pubDate>Sat, 11 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/maratonaxamarin/</guid>
+      <guid>/tag/virtualbox/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Xamarin</title>
-      <link>/tags/xamarin/</link>
+      <link>/tag/xamarin/</link>
       <pubDate>Sat, 11 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/xamarin/</guid>
+      <guid>/tag/xamarin/</guid>
       <description></description>
     </item>
     

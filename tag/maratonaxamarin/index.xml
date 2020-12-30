@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MaratonaXamarin on Cobalto.net</title>
+    <link>/tag/maratonaxamarin/</link>
+    <description>Recent content in MaratonaXamarin on Cobalto.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Sat, 11 Feb 2017 00:00:00 +0000</lastBuildDate><atom:link href="/tag/maratonaxamarin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>App Xamarin Forms fecha assim que é iniciado no Visual Studio Emulator, o que fazer?</title>
+      <link>/artigo/app-xamarin-forms-fecha-assim-que-%C3%A9-iniciado-no-visual-studio-emulator-o-que-fazer/</link>
+      <pubDate>Sat, 11 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/artigo/app-xamarin-forms-fecha-assim-que-%C3%A9-iniciado-no-visual-studio-emulator-o-que-fazer/</guid>
+      <description>title: App Xamarin Forms fecha assim que é iniciado no Visual Studio Emulator, o que fazer? date: 2017-02-11 author: Cobalto image: ms_xamarin.jpg description: Continuando a #MaratonaXamarin, encontrei um novo problema ao tentar debugar meu app em Xarmarin Forms no emulador Android do Visual Studio. categories: - Programacao tags: - .Net - Xamarin Ao tentar debugar o app no emulador, logo após o fim do processo de rebuild o Visual Studio iniciava o processo no emulador, mas antes de aparecer qualquer coisa na tela o aplicativo era encerrado e o Visual Studio não informava nenhum tipo de erro.</description>
+    </item>
+    
+  </channel>
+</rss>
