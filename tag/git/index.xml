@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tutorial on Cobalto.net</title>
-    <link>/categoria/tutorial/</link>
-    <description>Recent content in Tutorial on Cobalto.net</description>
+    <title>Git on Cobalto.net</title>
+    <link>/tag/git/</link>
+    <description>Recent content in Git on Cobalto.net</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Thu, 19 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="/categoria/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tag/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Executando testes antes de um Commit</title>
       <link>/artigo/executando-testes-antes-commit/</link>

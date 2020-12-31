@@ -58,6 +58,31 @@
   </url>
   
   <url>
+    <loc>/tag/.net/</loc>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/artigo/executando-testes-antes-commit/</loc>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/git/</loc>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categoria/programacao/</loc>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categoria/tutorial/</loc>
+    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/categoria/formula1/</loc>
     <lastmod>2019-11-19T00:00:00+00:00</lastmod>
   </url>
@@ -95,16 +120,6 @@
   <url>
     <loc>/artigo/hello-world-outra-vez/</loc>
     <lastmod>2018-12-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/.net/</loc>
-    <lastmod>2018-09-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categoria/programacao/</loc>
-    <lastmod>2018-09-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -151,10 +166,6 @@
   
   <url>
     <loc>/categoria/tokusatsu/</loc>
-  </url>
-  
-  <url>
-    <loc>/categoria/tutorial/</loc>
   </url>
   
 </urlset>

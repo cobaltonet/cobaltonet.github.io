@@ -44,6 +44,24 @@
     </item>
     
     <item>
+      <title>.Net</title>
+      <link>/tag/.net/</link>
+      <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tag/.net/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>/tag/git/</link>
+      <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tag/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Max Verstappen</title>
       <link>/tag/max-verstappen/</link>
       <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
@@ -58,15 +76,6 @@
       <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>/tag/red-bull/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>.Net</title>
-      <link>/tag/.net/</link>
-      <pubDate>Sun, 23 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tag/.net/</guid>
       <description></description>
     </item>
     
