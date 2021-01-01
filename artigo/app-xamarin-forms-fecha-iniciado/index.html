@@ -58,7 +58,7 @@
                 
 
                 
-                    <span class="emoji">🍾</span>
+                    <span class="emoji">😷</span>
                 
             </figure>
         
@@ -162,7 +162,7 @@
 
 
 
-                <span>Dark Mode</span>
+                <span>Modo Escuro</span>
             </li>
         
     </ol>
@@ -333,6 +333,15 @@ Funcionou comigo.</p>
     }
 </style>
 
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (DISQUS) {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
 
     
 
@@ -342,7 +351,7 @@ Funcionou comigo.</p>
         
             2010 - 
         
-        2020 Cobalto.net
+        2021 Cobalto.net
     </section>
     
     <section class="powerby">
