@@ -162,7 +162,7 @@
 
 
 
-                <span>Dark Mode</span>
+                <span>Modo Escuro</span>
             </li>
         
     </ol>
@@ -351,6 +351,15 @@ E por levar o Max ao posto máximo no pódio :)</p>
     }
 </style>
 
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (DISQUS) {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
 
     
 
@@ -360,7 +369,7 @@ E por levar o Max ao posto máximo no pódio :)</p>
         
             2010 - 
         
-        2020 Cobalto.net
+        2021 Cobalto.net
     </section>
     
     <section class="powerby">
