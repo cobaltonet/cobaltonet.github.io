@@ -1,208 +1,132 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
+    <loc>/artigo/como-quase-queimei-a-casa-com-agua/</loc>
+    <lastmod>2021-04-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categorias/</loc>
+    <lastmod>2021-04-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2021-04-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categorias/pessoal/</loc>
+    <lastmod>2021-04-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/</loc>
+    <lastmod>2021-04-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2021-04-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/vida-adulta/</loc>
+    <lastmod>2021-04-04T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/tag/anime/</loc>
     <lastmod>2021-01-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
-    <lastmod>2021-01-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2021-01-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tag/crunchyroll/</loc>
     <lastmod>2021-01-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tag/jujutsu/</loc>
     <lastmod>2021-01-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/artigo/review-jujutsu-kaisen/</loc>
     <lastmod>2021-01-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categoria/otaku/</loc>
+  </url><url>
+    <loc>/categorias/otaku/</loc>
     <lastmod>2021-01-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
+  </url><url>
+    <loc>/categorias/review/</loc>
     <lastmod>2021-01-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categoria/review/</loc>
-    <lastmod>2021-01-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2021-01-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tag/evangelion/</loc>
     <lastmod>2020-12-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tag/roboz%C3%A3o/</loc>
     <lastmod>2020-12-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/artigo/evangelion-3ponto0-mais-1ponto0-entre-no-maldito-robo-shinji/</loc>
     <lastmod>2020-12-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tag/coronga/</loc>
     <lastmod>2020-12-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tag/great-reset/</loc>
     <lastmod>2020-12-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categoria/meta/</loc>
+  </url><url>
+    <loc>/categorias/meta/</loc>
     <lastmod>2020-12-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tag/mudan%C3%A7as/</loc>
     <lastmod>2020-12-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tag/novo-normal/</loc>
     <lastmod>2020-12-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categoria/pessoal/</loc>
-    <lastmod>2020-12-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/artigo/uma-breve-historia-sobre-tudo-isso-que-vem-acontecendo/</loc>
     <lastmod>2020-12-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tag/.net/</loc>
     <lastmod>2020-11-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/artigo/executando-testes-antes-commit/</loc>
     <lastmod>2020-11-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tag/git/</loc>
     <lastmod>2020-11-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categoria/programacao/</loc>
+  </url><url>
+    <loc>/categorias/programacao/</loc>
     <lastmod>2020-11-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categoria/tutorial/</loc>
+  </url><url>
+    <loc>/categorias/tutorial/</loc>
     <lastmod>2020-11-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categoria/formula1/</loc>
+  </url><url>
+    <loc>/categorias/formula-1/</loc>
     <lastmod>2019-11-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tag/max-verstappen/</loc>
     <lastmod>2019-11-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tag/red-bull/</loc>
     <lastmod>2019-11-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/artigo/sobre-formula1-estrategia-e-a-hannah/</loc>
     <lastmod>2019-11-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/arquivo/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/page/</loc>
     <lastmod>2020-12-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/sobre/</loc>
     <lastmod>2020-12-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/artigo/hello-world-outra-vez/</loc>
     <lastmod>2018-12-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/artigo/resolvendo-erro-virtual-box-w10/</loc>
     <lastmod>2018-09-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tag/virtualbox/</loc>
     <lastmod>2018-09-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/artigo/app-xamarin-forms-fecha-iniciado/</loc>
     <lastmod>2017-02-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tag/xamarin/</loc>
     <lastmod>2017-02-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/artigo/vamos-escrever-mas-sobre-o-que/</loc>
     <lastmod>2016-10-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/artigo/hello-world/</loc>
     <lastmod>2016-10-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/busca/</loc>
+  </url><url>
+    <loc>/categorias/tokusatsu/</loc>
   </url>
-  
-  <url>
-    <loc>/categoria/tokusatsu/</loc>
-  </url>
-  
 </urlset>

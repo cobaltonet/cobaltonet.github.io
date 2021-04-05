@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categorias on Cobalto.net</title>
+    <link>/categorias/</link>
+    <description>Recent content in Categorias on Cobalto.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Sun, 04 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="/categorias/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pessoal</title>
+      <link>/categorias/pessoal/</link>
+      <pubDate>Sun, 04 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/categorias/pessoal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Otaku</title>
+      <link>/categorias/otaku/</link>
+      <pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/categorias/otaku/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Review</title>
+      <link>/categorias/review/</link>
+      <pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/categorias/review/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Meta</title>
+      <link>/categorias/meta/</link>
+      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categorias/meta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programação</title>
+      <link>/categorias/programacao/</link>
+      <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categorias/programacao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tutorial</title>
+      <link>/categorias/tutorial/</link>
+      <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categorias/tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Formula 1</title>
+      <link>/categorias/formula-1/</link>
+      <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/categorias/formula-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tokusatsu</title>
+      <link>/categorias/tokusatsu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/categorias/tokusatsu/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
