@@ -1,30 +1,125 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Vida Adulta on Cobalto.net</title>
-    <link>/tag/vida-adulta/</link>
-    <description>Recent content in Vida Adulta on Cobalto.net</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>pt-br</language>
-    <lastBuildDate>Fri, 09 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tag/vida-adulta/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Ensaios sobre correr</title>
-      <link>/artigo/ensaios-sobre-correr/</link>
-      <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/artigo/ensaios-sobre-correr/</guid>
-      <description>Não é segredo para ninguém me conhece pessoalmente que eventualmente eu tomei vergonha na cara e fiz tudo que precisava para emagrecer, e não é segredo mesmo já que não canso de contar em detalhes toda a história mais de uma vez, e isso se converteu em um processo que durou aproximadamente um ano. Aproximadamente porque dependendo do padrão usado eu já estaria “magro” antes do fim da minha contagem, oficialmente eu conto do momento em que comecei a tomar ações práticas até o momento em que cheguei no meu peso mínimo, onde fiquei por um bom tempo até a pandemia chegar (pra que comer morcego, gente?</description>
-    </item>
-    
-    <item>
-      <title>A íncrivel história de como quase taquei fogo na minha casa usando apenas água</title>
-      <link>/artigo/como-quase-queimei-a-casa-com-agua/</link>
-      <pubDate>Sun, 04 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/artigo/como-quase-queimei-a-casa-com-agua/</guid>
-      <description>Quebrando a tradição de atualizar o visual do blog, escrever 3 textos e esquecer da existência dele por um ano para depois voltar a repetir o ciclo, venho por meio deste contar um causo que ocorreu esta semana e poderia ter terminado com meu óbito (ok, sem exageros) uma mesa e um sofá chamuscados.
-Tudo começou com uma quinta-feira normal&amp;hellip; Quinta-feira de sol, acordo, faço os afazeres matinais, abro todas as janelas do apartamento pra deixar tudo bem claro e ventilado, tomo meu café, vou pro PC começar a trabalhar, vida de home-office.</description>
-    </item>
-    
-  </channel>
+    <channel>
+        <title>Vida Adulta on Cobalto.net</title>
+        <link>/tag/vida-adulta/</link>
+        <description>Recent content in Vida Adulta on Cobalto.net</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>pt-br</language>
+        <lastBuildDate>Fri, 09 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tag/vida-adulta/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Ensaios sobre correr</title>
+        <link>/artigo/ensaios-sobre-correr/</link>
+        <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
+        
+        <guid>/artigo/ensaios-sobre-correr/</guid>
+        <description>&lt;img src="/artigo/ensaios-sobre-correr/nikiniki.png" alt="Featured image of post Ensaios sobre correr" /&gt;&lt;p&gt;Não é segredo para ninguém me conhece pessoalmente que eventualmente eu tomei vergonha na cara e fiz tudo que precisava para emagrecer, e não é segredo mesmo já que não canso de contar em detalhes toda a história mais de uma vez, e isso se converteu em um processo que durou aproximadamente um ano. 
+Aproximadamente porque dependendo do padrão usado eu já estaria “magro” antes do fim da minha contagem, oficialmente eu conto do momento em que comecei a tomar ações práticas até o momento em que cheguei no meu peso mínimo, onde fiquei por um bom tempo até a pandemia chegar (pra que comer morcego, gente?).&lt;/p&gt;
+&lt;p&gt;O fato é que nesse processo, além de fazer os tais dos “sacrifícios” (que você se acostuma surpreendentemente fácil depois que começa) de dieta e exercícios, eu acabei descobrindo uma coisa que gosto muito de fazer: Correr.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Claro que por “correr” no começo, quando você é gordo e sedentário, significa fazer caminhadas. E depois andar rápido. E depois andar mais rápido cada vez por mais tempo contínuo. Até o momento em que você já não está mais gordo e está de fato correndo por longas distancias e períodos. 
+Existe sim um pequeno Paradoxo Tostines envolvido, correr ajuda a emagrecer, emagrecer facilita em correr. Mas como os exercícios anaeróbicos (olha como eu sou culto, eu ia chamar de “musculação”, mas lembrei do nome kek) e a dieta são fatores até mais importantes me dou o direito de abstrair essa parte da equação.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Mas admito, correr não é para todo mundo. Se você não gosta de fazer caminhadas talvez não tenha como gostar de correr mesmo, já que correr é basicamente “Andar 2.0” ou “Andar with steroids”. Quando eu digo correr, entenda sempre fazer isso em local aberto, é corrida ao ar livre mesmo (ou como o pessoal chique chama, “outdoor run”), em diferentes geografias e ambientes e por vezes tendo que desviar de transeuntes passeando como se todo o espaço público fosse feito pra eles, acontece.&lt;/p&gt;
+&lt;p&gt;Eu sempre gostei de caminhar pelas ruas quase que sem rumo, faço esse programa de índio sozinho até hoje. Desde que me mudei para Porto Alegre eu já mapeei uma boa parte de toda a zona norte apenas caminhando pra conhecer as ruas. Correr é fazer isso ao extremo e sem prestar atenção em 95% do que acontece ao redor.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/artigo/ensaios-sobre-correr/ready_set_go.jpg&#34;
+	width=&#34;680&#34;
+	height=&#34;400&#34;
+	srcset=&#34;/artigo/ensaios-sobre-correr/ready_set_go_hue87569d726369a4803e5f6686361e381_72678_480x0_resize_q75_box.jpg 480w, /artigo/ensaios-sobre-correr/ready_set_go_hue87569d726369a4803e5f6686361e381_72678_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;O nome dela é Sena, sugestivo?&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;170&#34;
+		data-flex-basis=&#34;408px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Correr em esteira ergométrica é algo para um público ainda menor. Passar 30min-1h correndo sem propósito e sem sair do lugar, cercado por outras pessoas fazendo o mesmo e com no máximo uma TV sintonizada no pior canal possível (obrigado, Smartfit), que vai inevitavelmente estar passando o pior programa da grade (sério, muito obrigado, smartfit), é para poucos. Eu sempre fiz religiosamente meus 30 minutos de esteira pela obrigação e por saber que ele me ajudaria a correr melhor na rua, condicionamento não surge do nada. Mas minha única diversão real ali era competir com os outros pobres coitados correndo. Obviamente eles não sabem que estão participando de uma competição e nunca vão saber. Quer dizer, alguns até devem perceber, mas a verdade é que azar o deles ¯_(ツ)_/¯&lt;/p&gt;
+&lt;p&gt;Isso começou como algo natural e que eu fazia somente com as pessoas que insistiam em começar a correr nas esteiras diretamente ao meu lado. Se a pessoa estava na velocidade 9 do aparelho, pff, eu já começava no 10 (aquecimento é pra fracos e pessoas que querem manter os joelhos funcionais depois dos 60), se a pessoa estava se esforçando na velocidade 12 era digno de um silencioso not_bad_face.jpeg e depois me aturar correndo à 13 ou 14.
+Nas poucas vezes que as pessoas corriam na mesma velocidade do meu limite (para informação: velocidade 14 nas esteiras mais comuns na smartfit, mas varia conforme o modelo) eu transformava em uma batalha de resistência e me forçava a ganhar, eu já fiz 1 hora de esteira em dias que era pra fazer 30 minutos por pura teimosia (lembre-se: a pessoa não sabe que está formalmente numa competição comigo).&lt;/p&gt;
+&lt;p&gt;Obviamente em 1 ano acariciando meu ego às custas de inocentes frequentadores de academia, eu encontrei gente que conseguia correr mais rápido do que meu limite. Nesses casos eu fingia que não me importava e seguia meu ritmo normal. É importante saber perder.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Talvez a mudança no metabolismo tenha me deixado mais competitivo.&lt;/p&gt;
+&lt;p&gt;Fato é que esse comportamento de criar competições com pessoas que não fazem ideia de que estão em uma competição é meu comportamento padrão quando estou correndo, desde a época em que eu corria no boulevard do porto do Rio até agora que corro em um dos muitos parques de rua de PoA, o pior que pode me acontecer é não ter ninguém próximo para que eu possa criar metas de ultrapassagem.&lt;/p&gt;
+&lt;p&gt;No Rio, o porto era um local bem mais vazio e eu fazia minhas corridas durante a noite. Nem tanto um problema já que eu estava no começo e não tinha muita condição de competir contra pessoas, mas eu já criava metas de tempo em pontos de referência, como os relógios de rua e posições especificas. Hoje minhas metas são ultrapassar no menor tempo possível todas as pessoas que aparecem correndo na minha frente, independente da distância em que elas se encontram, mesmo que estejam em áreas desfavoráveis (aprox. 1/3 do trajeto é subindo ladeira, ou como chamam aqui, lomba)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/artigo/ensaios-sobre-correr/just_dont_ask.png&#34;
+	width=&#34;1600&#34;
+	height=&#34;900&#34;
+	srcset=&#34;/artigo/ensaios-sobre-correr/just_dont_ask_hu63649901cc37465aec831074f6571be2_1281341_480x0_resize_box_3.png 480w, /artigo/ensaios-sobre-correr/just_dont_ask_hu63649901cc37465aec831074f6571be2_1281341_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Pra quê você vai querer tentar entender?&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Mas uma coisa que eu nunca me esqueço foi minha saga para superar o “tio do braço engessado” ainda no Rio. Meu trajeto era fixo, Aquario do Rio &amp;lt;-&amp;gt; Praça das Barcas, basicamente todo o boulevard (joga no maps), eu corria próximo das 21h, estava bem no começo e nem conseguia correr o percurso inteiro, eram pequenas sessões de corrida com momentos de descanso.&lt;/p&gt;
+&lt;p&gt;Um belo dia eu estava praticamente na metade da primeira perna (o trajeto era ida e volta, então fechando ¼ do total), o que me deixava próximo da entrada para a volta em torno do Museu do Amanhã (sério, gMaps), quando um senhor de meia idade, careca e, mais debochadamente ainda, com o braço engessado, passou correndo ao meu lado. E depois passou novamente já voltando. Enquanto eu ainda estava na primeira etapa.&lt;/p&gt;
+&lt;p&gt;Isso me afetou seriamente, daquele dia em diante eu passei a manter o CobSentido monitorando a presença desse senhor durante minhas corridas, algo mais complicado de fazer quando não se está mais com o braço engessado, e sempre tentando evitar tomar uma volta dele.&lt;/p&gt;
+&lt;p&gt;Então fazemos o “fast forward’ alguns bons meses para quando eu já estava correndo não só cada uma das pernas do trajeto (o ponto de retorno era, obviamente, na altura da academia e eu fazia a ida como aquecimento), mas já era capaz de ir e voltar correndo sem necessidade de nenhuma pausa, quando eu finalmente consigo dar uma volta nesse senhor pela primeira vez. Das pequenas vitórias.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Ainda falando de metabolismo, e voltando um pouco na questão de gostar ou não de andar e correr. Essa tal de endorfina deve realmente viciar.
+Esse é um pensamento que constantemente tenho quando estou subindo a Goethe (a tal da ladeira no parque onde corro) na penúltima ou última volta. Culpar um suposto vício é o que tira o peso da minha consciência e me permite concentrar todo meu ódio e transforma-lo em força para subir mais uma vez aquela rua me mantendo na tênue linha entre tentar me matar sufocado de tanto esforço e falhar nessa tentativa.&lt;/p&gt;
+&lt;p&gt;Não fosse tão boa a sensação de ter sobrevivido ao final eu certamente nunca voltaria a correr do jeito que corro, muito menos me dar o trabalho de cronometrar o tempo que levei para fazer meu trajeto já pensando em melhorar este tempo na próxima vez.&lt;/p&gt;
+&lt;p&gt;Agora se me dão licença, preso dormir cedo pois tenho que ir correr amanhã de manhã ;)&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>A íncrivel história de como quase taquei fogo na minha casa usando apenas água</title>
+        <link>/artigo/como-quase-queimei-a-casa-com-agua/</link>
+        <pubDate>Sun, 04 Apr 2021 00:00:00 +0000</pubDate>
+        
+        <guid>/artigo/como-quase-queimei-a-casa-com-agua/</guid>
+        <description>&lt;img src="/artigo/como-quase-queimei-a-casa-com-agua/house-fire.jpg" alt="Featured image of post A íncrivel história de como quase taquei fogo na minha casa usando apenas água" /&gt;&lt;p&gt;Quebrando a tradição de atualizar o visual do blog, escrever 3 textos e esquecer da existência dele por um ano para depois voltar a repetir o ciclo, venho por meio deste contar um causo que ocorreu esta semana e poderia ter terminado com &lt;del&gt;meu óbito&lt;/del&gt; (ok, sem exageros) uma mesa e um sofá chamuscados.&lt;/p&gt;
+&lt;h3 id=&#34;tudo-começou-com-uma-quinta-feira-normal&#34;&gt;Tudo começou com uma quinta-feira normal&amp;hellip;&lt;/h3&gt;
+&lt;p&gt;Quinta-feira de sol, acordo, faço os afazeres matinais, abro todas as janelas do apartamento pra deixar tudo bem claro e ventilado, tomo meu café, vou pro PC começar a trabalhar, vida de home-office. Trabalho vai, trabalho vem, a manhã vai chegando ao fim e já começo a pensar em preparar o almoço.&lt;/p&gt;
+&lt;p&gt;Nesse momento eu tiro a atenção da tela do PC e olho pela janela admirando os contornos do bairro &lt;a class=&#34;link&#34; href=&#34;https://www.instagram.com/p/CJfyGn4jiT_6uSPMSS6ShaCI8hIXh7lcst9t7M0/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;(pra quem não sabe a vista é mais ou menos essa)&lt;/a&gt; e por algum motivo algo na mesinha de centro, que na prática fica ao lado do sofá, chama minha atenção&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Paro alguns segundos olhando pra mesa e vejo uma leve fumaça branca dançando logo acima de onde se encontra um copo com água. Minha primeira reação é pensar em vapor d&amp;rsquo;água devido à temperatura no dia, que estava mais quente que a média da semana, mas logo em seguida eu ponho meia dúzia de neurônios para pensar sobre isso e percebo que VAPOR não iria fazer aquela quantidade de fumaça branca.&lt;/p&gt;
+&lt;h3 id=&#34;uma-pausa-para-descrever-a-cena&#34;&gt;Uma pausa para descrever a cena&lt;/h3&gt;
+&lt;p&gt;A mesa de centro em questão é feita de madeira maciça com design meio industrial/moderninho (&lt;a class=&#34;link&#34; href=&#34;https://www.tadah.com.br/mesa-de-centro-loft-mel-e-preto&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Mais exatamente essa aqui&lt;/a&gt;. Não é #ad, pode clicar) e eu costumo deixar ao lado do sofá ao invés de na frente dele (no de fato &amp;ldquo;centro&amp;rdquo; da sala) por motivos de logistica, já que fico sentado em um canto do sofá e assim tenho acesso fácil a ela, onde deixo todo tipo de coisa. Um detalhe importante, isso faz ela ficar de frente para a janela, pegando o máximo de sol possível entrando no apto.&lt;/p&gt;
+&lt;p&gt;Sobre o copo, não é bem um copo, na verdade é uma taça DE PLÁSTICO que trouxe do ultimo carnaval (2020, o de 2021 todos sabemos que não existiu) da Praia do Rosa. Detalhes à parte (altas tretas), repito: É uma taça DE PLÁSTICO que apesar de não ser tão vagabunda assim (eu trouxe e mantive pra uso em casa até hoje, afinal) não é nenhum supra-sumo da industria de polímeros nacional. A existência de qualquer fator óptico capaz de executar o processo de queimar coisas em geral me pegou total e completamente de surpresa.&lt;/p&gt;
+&lt;h3 id=&#34;mas-voltemos-ao-ocorrido&#34;&gt;Mas voltemos ao ocorrido&amp;hellip;&lt;/h3&gt;
+&lt;p&gt;Alguns segundos com o olhar profundo e vazio enquanto meu cérebro tenta processar, com o pouco de informação disponível, o que estava se passando ali em frente aos meu olhos e eis que as sinapses começam a mostrar seu valor. O brilho emanado de um ponto especifico na mesa deixa de ser ruízo branco e passar num instante a ser tratado como o vilão pego em flagrante que de fato era.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/artigo/como-quase-queimei-a-casa-com-agua/quase-incendio-1.jpg&#34;
+	width=&#34;1280&#34;
+	height=&#34;720&#34;
+	srcset=&#34;/artigo/como-quase-queimei-a-casa-com-agua/quase-incendio-1_hucf8da5e15edbd93f9e86b66bde0b4f83_67116_480x0_resize_q75_box.jpg 480w, /artigo/como-quase-queimei-a-casa-com-agua/quase-incendio-1_hucf8da5e15edbd93f9e86b66bde0b4f83_67116_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;A cena do crime em andamento.&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;
+&lt;img src=&#34;/artigo/como-quase-queimei-a-casa-com-agua/quase-incendio-2.jpg&#34;
+	width=&#34;1280&#34;
+	height=&#34;720&#34;
+	srcset=&#34;/artigo/como-quase-queimei-a-casa-com-agua/quase-incendio-2_hu12610061e4e0ee44a522475c1daec783_94732_480x0_resize_q75_box.jpg 480w, /artigo/como-quase-queimei-a-casa-com-agua/quase-incendio-2_hu12610061e4e0ee44a522475c1daec783_94732_1024x0_resize_q75_box.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Detalhe do chamuscado em estado avançado na mesa.&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Observem na primeira imagem que relativamente muito próximo do local tostado pela lente de água havia um guardanapo e uma máscara de pano prontos para serem queimados, o que não aconteceu por mera sorte. Questionamento sobre a lista de itens jogada na mesa e sua respectiva ordem serão sumariamente ignoradas, isso não vem ao caso, ok? 🙄&lt;/p&gt;
+&lt;p&gt;No fim das contas eu ganhei um chamuscadinho de leve na minha mesa de centro de madeira, nada demais e quase passa despercebido já que ela é madeira maciça e naturalmente já exibe algumas marcas escuras da própria madeira, mas é admirável o quão perto de um incêndio eu passei, mesmo que de pequenas proporções. Se eu tivesse saído de casa por qualquer motivo a madeira poderia finalmente queimar (o famoso &amp;ldquo;lamber&amp;rdquo;) e se o papel/pano estivessem numa posição um pouco mais próxima, uma simples ida ao banheiro ou passada na cozinha seria tempo o suficiente pra para a combustão se estabilizar.&lt;/p&gt;
+&lt;p&gt;Mas lições foram aprendidas. A mesa de centro não fica mais embaixo da janela diretamente no sol e copos d&amp;rsquo;água agora são obrigatóriamente esvaziados o mais breve possível (até eu começar a esquecer novamente). Por enquanto sigo dizendo &amp;ldquo;not today&amp;rdquo; pro carinha responsável por essas artimanhas. Para a infelicade de alguns 😏&lt;/p&gt;
+&lt;p&gt;*Sim, foi uma referência às Crônicas de Nárnia, obrigado por perceber.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
 </rss>

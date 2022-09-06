@@ -1,41 +1,61 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Pages on Cobalto.net</title>
-    <link>/page/</link>
-    <description>Recent content in Pages on Cobalto.net</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>pt-br</language>
-    <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="/page/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Arquivo</title>
-      <link>/arquivo/</link>
-      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/arquivo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sobre</title>
-      <link>/sobre/</link>
-      <pubDate>Sat, 16 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/sobre/</guid>
-      <description>Olá e bem vindo ao meu blog.
-Nesse espaço pretendo (não posso prometer) colocar tudo que fique melhor escrito por extenso e de forma mais detalhada do que as as redes sociais permitem (estou olhando pra você, twitter).
-Não tenho nenhuma pretensão de seguir uma linha editorial ou sequer alguma frequência definida, então pense nisso mais como um repositório de textos que eu queira manter indeterminadamente.
-Se você quiser saber mais sobre mim, recomendo dar uma olhada no meu perfil online que fica em Cobalto.</description>
-    </item>
-    
-    <item>
-      <title>Busca</title>
-      <link>/busca/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/busca/</guid>
-      <description></description>
-    </item>
-    
-  </channel>
+    <channel>
+        <title>Pages on Cobalto.net</title>
+        <link>/page/</link>
+        <description>Recent content in Pages on Cobalto.net</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>pt-br</language><atom:link href="/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Arquivo</title>
+        <link>/arquivo/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>/arquivo/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Busca</title>
+        <link>/busca/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>/busca/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Links</title>
+        <link>/links/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>/links/</guid>
+        <description>&lt;p&gt;Aqui irei adicionando links que quero compartilhar.&lt;br&gt;
+O formato de página é relativamente novo no tema, então não reparem o espaço vazio :P&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Sobre</title>
+        <link>/sobre/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>/sobre/</guid>
+        <description>&lt;p&gt;Olá e bem vindo ao meu blog.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/sobre/welcome.png&#34;
+	width=&#34;1790&#34;
+	height=&#34;480&#34;
+	srcset=&#34;/sobre/welcome_hu844d230fffcd9358597ad4b74e93d627_80345_480x0_resize_box_3.png 480w, /sobre/welcome_hu844d230fffcd9358597ad4b74e93d627_80345_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;372&#34;
+		data-flex-basis=&#34;895px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Nesse espaço pretendo (não posso prometer) colocar tudo que fique melhor escrito por extenso e de forma mais detalhada do que as as redes sociais permitem (estou olhando pra você, twitter). Não tenho nenhuma pretensão de seguir uma linha editorial ou sequer alguma frequência definida, então pense nisso mais como um repositório de textos que eu queira manter indeterminadamente.&lt;/p&gt;
+&lt;p&gt;Se você quiser saber mais sobre mim, recomendo dar uma olhada no meu perfil online que fica em &lt;a class=&#34;link&#34; href=&#34;https://cobalto.dev&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Cobalto.dev&lt;/a&gt;, lá você vai encontrar links para todas (ou pelo menos as que eu não vejo problema em divulgar 😏), as minhas redes sociais e um pouquinho mais sobre quem sou eu.&lt;/p&gt;
+&lt;p&gt;Seja bem vindo(a) e desculpe qualquer coisa.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
 </rss>

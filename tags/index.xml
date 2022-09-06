@@ -1,164 +1,147 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Tags on Cobalto.net</title>
-    <link>/tags/</link>
-    <description>Recent content in Tags on Cobalto.net</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>pt-br</language>
-    <lastBuildDate>Fri, 09 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Corrida</title>
-      <link>/tag/corrida/</link>
-      <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/tag/corrida/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vida Adulta</title>
-      <link>/tag/vida-adulta/</link>
-      <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/tag/vida-adulta/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Anime</title>
-      <link>/tag/anime/</link>
-      <pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/tag/anime/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Crunchyroll</title>
-      <link>/tag/crunchyroll/</link>
-      <pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/tag/crunchyroll/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jujutsu</title>
-      <link>/tag/jujutsu/</link>
-      <pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/tag/jujutsu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Evangelion</title>
-      <link>/tag/evangelion/</link>
-      <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tag/evangelion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Robozão</title>
-      <link>/tag/roboz%C3%A3o/</link>
-      <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tag/roboz%C3%A3o/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Coronga</title>
-      <link>/tag/coronga/</link>
-      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tag/coronga/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Great Reset</title>
-      <link>/tag/great-reset/</link>
-      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tag/great-reset/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mudanças</title>
-      <link>/tag/mudan%C3%A7as/</link>
-      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tag/mudan%C3%A7as/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Novo Normal</title>
-      <link>/tag/novo-normal/</link>
-      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tag/novo-normal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>.Net</title>
-      <link>/tag/.net/</link>
-      <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tag/.net/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Git</title>
-      <link>/tag/git/</link>
-      <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tag/git/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Max Verstappen</title>
-      <link>/tag/max-verstappen/</link>
-      <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tag/max-verstappen/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Red Bull</title>
-      <link>/tag/red-bull/</link>
-      <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tag/red-bull/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>VirtualBox</title>
-      <link>/tag/virtualbox/</link>
-      <pubDate>Sun, 23 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tag/virtualbox/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Xamarin</title>
-      <link>/tag/xamarin/</link>
-      <pubDate>Sat, 11 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tag/xamarin/</guid>
-      <description></description>
-    </item>
-    
-  </channel>
+    <channel>
+        <title>Tags on Cobalto.net</title>
+        <link>/tags/</link>
+        <description>Recent content in Tags on Cobalto.net</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>pt-br</language>
+        <lastBuildDate>Fri, 09 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Corrida</title>
+        <link>/tag/corrida/</link>
+        <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
+        
+        <guid>/tag/corrida/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Vida Adulta</title>
+        <link>/tag/vida-adulta/</link>
+        <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
+        
+        <guid>/tag/vida-adulta/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Anime</title>
+        <link>/tag/anime/</link>
+        <pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate>
+        
+        <guid>/tag/anime/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Crunchyroll</title>
+        <link>/tag/crunchyroll/</link>
+        <pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate>
+        
+        <guid>/tag/crunchyroll/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Jujutsu</title>
+        <link>/tag/jujutsu/</link>
+        <pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate>
+        
+        <guid>/tag/jujutsu/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Evangelion</title>
+        <link>/tag/evangelion/</link>
+        <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
+        
+        <guid>/tag/evangelion/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Robozão</title>
+        <link>/tag/roboz%C3%A3o/</link>
+        <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
+        
+        <guid>/tag/roboz%C3%A3o/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Coronga</title>
+        <link>/tag/coronga/</link>
+        <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
+        
+        <guid>/tag/coronga/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Great Reset</title>
+        <link>/tag/great-reset/</link>
+        <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
+        
+        <guid>/tag/great-reset/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Mudanças</title>
+        <link>/tag/mudan%C3%A7as/</link>
+        <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
+        
+        <guid>/tag/mudan%C3%A7as/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Novo Normal</title>
+        <link>/tag/novo-normal/</link>
+        <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
+        
+        <guid>/tag/novo-normal/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>.Net</title>
+        <link>/tag/.net/</link>
+        <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
+        
+        <guid>/tag/.net/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Git</title>
+        <link>/tag/git/</link>
+        <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
+        
+        <guid>/tag/git/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Max Verstappen</title>
+        <link>/tag/max-verstappen/</link>
+        <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
+        
+        <guid>/tag/max-verstappen/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Red Bull</title>
+        <link>/tag/red-bull/</link>
+        <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
+        
+        <guid>/tag/red-bull/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>VirtualBox</title>
+        <link>/tag/virtualbox/</link>
+        <pubDate>Sun, 23 Sep 2018 00:00:00 +0000</pubDate>
+        
+        <guid>/tag/virtualbox/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Xamarin</title>
+        <link>/tag/xamarin/</link>
+        <pubDate>Sat, 11 Feb 2017 00:00:00 +0000</pubDate>
+        
+        <guid>/tag/xamarin/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
 </rss>

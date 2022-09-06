@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Cobalto.net</title>
+        <link>/en/</link>
+        <description>Recent content on Cobalto.net</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>pt-br</language><atom:link href="/en/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>About</title>
+        <link>/en/about/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>/en/about/</guid>
+        <description>&lt;p&gt;This page is under construction.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Archives</title>
+        <link>/en/archives/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>/en/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Links</title>
+        <link>/en/links/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>/en/links/</guid>
+        <description>&lt;p&gt;A place to share interesting content.&lt;br&gt;
+This type of page is quite new on the theme please don&amp;rsquo;t mind the empty space.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Search</title>
+        <link>/en/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>/en/search/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>

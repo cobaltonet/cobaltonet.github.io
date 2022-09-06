@@ -1,20 +1,44 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Xamarin on Cobalto.net</title>
-    <link>/tag/xamarin/</link>
-    <description>Recent content in Xamarin on Cobalto.net</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>pt-br</language>
-    <lastBuildDate>Sat, 11 Feb 2017 00:00:00 +0000</lastBuildDate><atom:link href="/tag/xamarin/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>App Xamarin Forms fecha assim que é iniciado no Visual Studio Emulator, o que fazer?</title>
-      <link>/artigo/app-xamarin-forms-fecha-iniciado/</link>
-      <pubDate>Sat, 11 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/artigo/app-xamarin-forms-fecha-iniciado/</guid>
-      <description>Ao tentar debugar o app no emulador, logo após o fim do processo de rebuild o Visual Studio iniciava o processo no emulador, mas antes de aparecer qualquer coisa na tela o aplicativo era encerrado e o Visual Studio não informava nenhum tipo de erro. Ao tentar fazer o deploy, ele era feito corretamente porém o aplicativo instalado no Emulador travava e era exibida a tela de erro da aplicação padrão do Android.</description>
-    </item>
-    
-  </channel>
+    <channel>
+        <title>Xamarin on Cobalto.net</title>
+        <link>/tag/xamarin/</link>
+        <description>Recent content in Xamarin on Cobalto.net</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>pt-br</language>
+        <lastBuildDate>Sat, 11 Feb 2017 00:00:00 +0000</lastBuildDate><atom:link href="/tag/xamarin/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>App Xamarin Forms fecha assim que é iniciado no Visual Studio Emulator, o que fazer?</title>
+        <link>/artigo/app-xamarin-forms-fecha-iniciado/</link>
+        <pubDate>Sat, 11 Feb 2017 00:00:00 +0000</pubDate>
+        
+        <guid>/artigo/app-xamarin-forms-fecha-iniciado/</guid>
+        <description>&lt;img src="/artigo/app-xamarin-forms-fecha-iniciado/ms_xamarin.jpg" alt="Featured image of post App Xamarin Forms fecha assim que é iniciado no Visual Studio Emulator, o que fazer?" /&gt;&lt;p&gt;Ao tentar debugar o app no emulador, logo após o fim do processo de rebuild o Visual Studio iniciava o processo no emulador, mas antes de aparecer qualquer coisa na tela o aplicativo era encerrado e o Visual Studio não informava nenhum tipo de erro. Ao tentar fazer o deploy, ele era feito corretamente porém o aplicativo instalado no Emulador travava e era exibida a tela de erro da aplicação padrão do Android.&lt;/p&gt;
+&lt;p&gt;Como resolver? Simples (mas não tão óbvio).&lt;/p&gt;
+&lt;p&gt;Primeiramente encerre a máquina virtual de forma normal.
+Abra o gerenciador do Hyper-V (basta digitar Hyper-V na busca).
+Encontre a máquina virtual que estava sendo utilizada.
+Com o botão direito selecione Propriedades (Fig.1).&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;hypper_v_1.jpg&#34;
+         alt=&#34;Fig.1&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Fig.1&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;No menu lateral, abra a árvore do item Processador.
+Selecione o item Compatibilidade.
+Marque a caixa “Migrar para um computador físico com versão diferente de processador” (Fig.2) que estará desmarcarda.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;hypper_v_2.jpg&#34;
+         alt=&#34;Fig.2&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Fig.2&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Confirme e feche todas as janelas do Hyper-V.
+Volte ao Visual Studio e tente rodar o projeto novamente.&lt;/p&gt;
+&lt;p&gt;Isso deve resolver o problema.
+Funcionou comigo.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
 </rss>

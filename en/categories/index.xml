@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Categories on Cobalto.net</title>
+        <link>/en/categories/</link>
+        <description>Recent content in Categories on Cobalto.net</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>pt-br</language><atom:link href="/en/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Formula 1</title>
+        <link>/en/categoria/formula1/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>/en/categoria/formula1/</guid>
+        <description>&lt;img src="/en/categoria/formula1/formula1.png" alt="Featured image of post Formula 1" /&gt;</description>
+        </item>
+        <item>
+        <title>Meta</title>
+        <link>/en/categoria/meta/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>/en/categoria/meta/</guid>
+        <description>&lt;img src="/en/categoria/meta/meta.png" alt="Featured image of post Meta" /&gt;</description>
+        </item>
+        <item>
+        <title>Otaku</title>
+        <link>/en/categoria/otaku/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>/en/categoria/otaku/</guid>
+        <description>&lt;img src="/en/categoria/otaku/otaku.png" alt="Featured image of post Otaku" /&gt;</description>
+        </item>
+        <item>
+        <title>Personal</title>
+        <link>/en/categoria/personal/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>/en/categoria/personal/</guid>
+        <description>&lt;img src="/en/categoria/personal/pessoal.png" alt="Featured image of post Personal" /&gt;</description>
+        </item>
+        <item>
+        <title>Programming</title>
+        <link>/en/categoria/programming/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>/en/categoria/programming/</guid>
+        <description>&lt;img src="/en/categoria/programming/programacao.png" alt="Featured image of post Programming" /&gt;</description>
+        </item>
+        <item>
+        <title>Review</title>
+        <link>/en/categoria/review/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>/en/categoria/review/</guid>
+        <description>&lt;img src="/en/categoria/review/review.png" alt="Featured image of post Review" /&gt;</description>
+        </item>
+        <item>
+        <title>Tokusatsu</title>
+        <link>/en/categoria/tokusatsu/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>/en/categoria/tokusatsu/</guid>
+        <description>&lt;img src="/en/categoria/tokusatsu/tokusatsu.png" alt="Featured image of post Tokusatsu" /&gt;</description>
+        </item>
+        <item>
+        <title>Tutorial</title>
+        <link>/en/categoria/tutorial/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>/en/categoria/tutorial/</guid>
+        <description>&lt;img src="/en/categoria/tutorial/tutorial.png" alt="Featured image of post Tutorial" /&gt;</description>
+        </item>
+        
+    </channel>
+</rss>
