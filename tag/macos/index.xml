@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>macOS on Cobalto.net</title>
+        <link>/tag/macos/</link>
+        <description>Recent content in macOS on Cobalto.net</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>pt-br</language>
+        <lastBuildDate>Wed, 14 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tag/macos/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Instalação do Xcode travada no status Instalando</title>
+        <link>/artigo/instalacao-travada-xcode-apple-store/</link>
+        <pubDate>Wed, 14 Sep 2022 00:00:00 +0000</pubDate>
+        
+        <guid>/artigo/instalacao-travada-xcode-apple-store/</guid>
+        <description>&lt;img src="/artigo/instalacao-travada-xcode-apple-store/xcode-hero.png" alt="Featured image of post Instalação do Xcode travada no status Instalando" /&gt;&lt;p&gt;Ok, Macbook novo, tudo muito bonito, tudo muito legal, começamos a instalar tudo que precisamos depois do browser e dos aplicativos de comunicação (Oi, WhatsApp Desktop, vi que você ainda está rodando no Rosetta 2, tá tudo bem?).&lt;/p&gt;
+&lt;p&gt;Para quem desenvolve e migrou para um computador da Apple nada mais normal do que instalar o Xcode nem que seja somente para experimentar, no meu caso o Visual Studio me obrigou a instalá-lo de forma bem-educada (dando mensagem de erro, etc).&lt;/p&gt;
+&lt;p&gt;Acessamos o link da Apple Store tranquilamente, solicitamos a instalação, aguardamos o download dos 12GB de arquivos necessários, começa a fase de instalação… e fica nisso.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/artigo/instalacao-travada-xcode-apple-store/xcode-instalacao-apple-store.png&#34;
+	width=&#34;1215&#34;
+	height=&#34;838&#34;
+	srcset=&#34;/artigo/instalacao-travada-xcode-apple-store/xcode-instalacao-apple-store_hu5d33358e49245d49389915067f237200_435971_480x0_resize_box_3.png 480w, /artigo/instalacao-travada-xcode-apple-store/xcode-instalacao-apple-store_hu5d33358e49245d49389915067f237200_435971_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Está instalando, parece&amp;hellip;&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;144&#34;
+		data-flex-basis=&#34;347px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Ok, a Apple Store diz que está instalando, o Launchpad diz que esta instalando, o Activity Monitor diz que ALGO esta sendo feito nos cores de eficiência (os cores de performance dormem na total serenidade de quem sabe que não está sendo necessário), e ai, Apple? Just works?&lt;/p&gt;
+&lt;p&gt;Veja bem, eu tenho uma internet rápida, rápida o suficiente para recentemente eu ter baixado ISO de linux por mero capricho (PORQUE EU POSSO), 12GB é um tamanho desgraçado de grande, mas não é &amp;ldquo;eu não faço ideia se está fazendo download&amp;rdquo; de grande. Alguma coisa aqui está errada que não está certa.&lt;/p&gt;
+&lt;p&gt;Inicialmente até cogitei que realmente algo tivesse travado, o Windows entrar em alguma &lt;em&gt;race condition&lt;/em&gt; durante atualizações não é algo completamente anormal, e fiz o que qualquer usuário do sistema das janelas faria: Reinicie o Mac. nada, nenhuma alteração.&lt;/p&gt;
+&lt;p&gt;Eu poderia deixar o mac tomando conta da vida dele e seguir com a minha, eventualmente aquela instalação em teoria iria terminar, mas eu tinha outros planos e esses planos envolviam algo que estava reclamando diretamente comigo da falta da instalação desse programa.&lt;/p&gt;
+&lt;p&gt;Como tudo no Mac, problemas não existem e se você está tendo algum, boa sorte procurando as outras 3 pessoas nos últimos 3 anos que passaram pela mesma situação. Pois bem, aceitemos nosso destino e vamos ao Google tentar extrair alguma informação útil.&lt;/p&gt;
+&lt;p&gt;Muito trabalho de pesquisa e investigação facilitados por anos de trabalho com programação (a gente aprende a buscar de tudo no Stackoverflow, desculpa) eu descubro que, e não estou fazendo piadinha aqui, em momento algum houve qualquer bug e que tudo estava funcionando como deveria, onde &amp;ldquo;deveria&amp;rdquo; apesar de questionável não configura um defeito &lt;em&gt;per se&lt;/em&gt;, e tudo não passou de uma interface muito porcamente desenvolvida.&lt;/p&gt;
+&lt;p&gt;Mas não acredite cegamente no que eu estou dizendo, a seguir seguem os passos para você acompanhar a instalação considerando o sistema em inglês, selecione a opção correspondente pro seu idioma (desculpa, sou novo aqui, não conheço as traduções oficiais):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mantenha a janela da Apple Store aberta na instalação do XCode&lt;/li&gt;
+&lt;li&gt;Abra o &amp;ldquo;Console&amp;rdquo; dentro de &amp;ldquo;System tools&amp;rdquo; (Launchpad -&amp;gt; System Tools -&amp;gt; Console)&lt;/li&gt;
+&lt;li&gt;Na barra de busca procure por &amp;ldquo;App store&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Clique no botão &amp;ldquo;Start&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Irão começar a ser exibidas linhas de log correspondentes à App store&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Nesse ponto você pode selecionar uma linha para ver o log completo. Na imagem abaixo é possível ver que no meu caso se encontrava em &amp;ldquo;&amp;hellip; Completed: 824 of 1000&amp;rdquo; na linha selecionada, as demais linhas contendo valores incrementais ou decrementais conforme a linha selecionada.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/artigo/instalacao-travada-xcode-apple-store/xcode-log-console-instalacao.png&#34;
+	width=&#34;1439&#34;
+	height=&#34;1307&#34;
+	srcset=&#34;/artigo/instalacao-travada-xcode-apple-store/xcode-log-console-instalacao_hud013d8113e95eb96e58255c854d09a65_886374_480x0_resize_box_3.png 480w, /artigo/instalacao-travada-xcode-apple-store/xcode-log-console-instalacao_hud013d8113e95eb96e58255c854d09a65_886374_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Está, definitivamente, instalando!&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;110&#34;
+		data-flex-basis=&#34;264px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;Como pode ser visto na imagem acima, o XCode esteve o tempo todo sendo baixado/instalado corretamente e tudo não se passou de dois detalhes em particular que podemos sim botar na conta da Apple:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A interface não faz nenhum esforço para informar que está de fato responsiva e não travada em uma animação.&lt;/li&gt;
+&lt;li&gt;Por algum motivo downloads são anormalmente lentos na Apple Store, sobre isso encontrei mais de uma fonte de reclamação e parece ser algo &amp;ldquo;normal&amp;rdquo; (leia: a Apple não pretende fazer nada quanto a isso)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Com a consciência limpa aguardei educadamente, sem xingar nenhum funcionário da Apple, até o fim do download/instalação e tudo prosseguiu conforme o esperado e sem novos problemas.&lt;/p&gt;
+&lt;p&gt;Com ajuda: &lt;a class=&#34;link&#34; href=&#34;https://stackoverflow.com/questions/67900692/latest-version-of-xcode-stuck-on-installation-12-5&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Latest version of Xcode stuck on installation - Stack Overflow&lt;/a&gt; (conteúdo em inglês)&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

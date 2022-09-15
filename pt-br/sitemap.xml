@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2021-04-09T00:00:00+00:00</lastmod>
+    <lastmod>2022-09-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -15,8 +15,11 @@
                 href="/"
                 />
   </url><url>
+    <loc>/tag/apple-store/</loc>
+    <lastmod>2022-09-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/categories/</loc>
-    <lastmod>2021-04-09T00:00:00+00:00</lastmod>
+    <lastmod>2022-09-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -27,6 +30,57 @@
                 hreflang="pt-br"
                 href="/categories/"
                 />
+  </url><url>
+    <loc>/artigo/instalacao-travada-xcode-apple-store/</loc>
+    <lastmod>2022-09-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/macos/</loc>
+    <lastmod>2022-09-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/</loc>
+    <lastmod>2022-09-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categoria/programacao/</loc>
+    <lastmod>2022-09-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/categoria/programming/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="/categoria/programacao/"
+                />
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2022-09-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="/tags/"
+                />
+  </url><url>
+    <loc>/categoria/tutorial/</loc>
+    <lastmod>2022-09-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/categoria/tutorial/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="/categoria/tutorial/"
+                />
+  </url><url>
+    <loc>/tag/xcode/</loc>
+    <lastmod>2022-09-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tag/corrida/</loc>
     <lastmod>2021-04-09T00:00:00+00:00</lastmod>
@@ -45,22 +99,6 @@
                 rel="alternate"
                 hreflang="pt-br"
                 href="/categoria/pessoal/"
-                />
-  </url><url>
-    <loc>/post/</loc>
-    <lastmod>2021-04-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2021-04-09T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="/tags/"
                 />
   </url><url>
     <loc>/tag/vida-adulta/</loc>
@@ -152,32 +190,6 @@
   </url><url>
     <loc>/tag/git/</loc>
     <lastmod>2020-11-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/categoria/programacao/</loc>
-    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/categoria/programming/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="/categoria/programacao/"
-                />
-  </url><url>
-    <loc>/categoria/tutorial/</loc>
-    <lastmod>2020-11-19T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/categoria/tutorial/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="/categoria/tutorial/"
-                />
   </url><url>
     <loc>/categoria/formula1/</loc>
     <lastmod>2019-11-19T00:00:00+00:00</lastmod>

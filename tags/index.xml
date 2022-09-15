@@ -6,7 +6,31 @@
         <description>Recent content in Tags on Cobalto.net</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>pt-br</language>
-        <lastBuildDate>Fri, 09 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 14 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Apple Store</title>
+        <link>/tag/apple-store/</link>
+        <pubDate>Wed, 14 Sep 2022 00:00:00 +0000</pubDate>
+        
+        <guid>/tag/apple-store/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>macOS</title>
+        <link>/tag/macos/</link>
+        <pubDate>Wed, 14 Sep 2022 00:00:00 +0000</pubDate>
+        
+        <guid>/tag/macos/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>XCode</title>
+        <link>/tag/xcode/</link>
+        <pubDate>Wed, 14 Sep 2022 00:00:00 +0000</pubDate>
+        
+        <guid>/tag/xcode/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Corrida</title>
         <link>/tag/corrida/</link>
         <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
