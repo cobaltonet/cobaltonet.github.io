@@ -1,0 +1,23 @@
+{
+    "subject": "acct:cobalto@social.cobalto.net",
+    "aliases": [
+        "https://social.cobalto.net/@cobalto",
+        "https://social.cobalto.net/users/cobalto"
+    ],
+    "links": [
+        {
+            "rel": "http://webfinger.net/rel/profile-page",
+            "type": "text/html",
+            "href": "https://social.cobalto.net/@cobalto"
+        },
+        {
+            "rel": "self",
+            "type": "application/activity+json",
+            "href": "https://social.cobalto.net/users/cobalto"
+        },
+        {
+            "rel": "http://ostatus.org/schema/1.0/subscribe",
+            "template": "https://social.cobalto.net/authorize_interaction?uri={uri}"
+        }
+    ]
+}
