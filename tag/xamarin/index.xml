@@ -18,19 +18,19 @@
 Abra o gerenciador do Hyper-V (basta digitar Hyper-V na busca).
 Encontre a máquina virtual que estava sendo utilizada.
 Com o botão direito selecione Propriedades (Fig.1).&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;hypper_v_1.jpg&#34;
-         alt=&#34;Fig.1&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Fig.1&lt;/p&gt;
-        &lt;/figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;/artigo/app-xamarin-forms-fecha-iniciado/hypper_v_1.jpg&#34;
+    alt=&#34;Fig.1&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Fig.1&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;No menu lateral, abra a árvore do item Processador.
 Selecione o item Compatibilidade.
 Marque a caixa “Migrar para um computador físico com versão diferente de processador” (Fig.2) que estará desmarcarda.&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;hypper_v_2.jpg&#34;
-         alt=&#34;Fig.2&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Fig.2&lt;/p&gt;
-        &lt;/figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;/artigo/app-xamarin-forms-fecha-iniciado/hypper_v_2.jpg&#34;
+    alt=&#34;Fig.2&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Fig.2&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Confirme e feche todas as janelas do Hyper-V.

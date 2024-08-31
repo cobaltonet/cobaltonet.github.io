@@ -5,13 +5,13 @@
         <link>/en/categories/</link>
         <description>Recent content in Categories on Cobalto.net</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>pt-br</language><atom:link href="/en/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>en</language><atom:link href="/en/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Formula 1</title>
         <link>/en/categoria/formula1/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>/en/categoria/formula1/</guid>
-        <description>&lt;img src="/en/categoria/formula1/formula1.png" alt="Featured image of post Formula 1" /&gt;</description>
+        <description>&lt;img src="/categoria/formula1/formula1.png" alt="Featured image of post Formula 1" /&gt;</description>
         </item>
         <item>
         <title>Meta</title>
@@ -19,7 +19,7 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>/en/categoria/meta/</guid>
-        <description>&lt;img src="/en/categoria/meta/meta.png" alt="Featured image of post Meta" /&gt;</description>
+        <description>&lt;img src="/categoria/meta/meta.png" alt="Featured image of post Meta" /&gt;</description>
         </item>
         <item>
         <title>Otaku</title>
@@ -27,7 +27,7 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>/en/categoria/otaku/</guid>
-        <description>&lt;img src="/en/categoria/otaku/otaku.png" alt="Featured image of post Otaku" /&gt;</description>
+        <description>&lt;img src="/categoria/otaku/otaku.png" alt="Featured image of post Otaku" /&gt;</description>
         </item>
         <item>
         <title>Personal</title>
@@ -35,7 +35,7 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>/en/categoria/personal/</guid>
-        <description>&lt;img src="/en/categoria/personal/pessoal.png" alt="Featured image of post Personal" /&gt;</description>
+        <description>&lt;img src="/categoria/pessoal/pessoal.png" alt="Featured image of post Personal" /&gt;</description>
         </item>
         <item>
         <title>Programming</title>
@@ -43,7 +43,7 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>/en/categoria/programming/</guid>
-        <description>&lt;img src="/en/categoria/programming/programacao.png" alt="Featured image of post Programming" /&gt;</description>
+        <description>&lt;img src="/categoria/programacao/programacao.png" alt="Featured image of post Programming" /&gt;</description>
         </item>
         <item>
         <title>Review</title>
@@ -51,7 +51,7 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>/en/categoria/review/</guid>
-        <description>&lt;img src="/en/categoria/review/review.png" alt="Featured image of post Review" /&gt;</description>
+        <description>&lt;img src="/categoria/review/review.png" alt="Featured image of post Review" /&gt;</description>
         </item>
         <item>
         <title>Tokusatsu</title>
@@ -59,7 +59,7 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>/en/categoria/tokusatsu/</guid>
-        <description>&lt;img src="/en/categoria/tokusatsu/tokusatsu.png" alt="Featured image of post Tokusatsu" /&gt;</description>
+        <description>&lt;img src="/categoria/tokusatsu/tokusatsu.png" alt="Featured image of post Tokusatsu" /&gt;</description>
         </item>
         <item>
         <title>Tutorial</title>
@@ -67,7 +67,7 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>/en/categoria/tutorial/</guid>
-        <description>&lt;img src="/en/categoria/tutorial/tutorial.png" alt="Featured image of post Tutorial" /&gt;</description>
+        <description>&lt;img src="/categoria/tutorial/tutorial.png" alt="Featured image of post Tutorial" /&gt;</description>
         </item>
         
     </channel>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Android on Cobalto.net</title>
+        <link>/tag/android/</link>
+        <description>Recent content in Android on Cobalto.net</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>pt-br</language>
+        <lastBuildDate>Sun, 21 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tag/android/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Como Instalar Aplicativos Android Fora da Play Store: Um Guia Simples e Seguro</title>
+        <link>/artigo/como-instalar-app-vpn-android/</link>
+        <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
+        
+        <guid>/artigo/como-instalar-app-vpn-android/</guid>
+        <description>&lt;img src="/artigo/como-instalar-app-vpn-android/android-apps-header.png" alt="Featured image of post Como Instalar Aplicativos Android Fora da Play Store: Um Guia Simples e Seguro" /&gt;&lt;h2 id=&#34;existe-vida-fora-da-play-store&#34;&gt;Existe vida fora da Play Store&lt;/h2&gt;
+&lt;p&gt;Você sabia que existem outras maneiras de instalar aplicativos no seu celular Android além da &lt;strong&gt;Play Store&lt;/strong&gt;?&lt;/p&gt;
+&lt;p&gt;Muitas vezes, alguns aplicativos não estão disponíveis na loja oficial do Google, como certos aplicativos de &lt;strong&gt;VPN&lt;/strong&gt;, mas isso não significa que você não possa usá-los.&lt;/p&gt;
+&lt;p&gt;Para isso, é necessário entender como funciona a instalação de aplicativos a partir de outras fontes, como arquivos &lt;strong&gt;APK&lt;/strong&gt; ou lojas alternativas.&lt;/p&gt;
+&lt;p&gt;Vamos explicar como fazer isso de forma segura e simples.&lt;/p&gt;
+&lt;h2 id=&#34;autorizando-a-instalação-direta-de-apks&#34;&gt;Autorizando a instalação direta de APKs&lt;/h2&gt;
+&lt;p&gt;Antes de começar a instalar aplicativos fora da &lt;strong&gt;Play Store&lt;/strong&gt;, você precisa autorizar seu celular a aceitar esses aplicativos.&lt;/p&gt;
+&lt;p&gt;Por padrão, o Android bloqueia a instalação de aplicativos de &lt;em&gt;fontes desconhecidas&lt;/em&gt; para proteger seu dispositivo. Mas é fácil liberar essa função:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;h3 id=&#34;android-8-ou-posterior&#34;&gt;Android 8 ou posterior&lt;/h3&gt;
+&lt;h4 id=&#34;dispositivos-samsung&#34;&gt;Dispositivos Samsung&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;No seu dispositivo, toque em &lt;strong&gt;Configurações &amp;gt; Aplicativos&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;No canto superior direito, toque em &lt;strong&gt;Vertical ellipsis&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Toque em &lt;strong&gt;Acesso especial &amp;gt; Instalar aplicativos desconhecidos&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Toque no navegador de onde você baixará o APK, como o &lt;strong&gt;Chrome&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Se solicitado, alterne para &lt;strong&gt;Permitir desta fonte&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;demais-fabricantes&#34;&gt;Demais Fabricantes&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;No seu dispositivo, vá para &lt;strong&gt;Configurações&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Toque em &lt;strong&gt;Aplicativos e notificações &amp;gt; Avançado&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Toque em &lt;strong&gt;Acesso especial ao aplicativo&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Toque em &lt;strong&gt;Instalar aplicativos desconhecidos&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Toque no navegador de onde você baixará o APK, como o &lt;strong&gt;Chrome&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Se solicitado, alterne para &lt;strong&gt;Permitir desta fonte&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Agora, você está pronto para instalar arquivos &lt;strong&gt;APK&lt;/strong&gt; diretamente no seu dispositivo.&lt;/p&gt;
+&lt;h2 id=&#34;obtendo-aplicações-pelo-apk-mirror&#34;&gt;Obtendo aplicações pelo APK Mirror&lt;/h2&gt;
+&lt;p&gt;Outra opção para baixar aplicativos fora da Play Store é utilizar o &lt;strong&gt;APK Mirror&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;O APK Mirror é um site confiável que hospeda uma ampla variedade de arquivos &lt;strong&gt;APK&lt;/strong&gt; de aplicativos populares.&lt;/p&gt;
+&lt;p&gt;Isso é útil quando você deseja obter uma versão específica de um aplicativo ou quando o aplicativo não está disponível na Play Store.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Para usar o APK Mirror:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Acesse o &lt;a class=&#34;link&#34; href=&#34;https://www.apkmirror.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;site oficial do APK Mirror&lt;/a&gt; no navegador do seu celular.&lt;/li&gt;
+&lt;li&gt;Pesquise pelo aplicativo que você deseja baixar.&lt;/li&gt;
+&lt;li&gt;Selecione a versão desejada e faça o download do arquivo APK.&lt;/li&gt;
+&lt;li&gt;Após o download, abra o arquivo APK e siga as instruções para instalar o aplicativo.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;utilizando-uma-loja-alternativa-f-droid&#34;&gt;Utilizando uma loja alternativa (F-Droid)&lt;/h2&gt;
+&lt;p&gt;Se você não quer procurar e baixar APKs manualmente, pode usar uma loja alternativa como o &lt;strong&gt;F-Droid&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;O &lt;strong&gt;F-Droid&lt;/strong&gt; é uma loja de aplicativos que oferece apenas aplicativos de código aberto, o que significa que eles são seguros e gratuitos.&lt;/p&gt;
+&lt;p&gt;No entanto, vale a pena notar que aplicativos proprietários não estarão disponíveis.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Para usar o F-Droid:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Acesse o &lt;a class=&#34;link&#34; href=&#34;https://f-droid.org/docs/Get_F-Droid/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;site oficial do F-Droid&lt;/a&gt; no navegador do seu celular.&lt;/li&gt;
+&lt;li&gt;Baixe o &lt;a class=&#34;link&#34; href=&#34;https://f-droid.org/F-Droid.apk&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;APK do F-Droid&lt;/a&gt; (link direto) diretamente do site.&lt;/li&gt;
+&lt;li&gt;Após o download, abra o arquivo e siga as instruções para instalar o aplicativo.&lt;/li&gt;
+&lt;li&gt;Com o F-Droid instalado, você pode navegar e baixar aplicativos com a mesma facilidade que na Play Store.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;aplicações-vpn&#34;&gt;Aplicações VPN&lt;/h2&gt;
+&lt;p&gt;Vamos imaginar que você esteja planejando uma viagem para outro país ou queira acessar conteúdo que não está disponível na sua região. Nesses casos, o uso de uma &lt;strong&gt;VPN (Rede Privada Virtual)&lt;/strong&gt; pode ser extremamente útil.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;VPNs&lt;/strong&gt; permitem que você navegue com mais segurança e acesse sites e serviços de outras partes do mundo.&lt;/p&gt;
+&lt;p&gt;Agora, se você não consegue baixar esses aplicativos diretamente da Play Store, isso não será mais um problema!&lt;/p&gt;
+&lt;p&gt;Assim como outros aplicativos interessantes que estão fora da loja oficial, como &lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/search?q=receitas&amp;amp;c=apps&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;apps de receitas&lt;/a&gt;, você pode instalar &lt;strong&gt;VPNs&lt;/strong&gt; de forma segura utilizando fontes alternativas.&lt;/p&gt;
+&lt;p&gt;A seguir, veja algumas opções populares de aplicativos de &lt;strong&gt;VPN&lt;/strong&gt; que você pode considerar:&lt;/p&gt;
+&lt;h3 id=&#34;proton-vpn-gratuito&#34;&gt;Proton VPN (Gratuito)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Proton VPN no &lt;a class=&#34;link&#34; href=&#34;https://github.com/ProtonVPN/android-app/releases&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Proton VPN no &lt;a class=&#34;link&#34; href=&#34;https://www.apkmirror.com/apk/proton-technologies-ag/protonvpn-secure-and-free-vpn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Apk Mirror&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Proton VPN no &lt;a class=&#34;link&#34; href=&#34;https://f-droid.org/en/packages/ch.protonvpn.android/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;F-Droid&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;express-vpn-pago&#34;&gt;Express VPN (Pago)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Diretamente do &lt;a class=&#34;link&#34; href=&#34;https://www.expressvpn.com/pt/latest/android&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;site do aplicativo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Express VPN no &lt;a class=&#34;link&#34; href=&#34;https://www.apkmirror.com/apk/expressvpn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Apk Mirror&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;nordvpn-pago&#34;&gt;NordVPN (Pago)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Diretamente do &lt;a class=&#34;link&#34; href=&#34;https://downloads77-android.nordcdn.com/apps/android/generic/nordvpn-sideload/latest/v2/NordVPN.apk?af_xp=custom&amp;amp;pid=nordvpn.com&amp;amp;c=sideload_v2&amp;amp;af_click_lookback=30d&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;site do aplicativo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;NordVPN no &lt;a class=&#34;link&#34; href=&#34;https://www.apkmirror.com/apk/nordvpn-apps/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Apk Mirror&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;surfshark-pago&#34;&gt;Surfshark (Pago)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Diretamente do &lt;a class=&#34;link&#34; href=&#34;https://downloads.surfshark.com/android/Surfshark.apk&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;site do aplicativo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Surfshark no &lt;a class=&#34;link&#34; href=&#34;https://www.apkmirror.com/apk/surfshark-b-v/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Apk Mirror&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

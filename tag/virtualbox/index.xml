@@ -13,10 +13,10 @@
         
         <guid>/artigo/resolvendo-erro-virtual-box-w10/</guid>
         <description>&lt;img src="/artigo/resolvendo-erro-virtual-box-w10/ms_xamarin.jpg" alt="Featured image of post Resolvendo o erro “VT-x is not available” do Virtual Box no Windows 10" /&gt;&lt;p&gt;Pra quem fica migrando pra lá e pra cá entre Hyper-V e Virtual box (se você já precisou usar o Docker e o Android Emulator na mesma máquina sabe do que estou falando) é muito comum dar aquele branco e esquecer que um não vive muito bem com o outro e acabar tendo que fazer uma reinicialização da máquina não programada porque esqueceu pra qual dos dois a máquina estava configurada (me disseram que isso é comum, nunca aconteceu comigo 🙄).&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;vtx-1.jpg&#34;
-         alt=&#34;Tira casaco, coloca casaco...&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Tira casaco, coloca casaco&amp;hellip;&lt;/p&gt;
-        &lt;/figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;/artigo/resolvendo-erro-virtual-box-w10/vtx-1.jpg&#34;
+    alt=&#34;Tira casaco, coloca casaco...&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Tira casaco, coloca casaco&amp;hellip;&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h4 id=&#34;mas-e-quando-isso-não-resolve&#34;&gt;Mas e quando isso não resolve?&lt;/h4&gt;
@@ -24,16 +24,16 @@
 &lt;h2 id=&#34;vt-x-is-not-available-verr_vmx_no_vmx&#34;&gt;“VT-x is not available (VERR_VMX_NO_VMX)”&lt;/h2&gt;
 &lt;p&gt;Mas se isso funcionava antes, o que raios pode estar acontecendo agora pra não funcionar? É verdade que se passou bastante tempo, várias atualizações do Windows 10 vieram, várias configurações foram alteradas pelos mais variados motivos, então ficou bem difícil encontrar um culpa de cabeça. Mas não estamos aqui para julgar, estamos aqui para achar culpados.&lt;/p&gt;
 &lt;p&gt;Então, conto de uma vez que o culpado é esse rapaz aqui:&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;vtx-2.png&#34;
-         alt=&#34;Central de Segurança &amp;gt; Isolamento de Núcleo&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Central de Segurança &amp;gt; Isolamento de Núcleo&lt;/p&gt;
-        &lt;/figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;/artigo/resolvendo-erro-virtual-box-w10/vtx-2.png&#34;
+    alt=&#34;Central de Segurança &amp;gt; Isolamento de Núcleo&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Central de Segurança &amp;gt; Isolamento de Núcleo&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;figure&gt;&lt;img src=&#34;vtx-3.png&#34;
-         alt=&#34;Integridade da Memória [ Ativado ]&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Integridade da Memória [ Ativado ]&lt;/p&gt;
-        &lt;/figcaption&gt;
+&lt;figure&gt;&lt;img src=&#34;/artigo/resolvendo-erro-virtual-box-w10/vtx-3.png&#34;
+    alt=&#34;Integridade da Memória [ Ativado ]&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Integridade da Memória [ Ativado ]&lt;/p&gt;
+    &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Basta tratá-lo como é feito com o Hyper-V e a virtualização do Virtual Box voltará ao normal como nunca deveria ter deixado de ser.&lt;/p&gt;

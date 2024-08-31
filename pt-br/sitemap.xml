@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2022-09-14T00:00:00+00:00</lastmod>
+    <lastmod>2023-05-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -13,6 +13,19 @@
                 rel="alternate"
                 hreflang="pt-br"
                 href="/"
+                />
+  </url><url>
+    <loc>/post/</loc>
+    <lastmod>2023-05-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="/post/"
                 />
   </url><url>
     <loc>/tag/apple-store/</loc>
@@ -35,9 +48,6 @@
     <lastmod>2022-09-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tag/macos/</loc>
-    <lastmod>2022-09-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/post/</loc>
     <lastmod>2022-09-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categoria/programacao/</loc>
@@ -106,6 +116,18 @@
   </url><url>
     <loc>/artigo/como-quase-queimei-a-casa-com-agua/</loc>
     <lastmod>2021-04-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/android/</loc>
+    <lastmod>2021-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/artigo/como-instalar-app-vpn-android/</loc>
+    <lastmod>2021-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/play-store/</loc>
+    <lastmod>2021-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/vpn/</loc>
+    <lastmod>2021-03-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tag/anime/</loc>
     <lastmod>2021-01-25T00:00:00+00:00</lastmod>
