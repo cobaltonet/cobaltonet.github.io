@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Desastre on Cobalto.net</title>
+		<link>https://cobalto.net/tag/desastre/</link>
+		<description>Recent content in Desastre on Cobalto.net</description>
+		<generator>Hugo</generator>
+		<language>pt-BR</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 03 Apr 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://cobalto.net/tag/desastre/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Depois que eles partiram: vivendo nas sombras</title>
+				<link>https://cobalto.net/artigo/after-they-left/</link>
+				<pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>https://cobalto.net/artigo/after-they-left/</guid>
+				<description>Eles vieram, fizeram o deles, e foram embora. Agora só restam os escombros, o silêncio, e as perguntas que não calam.</description>
+			</item>
+			<item>
+				<title>Enquanto Eles Permaneceram: O Mundo em Caos</title>
+				<link>https://cobalto.net/artigo/while-they-stayed/</link>
+				<pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
+				<guid>https://cobalto.net/artigo/while-they-stayed/</guid>
+				<description>Eles ficaram aqui por algumas horas, e o mundo não aguentou. Isso é como foi enquanto eles permaneceram.</description>
+			</item>
+	</channel>
+</rss>

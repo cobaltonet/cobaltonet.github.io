@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Robozao on Cobalto.net</title>
+		<link>https://cobalto.net/en/tag/robozao/</link>
+		<description>Recent content in Robozao on Cobalto.net</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Thu, 31 Dec 2020 00:00:00 -0300</lastBuildDate>
+		
+			<atom:link href="https://cobalto.net/en/tag/robozao/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Trailer: Evangelion: 3.0&#43;1.0 Thrice Upon a Time (2021)</title>
+				<link>https://cobalto.net/en/artigo/trailer-evangelion-3.0-1.0-thrice-upon-a-time-2021/</link>
+				<pubDate>Thu, 31 Dec 2020 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/en/artigo/trailer-evangelion-3.0-1.0-thrice-upon-a-time-2021/</guid>
+				<description>No panic, but it seems to be really happening.</description>
+			</item>
+	</channel>
+</rss>

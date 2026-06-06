@@ -1,240 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Programação on Cobalto.net</title>
-        <link>/categoria/programacao/</link>
-        <description>Recent content in Programação on Cobalto.net</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>pt-br</language>
-        <lastBuildDate>Wed, 14 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="/categoria/programacao/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Instalação do Xcode travada no status Instalando</title>
-        <link>/artigo/instalacao-travada-xcode-apple-store/</link>
-        <pubDate>Wed, 14 Sep 2022 00:00:00 +0000</pubDate>
-        
-        <guid>/artigo/instalacao-travada-xcode-apple-store/</guid>
-        <description>&lt;img src="/artigo/instalacao-travada-xcode-apple-store/xcode-hero.png" alt="Featured image of post Instalação do Xcode travada no status Instalando" /&gt;&lt;p&gt;Ok, Macbook novo, tudo muito bonito, tudo muito legal, começamos a instalar tudo que precisamos depois do browser e dos aplicativos de comunicação (Oi, WhatsApp Desktop, vi que você ainda está rodando no Rosetta 2, tá tudo bem?).&lt;/p&gt;
-&lt;p&gt;Para quem desenvolve e migrou para um computador da Apple nada mais normal do que instalar o Xcode nem que seja somente para experimentar, no meu caso o Visual Studio me obrigou a instalá-lo de forma bem-educada (dando mensagem de erro, etc).&lt;/p&gt;
-&lt;p&gt;Acessamos o link da Apple Store tranquilamente, solicitamos a instalação, aguardamos o download dos 12GB de arquivos necessários, começa a fase de instalação… e fica nisso.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/artigo/instalacao-travada-xcode-apple-store/xcode-instalacao-apple-store.png&#34;
-	width=&#34;1215&#34;
-	height=&#34;838&#34;
-	srcset=&#34;/artigo/instalacao-travada-xcode-apple-store/xcode-instalacao-apple-store_hu6422177164519794349.png 480w, /artigo/instalacao-travada-xcode-apple-store/xcode-instalacao-apple-store_hu1036806157228676716.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Está instalando, parece&amp;hellip;&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;144&#34;
-		data-flex-basis=&#34;347px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;Ok, a Apple Store diz que está instalando, o Launchpad diz que esta instalando, o Activity Monitor diz que ALGO esta sendo feito nos cores de eficiência (os cores de performance dormem na total serenidade de quem sabe que não está sendo necessário), e ai, Apple? Just works?&lt;/p&gt;
-&lt;p&gt;Veja bem, eu tenho uma internet rápida, rápida o suficiente para recentemente eu ter baixado ISO de linux por mero capricho (PORQUE EU POSSO), 12GB é um tamanho desgraçado de grande, mas não é &amp;ldquo;eu não faço ideia se está fazendo download&amp;rdquo; de grande. Alguma coisa aqui está errada que não está certa.&lt;/p&gt;
-&lt;p&gt;Inicialmente até cogitei que realmente algo tivesse travado, o Windows entrar em alguma &lt;em&gt;race condition&lt;/em&gt; durante atualizações não é algo completamente anormal, e fiz o que qualquer usuário do sistema das janelas faria: Reinicie o Mac. nada, nenhuma alteração.&lt;/p&gt;
-&lt;p&gt;Eu poderia deixar o mac tomando conta da vida dele e seguir com a minha, eventualmente aquela instalação em teoria iria terminar, mas eu tinha outros planos e esses planos envolviam algo que estava reclamando diretamente comigo da falta da instalação desse programa.&lt;/p&gt;
-&lt;p&gt;Como tudo no Mac, problemas não existem e se você está tendo algum, boa sorte procurando as outras 3 pessoas nos últimos 3 anos que passaram pela mesma situação. Pois bem, aceitemos nosso destino e vamos ao Google tentar extrair alguma informação útil.&lt;/p&gt;
-&lt;p&gt;Muito trabalho de pesquisa e investigação facilitados por anos de trabalho com programação (a gente aprende a buscar de tudo no Stackoverflow, desculpa) eu descubro que, e não estou fazendo piadinha aqui, em momento algum houve qualquer bug e que tudo estava funcionando como deveria, onde &amp;ldquo;deveria&amp;rdquo; apesar de questionável não configura um defeito &lt;em&gt;per se&lt;/em&gt;, e tudo não passou de uma interface muito porcamente desenvolvida.&lt;/p&gt;
-&lt;p&gt;Mas não acredite cegamente no que eu estou dizendo, a seguir seguem os passos para você acompanhar a instalação considerando o sistema em inglês, selecione a opção correspondente pro seu idioma (desculpa, sou novo aqui, não conheço as traduções oficiais):&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Mantenha a janela da Apple Store aberta na instalação do XCode&lt;/li&gt;
-&lt;li&gt;Abra o &amp;ldquo;Console&amp;rdquo; dentro de &amp;ldquo;System tools&amp;rdquo; (Launchpad -&amp;gt; System Tools -&amp;gt; Console)&lt;/li&gt;
-&lt;li&gt;Na barra de busca procure por &amp;ldquo;App store&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;Clique no botão &amp;ldquo;Start&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;Irão começar a ser exibidas linhas de log correspondentes à App store&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Nesse ponto você pode selecionar uma linha para ver o log completo. Na imagem abaixo é possível ver que no meu caso se encontrava em &amp;ldquo;&amp;hellip; Completed: 824 of 1000&amp;rdquo; na linha selecionada, as demais linhas contendo valores incrementais ou decrementais conforme a linha selecionada.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/artigo/instalacao-travada-xcode-apple-store/xcode-log-console-instalacao.png&#34;
-	width=&#34;1439&#34;
-	height=&#34;1307&#34;
-	srcset=&#34;/artigo/instalacao-travada-xcode-apple-store/xcode-log-console-instalacao_hu15635852311782212864.png 480w, /artigo/instalacao-travada-xcode-apple-store/xcode-log-console-instalacao_hu17345417786384122819.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Está, definitivamente, instalando!&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;110&#34;
-		data-flex-basis=&#34;264px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;Como pode ser visto na imagem acima, o XCode esteve o tempo todo sendo baixado/instalado corretamente e tudo não se passou de dois detalhes em particular que podemos sim botar na conta da Apple:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;A interface não faz nenhum esforço para informar que está de fato responsiva e não travada em uma animação.&lt;/li&gt;
-&lt;li&gt;Por algum motivo downloads são anormalmente lentos na Apple Store, sobre isso encontrei mais de uma fonte de reclamação e parece ser algo &amp;ldquo;normal&amp;rdquo; (leia: a Apple não pretende fazer nada quanto a isso)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Com a consciência limpa aguardei educadamente, sem xingar nenhum funcionário da Apple, até o fim do download/instalação e tudo prosseguiu conforme o esperado e sem novos problemas.&lt;/p&gt;
-&lt;p&gt;Com ajuda: &lt;a class=&#34;link&#34; href=&#34;https://stackoverflow.com/questions/67900692/latest-version-of-xcode-stuck-on-installation-12-5&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Latest version of Xcode stuck on installation - Stack Overflow&lt;/a&gt; (conteúdo em inglês)&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Executando testes antes de um Commit</title>
-        <link>/artigo/executando-testes-antes-commit/</link>
-        <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
-        
-        <guid>/artigo/executando-testes-antes-commit/</guid>
-        <description>&lt;img src="/artigo/executando-testes-antes-commit/git_header.jpg" alt="Featured image of post Executando testes antes de um Commit" /&gt;&lt;p&gt;Esquecer de atualizar testes é sempre um problema, perceber que eles quebraram só quando as git actions reclamam durante um PR é ainda pior 😅&lt;/p&gt;
-&lt;p&gt;A melhor forma de evitar que isso aconteça é agir &lt;em&gt;&lt;strong&gt;preemptivamente&lt;/strong&gt;&lt;/em&gt; e executarmos os testes sempre que formos fazer um commit, mas confiar na memória e no Visual Studio (been there, done that) não é 100% seguro, portanto precisamos automatizar.&lt;/p&gt;
-&lt;h2 id=&#34;entram-em-cena-os-git-hooks&#34;&gt;Entram em cena os git hooks&lt;/h2&gt;
-
-  &lt;img src=&#34;git_hooks_windows.png&#34;  alt=&#34;hooks iniciais&#34;  class=&#34;left&#34;  style=&#34;float: right; margin-left: 15px;&#34;  /&gt;
-
-
-&lt;p&gt;O git possui uma feature chamada hooks que permite a execução de tarefas automatizadas baseadas em scripts em determinados momentos durante o fluxo de trabalho no git, esses scripts se encontram em &lt;code&gt;.git\hooks\&lt;/code&gt; dentro da pasta de cada repositório (exemplo: &lt;code&gt;C:\repos\core\.git\hooks&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Esta pasta inicialmente irá conter um conjunto de hooks de exemplo, todos nomeados com &lt;code&gt;.sample&lt;/code&gt; ao fim do nome do arquivo. Para utilizar um hook, remova o &lt;code&gt;.sample&lt;/code&gt; do nome do arquivo, ele deverá ficar &lt;strong&gt;sem&lt;/strong&gt; extensão, e altere seu conteúdo.&lt;/p&gt;
-&lt;p&gt;Para criarmos um hook que seja executado antes de cada commit (local), vamos remover o &lt;code&gt;.sample&lt;/code&gt; do arquivo &lt;code&gt;pre-commit.sample&lt;/code&gt; e em seguida editar seu conteúdo.&lt;/p&gt;
-&lt;p&gt;Para executarmos testes, vamos utilizar o comando: &lt;code&gt;dotnet test &amp;quot;caminho do projeto&amp;quot;&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Cada hook é composto por um script escrito em qualquer linguagem, framework ou ferramenta que seja executável no computador disparando o trigger em questão. O ponto importante a se lembrar é que um hook espera uma saída &lt;code&gt;0 (zero)&lt;/code&gt; para sucesso e qualquer outro valor para falha.&lt;/p&gt;
-&lt;p&gt;Então, de forma bem simples, temos o seguinte script:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# !/bin/sh&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Running tests before commit...&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;exec&lt;/span&gt; dotnet &lt;span class=&#34;nb&#34;&gt;test&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;./CobaltoCore/Cobalto.Core.Tests/Cobalto.Core.Tests.csproj&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;No script acima o comando &lt;code&gt;exec dotnet test (...)&lt;/code&gt; executa os testes do projeto &lt;code&gt;Cobalto.Core.Tests.csproj&lt;/code&gt; e retorna 0 em caso de sucesso e 1 em caso de erro, exatamente como o git hook espera e portanto nenhuma outra validação é necessária.&lt;/p&gt;
-&lt;p&gt;Arquivo salvo, ao tentar executar um commit o esperado é que o mesmo ocorra normalmente com a única diferença sendo o tempo levado para o comando executar, afinal agora todos os testes irão rodar em background antes do commit ser de fato executado.&lt;/p&gt;
-&lt;p&gt;Caso algum teste falhe o retorno será negativo e com isso o commit nunca é executado.
-Mas não se preocupe, você receberá uma mensagem ao fim da operação no terminal.&lt;/p&gt;
-&lt;h3 id=&#34;mas-e-no-visual-studio-porque-eu-não-sei-usar-o-terminal-&#34;&gt;Mas e no Visual Studio? (porque eu não sei usar o terminal 🤡)&lt;/h3&gt;
-&lt;p&gt;O git hook é uma feature do git, portanto ele vai ser executado antes do commit da mesma forma quando chamado pelo Visual Studio.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Até o momento que escrevo esse tutorial realmente falta uma mensagem minimamente informativa no Visual Studio &lt;em&gt;(ele irá exibir apenas um erro caso algum teste falhe)&lt;/em&gt;, vou verificar se isso pode ser resolvido e atualizo essa página com os resultados. É que eu uso o terminal 😅&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Pronto, seus commits agora requerem sucesso em todos os testes para serem processados.&lt;/p&gt;
-&lt;p&gt;Lembrando: Tudo descrito aqui é referente ao repositório local assim como a execução dos testes, isso não substitui nem burla as validações de qualidade configuradas no seu repositório remoto 🐙🐱&lt;/p&gt;
-&lt;h3 id=&#34;não-esqueça-de-alterar-o-caminho-do-projeto-de-testes&#34;&gt;Não esqueça de alterar o caminho do projeto de testes.&lt;/h3&gt;
-&lt;p&gt;Lembre que o script aceita qualquer comando válido, então você pode estender para vários projetos de testes e virtualmente qualquer outro processo antes da execução do commit.&lt;/p&gt;
-&lt;h2 id=&#34;one-more-thing&#34;&gt;One more thing!&lt;/h2&gt;
-&lt;p&gt;Você lembra como se desfaz commits locais? Pois é, nem eu. (spoiler: &lt;code&gt;git reset HEAD^&lt;/code&gt;)&lt;/p&gt;
-&lt;p&gt;Eu sempre acabo tendo que procurar na internet esse comando chato quando por acidente 👀 acabo commitando aquele &lt;code&gt;appsettings.json&lt;/code&gt; ou qualquer outra alteração feita exclusivamente para testes locais.&lt;/p&gt;
-&lt;p&gt;Pra isso eu criei um alias chamado &lt;code&gt;uncommit&lt;/code&gt; que funciona da seguinte forma:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# !/bin/sh&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git uncommit
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Sim, é só isso.&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;Para definir o alias &lt;code&gt;uncommit&lt;/code&gt; você pode seguir de duas formas:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Executando diretamente no terminal&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# !/bin/sh&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config --global alias.uncommit &lt;span class=&#34;s2&#34;&gt;&amp;#34;reset HEAD^&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;Editando o arquivo .gitconfig do seu usuário e adicionado um alias&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# .gitconfig&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;user&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nv&#34;&gt;name&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; Daniel Cobalto
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nv&#34;&gt;email&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; cobalto@users.noreply.github.com
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;alias&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nv&#34;&gt;uncommit&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; reset HEAD^
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;Agora você pode &lt;code&gt;uncommitar&lt;/code&gt; seus commits com um comando simples e fácil de lembrar.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Disclaimer: Esse texto foi escrito originalmente para a documentação interna que mantemos na empresa em que trabalho, mas como não existe nada sigiloso nele estou compartilhando aqui também 😊&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        </item>
-        <item>
-        <title>Resolvendo o erro “VT-x is not available” do Virtual Box no Windows 10</title>
-        <link>/artigo/resolvendo-erro-virtual-box-w10/</link>
-        <pubDate>Sun, 23 Sep 2018 00:00:00 +0000</pubDate>
-        
-        <guid>/artigo/resolvendo-erro-virtual-box-w10/</guid>
-        <description>&lt;img src="/artigo/resolvendo-erro-virtual-box-w10/ms_xamarin.jpg" alt="Featured image of post Resolvendo o erro “VT-x is not available” do Virtual Box no Windows 10" /&gt;&lt;p&gt;Pra quem fica migrando pra lá e pra cá entre Hyper-V e Virtual box (se você já precisou usar o Docker e o Android Emulator na mesma máquina sabe do que estou falando) é muito comum dar aquele branco e esquecer que um não vive muito bem com o outro e acabar tendo que fazer uma reinicialização da máquina não programada porque esqueceu pra qual dos dois a máquina estava configurada (me disseram que isso é comum, nunca aconteceu comigo 🙄).&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;/artigo/resolvendo-erro-virtual-box-w10/vtx-1.jpg&#34;
-    alt=&#34;Tira casaco, coloca casaco...&#34;&gt;&lt;figcaption&gt;
-      &lt;p&gt;Tira casaco, coloca casaco&amp;hellip;&lt;/p&gt;
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h4 id=&#34;mas-e-quando-isso-não-resolve&#34;&gt;Mas e quando isso não resolve?&lt;/h4&gt;
-&lt;p&gt;Depois de um bom tempo mantendo sempre o Hyper-V configurado e usando até minhas máquinas virtuais linux nele, resolvi fazer uns testes no virtual box e eis que para minha surpresa o procedimento não resolveu meu problema e toda vez que tentava ativar a máquina virtual no Virtual Box era apresentado o seguinte erro:&lt;/p&gt;
-&lt;h2 id=&#34;vt-x-is-not-available-verr_vmx_no_vmx&#34;&gt;“VT-x is not available (VERR_VMX_NO_VMX)”&lt;/h2&gt;
-&lt;p&gt;Mas se isso funcionava antes, o que raios pode estar acontecendo agora pra não funcionar? É verdade que se passou bastante tempo, várias atualizações do Windows 10 vieram, várias configurações foram alteradas pelos mais variados motivos, então ficou bem difícil encontrar um culpa de cabeça. Mas não estamos aqui para julgar, estamos aqui para achar culpados.&lt;/p&gt;
-&lt;p&gt;Então, conto de uma vez que o culpado é esse rapaz aqui:&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;/artigo/resolvendo-erro-virtual-box-w10/vtx-2.png&#34;
-    alt=&#34;Central de Segurança &amp;gt; Isolamento de Núcleo&#34;&gt;&lt;figcaption&gt;
-      &lt;p&gt;Central de Segurança &amp;gt; Isolamento de Núcleo&lt;/p&gt;
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;figure&gt;&lt;img src=&#34;/artigo/resolvendo-erro-virtual-box-w10/vtx-3.png&#34;
-    alt=&#34;Integridade da Memória [ Ativado ]&#34;&gt;&lt;figcaption&gt;
-      &lt;p&gt;Integridade da Memória [ Ativado ]&lt;/p&gt;
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Basta tratá-lo como é feito com o Hyper-V e a virtualização do Virtual Box voltará ao normal como nunca deveria ter deixado de ser.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>App Xamarin Forms fecha assim que é iniciado no Visual Studio Emulator, o que fazer?</title>
-        <link>/artigo/app-xamarin-forms-fecha-iniciado/</link>
-        <pubDate>Sat, 11 Feb 2017 00:00:00 +0000</pubDate>
-        
-        <guid>/artigo/app-xamarin-forms-fecha-iniciado/</guid>
-        <description>&lt;img src="/artigo/app-xamarin-forms-fecha-iniciado/ms_xamarin.jpg" alt="Featured image of post App Xamarin Forms fecha assim que é iniciado no Visual Studio Emulator, o que fazer?" /&gt;&lt;p&gt;Ao tentar debugar o app no emulador, logo após o fim do processo de rebuild o Visual Studio iniciava o processo no emulador, mas antes de aparecer qualquer coisa na tela o aplicativo era encerrado e o Visual Studio não informava nenhum tipo de erro. Ao tentar fazer o deploy, ele era feito corretamente porém o aplicativo instalado no Emulador travava e era exibida a tela de erro da aplicação padrão do Android.&lt;/p&gt;
-&lt;p&gt;Como resolver? Simples (mas não tão óbvio).&lt;/p&gt;
-&lt;p&gt;Primeiramente encerre a máquina virtual de forma normal.
-Abra o gerenciador do Hyper-V (basta digitar Hyper-V na busca).
-Encontre a máquina virtual que estava sendo utilizada.
-Com o botão direito selecione Propriedades (Fig.1).&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;/artigo/app-xamarin-forms-fecha-iniciado/hypper_v_1.jpg&#34;
-    alt=&#34;Fig.1&#34;&gt;&lt;figcaption&gt;
-      &lt;p&gt;Fig.1&lt;/p&gt;
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;No menu lateral, abra a árvore do item Processador.
-Selecione o item Compatibilidade.
-Marque a caixa “Migrar para um computador físico com versão diferente de processador” (Fig.2) que estará desmarcarda.&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;/artigo/app-xamarin-forms-fecha-iniciado/hypper_v_2.jpg&#34;
-    alt=&#34;Fig.2&#34;&gt;&lt;figcaption&gt;
-      &lt;p&gt;Fig.2&lt;/p&gt;
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Confirme e feche todas as janelas do Hyper-V.
-Volte ao Visual Studio e tente rodar o projeto novamente.&lt;/p&gt;
-&lt;p&gt;Isso deve resolver o problema.
-Funcionou comigo.&lt;/p&gt;
-</description>
-        </item>
-        
-    </channel>
+	<channel>
+		<title>Programacao on Cobalto.net</title>
+		<link>https://cobalto.net/categoria/programacao/</link>
+		<description>Recent content in Programacao on Cobalto.net</description>
+		<generator>Hugo</generator>
+		<language>pt-BR</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 14 Sep 2022 00:00:00 -0300</lastBuildDate>
+		
+			<atom:link href="https://cobalto.net/categoria/programacao/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Instalação do Xcode travada no status Instalando</title>
+				<link>https://cobalto.net/artigo/instala%C3%A7%C3%A3o-do-xcode-travada-no-status-instalando/</link>
+				<pubDate>Wed, 14 Sep 2022 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/artigo/instala%C3%A7%C3%A3o-do-xcode-travada-no-status-instalando/</guid>
+				<description>It just works, quer dizer, nem sempre.</description>
+			</item>
+			<item>
+				<title>Executando testes antes de um Commit</title>
+				<link>https://cobalto.net/artigo/executando-testes-antes-de-um-commit/</link>
+				<pubDate>Thu, 19 Nov 2020 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/artigo/executando-testes-antes-de-um-commit/</guid>
+				<description>&lt;p&gt;Esquecer de atualizar testes é sempre um problema, perceber que eles quebraram só quando as git actions reclamam durante um PR é ainda pior 😅&lt;/p&gt;&#xA;&lt;p&gt;A melhor forma de evitar que isso aconteça é agir &lt;em&gt;&lt;strong&gt;preemptivamente&lt;/strong&gt;&lt;/em&gt; e executarmos os testes sempre que formos fazer um commit, mas confiar na memória e no Visual Studio (been there, done that) não é 100% seguro, portanto precisamos automatizar.&lt;/p&gt;&#xA;&lt;h2 id=&#34;entram-em-cena-os-git-hooks&#34;&gt;Entram em cena os git hooks&lt;a href=&#34;#entram-em-cena-os-git-hooks&#34; class=&#34;heading-anchor&#34; aria-label=&#34;Link para esta seção&#34;&gt;&lt;svg class=&#34;h-4 w-4&#34; aria-hidden=&#34;true&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;g fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34;/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&#xA;&lt;figure&#xA;  class=&#34;image-figure not-prose my-8&#34;&#xA;  data-lightbox-enabled=&#34;&#xA;    true&#xA;  &#34;&#xA;  data-gallery-type=&#34;auto&#34;&#xA;  data-image-width=&#34;224&#34;&#xA;  data-image-height=&#34;300&#34;&#xA;  data-image-src=&#34;https://cobalto.net/artigo/executando-testes-antes-de-um-commit/git_hooks_windows.png&#34;&#xA;&gt;&#xA;  &lt;div class=&#34;image-container&#34;&gt;&#xA;    &lt;img&#xA;    src=&#34;https://cobalto.net/artigo/executando-testes-antes-de-um-commit/git_hooks_windows.png&#34;&#xA;    alt=&#34;hooks iniciais&#34;&#xA;    title=&#34;hooks iniciais&#34;&#xA;    &#xA;      &#xA;      &#xA;        &#xA;          width=&#34;224&#34; height=&#34;300&#34;&#xA;        &#xA;      &#xA;    &#xA;    loading=&#34;lazy&#34;&#xA;    decoding=&#34;async&#34;&#xA;    data-gallery-src=&#34;https://cobalto.net/artigo/executando-testes-antes-de-um-commit/git_hooks_windows.png&#34;&#xA;    data-gallery-alt=&#34;hooks iniciais&#34;&#xA;    data-gallery-title=&#34;hooks iniciais&#34;&#xA;  /&gt;&lt;/div&gt;&#xA;&#xA;  &lt;figcaption class=&#34;image-caption&#34;&gt;&#xA;      hooks iniciais&#xA;    &lt;/figcaption&gt;&lt;/figure&gt;&#xA;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Resolvendo o erro “VT-x is not available” do Virtual Box no Windows 10</title>
+				<link>https://cobalto.net/artigo/resolvendo-o-erro-vt-x-is-not-available-do-virtual-box-no-windows-10/</link>
+				<pubDate>Sun, 23 Sep 2018 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/artigo/resolvendo-o-erro-vt-x-is-not-available-do-virtual-box-no-windows-10/</guid>
+				<description>&lt;p&gt;Pra quem fica migrando pra lá e pra cá entre Hyper-V e Virtual box (se você já precisou usar o Docker e o Android Emulator na mesma máquina sabe do que estou falando) é muito comum dar aquele branco e esquecer que um não vive muito bem com o outro e acabar tendo que fazer uma reinicialização da máquina não programada porque esqueceu pra qual dos dois a máquina estava configurada (me disseram que isso é comum, nunca aconteceu comigo 🙄).&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>App Xamarin Forms fecha assim que é iniciado no Visual Studio Emulator, o que fazer?</title>
+				<link>https://cobalto.net/artigo/app-xamarin-forms-fecha-assim-que-%C3%A9-iniciado-no-visual-studio-emulator-o-que-fazer/</link>
+				<pubDate>Sat, 11 Feb 2017 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/artigo/app-xamarin-forms-fecha-assim-que-%C3%A9-iniciado-no-visual-studio-emulator-o-que-fazer/</guid>
+				<description>Continuando a #MaratonaXamarin, encontrei um novo problema ao tentar debugar meu app em Xarmarin Forms no emulador Android do Visual Studio.</description>
+			</item>
+	</channel>
 </rss>

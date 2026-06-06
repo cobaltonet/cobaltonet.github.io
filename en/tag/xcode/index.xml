@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>XCode on Cobalto.net</title>
+		<link>https://cobalto.net/en/tag/xcode/</link>
+		<description>Recent content in XCode on Cobalto.net</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 14 Sep 2022 00:00:00 -0300</lastBuildDate>
+		
+			<atom:link href="https://cobalto.net/en/tag/xcode/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Xcode installation stuck on Installing status</title>
+				<link>https://cobalto.net/en/artigo/xcode-installation-stuck-on-installing-status/</link>
+				<pubDate>Wed, 14 Sep 2022 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/en/artigo/xcode-installation-stuck-on-installing-status/</guid>
+				<description>It just works, well, not always.</description>
+			</item>
+	</channel>
+</rss>

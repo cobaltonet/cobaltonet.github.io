@@ -1,36 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Coronga on Cobalto.net</title>
-        <link>/tag/coronga/</link>
-        <description>Recent content in Coronga on Cobalto.net</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>pt-br</language>
-        <lastBuildDate>Mon, 28 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tag/coronga/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Uma breve história sobre tudo isso que vem acontecendo em todo lugar</title>
-        <link>/artigo/uma-breve-historia-sobre-tudo-isso-que-vem-acontecendo/</link>
-        <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
-        
-        <guid>/artigo/uma-breve-historia-sobre-tudo-isso-que-vem-acontecendo/</guid>
-        <description>&lt;img src="/artigo/uma-breve-historia-sobre-tudo-isso-que-vem-acontecendo/timelapse.png" alt="Featured image of post Uma breve história sobre tudo isso que vem acontecendo em todo lugar" /&gt;&lt;p&gt;Os últimos três anos foram repletos de mudanças. Obviamente, os dois primeiros não chegam aos pés deste último se formos pensar em números absolutos, mas se formos pensar por total de pessoas afetadas, pobres 2018 e 2019, seriam completamente massacrados por esse ano de 2020 que espalhou mudanças feito uma pandemia 👀&lt;/p&gt;
-&lt;p&gt;O que de forma algum tira o mérito de 2018 e 2019, principalmente porque o principal (e virtualmente único) afetado nas mudanças ocorridas neles foi uma pessoa que eu considero bem importante (spoiler: eu).&lt;/p&gt;
-&lt;p&gt;Mas veja bem, eu estou até hoje (Vinte e Nove de DEZEMBRO de DOIS MIL E VINTE) enrolando para escrever sobre os dois ultimos anos anteriores, seria inocente achar que eu conseguiria motivação, força de vontade e capacidade (vide subtitulo do blog, logo abaixo do &lt;em&gt;power ranger&lt;/em&gt; de terninho) para escreve-los assim de supetação agora, com a corda no pescoço, apenas para evitar a entrada em mais um ano aumentando a vergonha do atraso.&lt;/p&gt;
-&lt;p&gt;Repito: Seria infantil achar isso 🙄&lt;/p&gt;
-&lt;p&gt;Esse post vem cumprir duas funções:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Firmar o compromisso de que eu ainda vou SIM escrever um post sobre 2018 e 2019 caso eu consiga sobreviver até o tal inicio de 2021 (uns dizem que depois de 31/12/2020 entraremos em 01/13/2020 e assim por diante).&lt;/li&gt;
-&lt;li&gt;Demonstrar que até o presente momento eu ainda estou vivo, o que se tornou algo de muito mais mérito esse ano do que nos anteriores.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Mas que fique &lt;em&gt;a nível de&lt;/em&gt; (sic) relato alguns spoilers:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Eu mudei meu estilo de vida de forma brusca (e emagreci muito)&lt;/li&gt;
-&lt;li&gt;Eu mudei de emprego duas vezes&lt;/li&gt;
-&lt;li&gt;Eu mudei de Estado (não, não foi do sólido pro líquido ou gasoso, ba-dum-tss)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(Eu falei que a pessoa mais importante dos meus relatos de 2018 e 2019 era um cara importante, né?)&lt;/p&gt;
-&lt;p&gt;Então aguardem, eles aparecem por aqui em breve caso eu não morra antes (essa frase não soa tão engraçada durante uma pandemia e ela já nem era tão engraçada assim antes, mas piorou)&lt;/p&gt;
-</description>
-        </item>
-        
-    </channel>
+	<channel>
+		<title>Coronga on Cobalto.net</title>
+		<link>https://cobalto.net/tag/coronga/</link>
+		<description>Recent content in Coronga on Cobalto.net</description>
+		<generator>Hugo</generator>
+		<language>pt-BR</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 28 Dec 2020 00:00:00 -0300</lastBuildDate>
+		
+			<atom:link href="https://cobalto.net/tag/coronga/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Uma breve história sobre tudo isso que vem acontecendo em todo lugar</title>
+				<link>https://cobalto.net/artigo/uma-breve-hist%C3%B3ria-sobre-tudo-isso-que-vem-acontecendo-em-todo-lugar/</link>
+				<pubDate>Mon, 28 Dec 2020 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/artigo/uma-breve-hist%C3%B3ria-sobre-tudo-isso-que-vem-acontecendo-em-todo-lugar/</guid>
+				<description>50 anos em 3 ou talvez até mais. Mas não é só de pandemia que vivem as mudanças. Mas vamos com calma&amp;hellip;</description>
+			</item>
+	</channel>
 </rss>

@@ -1,10 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Meta on Cobalto.net</title>
-        <link>/en/categoria/meta/</link>
-        <description>Recent content in Meta on Cobalto.net</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>en</language><atom:link href="/en/categoria/meta/index.xml" rel="self" type="application/rss+xml" />
-    </channel>
+	<channel>
+		<title>Meta on Cobalto.net</title>
+		<link>https://cobalto.net/en/categoria/meta/</link>
+		<description>Recent content in Meta on Cobalto.net</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 28 Dec 2020 00:00:00 -0300</lastBuildDate>
+		
+			<atom:link href="https://cobalto.net/en/categoria/meta/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>A brief history about all this that&#39;s happening everywhere</title>
+				<link>https://cobalto.net/en/artigo/a-brief-history-about-all-this-thats-happening-everywhere/</link>
+				<pubDate>Mon, 28 Dec 2020 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/en/artigo/a-brief-history-about-all-this-thats-happening-everywhere/</guid>
+				<description>50 years in 3 or maybe even more. But it&amp;rsquo;s not just the pandemic that brings changes. But let&amp;rsquo;s take it easy&amp;hellip;</description>
+			</item>
+			<item>
+				<title>Hello world, again.</title>
+				<link>https://cobalto.net/en/artigo/hello-world-again./</link>
+				<pubDate>Fri, 21 Dec 2018 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/en/artigo/hello-world-again./</guid>
+				<description>Another re-introduction post that will age extremely badly, want to bet?</description>
+			</item>
+			<item>
+				<title>Let&#39;s write? Come on! But about what (exactly)?</title>
+				<link>https://cobalto.net/en/artigo/lets-write-come-on-but-about-what-exactly/</link>
+				<pubDate>Fri, 21 Oct 2016 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/en/artigo/lets-write-come-on-but-about-what-exactly/</guid>
+				<description>&lt;p&gt;And so it is, or more or less, in this situation that every time I think about writing and then it stays like that, each one in their corner (me in my corner and the blog abandoned, in this case) and nobody enters this subject. Paraphrasing Aécio Neves, and he said this a lot during the elections, &amp;ldquo;unfortunately the truth is this&amp;rdquo;, I don&amp;rsquo;t have anything left to write.&lt;/p&gt;&#xA;&lt;p&gt;I no longer have the patience to try to be funny with everything, time gave me too much shame to talk nonsense just for the sake of talking and this dries up the source of inspiration for postings like the Cantareira reservoir is now.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Hello World</title>
+				<link>https://cobalto.net/en/artigo/hello-world/</link>
+				<pubDate>Sun, 16 Oct 2016 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/en/artigo/hello-world/</guid>
+				<description>And here we go again.</description>
+			</item>
+	</channel>
 </rss>

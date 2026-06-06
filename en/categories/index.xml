@@ -1,74 +1,87 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Categories on Cobalto.net</title>
-        <link>/en/categories/</link>
-        <description>Recent content in Categories on Cobalto.net</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>en</language><atom:link href="/en/categories/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Formula 1</title>
-        <link>/en/categoria/formula1/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>/en/categoria/formula1/</guid>
-        <description>&lt;img src="/categoria/formula1/formula1.png" alt="Featured image of post Formula 1" /&gt;</description>
-        </item>
-        <item>
-        <title>Meta</title>
-        <link>/en/categoria/meta/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>/en/categoria/meta/</guid>
-        <description>&lt;img src="/categoria/meta/meta.png" alt="Featured image of post Meta" /&gt;</description>
-        </item>
-        <item>
-        <title>Otaku</title>
-        <link>/en/categoria/otaku/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>/en/categoria/otaku/</guid>
-        <description>&lt;img src="/categoria/otaku/otaku.png" alt="Featured image of post Otaku" /&gt;</description>
-        </item>
-        <item>
-        <title>Personal</title>
-        <link>/en/categoria/personal/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>/en/categoria/personal/</guid>
-        <description>&lt;img src="/categoria/pessoal/pessoal.png" alt="Featured image of post Personal" /&gt;</description>
-        </item>
-        <item>
-        <title>Programming</title>
-        <link>/en/categoria/programming/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>/en/categoria/programming/</guid>
-        <description>&lt;img src="/categoria/programacao/programacao.png" alt="Featured image of post Programming" /&gt;</description>
-        </item>
-        <item>
-        <title>Review</title>
-        <link>/en/categoria/review/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>/en/categoria/review/</guid>
-        <description>&lt;img src="/categoria/review/review.png" alt="Featured image of post Review" /&gt;</description>
-        </item>
-        <item>
-        <title>Tokusatsu</title>
-        <link>/en/categoria/tokusatsu/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>/en/categoria/tokusatsu/</guid>
-        <description>&lt;img src="/categoria/tokusatsu/tokusatsu.png" alt="Featured image of post Tokusatsu" /&gt;</description>
-        </item>
-        <item>
-        <title>Tutorial</title>
-        <link>/en/categoria/tutorial/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>/en/categoria/tutorial/</guid>
-        <description>&lt;img src="/categoria/tutorial/tutorial.png" alt="Featured image of post Tutorial" /&gt;</description>
-        </item>
-        
-    </channel>
+	<channel>
+		<title>Categories on Cobalto.net</title>
+		<link>https://cobalto.net/en/categories/</link>
+		<description>Recent content in Categories on Cobalto.net</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 05 Jun 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://cobalto.net/en/categories/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Humor</title>
+				<link>https://cobalto.net/en/categoria/humor/</link>
+				<pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>https://cobalto.net/en/categoria/humor/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Language</title>
+				<link>https://cobalto.net/en/categoria/language/</link>
+				<pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>https://cobalto.net/en/categoria/language/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Fiction</title>
+				<link>https://cobalto.net/en/categoria/fiction/</link>
+				<pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+				<guid>https://cobalto.net/en/categoria/fiction/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Programming</title>
+				<link>https://cobalto.net/en/categoria/programming/</link>
+				<pubDate>Wed, 14 Sep 2022 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/en/categoria/programming/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Tutorial</title>
+				<link>https://cobalto.net/en/categoria/tutorial/</link>
+				<pubDate>Wed, 14 Sep 2022 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/en/categoria/tutorial/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Personal</title>
+				<link>https://cobalto.net/en/categoria/personal/</link>
+				<pubDate>Fri, 09 Apr 2021 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/en/categoria/personal/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Otaku</title>
+				<link>https://cobalto.net/en/categoria/otaku/</link>
+				<pubDate>Mon, 25 Jan 2021 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/en/categoria/otaku/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Review</title>
+				<link>https://cobalto.net/en/categoria/review/</link>
+				<pubDate>Mon, 25 Jan 2021 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/en/categoria/review/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Meta</title>
+				<link>https://cobalto.net/en/categoria/meta/</link>
+				<pubDate>Mon, 28 Dec 2020 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/en/categoria/meta/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Formula 1</title>
+				<link>https://cobalto.net/en/categoria/formula-1/</link>
+				<pubDate>Tue, 19 Nov 2019 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/en/categoria/formula-1/</guid>
+				<description></description>
+			</item>
+	</channel>
 </rss>

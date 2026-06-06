@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Chegada on Cobalto.net</title>
+		<link>https://cobalto.net/tag/chegada/</link>
+		<description>Recent content in Chegada on Cobalto.net</description>
+		<generator>Hugo</generator>
+		<language>pt-BR</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://cobalto.net/tag/chegada/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>O Dia em que Eles Chegaram: O Relato de um Estranho</title>
+				<link>https://cobalto.net/artigo/the-day-they-came/</link>
+				<pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+				<guid>https://cobalto.net/artigo/the-day-they-came/</guid>
+				<description>Eles vieram do céu, e nada foi igual desde então. Isso é o que consegui juntar sobre aquele dia.</description>
+			</item>
+	</channel>
+</rss>

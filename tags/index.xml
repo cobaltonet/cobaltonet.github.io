@@ -1,195 +1,290 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Tags on Cobalto.net</title>
-        <link>/tags/</link>
-        <description>Recent content in Tags on Cobalto.net</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>pt-br</language>
-        <lastBuildDate>Wed, 14 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Apple Store</title>
-        <link>/tag/apple-store/</link>
-        <pubDate>Wed, 14 Sep 2022 00:00:00 +0000</pubDate>
-        
-        <guid>/tag/apple-store/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>MacOS</title>
-        <link>/tag/macos/</link>
-        <pubDate>Wed, 14 Sep 2022 00:00:00 +0000</pubDate>
-        
-        <guid>/tag/macos/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>XCode</title>
-        <link>/tag/xcode/</link>
-        <pubDate>Wed, 14 Sep 2022 00:00:00 +0000</pubDate>
-        
-        <guid>/tag/xcode/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Corrida</title>
-        <link>/tag/corrida/</link>
-        <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
-        
-        <guid>/tag/corrida/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Vida Adulta</title>
-        <link>/tag/vida-adulta/</link>
-        <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
-        
-        <guid>/tag/vida-adulta/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Android</title>
-        <link>/tag/android/</link>
-        <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
-        
-        <guid>/tag/android/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Play Store</title>
-        <link>/tag/play-store/</link>
-        <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
-        
-        <guid>/tag/play-store/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>VPN</title>
-        <link>/tag/vpn/</link>
-        <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
-        
-        <guid>/tag/vpn/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Anime</title>
-        <link>/tag/anime/</link>
-        <pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate>
-        
-        <guid>/tag/anime/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Crunchyroll</title>
-        <link>/tag/crunchyroll/</link>
-        <pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate>
-        
-        <guid>/tag/crunchyroll/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Jujutsu</title>
-        <link>/tag/jujutsu/</link>
-        <pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate>
-        
-        <guid>/tag/jujutsu/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Evangelion</title>
-        <link>/tag/evangelion/</link>
-        <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
-        
-        <guid>/tag/evangelion/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Robozão</title>
-        <link>/tag/roboz%C3%A3o/</link>
-        <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
-        
-        <guid>/tag/roboz%C3%A3o/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Coronga</title>
-        <link>/tag/coronga/</link>
-        <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
-        
-        <guid>/tag/coronga/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Great Reset</title>
-        <link>/tag/great-reset/</link>
-        <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
-        
-        <guid>/tag/great-reset/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Mudanças</title>
-        <link>/tag/mudan%C3%A7as/</link>
-        <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
-        
-        <guid>/tag/mudan%C3%A7as/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Novo Normal</title>
-        <link>/tag/novo-normal/</link>
-        <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
-        
-        <guid>/tag/novo-normal/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>.Net</title>
-        <link>/tag/.net/</link>
-        <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
-        
-        <guid>/tag/.net/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Git</title>
-        <link>/tag/git/</link>
-        <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
-        
-        <guid>/tag/git/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Max Verstappen</title>
-        <link>/tag/max-verstappen/</link>
-        <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
-        
-        <guid>/tag/max-verstappen/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Red Bull</title>
-        <link>/tag/red-bull/</link>
-        <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
-        
-        <guid>/tag/red-bull/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>VirtualBox</title>
-        <link>/tag/virtualbox/</link>
-        <pubDate>Sun, 23 Sep 2018 00:00:00 +0000</pubDate>
-        
-        <guid>/tag/virtualbox/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Xamarin</title>
-        <link>/tag/xamarin/</link>
-        <pubDate>Sat, 11 Feb 2017 00:00:00 +0000</pubDate>
-        
-        <guid>/tag/xamarin/</guid>
-        <description></description>
-        </item>
-        
-    </channel>
+	<channel>
+		<title>Tags on Cobalto.net</title>
+		<link>https://cobalto.net/tags/</link>
+		<description>Recent content in Tags on Cobalto.net</description>
+		<generator>Hugo</generator>
+		<language>pt-BR</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 05 Jun 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://cobalto.net/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Alemanha</title>
+				<link>https://cobalto.net/tag/alemanha/</link>
+				<pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>https://cobalto.net/tag/alemanha/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>História</title>
+				<link>https://cobalto.net/tag/hist%C3%B3ria/</link>
+				<pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>https://cobalto.net/tag/hist%C3%B3ria/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Linguistica</title>
+				<link>https://cobalto.net/tag/linguistica/</link>
+				<pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>https://cobalto.net/tag/linguistica/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Sátira</title>
+				<link>https://cobalto.net/tag/s%C3%A1tira/</link>
+				<pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>https://cobalto.net/tag/s%C3%A1tira/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Tipografia</title>
+				<link>https://cobalto.net/tag/tipografia/</link>
+				<pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>https://cobalto.net/tag/tipografia/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Aliens</title>
+				<link>https://cobalto.net/tag/aliens/</link>
+				<pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+				<guid>https://cobalto.net/tag/aliens/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Conto</title>
+				<link>https://cobalto.net/tag/conto/</link>
+				<pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+				<guid>https://cobalto.net/tag/conto/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Epistolar</title>
+				<link>https://cobalto.net/tag/epistolar/</link>
+				<pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+				<guid>https://cobalto.net/tag/epistolar/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Ficção Científica</title>
+				<link>https://cobalto.net/tag/fic%C3%A7%C3%A3o-cient%C3%ADfica/</link>
+				<pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+				<guid>https://cobalto.net/tag/fic%C3%A7%C3%A3o-cient%C3%ADfica/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Perspectiva</title>
+				<link>https://cobalto.net/tag/perspectiva/</link>
+				<pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+				<guid>https://cobalto.net/tag/perspectiva/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Consequências</title>
+				<link>https://cobalto.net/tag/consequ%C3%AAncias/</link>
+				<pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>https://cobalto.net/tag/consequ%C3%AAncias/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Desastre</title>
+				<link>https://cobalto.net/tag/desastre/</link>
+				<pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>https://cobalto.net/tag/desastre/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Caos</title>
+				<link>https://cobalto.net/tag/caos/</link>
+				<pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
+				<guid>https://cobalto.net/tag/caos/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Chegada</title>
+				<link>https://cobalto.net/tag/chegada/</link>
+				<pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+				<guid>https://cobalto.net/tag/chegada/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Primeiro Contato</title>
+				<link>https://cobalto.net/tag/primeiro-contato/</link>
+				<pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+				<guid>https://cobalto.net/tag/primeiro-contato/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Apple Store</title>
+				<link>https://cobalto.net/tag/apple-store/</link>
+				<pubDate>Wed, 14 Sep 2022 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/tag/apple-store/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>MacOS</title>
+				<link>https://cobalto.net/tag/macos/</link>
+				<pubDate>Wed, 14 Sep 2022 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/tag/macos/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>XCode</title>
+				<link>https://cobalto.net/tag/xcode/</link>
+				<pubDate>Wed, 14 Sep 2022 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/tag/xcode/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Corrida</title>
+				<link>https://cobalto.net/tag/corrida/</link>
+				<pubDate>Fri, 09 Apr 2021 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/tag/corrida/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Vida Adulta</title>
+				<link>https://cobalto.net/tag/vida-adulta/</link>
+				<pubDate>Fri, 09 Apr 2021 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/tag/vida-adulta/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Android</title>
+				<link>https://cobalto.net/tag/android/</link>
+				<pubDate>Sun, 21 Mar 2021 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/tag/android/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Play Store</title>
+				<link>https://cobalto.net/tag/play-store/</link>
+				<pubDate>Sun, 21 Mar 2021 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/tag/play-store/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>VPN</title>
+				<link>https://cobalto.net/tag/vpn/</link>
+				<pubDate>Sun, 21 Mar 2021 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/tag/vpn/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Anime</title>
+				<link>https://cobalto.net/tag/anime/</link>
+				<pubDate>Mon, 25 Jan 2021 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/tag/anime/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Crunchyroll</title>
+				<link>https://cobalto.net/tag/crunchyroll/</link>
+				<pubDate>Mon, 25 Jan 2021 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/tag/crunchyroll/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Jujutsu</title>
+				<link>https://cobalto.net/tag/jujutsu/</link>
+				<pubDate>Mon, 25 Jan 2021 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/tag/jujutsu/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Evangelion</title>
+				<link>https://cobalto.net/tag/evangelion/</link>
+				<pubDate>Thu, 31 Dec 2020 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/tag/evangelion/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Robozao</title>
+				<link>https://cobalto.net/tag/robozao/</link>
+				<pubDate>Thu, 31 Dec 2020 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/tag/robozao/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Coronga</title>
+				<link>https://cobalto.net/tag/coronga/</link>
+				<pubDate>Mon, 28 Dec 2020 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/tag/coronga/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Great Reset</title>
+				<link>https://cobalto.net/tag/great-reset/</link>
+				<pubDate>Mon, 28 Dec 2020 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/tag/great-reset/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Mudancas</title>
+				<link>https://cobalto.net/tag/mudancas/</link>
+				<pubDate>Mon, 28 Dec 2020 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/tag/mudancas/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Novo Normal</title>
+				<link>https://cobalto.net/tag/novo-normal/</link>
+				<pubDate>Mon, 28 Dec 2020 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/tag/novo-normal/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>.Net</title>
+				<link>https://cobalto.net/tag/.net/</link>
+				<pubDate>Thu, 19 Nov 2020 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/tag/.net/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Git</title>
+				<link>https://cobalto.net/tag/git/</link>
+				<pubDate>Thu, 19 Nov 2020 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/tag/git/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Max Verstappen</title>
+				<link>https://cobalto.net/tag/max-verstappen/</link>
+				<pubDate>Tue, 19 Nov 2019 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/tag/max-verstappen/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Red Bull</title>
+				<link>https://cobalto.net/tag/red-bull/</link>
+				<pubDate>Tue, 19 Nov 2019 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/tag/red-bull/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>VirtualBox</title>
+				<link>https://cobalto.net/tag/virtualbox/</link>
+				<pubDate>Sun, 23 Sep 2018 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/tag/virtualbox/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Xamarin</title>
+				<link>https://cobalto.net/tag/xamarin/</link>
+				<pubDate>Sat, 11 Feb 2017 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/tag/xamarin/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>AI Translated</title>
+				<link>https://cobalto.net/tag/ai-translated/</link>
+				<pubDate>Sun, 16 Oct 2016 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/tag/ai-translated/</guid>
+				<description></description>
+			</item>
+	</channel>
 </rss>

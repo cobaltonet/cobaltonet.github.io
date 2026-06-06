@@ -1,782 +1,157 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Cobalto.net</title>
-        <link>/</link>
-        <description>Recent content on Cobalto.net</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>pt-br</language>
-        <lastBuildDate>Mon, 15 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Instalação do Xcode travada no status Instalando</title>
-        <link>/artigo/instalacao-travada-xcode-apple-store/</link>
-        <pubDate>Wed, 14 Sep 2022 00:00:00 +0000</pubDate>
-        
-        <guid>/artigo/instalacao-travada-xcode-apple-store/</guid>
-        <description>&lt;img src="/artigo/instalacao-travada-xcode-apple-store/xcode-hero.png" alt="Featured image of post Instalação do Xcode travada no status Instalando" /&gt;&lt;p&gt;Ok, Macbook novo, tudo muito bonito, tudo muito legal, começamos a instalar tudo que precisamos depois do browser e dos aplicativos de comunicação (Oi, WhatsApp Desktop, vi que você ainda está rodando no Rosetta 2, tá tudo bem?).&lt;/p&gt;
-&lt;p&gt;Para quem desenvolve e migrou para um computador da Apple nada mais normal do que instalar o Xcode nem que seja somente para experimentar, no meu caso o Visual Studio me obrigou a instalá-lo de forma bem-educada (dando mensagem de erro, etc).&lt;/p&gt;
-&lt;p&gt;Acessamos o link da Apple Store tranquilamente, solicitamos a instalação, aguardamos o download dos 12GB de arquivos necessários, começa a fase de instalação… e fica nisso.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/artigo/instalacao-travada-xcode-apple-store/xcode-instalacao-apple-store.png&#34;
-	width=&#34;1215&#34;
-	height=&#34;838&#34;
-	srcset=&#34;/artigo/instalacao-travada-xcode-apple-store/xcode-instalacao-apple-store_hu6422177164519794349.png 480w, /artigo/instalacao-travada-xcode-apple-store/xcode-instalacao-apple-store_hu1036806157228676716.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Está instalando, parece&amp;hellip;&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;144&#34;
-		data-flex-basis=&#34;347px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;Ok, a Apple Store diz que está instalando, o Launchpad diz que esta instalando, o Activity Monitor diz que ALGO esta sendo feito nos cores de eficiência (os cores de performance dormem na total serenidade de quem sabe que não está sendo necessário), e ai, Apple? Just works?&lt;/p&gt;
-&lt;p&gt;Veja bem, eu tenho uma internet rápida, rápida o suficiente para recentemente eu ter baixado ISO de linux por mero capricho (PORQUE EU POSSO), 12GB é um tamanho desgraçado de grande, mas não é &amp;ldquo;eu não faço ideia se está fazendo download&amp;rdquo; de grande. Alguma coisa aqui está errada que não está certa.&lt;/p&gt;
-&lt;p&gt;Inicialmente até cogitei que realmente algo tivesse travado, o Windows entrar em alguma &lt;em&gt;race condition&lt;/em&gt; durante atualizações não é algo completamente anormal, e fiz o que qualquer usuário do sistema das janelas faria: Reinicie o Mac. nada, nenhuma alteração.&lt;/p&gt;
-&lt;p&gt;Eu poderia deixar o mac tomando conta da vida dele e seguir com a minha, eventualmente aquela instalação em teoria iria terminar, mas eu tinha outros planos e esses planos envolviam algo que estava reclamando diretamente comigo da falta da instalação desse programa.&lt;/p&gt;
-&lt;p&gt;Como tudo no Mac, problemas não existem e se você está tendo algum, boa sorte procurando as outras 3 pessoas nos últimos 3 anos que passaram pela mesma situação. Pois bem, aceitemos nosso destino e vamos ao Google tentar extrair alguma informação útil.&lt;/p&gt;
-&lt;p&gt;Muito trabalho de pesquisa e investigação facilitados por anos de trabalho com programação (a gente aprende a buscar de tudo no Stackoverflow, desculpa) eu descubro que, e não estou fazendo piadinha aqui, em momento algum houve qualquer bug e que tudo estava funcionando como deveria, onde &amp;ldquo;deveria&amp;rdquo; apesar de questionável não configura um defeito &lt;em&gt;per se&lt;/em&gt;, e tudo não passou de uma interface muito porcamente desenvolvida.&lt;/p&gt;
-&lt;p&gt;Mas não acredite cegamente no que eu estou dizendo, a seguir seguem os passos para você acompanhar a instalação considerando o sistema em inglês, selecione a opção correspondente pro seu idioma (desculpa, sou novo aqui, não conheço as traduções oficiais):&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Mantenha a janela da Apple Store aberta na instalação do XCode&lt;/li&gt;
-&lt;li&gt;Abra o &amp;ldquo;Console&amp;rdquo; dentro de &amp;ldquo;System tools&amp;rdquo; (Launchpad -&amp;gt; System Tools -&amp;gt; Console)&lt;/li&gt;
-&lt;li&gt;Na barra de busca procure por &amp;ldquo;App store&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;Clique no botão &amp;ldquo;Start&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;Irão começar a ser exibidas linhas de log correspondentes à App store&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Nesse ponto você pode selecionar uma linha para ver o log completo. Na imagem abaixo é possível ver que no meu caso se encontrava em &amp;ldquo;&amp;hellip; Completed: 824 of 1000&amp;rdquo; na linha selecionada, as demais linhas contendo valores incrementais ou decrementais conforme a linha selecionada.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/artigo/instalacao-travada-xcode-apple-store/xcode-log-console-instalacao.png&#34;
-	width=&#34;1439&#34;
-	height=&#34;1307&#34;
-	srcset=&#34;/artigo/instalacao-travada-xcode-apple-store/xcode-log-console-instalacao_hu15635852311782212864.png 480w, /artigo/instalacao-travada-xcode-apple-store/xcode-log-console-instalacao_hu17345417786384122819.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Está, definitivamente, instalando!&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;110&#34;
-		data-flex-basis=&#34;264px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;Como pode ser visto na imagem acima, o XCode esteve o tempo todo sendo baixado/instalado corretamente e tudo não se passou de dois detalhes em particular que podemos sim botar na conta da Apple:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;A interface não faz nenhum esforço para informar que está de fato responsiva e não travada em uma animação.&lt;/li&gt;
-&lt;li&gt;Por algum motivo downloads são anormalmente lentos na Apple Store, sobre isso encontrei mais de uma fonte de reclamação e parece ser algo &amp;ldquo;normal&amp;rdquo; (leia: a Apple não pretende fazer nada quanto a isso)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Com a consciência limpa aguardei educadamente, sem xingar nenhum funcionário da Apple, até o fim do download/instalação e tudo prosseguiu conforme o esperado e sem novos problemas.&lt;/p&gt;
-&lt;p&gt;Com ajuda: &lt;a class=&#34;link&#34; href=&#34;https://stackoverflow.com/questions/67900692/latest-version-of-xcode-stuck-on-installation-12-5&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Latest version of Xcode stuck on installation - Stack Overflow&lt;/a&gt; (conteúdo em inglês)&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Ensaios sobre correr</title>
-        <link>/artigo/ensaios-sobre-correr/</link>
-        <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
-        
-        <guid>/artigo/ensaios-sobre-correr/</guid>
-        <description>&lt;img src="/artigo/ensaios-sobre-correr/nikiniki.png" alt="Featured image of post Ensaios sobre correr" /&gt;&lt;p&gt;Não é segredo para ninguém me conhece pessoalmente que eventualmente eu tomei vergonha na cara e fiz tudo que precisava para emagrecer, e não é segredo mesmo já que não canso de contar em detalhes toda a história mais de uma vez, e isso se converteu em um processo que durou aproximadamente um ano.
-Aproximadamente porque dependendo do padrão usado eu já estaria “magro” antes do fim da minha contagem, oficialmente eu conto do momento em que comecei a tomar ações práticas até o momento em que cheguei no meu peso mínimo, onde fiquei por um bom tempo até a pandemia chegar (pra que comer morcego, gente?).&lt;/p&gt;
-&lt;p&gt;O fato é que nesse processo, além de fazer os tais dos “sacrifícios” (que você se acostuma surpreendentemente fácil depois que começa) de dieta e exercícios, eu acabei descobrindo uma coisa que gosto muito de fazer: Correr.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;Claro que por “correr” no começo, quando você é gordo e sedentário, significa fazer caminhadas. E depois andar rápido. E depois andar mais rápido cada vez por mais tempo contínuo. Até o momento em que você já não está mais gordo e está de fato correndo por longas distancias e períodos.
-Existe sim um pequeno Paradoxo Tostines envolvido, correr ajuda a emagrecer, emagrecer facilita em correr. Mas como os exercícios anaeróbicos (olha como eu sou culto, eu ia chamar de “musculação”, mas lembrei do nome kek) e a dieta são fatores até mais importantes me dou o direito de abstrair essa parte da equação.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;Mas admito, correr não é para todo mundo. Se você não gosta de fazer caminhadas talvez não tenha como gostar de correr mesmo, já que correr é basicamente “Andar 2.0” ou “Andar with steroids”. Quando eu digo correr, entenda sempre fazer isso em local aberto, é corrida ao ar livre mesmo (ou como o pessoal chique chama, “outdoor run”), em diferentes geografias e ambientes e por vezes tendo que desviar de transeuntes passeando como se todo o espaço público fosse feito pra eles, acontece.&lt;/p&gt;
-&lt;p&gt;Eu sempre gostei de caminhar pelas ruas quase que sem rumo, faço esse programa de índio sozinho até hoje. Desde que me mudei para Porto Alegre eu já mapeei uma boa parte de toda a zona norte apenas caminhando pra conhecer as ruas. Correr é fazer isso ao extremo e sem prestar atenção em 95% do que acontece ao redor.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/artigo/ensaios-sobre-correr/ready_set_go.jpg&#34;
-	width=&#34;680&#34;
-	height=&#34;400&#34;
-	srcset=&#34;/artigo/ensaios-sobre-correr/ready_set_go_hu5030453786682818690.jpg 480w, /artigo/ensaios-sobre-correr/ready_set_go_hu7812281731442438055.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;O nome dela é Sena, sugestivo?&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;170&#34;
-		data-flex-basis=&#34;408px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;Correr em esteira ergométrica é algo para um público ainda menor. Passar 30min-1h correndo sem propósito e sem sair do lugar, cercado por outras pessoas fazendo o mesmo e com no máximo uma TV sintonizada no pior canal possível (obrigado, Smartfit), que vai inevitavelmente estar passando o pior programa da grade (sério, muito obrigado, smartfit), é para poucos. Eu sempre fiz religiosamente meus 30 minutos de esteira pela obrigação e por saber que ele me ajudaria a correr melhor na rua, condicionamento não surge do nada. Mas minha única diversão real ali era competir com os outros pobres coitados correndo. Obviamente eles não sabem que estão participando de uma competição e nunca vão saber. Quer dizer, alguns até devem perceber, mas a verdade é que azar o deles ¯_(ツ)_/¯&lt;/p&gt;
-&lt;p&gt;Isso começou como algo natural e que eu fazia somente com as pessoas que insistiam em começar a correr nas esteiras diretamente ao meu lado. Se a pessoa estava na velocidade 9 do aparelho, pff, eu já começava no 10 (aquecimento é pra fracos e pessoas que querem manter os joelhos funcionais depois dos 60), se a pessoa estava se esforçando na velocidade 12 era digno de um silencioso not_bad_face.jpeg e depois me aturar correndo à 13 ou 14.
-Nas poucas vezes que as pessoas corriam na mesma velocidade do meu limite (para informação: velocidade 14 nas esteiras mais comuns na smartfit, mas varia conforme o modelo) eu transformava em uma batalha de resistência e me forçava a ganhar, eu já fiz 1 hora de esteira em dias que era pra fazer 30 minutos por pura teimosia (lembre-se: a pessoa não sabe que está formalmente numa competição comigo).&lt;/p&gt;
-&lt;p&gt;Obviamente em 1 ano acariciando meu ego às custas de inocentes frequentadores de academia, eu encontrei gente que conseguia correr mais rápido do que meu limite. Nesses casos eu fingia que não me importava e seguia meu ritmo normal. É importante saber perder.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;Talvez a mudança no metabolismo tenha me deixado mais competitivo.&lt;/p&gt;
-&lt;p&gt;Fato é que esse comportamento de criar competições com pessoas que não fazem ideia de que estão em uma competição é meu comportamento padrão quando estou correndo, desde a época em que eu corria no boulevard do porto do Rio até agora que corro em um dos muitos parques de rua de PoA, o pior que pode me acontecer é não ter ninguém próximo para que eu possa criar metas de ultrapassagem.&lt;/p&gt;
-&lt;p&gt;No Rio, o porto era um local bem mais vazio e eu fazia minhas corridas durante a noite. Nem tanto um problema já que eu estava no começo e não tinha muita condição de competir contra pessoas, mas eu já criava metas de tempo em pontos de referência, como os relógios de rua e posições especificas. Hoje minhas metas são ultrapassar no menor tempo possível todas as pessoas que aparecem correndo na minha frente, independente da distância em que elas se encontram, mesmo que estejam em áreas desfavoráveis (aprox. 1/3 do trajeto é subindo ladeira, ou como chamam aqui, lomba)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/artigo/ensaios-sobre-correr/just_dont_ask.png&#34;
-	width=&#34;1600&#34;
-	height=&#34;900&#34;
-	srcset=&#34;/artigo/ensaios-sobre-correr/just_dont_ask_hu4099666496316525399.png 480w, /artigo/ensaios-sobre-correr/just_dont_ask_hu11582520558975132387.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Pra quê você vai querer tentar entender?&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;177&#34;
-		data-flex-basis=&#34;426px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;Mas uma coisa que eu nunca me esqueço foi minha saga para superar o “tio do braço engessado” ainda no Rio. Meu trajeto era fixo, Aquario do Rio &amp;lt;-&amp;gt; Praça das Barcas, basicamente todo o boulevard (joga no maps), eu corria próximo das 21h, estava bem no começo e nem conseguia correr o percurso inteiro, eram pequenas sessões de corrida com momentos de descanso.&lt;/p&gt;
-&lt;p&gt;Um belo dia eu estava praticamente na metade da primeira perna (o trajeto era ida e volta, então fechando ¼ do total), o que me deixava próximo da entrada para a volta em torno do Museu do Amanhã (sério, gMaps), quando um senhor de meia idade, careca e, mais debochadamente ainda, com o braço engessado, passou correndo ao meu lado. E depois passou novamente já voltando. Enquanto eu ainda estava na primeira etapa.&lt;/p&gt;
-&lt;p&gt;Isso me afetou seriamente, daquele dia em diante eu passei a manter o CobSentido monitorando a presença desse senhor durante minhas corridas, algo mais complicado de fazer quando não se está mais com o braço engessado, e sempre tentando evitar tomar uma volta dele.&lt;/p&gt;
-&lt;p&gt;Então fazemos o “fast forward’ alguns bons meses para quando eu já estava correndo não só cada uma das pernas do trajeto (o ponto de retorno era, obviamente, na altura da academia e eu fazia a ida como aquecimento), mas já era capaz de ir e voltar correndo sem necessidade de nenhuma pausa, quando eu finalmente consigo dar uma volta nesse senhor pela primeira vez. Das pequenas vitórias.&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;Ainda falando de metabolismo, e voltando um pouco na questão de gostar ou não de andar e correr. Essa tal de endorfina deve realmente viciar.
-Esse é um pensamento que constantemente tenho quando estou subindo a Goethe (a tal da ladeira no parque onde corro) na penúltima ou última volta. Culpar um suposto vício é o que tira o peso da minha consciência e me permite concentrar todo meu ódio e transforma-lo em força para subir mais uma vez aquela rua me mantendo na tênue linha entre tentar me matar sufocado de tanto esforço e falhar nessa tentativa.&lt;/p&gt;
-&lt;p&gt;Não fosse tão boa a sensação de ter sobrevivido ao final eu certamente nunca voltaria a correr do jeito que corro, muito menos me dar o trabalho de cronometrar o tempo que levei para fazer meu trajeto já pensando em melhorar este tempo na próxima vez.&lt;/p&gt;
-&lt;p&gt;Agora se me dão licença, preso dormir cedo pois tenho que ir correr amanhã de manhã ;)&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>A íncrivel história de como quase taquei fogo na minha casa usando apenas água</title>
-        <link>/artigo/como-quase-queimei-a-casa-com-agua/</link>
-        <pubDate>Sun, 04 Apr 2021 00:00:00 +0000</pubDate>
-        
-        <guid>/artigo/como-quase-queimei-a-casa-com-agua/</guid>
-        <description>&lt;img src="/artigo/como-quase-queimei-a-casa-com-agua/house-fire.jpg" alt="Featured image of post A íncrivel história de como quase taquei fogo na minha casa usando apenas água" /&gt;&lt;p&gt;Quebrando a tradição de atualizar o visual do blog, escrever 3 textos e esquecer da existência dele por um ano para depois voltar a repetir o ciclo, venho por meio deste contar um causo que ocorreu esta semana e poderia ter terminado com &lt;del&gt;meu óbito&lt;/del&gt; (ok, sem exageros) uma mesa e um sofá chamuscados.&lt;/p&gt;
-&lt;h3 id=&#34;tudo-começou-com-uma-quinta-feira-normal&#34;&gt;Tudo começou com uma quinta-feira normal&amp;hellip;&lt;/h3&gt;
-&lt;p&gt;Quinta-feira de sol, acordo, faço os afazeres matinais, abro todas as janelas do apartamento pra deixar tudo bem claro e ventilado, tomo meu café, vou pro PC começar a trabalhar, vida de home-office. Trabalho vai, trabalho vem, a manhã vai chegando ao fim e já começo a pensar em preparar o almoço.&lt;/p&gt;
-&lt;p&gt;Nesse momento eu tiro a atenção da tela do PC e olho pela janela admirando os contornos do bairro &lt;a class=&#34;link&#34; href=&#34;https://www.instagram.com/p/CJfyGn4jiT_6uSPMSS6ShaCI8hIXh7lcst9t7M0/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;(pra quem não sabe a vista é mais ou menos essa)&lt;/a&gt; e por algum motivo algo na mesinha de centro, que na prática fica ao lado do sofá, chama minha atenção&amp;hellip;&lt;/p&gt;
-&lt;p&gt;Paro alguns segundos olhando pra mesa e vejo uma leve fumaça branca dançando logo acima de onde se encontra um copo com água. Minha primeira reação é pensar em vapor d&amp;rsquo;água devido à temperatura no dia, que estava mais quente que a média da semana, mas logo em seguida eu ponho meia dúzia de neurônios para pensar sobre isso e percebo que VAPOR não iria fazer aquela quantidade de fumaça branca.&lt;/p&gt;
-&lt;h3 id=&#34;uma-pausa-para-descrever-a-cena&#34;&gt;Uma pausa para descrever a cena&lt;/h3&gt;
-&lt;p&gt;A mesa de centro em questão é feita de madeira maciça com design meio industrial/moderninho (&lt;a class=&#34;link&#34; href=&#34;https://www.tadah.com.br/mesa-de-centro-loft-mel-e-preto&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Mais exatamente essa aqui&lt;/a&gt;. Não é #ad, pode clicar) e eu costumo deixar ao lado do sofá ao invés de na frente dele (no de fato &amp;ldquo;centro&amp;rdquo; da sala) por motivos de logistica, já que fico sentado em um canto do sofá e assim tenho acesso fácil a ela, onde deixo todo tipo de coisa. Um detalhe importante, isso faz ela ficar de frente para a janela, pegando o máximo de sol possível entrando no apto.&lt;/p&gt;
-&lt;p&gt;Sobre o copo, não é bem um copo, na verdade é uma taça DE PLÁSTICO que trouxe do ultimo carnaval (2020, o de 2021 todos sabemos que não existiu) da Praia do Rosa. Detalhes à parte (altas tretas), repito: É uma taça DE PLÁSTICO que apesar de não ser tão vagabunda assim (eu trouxe e mantive pra uso em casa até hoje, afinal) não é nenhum supra-sumo da industria de polímeros nacional. A existência de qualquer fator óptico capaz de executar o processo de queimar coisas em geral me pegou total e completamente de surpresa.&lt;/p&gt;
-&lt;h3 id=&#34;mas-voltemos-ao-ocorrido&#34;&gt;Mas voltemos ao ocorrido&amp;hellip;&lt;/h3&gt;
-&lt;p&gt;Alguns segundos com o olhar profundo e vazio enquanto meu cérebro tenta processar, com o pouco de informação disponível, o que estava se passando ali em frente aos meu olhos e eis que as sinapses começam a mostrar seu valor. O brilho emanado de um ponto especifico na mesa deixa de ser ruízo branco e passar num instante a ser tratado como o vilão pego em flagrante que de fato era.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/artigo/como-quase-queimei-a-casa-com-agua/quase-incendio-1.jpg&#34;
-	width=&#34;1280&#34;
-	height=&#34;720&#34;
-	srcset=&#34;/artigo/como-quase-queimei-a-casa-com-agua/quase-incendio-1_hu1943393987341725522.jpg 480w, /artigo/como-quase-queimei-a-casa-com-agua/quase-incendio-1_hu1113122183022425367.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;A cena do crime em andamento.&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;177&#34;
-		data-flex-basis=&#34;426px&#34;
-	
-&gt;
-&lt;img src=&#34;/artigo/como-quase-queimei-a-casa-com-agua/quase-incendio-2.jpg&#34;
-	width=&#34;1280&#34;
-	height=&#34;720&#34;
-	srcset=&#34;/artigo/como-quase-queimei-a-casa-com-agua/quase-incendio-2_hu3620742899915528211.jpg 480w, /artigo/como-quase-queimei-a-casa-com-agua/quase-incendio-2_hu14492801731965894107.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Detalhe do chamuscado em estado avançado na mesa.&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;177&#34;
-		data-flex-basis=&#34;426px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;Observem na primeira imagem que relativamente muito próximo do local tostado pela lente de água havia um guardanapo e uma máscara de pano prontos para serem queimados, o que não aconteceu por mera sorte. Questionamento sobre a lista de itens jogada na mesa e sua respectiva ordem serão sumariamente ignoradas, isso não vem ao caso, ok? 🙄&lt;/p&gt;
-&lt;p&gt;No fim das contas eu ganhei um chamuscadinho de leve na minha mesa de centro de madeira, nada demais e quase passa despercebido já que ela é madeira maciça e naturalmente já exibe algumas marcas escuras da própria madeira, mas é admirável o quão perto de um incêndio eu passei, mesmo que de pequenas proporções. Se eu tivesse saído de casa por qualquer motivo a madeira poderia finalmente queimar (o famoso &amp;ldquo;lamber&amp;rdquo;) e se o papel/pano estivessem numa posição um pouco mais próxima, uma simples ida ao banheiro ou passada na cozinha seria tempo o suficiente pra para a combustão se estabilizar.&lt;/p&gt;
-&lt;p&gt;Mas lições foram aprendidas. A mesa de centro não fica mais embaixo da janela diretamente no sol e copos d&amp;rsquo;água agora são obrigatóriamente esvaziados o mais breve possível (até eu começar a esquecer novamente). Por enquanto sigo dizendo &amp;ldquo;not today&amp;rdquo; pro carinha responsável por essas artimanhas. Para a infelicade de alguns 😏&lt;/p&gt;
-&lt;p&gt;*Sim, foi uma referência às Crônicas de Nárnia, obrigado por perceber.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Como Instalar Aplicativos Android Fora da Play Store: Um Guia Simples e Seguro</title>
-        <link>/artigo/como-instalar-app-vpn-android/</link>
-        <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
-        
-        <guid>/artigo/como-instalar-app-vpn-android/</guid>
-        <description>&lt;img src="/artigo/como-instalar-app-vpn-android/android-apps-header.png" alt="Featured image of post Como Instalar Aplicativos Android Fora da Play Store: Um Guia Simples e Seguro" /&gt;&lt;h2 id=&#34;existe-vida-fora-da-play-store&#34;&gt;Existe vida fora da Play Store&lt;/h2&gt;
-&lt;p&gt;Você sabia que existem outras maneiras de instalar aplicativos no seu celular Android além da &lt;strong&gt;Play Store&lt;/strong&gt;?&lt;/p&gt;
-&lt;p&gt;Muitas vezes, alguns aplicativos não estão disponíveis na loja oficial do Google, como certos aplicativos de &lt;strong&gt;VPN&lt;/strong&gt;, mas isso não significa que você não possa usá-los.&lt;/p&gt;
-&lt;p&gt;Para isso, é necessário entender como funciona a instalação de aplicativos a partir de outras fontes, como arquivos &lt;strong&gt;APK&lt;/strong&gt; ou lojas alternativas.&lt;/p&gt;
-&lt;p&gt;Vamos explicar como fazer isso de forma segura e simples.&lt;/p&gt;
-&lt;h2 id=&#34;autorizando-a-instalação-direta-de-apks&#34;&gt;Autorizando a instalação direta de APKs&lt;/h2&gt;
-&lt;p&gt;Antes de começar a instalar aplicativos fora da &lt;strong&gt;Play Store&lt;/strong&gt;, você precisa autorizar seu celular a aceitar esses aplicativos.&lt;/p&gt;
-&lt;p&gt;Por padrão, o Android bloqueia a instalação de aplicativos de &lt;em&gt;fontes desconhecidas&lt;/em&gt; para proteger seu dispositivo. Mas é fácil liberar essa função:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;h3 id=&#34;android-8-ou-posterior&#34;&gt;Android 8 ou posterior&lt;/h3&gt;
-&lt;h4 id=&#34;dispositivos-samsung&#34;&gt;Dispositivos Samsung&lt;/h4&gt;
-&lt;ol&gt;
-&lt;li&gt;No seu dispositivo, toque em &lt;strong&gt;Configurações &amp;gt; Aplicativos&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;No canto superior direito, toque em &lt;strong&gt;Vertical ellipsis&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Toque em &lt;strong&gt;Acesso especial &amp;gt; Instalar aplicativos desconhecidos&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Toque no navegador de onde você baixará o APK, como o &lt;strong&gt;Chrome&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Se solicitado, alterne para &lt;strong&gt;Permitir desta fonte&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h4 id=&#34;demais-fabricantes&#34;&gt;Demais Fabricantes&lt;/h4&gt;
-&lt;ol&gt;
-&lt;li&gt;No seu dispositivo, vá para &lt;strong&gt;Configurações&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Toque em &lt;strong&gt;Aplicativos e notificações &amp;gt; Avançado&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Toque em &lt;strong&gt;Acesso especial ao aplicativo&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Toque em &lt;strong&gt;Instalar aplicativos desconhecidos&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Toque no navegador de onde você baixará o APK, como o &lt;strong&gt;Chrome&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Se solicitado, alterne para &lt;strong&gt;Permitir desta fonte&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Agora, você está pronto para instalar arquivos &lt;strong&gt;APK&lt;/strong&gt; diretamente no seu dispositivo.&lt;/p&gt;
-&lt;h2 id=&#34;obtendo-aplicações-pelo-apk-mirror&#34;&gt;Obtendo aplicações pelo APK Mirror&lt;/h2&gt;
-&lt;p&gt;Outra opção para baixar aplicativos fora da Play Store é utilizar o &lt;strong&gt;APK Mirror&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;O APK Mirror é um site confiável que hospeda uma ampla variedade de arquivos &lt;strong&gt;APK&lt;/strong&gt; de aplicativos populares.&lt;/p&gt;
-&lt;p&gt;Isso é útil quando você deseja obter uma versão específica de um aplicativo ou quando o aplicativo não está disponível na Play Store.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Para usar o APK Mirror:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Acesse o &lt;a class=&#34;link&#34; href=&#34;https://www.apkmirror.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;site oficial do APK Mirror&lt;/a&gt; no navegador do seu celular.&lt;/li&gt;
-&lt;li&gt;Pesquise pelo aplicativo que você deseja baixar.&lt;/li&gt;
-&lt;li&gt;Selecione a versão desejada e faça o download do arquivo APK.&lt;/li&gt;
-&lt;li&gt;Após o download, abra o arquivo APK e siga as instruções para instalar o aplicativo.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;utilizando-uma-loja-alternativa-f-droid&#34;&gt;Utilizando uma loja alternativa (F-Droid)&lt;/h2&gt;
-&lt;p&gt;Se você não quer procurar e baixar APKs manualmente, pode usar uma loja alternativa como o &lt;strong&gt;F-Droid&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;O &lt;strong&gt;F-Droid&lt;/strong&gt; é uma loja de aplicativos que oferece apenas aplicativos de código aberto, o que significa que eles são seguros e gratuitos.&lt;/p&gt;
-&lt;p&gt;No entanto, vale a pena notar que aplicativos proprietários não estarão disponíveis.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Para usar o F-Droid:&lt;/strong&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Acesse o &lt;a class=&#34;link&#34; href=&#34;https://f-droid.org/docs/Get_F-Droid/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;site oficial do F-Droid&lt;/a&gt; no navegador do seu celular.&lt;/li&gt;
-&lt;li&gt;Baixe o &lt;a class=&#34;link&#34; href=&#34;https://f-droid.org/F-Droid.apk&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;APK do F-Droid&lt;/a&gt; (link direto) diretamente do site.&lt;/li&gt;
-&lt;li&gt;Após o download, abra o arquivo e siga as instruções para instalar o aplicativo.&lt;/li&gt;
-&lt;li&gt;Com o F-Droid instalado, você pode navegar e baixar aplicativos com a mesma facilidade que na Play Store.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;aplicações-vpn&#34;&gt;Aplicações VPN&lt;/h2&gt;
-&lt;p&gt;Vamos imaginar que você esteja planejando uma viagem para outro país ou queira acessar conteúdo que não está disponível na sua região. Nesses casos, o uso de uma &lt;strong&gt;VPN (Rede Privada Virtual)&lt;/strong&gt; pode ser extremamente útil.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;VPNs&lt;/strong&gt; permitem que você navegue com mais segurança e acesse sites e serviços de outras partes do mundo.&lt;/p&gt;
-&lt;p&gt;Agora, se você não consegue baixar esses aplicativos diretamente da Play Store, isso não será mais um problema!&lt;/p&gt;
-&lt;p&gt;Assim como outros aplicativos interessantes que estão fora da loja oficial, como &lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/search?q=receitas&amp;amp;c=apps&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;apps de receitas&lt;/a&gt;, você pode instalar &lt;strong&gt;VPNs&lt;/strong&gt; de forma segura utilizando fontes alternativas.&lt;/p&gt;
-&lt;p&gt;A seguir, veja algumas opções populares de aplicativos de &lt;strong&gt;VPN&lt;/strong&gt; que você pode considerar:&lt;/p&gt;
-&lt;h3 id=&#34;proton-vpn-gratuito&#34;&gt;Proton VPN (Gratuito)&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Proton VPN no &lt;a class=&#34;link&#34; href=&#34;https://github.com/ProtonVPN/android-app/releases&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Github&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Proton VPN no &lt;a class=&#34;link&#34; href=&#34;https://www.apkmirror.com/apk/proton-technologies-ag/protonvpn-secure-and-free-vpn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Apk Mirror&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Proton VPN no &lt;a class=&#34;link&#34; href=&#34;https://f-droid.org/en/packages/ch.protonvpn.android/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;F-Droid&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;express-vpn-pago&#34;&gt;Express VPN (Pago)&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Diretamente do &lt;a class=&#34;link&#34; href=&#34;https://www.expressvpn.com/pt/latest/android&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;site do aplicativo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Express VPN no &lt;a class=&#34;link&#34; href=&#34;https://www.apkmirror.com/apk/expressvpn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Apk Mirror&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;nordvpn-pago&#34;&gt;NordVPN (Pago)&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Diretamente do &lt;a class=&#34;link&#34; href=&#34;https://downloads77-android.nordcdn.com/apps/android/generic/nordvpn-sideload/latest/v2/NordVPN.apk?af_xp=custom&amp;amp;pid=nordvpn.com&amp;amp;c=sideload_v2&amp;amp;af_click_lookback=30d&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;site do aplicativo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;NordVPN no &lt;a class=&#34;link&#34; href=&#34;https://www.apkmirror.com/apk/nordvpn-apps/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Apk Mirror&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;surfshark-pago&#34;&gt;Surfshark (Pago)&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Diretamente do &lt;a class=&#34;link&#34; href=&#34;https://downloads.surfshark.com/android/Surfshark.apk&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;site do aplicativo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Surfshark no &lt;a class=&#34;link&#34; href=&#34;https://www.apkmirror.com/apk/surfshark-b-v/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Apk Mirror&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        </item>
-        <item>
-        <title>Mini Review: Jujutsu Kaisen (呪術廻戦)</title>
-        <link>/artigo/review-jujutsu-kaisen/</link>
-        <pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate>
-        
-        <guid>/artigo/review-jujutsu-kaisen/</guid>
-        <description>&lt;img src="/artigo/review-jujutsu-kaisen/turminha.jpg" alt="Featured image of post Mini Review: Jujutsu Kaisen (呪術廻戦)" /&gt;&lt;p&gt;Todo mundo falando desse anime pra tudo quanto é lado. Tudo estava perfeitamente organizado para eu acabar me amarrando num anime ridículo de ruim que eu iria me obrigar a assistir porque comecei (oi, Attack on Titans), Mas eu sou velho de guerra, calejado nos hypes errados e jamais cairia nessa artimanha tão moleque, certo? ERRADO. É óbvio que eu peguei um tempo que eu não tinha e parei pra assistir. A seguir um breve relato do que encontrei nos 13 primeiros episódios (na real menos, mas não quero dar muito spoiler). Em um spoiler não relacionado: Eu gostei.&lt;/p&gt;
-&lt;p&gt;Começando então pela apresentação dos personagens:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/artigo/review-jujutsu-kaisen/naruto_kaisen.jpg&#34;
-	width=&#34;640&#34;
-	height=&#34;375&#34;
-	srcset=&#34;/artigo/review-jujutsu-kaisen/naruto_kaisen_hu9408674036296921896.jpg 480w, /artigo/review-jujutsu-kaisen/naruto_kaisen_hu4475486865608130136.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Eu tenho certeza que já vi esses rostinhos em algum lugar&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;170&#34;
-		data-flex-basis=&#34;409px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;Martin Mistery &lt;strong&gt;(formalmente Yuji Itadori)&lt;/strong&gt;: Personagem principal, tem um passado triste parcialmente contado até então (mais sobre daqui a pouco), tem uns pensamentos rasos sobre a vida como todo personagem principal do Shonen e por enquanto baseia sua motivação numa promessa que fez. Ele ele já começa com umas características fora do normal, mas não o suficiente pra prejudicar a ambientação. Aparentemente ninguém fala sobre isso depois do primeiro episódio.&lt;/p&gt;
-&lt;p&gt;Sasuke sem depressão &lt;strong&gt;(formalmente  Megumi Fushiguro)&lt;/strong&gt;: Aquele cara que aparece forte no primeiro episódio e já toma um buff pra ficar esperto e não desequilibrar o plot. Ele tem problema com seu nome feminino, mas aparentemente isso faz parte das coisas que serão desenvolvidas no futuro (espero). Ele começa como pupilo do tutor do grupo (óbvio que tem um, mais sobre isso daqui a pouco). Apesar dessa cara de &amp;ldquo;o mundo é cruel, a morte é o único caminho&amp;rdquo; ele não é o depresso do anime, é só o jeitão dele mesmo.&lt;/p&gt;
-&lt;p&gt;A Tsundere &lt;strong&gt;(formalmente Nobara Kugisaki)&lt;/strong&gt;: Ultima a se juntar ao grupo, apesar de já ser estudante diferente do Martin Yuji. Já no começo é mostrado que ela tem uma história triste pra desenvolver. O pouco que é mostrado é só o suficiente pra entender em partes a parte diferenciada do comportamento dela. Como boa Tsundere ela dá SINAIS CONFLITANTES, mas não chega a ser chata até o momento, mais pela forma da ambientação do anime do que pela personalidade em si, mas se funciona assim por mim tudo bem.&lt;/p&gt;
-&lt;p&gt;Novo Kakashi &lt;strong&gt;(formalmente Satoru Gojo)&lt;/strong&gt;: O mestre, tutor, líder e empresário (esse ultimo eu inventei) do time. O engraçadenho e humildão que poderia literalmente reduzir o plot do anime pra meio episódio (LITERALMENTE, ISSO É INCLUSIVE DITO POR ELE DE FORMA DIRETA E CLARA). Certemante vai ser buffado ou teremos uma necessidade de progressão de força assustadora até pros padrões de DBZ.&lt;/p&gt;
-&lt;p&gt;Além deles temos também os personagens secundários, todos com algum gimmick desnecessário: O garoto que só fala por ingredientes de onigiri, a garota que não consegue a fonte de energia básica da história e o panda (não pergunte, ninguém fala sobre isso). Além claro dos personagens de suporte e os vilões, mas sobre esses deixo pra quem for assistir.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/artigo/review-jujutsu-kaisen/kawaiiiiii.jpg&#34;
-	width=&#34;720&#34;
-	height=&#34;405&#34;
-	srcset=&#34;/artigo/review-jujutsu-kaisen/kawaiiiiii_hu2494110469302278575.jpg 480w, /artigo/review-jujutsu-kaisen/kawaiiiiii_hu753445421590642199.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Teria sido King Kong na verdade um panda?&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;177&#34;
-		data-flex-basis=&#34;426px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;Daqui pra frente chamarei os personagens somente pelo nome carinhoso e não pelo oficial porque sou preguiçoso e eu realmente não decorei nome nenhum e penso só pelos apelidos.&lt;/p&gt;
-&lt;h2 id=&#34;tá-mas-e-a-história&#34;&gt;Tá, mas e a história?&lt;/h2&gt;
-&lt;p&gt;Em um mundo onde maldições existem e elas se materializam na forma de monstros, um grupo de humanos &lt;em&gt;imbuídos&lt;/em&gt; com a mesma energia maligna luta contra tais forças do mal pelo bem da humanidade desde os tempos mais primórdios. E para garantir que exista uma nova geração de feiticeiros capazes de garantir a segurança do nosso mundo como conhecemos esse grupo mantem&amp;hellip; exatamente o que você pensou, um colégio de magia. Dois na verdade.&lt;/p&gt;
-&lt;p&gt;Mas antes disso; Martin Mystery é um jovem rapaz que cuida de seu avô com doença terminal. Martin tem força, agilidade e outras capacidades inexplicavelmente superiores ao normal humano sem nenhuma explicação, mas ele não gosta de se aproveitar disso. Na realidade ele ESCONDE isso.&lt;/p&gt;
-&lt;p&gt;Até que um certo dia ele se vê envolvido em uma batalha entre as forças malignas e um feiticeiro onde acaba ingerindo (sim, ingerindo) um artefato amaldiçoado que em teoria deveria se apossar de seu corpo, mas POR RAZÕES DE PLOT ele consegue controler a entidade e passam a viver em uma simbiose parcial.&lt;/p&gt;
-&lt;p&gt;Essa criatura é extremamente poderosa e está dividida em trocentas partes.
-Altas tretas rolam por trás dos panos e fica decidido que bom, ele vai terminar de ingerir as outras partes porque aparentemente juntar todos os pedaços de uma criatura extremamente poderosas não tem como dar absolutamente NADA errado.&lt;/p&gt;
-&lt;p&gt;E com isso, ele vai precisar de treinamento e ser monitorado, daí é unido o util ao agradável e ele passa a fazer parte do local que você acabou de imaginar se estiver prestando atenção.&lt;/p&gt;
-&lt;p&gt;De volta ao(s) colégio(s);&lt;/p&gt;
-&lt;h2 id=&#34;mas-vale-a-pena-assistir&#34;&gt;Mas vale a pena assistir?&lt;/h2&gt;
-&lt;p&gt;Você acha que eu estaria perdendo meu tempo escrevendo literalmente ESSE TEXTO se eu achasse o anime ruim?&lt;/p&gt;
-&lt;p&gt;O anime estranhamente tem todos os clichês bons que você espera em um shonen, mas MISTERIOSAMENTE não tem quase nenhum dos clichês RUINS de shonen. Não me perguntem como conseguiram enfiar juizo em quem quer que seja o responsável por isso, mas de alguma forma conseguiram e eu não estou nem um pouco infeliz com isso.&lt;/p&gt;
-&lt;p&gt;Além disso a ambientação se passa no mundo moderno regular e os espíritos seguem a tradicional representação japonesa onde eles afetam os humanos, mas não são percebidos por quem não tem os tais dos poderes necessários. Padrãozinho.&lt;/p&gt;
-&lt;p&gt;Dito isso, o anime tem várias referências, situações e comportamentos ermm&amp;hellip; mundanos. Cultura pop é inserida sem nenhum pudor e o anime também sabe não se levar a sério em vários momentos, mesmo quando não necessariamente está sendo forçado um alívio cômico. Não sei se consigo explicar isso de uma forma decente, mas pense que por vezes os personagens podem ter um comportamento &amp;ldquo;bobo&amp;rdquo; simplesmente porque pessoas normais no geral podem ter comportamentos &amp;ldquo;bobos&amp;rdquo; sem um motivo pra isso, enquanto em obras de ficção geralmente isso acontece para forçar &amp;ldquo;aquele momento engraçado&amp;rdquo;.&lt;/p&gt;
-&lt;p&gt;A imagem do sushi aí de cima é claramente um momento de alívio cômico, que isso fique claro.&lt;/p&gt;
-&lt;h2 id=&#34;como-assistir-onde-assistir&#34;&gt;Como assistir? Onde Assistir?&lt;/h2&gt;
-&lt;p&gt;O anime está &lt;a class=&#34;link&#34; href=&#34;https://www.crunchyroll.com/pt-br/jujutsu-kaisen,&#34;  title=&#34;Jujutsu Kaisen no Crunchyroll&#34;
-     target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;disponível no Crunchyroll&lt;/a&gt;.&lt;br&gt;
-Atualmente no que talvez possa ser chamado de &lt;strong&gt;segundo arco&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Mas nada tema. Entre os episódios 13 e 14 (aka ao fim do primeiro arco) existe um &lt;a class=&#34;link&#34; href=&#34;https://www.crunchyroll.com/pt-br/jujutsu-kaisen/jujutsu-kaisen-especial-de-ano-novo-801502&#34;  title=&#34;Especial de Ano Novo&#34;
-     target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Especial de Ano Novo&lt;/a&gt; que além de resumir bem o começo da história (bem melhor do que eu fazendo isso, pelo menos) ainda traz algumas informações legais sobre o mangá.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/artigo/review-jujutsu-kaisen/especial_de_fim_de_ano.jpg&#34;
-	width=&#34;1280&#34;
-	height=&#34;720&#34;
-	srcset=&#34;/artigo/review-jujutsu-kaisen/especial_de_fim_de_ano_hu16108406368650923695.jpg 480w, /artigo/review-jujutsu-kaisen/especial_de_fim_de_ano_hu520072573125248810.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Especial de Fim de Ano&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;177&#34;
-		data-flex-basis=&#34;426px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;E sim, disponível no Crunchy também.&lt;/p&gt;
-&lt;h2 id=&#34;antes-de-terminar&#34;&gt;Antes de terminar&lt;/h2&gt;
-&lt;p&gt;Queria deixar aqui esse pensamento que o anime nos proporciona já nos primeiros episódios:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/artigo/review-jujutsu-kaisen/filosofia_1.jpg&#34;
-	width=&#34;1280&#34;
-	height=&#34;720&#34;
-	srcset=&#34;/artigo/review-jujutsu-kaisen/filosofia_1_hu5964058490242417912.jpg 480w, /artigo/review-jujutsu-kaisen/filosofia_1_hu1999151146434783752.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Os fetiches de uma pessoa refletem tudo a respeito dela.&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;177&#34;
-		data-flex-basis=&#34;426px&#34;
-	
-&gt;
-&lt;img src=&#34;/artigo/review-jujutsu-kaisen/filosofia_2.jpg&#34;
-	width=&#34;1280&#34;
-	height=&#34;720&#34;
-	srcset=&#34;/artigo/review-jujutsu-kaisen/filosofia_2_hu5560169196304815993.jpg 480w, /artigo/review-jujutsu-kaisen/filosofia_2_hu16828318875970216892.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Quem tem gosto sem graça pra mulher, também é sem graça!&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;177&#34;
-		data-flex-basis=&#34;426px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;h2 id=&#34;pontuação-final-temporária-né-o-anime-tá-no-começo&#34;&gt;Pontuação final (temporária, né? O anime tá no começo&amp;hellip;)&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/artigo/review-jujutsu-kaisen/tsukamoto_rate.png&#34;
-	width=&#34;491&#34;
-	height=&#34;100&#34;
-	srcset=&#34;/artigo/review-jujutsu-kaisen/tsukamoto_rate_hu16880170968249550014.png 480w, /artigo/review-jujutsu-kaisen/tsukamoto_rate_hu4728733322004124381.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;4.5 de 5 Tsukamotos&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;491&#34;
-		data-flex-basis=&#34;1178px&#34;
-	
-&gt;&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Trailer: Evangelion: 3.0&#43;1.0 Thrice Upon a Time (2021)</title>
-        <link>/artigo/evangelion-3ponto0-mais-1ponto0-entre-no-maldito-robo-shinji/</link>
-        <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
-        
-        <guid>/artigo/evangelion-3ponto0-mais-1ponto0-entre-no-maldito-robo-shinji/</guid>
-        <description>&lt;img src="/artigo/evangelion-3ponto0-mais-1ponto0-entre-no-maldito-robo-shinji/o_quarto_filme_da_trilogia.jpg" alt="Featured image of post Trailer: Evangelion: 3.0&#43;1.0 Thrice Upon a Time (2021)" /&gt;&lt;p&gt;Levou só 25 anos, galera. Mas parece que tá MESMO acontecendo.
-Parece que a gente vai finalmente ver o verdadeiro final de EVANGELION (e vamos poder fingir com mais naturalidade que aquele lance do parabains nunca existiu)&lt;/p&gt;
-&lt;p&gt;Já até me pergunto se a pandemia de COVID-19 não foi um teste pra descobrir quem queria MESMO ver esse último filme, seria muito a cara do Anno. Ele logo em seguida anunciar o &amp;ldquo;Destruction of Evangelion&amp;rdquo; com mais 5 filmes espalhados por outros 15 anos também seria a cara dele, mas não vou ficar dando ideia de graça.&lt;/p&gt;
-&lt;h1 id=&#34;entre-no-maldito-robô-shinji&#34;&gt;Entre no maldito robô, Shinji!&lt;/h1&gt;
-&lt;p&gt;Trailer legendado em inglês.&lt;br&gt;
-Musica tema「One Last Kiss」super gostosa, porém com cara de Rádio Smartfit*, da Utada Hikaru.&lt;/p&gt;
-&lt;div class=&#34;video-wrapper&#34;&gt;
-    &lt;iframe loading=&#34;lazy&#34; 
-            src=&#34;https://www.youtube.com/embed/nnmH4SZUrtY&#34; 
-            allowfullscreen 
-            title=&#34;YouTube Video&#34;
-    &gt;
-    &lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;em&gt;* Certamente eu irei levar essa música no mp3 quando for na academia, mas pode ter certeza.&lt;/em&gt;&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Uma breve história sobre tudo isso que vem acontecendo em todo lugar</title>
-        <link>/artigo/uma-breve-historia-sobre-tudo-isso-que-vem-acontecendo/</link>
-        <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
-        
-        <guid>/artigo/uma-breve-historia-sobre-tudo-isso-que-vem-acontecendo/</guid>
-        <description>&lt;img src="/artigo/uma-breve-historia-sobre-tudo-isso-que-vem-acontecendo/timelapse.png" alt="Featured image of post Uma breve história sobre tudo isso que vem acontecendo em todo lugar" /&gt;&lt;p&gt;Os últimos três anos foram repletos de mudanças. Obviamente, os dois primeiros não chegam aos pés deste último se formos pensar em números absolutos, mas se formos pensar por total de pessoas afetadas, pobres 2018 e 2019, seriam completamente massacrados por esse ano de 2020 que espalhou mudanças feito uma pandemia 👀&lt;/p&gt;
-&lt;p&gt;O que de forma algum tira o mérito de 2018 e 2019, principalmente porque o principal (e virtualmente único) afetado nas mudanças ocorridas neles foi uma pessoa que eu considero bem importante (spoiler: eu).&lt;/p&gt;
-&lt;p&gt;Mas veja bem, eu estou até hoje (Vinte e Nove de DEZEMBRO de DOIS MIL E VINTE) enrolando para escrever sobre os dois ultimos anos anteriores, seria inocente achar que eu conseguiria motivação, força de vontade e capacidade (vide subtitulo do blog, logo abaixo do &lt;em&gt;power ranger&lt;/em&gt; de terninho) para escreve-los assim de supetação agora, com a corda no pescoço, apenas para evitar a entrada em mais um ano aumentando a vergonha do atraso.&lt;/p&gt;
-&lt;p&gt;Repito: Seria infantil achar isso 🙄&lt;/p&gt;
-&lt;p&gt;Esse post vem cumprir duas funções:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Firmar o compromisso de que eu ainda vou SIM escrever um post sobre 2018 e 2019 caso eu consiga sobreviver até o tal inicio de 2021 (uns dizem que depois de 31/12/2020 entraremos em 01/13/2020 e assim por diante).&lt;/li&gt;
-&lt;li&gt;Demonstrar que até o presente momento eu ainda estou vivo, o que se tornou algo de muito mais mérito esse ano do que nos anteriores.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Mas que fique &lt;em&gt;a nível de&lt;/em&gt; (sic) relato alguns spoilers:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Eu mudei meu estilo de vida de forma brusca (e emagreci muito)&lt;/li&gt;
-&lt;li&gt;Eu mudei de emprego duas vezes&lt;/li&gt;
-&lt;li&gt;Eu mudei de Estado (não, não foi do sólido pro líquido ou gasoso, ba-dum-tss)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(Eu falei que a pessoa mais importante dos meus relatos de 2018 e 2019 era um cara importante, né?)&lt;/p&gt;
-&lt;p&gt;Então aguardem, eles aparecem por aqui em breve caso eu não morra antes (essa frase não soa tão engraçada durante uma pandemia e ela já nem era tão engraçada assim antes, mas piorou)&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Executando testes antes de um Commit</title>
-        <link>/artigo/executando-testes-antes-commit/</link>
-        <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
-        
-        <guid>/artigo/executando-testes-antes-commit/</guid>
-        <description>&lt;img src="/artigo/executando-testes-antes-commit/git_header.jpg" alt="Featured image of post Executando testes antes de um Commit" /&gt;&lt;p&gt;Esquecer de atualizar testes é sempre um problema, perceber que eles quebraram só quando as git actions reclamam durante um PR é ainda pior 😅&lt;/p&gt;
-&lt;p&gt;A melhor forma de evitar que isso aconteça é agir &lt;em&gt;&lt;strong&gt;preemptivamente&lt;/strong&gt;&lt;/em&gt; e executarmos os testes sempre que formos fazer um commit, mas confiar na memória e no Visual Studio (been there, done that) não é 100% seguro, portanto precisamos automatizar.&lt;/p&gt;
-&lt;h2 id=&#34;entram-em-cena-os-git-hooks&#34;&gt;Entram em cena os git hooks&lt;/h2&gt;
-
-  &lt;img src=&#34;git_hooks_windows.png&#34;  alt=&#34;hooks iniciais&#34;  class=&#34;left&#34;  style=&#34;float: right; margin-left: 15px;&#34;  /&gt;
-
-
-&lt;p&gt;O git possui uma feature chamada hooks que permite a execução de tarefas automatizadas baseadas em scripts em determinados momentos durante o fluxo de trabalho no git, esses scripts se encontram em &lt;code&gt;.git\hooks\&lt;/code&gt; dentro da pasta de cada repositório (exemplo: &lt;code&gt;C:\repos\core\.git\hooks&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Esta pasta inicialmente irá conter um conjunto de hooks de exemplo, todos nomeados com &lt;code&gt;.sample&lt;/code&gt; ao fim do nome do arquivo. Para utilizar um hook, remova o &lt;code&gt;.sample&lt;/code&gt; do nome do arquivo, ele deverá ficar &lt;strong&gt;sem&lt;/strong&gt; extensão, e altere seu conteúdo.&lt;/p&gt;
-&lt;p&gt;Para criarmos um hook que seja executado antes de cada commit (local), vamos remover o &lt;code&gt;.sample&lt;/code&gt; do arquivo &lt;code&gt;pre-commit.sample&lt;/code&gt; e em seguida editar seu conteúdo.&lt;/p&gt;
-&lt;p&gt;Para executarmos testes, vamos utilizar o comando: &lt;code&gt;dotnet test &amp;quot;caminho do projeto&amp;quot;&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Cada hook é composto por um script escrito em qualquer linguagem, framework ou ferramenta que seja executável no computador disparando o trigger em questão. O ponto importante a se lembrar é que um hook espera uma saída &lt;code&gt;0 (zero)&lt;/code&gt; para sucesso e qualquer outro valor para falha.&lt;/p&gt;
-&lt;p&gt;Então, de forma bem simples, temos o seguinte script:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# !/bin/sh&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Running tests before commit...&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;exec&lt;/span&gt; dotnet &lt;span class=&#34;nb&#34;&gt;test&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;./CobaltoCore/Cobalto.Core.Tests/Cobalto.Core.Tests.csproj&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;No script acima o comando &lt;code&gt;exec dotnet test (...)&lt;/code&gt; executa os testes do projeto &lt;code&gt;Cobalto.Core.Tests.csproj&lt;/code&gt; e retorna 0 em caso de sucesso e 1 em caso de erro, exatamente como o git hook espera e portanto nenhuma outra validação é necessária.&lt;/p&gt;
-&lt;p&gt;Arquivo salvo, ao tentar executar um commit o esperado é que o mesmo ocorra normalmente com a única diferença sendo o tempo levado para o comando executar, afinal agora todos os testes irão rodar em background antes do commit ser de fato executado.&lt;/p&gt;
-&lt;p&gt;Caso algum teste falhe o retorno será negativo e com isso o commit nunca é executado.
-Mas não se preocupe, você receberá uma mensagem ao fim da operação no terminal.&lt;/p&gt;
-&lt;h3 id=&#34;mas-e-no-visual-studio-porque-eu-não-sei-usar-o-terminal-&#34;&gt;Mas e no Visual Studio? (porque eu não sei usar o terminal 🤡)&lt;/h3&gt;
-&lt;p&gt;O git hook é uma feature do git, portanto ele vai ser executado antes do commit da mesma forma quando chamado pelo Visual Studio.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Até o momento que escrevo esse tutorial realmente falta uma mensagem minimamente informativa no Visual Studio &lt;em&gt;(ele irá exibir apenas um erro caso algum teste falhe)&lt;/em&gt;, vou verificar se isso pode ser resolvido e atualizo essa página com os resultados. É que eu uso o terminal 😅&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Pronto, seus commits agora requerem sucesso em todos os testes para serem processados.&lt;/p&gt;
-&lt;p&gt;Lembrando: Tudo descrito aqui é referente ao repositório local assim como a execução dos testes, isso não substitui nem burla as validações de qualidade configuradas no seu repositório remoto 🐙🐱&lt;/p&gt;
-&lt;h3 id=&#34;não-esqueça-de-alterar-o-caminho-do-projeto-de-testes&#34;&gt;Não esqueça de alterar o caminho do projeto de testes.&lt;/h3&gt;
-&lt;p&gt;Lembre que o script aceita qualquer comando válido, então você pode estender para vários projetos de testes e virtualmente qualquer outro processo antes da execução do commit.&lt;/p&gt;
-&lt;h2 id=&#34;one-more-thing&#34;&gt;One more thing!&lt;/h2&gt;
-&lt;p&gt;Você lembra como se desfaz commits locais? Pois é, nem eu. (spoiler: &lt;code&gt;git reset HEAD^&lt;/code&gt;)&lt;/p&gt;
-&lt;p&gt;Eu sempre acabo tendo que procurar na internet esse comando chato quando por acidente 👀 acabo commitando aquele &lt;code&gt;appsettings.json&lt;/code&gt; ou qualquer outra alteração feita exclusivamente para testes locais.&lt;/p&gt;
-&lt;p&gt;Pra isso eu criei um alias chamado &lt;code&gt;uncommit&lt;/code&gt; que funciona da seguinte forma:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# !/bin/sh&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git uncommit
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Sim, é só isso.&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;Para definir o alias &lt;code&gt;uncommit&lt;/code&gt; você pode seguir de duas formas:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Executando diretamente no terminal&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# !/bin/sh&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git config --global alias.uncommit &lt;span class=&#34;s2&#34;&gt;&amp;#34;reset HEAD^&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;Editando o arquivo .gitconfig do seu usuário e adicionado um alias&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# .gitconfig&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;user&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nv&#34;&gt;name&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; Daniel Cobalto
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nv&#34;&gt;email&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; cobalto@users.noreply.github.com
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;alias&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nv&#34;&gt;uncommit&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; reset HEAD^
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;Agora você pode &lt;code&gt;uncommitar&lt;/code&gt; seus commits com um comando simples e fácil de lembrar.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Disclaimer: Esse texto foi escrito originalmente para a documentação interna que mantemos na empresa em que trabalho, mas como não existe nada sigiloso nele estou compartilhando aqui também 😊&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        </item>
-        <item>
-        <title>Sobre carros velozes, estratégia, champanhe e Hannah Schmitz</title>
-        <link>/artigo/sobre-formula1-estrategia-e-a-hannah/</link>
-        <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
-        
-        <guid>/artigo/sobre-formula1-estrategia-e-a-hannah/</guid>
-        <description>&lt;img src="/artigo/sobre-formula1-estrategia-e-a-hannah/gp_brasil_2019_podio_talvez_photoshopado.jpg" alt="Featured image of post Sobre carros velozes, estratégia, champanhe e Hannah Schmitz" /&gt;&lt;p&gt;Olhe bem para a imagem que abre esse post. Eu sei, ela &lt;del&gt;parece&lt;/del&gt; photoshopada, mas não é esse o ponto, olhe novamente. O que você vê ali que destoa do lugar comum? O que lhe chama a atenção?&lt;/p&gt;
-&lt;p&gt;A foto em questão, que em hipotese alguma sofreu qualquer tipo de adulteração digital, é do pódio do Grande Prêmio Brasil de Formula 1 (tecnicamente &amp;ldquo;Fórmula 1 Grande Prêmio Heineken do Brasil 2019&amp;rdquo;) em que os três primeiros colocados foram respectivamente Max Verstappen pela Red Bull, Pierre Gasly pela Toro Rosso e Carlos Sainz pela McLaren (longa história).&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/artigo/sobre-formula1-estrategia-e-a-hannah/hannah_max_gasly_podium.jpg&#34;
-	width=&#34;700&#34;
-	height=&#34;367&#34;
-	srcset=&#34;/artigo/sobre-formula1-estrategia-e-a-hannah/hannah_max_gasly_podium_hu6663762070157896669.jpg 480w, /artigo/sobre-formula1-estrategia-e-a-hannah/hannah_max_gasly_podium_hu7812416575037725075.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Hannah, Max e Gasly no pódio&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;190&#34;
-		data-flex-basis=&#34;457px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;Como em todo pódio, um engenheiro da equipe do primeiro colocado vai ao pódio representando a escuderia no campeonato de construtores, se não sabia ficou sabendo agora.&lt;/p&gt;
-&lt;p&gt;Aqui o pódio em vídeo com a inserção via CG do Hamilton na celebração:&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;Nesse pódio em particular quem estava representando a Red Bull era Hannah Schmitz, anteriormente conhecida como Hannah Macmillan*, engenheira de estratégia senior da equipe.&lt;/p&gt;
-&lt;p&gt;Aqui entra a curiosidade e &lt;em&gt;motor&lt;/em&gt; (heh) da existência desse post: Em uma situação &amp;ldquo;normalizada&amp;rdquo; dos dias atuais Hannah estaria lá para pregar que mulheres podem sim alcançar aquela posição (verdade) em um esporte historicamente masculino (verdade) e também historicamente hostil à presenção feminina (não tenho provas, mas acredito). Em uma ação de marketing ela estaria lá mais para chamar a atenção e &amp;ldquo;causar&amp;rdquo; do que qualquer outra coisa.&lt;/p&gt;
-&lt;p&gt;Mas a Hannah? Não, a Hannah não. Ela está lá porque lá é o lugar dela. Simples assim.&lt;/p&gt;
-&lt;p&gt;Melhor ainda: Dizer que ela está lá &lt;del&gt;apenas&lt;/del&gt; por ser seu lugar de direito seria um demérito, de acordo com Christian Horner (que por acaso é o Chefe da Equipe) &lt;a class=&#34;link&#34; href=&#34;https://duckduckgo.com&#34;  title=&#34;Red Bull diz que vitória de Verstappen veio após &amp;#39;decisão corajosa&amp;#39; de engenheira&#34;
-     target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;ela foi a &lt;em&gt;&lt;strong&gt;responsável&lt;/strong&gt;&lt;/em&gt; pela vitória do Max nesse GP&lt;/a&gt;. Não é pouca coisa não.&lt;/p&gt;
-&lt;p&gt;Algumas outras informações interessantes:&lt;br&gt;
-&amp;ndash; Está na Redbull Racing já tem 10 anos e 1 mês :)&lt;br&gt;
-&amp;ndash; Voltou recentemente de licença maternidade.&lt;br&gt;
-&amp;ndash; Participou dessa campanha da Redbull ainda com o nome &amp;ldquo;Macmillan&amp;rdquo;:&lt;/p&gt;
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://player.vimeo.com/video/109074539&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;vimeo video&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;p&gt;(entendeu o * no começo do texto?)&lt;/p&gt;
-&lt;p&gt;E por ultimo, mas não menos importante, de alguma forma ela é uma conexão de terceiro grau minha no LinkedIn *thinking emoji*&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/artigo/sobre-formula1-estrategia-e-a-hannah/hanna_linkedin.PNG&#34;
-	width=&#34;464&#34;
-	height=&#34;321&#34;
-	srcset=&#34;/artigo/sobre-formula1-estrategia-e-a-hannah/hanna_linkedin_hu9417051475851939610.PNG 480w, /artigo/sobre-formula1-estrategia-e-a-hannah/hanna_linkedin_hu3538933378700874303.PNG 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Hannah no LinkedIn&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;144&#34;
-		data-flex-basis=&#34;346px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;Parabéns, Hannah.&lt;br&gt;
-Por mostrar que lugar de mulher é onde ela quiser.&lt;br&gt;
-E por levar o Max ao posto máximo no pódio :)&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Olá mundo, outra vez.</title>
-        <link>/artigo/hello-world-outra-vez/</link>
-        <pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate>
-        
-        <guid>/artigo/hello-world-outra-vez/</guid>
-        <description>&lt;img src="/artigo/hello-world-outra-vez/hello.png" alt="Featured image of post Olá mundo, outra vez." /&gt;&lt;h1 id=&#34;parece-que-alguém-está-de-volta-&#34;&gt;Parece que alguém está de volta 😉&lt;/h1&gt;
-&lt;p&gt;Não vou colocar uma meta, vou deixar a meta aberta pra quem sabe poder dobra-la.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Resolvendo o erro “VT-x is not available” do Virtual Box no Windows 10</title>
-        <link>/artigo/resolvendo-erro-virtual-box-w10/</link>
-        <pubDate>Sun, 23 Sep 2018 00:00:00 +0000</pubDate>
-        
-        <guid>/artigo/resolvendo-erro-virtual-box-w10/</guid>
-        <description>&lt;img src="/artigo/resolvendo-erro-virtual-box-w10/ms_xamarin.jpg" alt="Featured image of post Resolvendo o erro “VT-x is not available” do Virtual Box no Windows 10" /&gt;&lt;p&gt;Pra quem fica migrando pra lá e pra cá entre Hyper-V e Virtual box (se você já precisou usar o Docker e o Android Emulator na mesma máquina sabe do que estou falando) é muito comum dar aquele branco e esquecer que um não vive muito bem com o outro e acabar tendo que fazer uma reinicialização da máquina não programada porque esqueceu pra qual dos dois a máquina estava configurada (me disseram que isso é comum, nunca aconteceu comigo 🙄).&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;/artigo/resolvendo-erro-virtual-box-w10/vtx-1.jpg&#34;
-    alt=&#34;Tira casaco, coloca casaco...&#34;&gt;&lt;figcaption&gt;
-      &lt;p&gt;Tira casaco, coloca casaco&amp;hellip;&lt;/p&gt;
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h4 id=&#34;mas-e-quando-isso-não-resolve&#34;&gt;Mas e quando isso não resolve?&lt;/h4&gt;
-&lt;p&gt;Depois de um bom tempo mantendo sempre o Hyper-V configurado e usando até minhas máquinas virtuais linux nele, resolvi fazer uns testes no virtual box e eis que para minha surpresa o procedimento não resolveu meu problema e toda vez que tentava ativar a máquina virtual no Virtual Box era apresentado o seguinte erro:&lt;/p&gt;
-&lt;h2 id=&#34;vt-x-is-not-available-verr_vmx_no_vmx&#34;&gt;“VT-x is not available (VERR_VMX_NO_VMX)”&lt;/h2&gt;
-&lt;p&gt;Mas se isso funcionava antes, o que raios pode estar acontecendo agora pra não funcionar? É verdade que se passou bastante tempo, várias atualizações do Windows 10 vieram, várias configurações foram alteradas pelos mais variados motivos, então ficou bem difícil encontrar um culpa de cabeça. Mas não estamos aqui para julgar, estamos aqui para achar culpados.&lt;/p&gt;
-&lt;p&gt;Então, conto de uma vez que o culpado é esse rapaz aqui:&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;/artigo/resolvendo-erro-virtual-box-w10/vtx-2.png&#34;
-    alt=&#34;Central de Segurança &amp;gt; Isolamento de Núcleo&#34;&gt;&lt;figcaption&gt;
-      &lt;p&gt;Central de Segurança &amp;gt; Isolamento de Núcleo&lt;/p&gt;
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;figure&gt;&lt;img src=&#34;/artigo/resolvendo-erro-virtual-box-w10/vtx-3.png&#34;
-    alt=&#34;Integridade da Memória [ Ativado ]&#34;&gt;&lt;figcaption&gt;
-      &lt;p&gt;Integridade da Memória [ Ativado ]&lt;/p&gt;
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Basta tratá-lo como é feito com o Hyper-V e a virtualização do Virtual Box voltará ao normal como nunca deveria ter deixado de ser.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>App Xamarin Forms fecha assim que é iniciado no Visual Studio Emulator, o que fazer?</title>
-        <link>/artigo/app-xamarin-forms-fecha-iniciado/</link>
-        <pubDate>Sat, 11 Feb 2017 00:00:00 +0000</pubDate>
-        
-        <guid>/artigo/app-xamarin-forms-fecha-iniciado/</guid>
-        <description>&lt;img src="/artigo/app-xamarin-forms-fecha-iniciado/ms_xamarin.jpg" alt="Featured image of post App Xamarin Forms fecha assim que é iniciado no Visual Studio Emulator, o que fazer?" /&gt;&lt;p&gt;Ao tentar debugar o app no emulador, logo após o fim do processo de rebuild o Visual Studio iniciava o processo no emulador, mas antes de aparecer qualquer coisa na tela o aplicativo era encerrado e o Visual Studio não informava nenhum tipo de erro. Ao tentar fazer o deploy, ele era feito corretamente porém o aplicativo instalado no Emulador travava e era exibida a tela de erro da aplicação padrão do Android.&lt;/p&gt;
-&lt;p&gt;Como resolver? Simples (mas não tão óbvio).&lt;/p&gt;
-&lt;p&gt;Primeiramente encerre a máquina virtual de forma normal.
-Abra o gerenciador do Hyper-V (basta digitar Hyper-V na busca).
-Encontre a máquina virtual que estava sendo utilizada.
-Com o botão direito selecione Propriedades (Fig.1).&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;/artigo/app-xamarin-forms-fecha-iniciado/hypper_v_1.jpg&#34;
-    alt=&#34;Fig.1&#34;&gt;&lt;figcaption&gt;
-      &lt;p&gt;Fig.1&lt;/p&gt;
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;No menu lateral, abra a árvore do item Processador.
-Selecione o item Compatibilidade.
-Marque a caixa “Migrar para um computador físico com versão diferente de processador” (Fig.2) que estará desmarcarda.&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;/artigo/app-xamarin-forms-fecha-iniciado/hypper_v_2.jpg&#34;
-    alt=&#34;Fig.2&#34;&gt;&lt;figcaption&gt;
-      &lt;p&gt;Fig.2&lt;/p&gt;
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Confirme e feche todas as janelas do Hyper-V.
-Volte ao Visual Studio e tente rodar o projeto novamente.&lt;/p&gt;
-&lt;p&gt;Isso deve resolver o problema.
-Funcionou comigo.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Vamos escrever? Bora! Mas sobre o que (exatamente)?</title>
-        <link>/artigo/vamos-escrever-mas-sobre-o-que/</link>
-        <pubDate>Fri, 21 Oct 2016 00:00:00 +0000</pubDate>
-        
-        <guid>/artigo/vamos-escrever-mas-sobre-o-que/</guid>
-        <description>&lt;img src="/artigo/vamos-escrever-mas-sobre-o-que/vamos_escrever.jpg" alt="Featured image of post Vamos escrever? Bora! Mas sobre o que (exatamente)?" /&gt;&lt;p&gt;E é assim, ou mais ou menos, nessa situação que toda vez que penso em escrever e aí fica por isso mesmo, cada um no seu canto (eu no meu canto e o blog largado, no caso) e ninguém entra nesse assunto. Parafraseando Aécio Neves, e ele falou muito isso durante as eleições, “infelizmente a verdade é essa”, eu não tenho mais o que escrever.&lt;/p&gt;
-&lt;p&gt;Eu já não tenho mais saco pra tentar ser engraçadinho com tudo, o tempo me deu uma vergonha na cara grande demais para falar besteira por falar e isso seca a fonte de inspirações para postagens tal qual o Cantareira está agora.&lt;/p&gt;
-
-  &lt;img src=&#34;desisto_da_vida.gif&#34;  alt=&#34;Sem tempo, irmão&#34;  class=&#34;left&#34;  style=&#34;float: left; margin-right: 15px;&#34;  /&gt;
-
-
-&lt;p&gt;Eu também, curiosamente, não tenho saco pra falar das coisas que mais leio, tecnologia. Por ser algo que eu estou SEMPRE lendo, eu não tenho vontade nenhuma de escrever sobre, até porque seria mais do mesmo, alguém já falou, eu não tenho necessidade de reforçar minha opinião em textões de mais de 10.000 caracteres. E pra expor opinião não solicitada já existe o twitter.&lt;/p&gt;
-&lt;p&gt;Eu podia ter aproveitado a deixa da Copa pra falar de futebol, mas entendo muito pouco quase nada, além de realmente não me importar com isso fora da época do Evento. Mas tivemos as eleições, certo? É, a primeira que acompanhei de forma decente e consciente como um bom cidadão, então não, não tenho bagagem pra achar que posso registrar minha opinião na internet, pra isso existe o botão “share/compartilhar” do Facebook (e a tendência do momento, os textões).&lt;/p&gt;
-&lt;p&gt;Escrever textos meta como esse também são um saco e algo que ninguém em sã consciência deveria perder tempo lendo, nem escrevendo, mas sei lá, se eu não escrevo isso hoje semana que vem ou na próxima eu acabaria nessa mesma posição.&lt;/p&gt;
-&lt;p&gt;E assim, sem eira nem beira, sem nenhum sentido e sem nenhuma conclusão termino esse texto sem saber sobre o que escrever, mas com uma certeza bem clara: Eu escrevi.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Hello World</title>
-        <link>/artigo/hello-world/</link>
-        <pubDate>Sun, 16 Oct 2016 00:00:00 +0000</pubDate>
-        
-        <guid>/artigo/hello-world/</guid>
-        <description>&lt;img src="/artigo/hello-world/hello.png" alt="Featured image of post Hello World" /&gt;&lt;p&gt;E lá vamos nós mais uma vez.&lt;/p&gt;
-&lt;p&gt;Agora em uma empreitada um pouco maior, &lt;del&gt;de volta ao wordpress&lt;/del&gt; usando Hugo.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Arquivo</title>
-        <link>/arquivo/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>/arquivo/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Busca</title>
-        <link>/busca/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>/busca/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Links</title>
-        <link>/links/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>/links/</guid>
-        <description>&lt;p&gt;Aqui irei adicionando links que quero compartilhar.&lt;br&gt;
-O formato de página é relativamente novo no tema, então não reparem o espaço vazio :P&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Sobre</title>
-        <link>/sobre/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>/sobre/</guid>
-        <description>&lt;p&gt;Olá e bem vindo ao meu blog.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/sobre/welcome.png&#34;
-	width=&#34;1790&#34;
-	height=&#34;480&#34;
-	srcset=&#34;/sobre/welcome_hu1782614560217230704.png 480w, /sobre/welcome_hu13520378992180236295.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;372&#34;
-		data-flex-basis=&#34;895px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;Nesse espaço pretendo (não posso prometer) colocar tudo que fique melhor escrito por extenso e de forma mais detalhada do que as as redes sociais permitem (estou olhando pra você, twitter). Não tenho nenhuma pretensão de seguir uma linha editorial ou sequer alguma frequência definida, então pense nisso mais como um repositório de textos que eu queira manter indeterminadamente.&lt;/p&gt;
-&lt;p&gt;Se você quiser saber mais sobre mim, recomendo dar uma olhada no meu perfil online que fica em &lt;a class=&#34;link&#34; href=&#34;https://cobalto.dev&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Cobalto.dev&lt;/a&gt;, lá você vai encontrar links para todas (ou pelo menos as que eu não vejo problema em divulgar 😏), as minhas redes sociais e um pouquinho mais sobre quem sou eu.&lt;/p&gt;
-&lt;p&gt;Seja bem vindo(a) e desculpe qualquer coisa.&lt;/p&gt;
-</description>
-        </item>
-        
-    </channel>
+	<channel>
+		<title>Cobalto.net</title>
+		<link>https://cobalto.net/</link>
+		<description>Recent content on Cobalto.net</description>
+		<generator>Hugo</generator>
+		<language>pt-BR</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 05 Jun 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://cobalto.net/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Typolügenchronik: A Curiosa História da Tipografia Alemã e Outras Mentiras Convenientes</title>
+				<link>https://cobalto.net/artigo/typolugenchronik/</link>
+				<pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>https://cobalto.net/artigo/typolugenchronik/</guid>
+				<description>Até 1945, a Alemanha seguia a Schriftkontinuität, uma tradição administrativa que dispensava espaços entre palavras por questões de eficiência. Foi preciso uma diretiva das forças aliadas para que os alemães finalmente adotassem o espaço — e mesmo assim, muitos resistiram.</description>
+			</item>
+			<item>
+				<title>Mensagem para casa: Uma rápida atualização sobre a viagem de volta</title>
+				<link>https://cobalto.net/artigo/message-home/</link>
+				<pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+				<guid>https://cobalto.net/artigo/message-home/</guid>
+				<description>Os visitantes mandaram uma mensagem para casa durante a volta. O que eles disseram não tem nada a ver com o que vivemos.</description>
+			</item>
+			<item>
+				<title>Depois que eles partiram: vivendo nas sombras</title>
+				<link>https://cobalto.net/artigo/after-they-left/</link>
+				<pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>https://cobalto.net/artigo/after-they-left/</guid>
+				<description>Eles vieram, fizeram o deles, e foram embora. Agora só restam os escombros, o silêncio, e as perguntas que não calam.</description>
+			</item>
+			<item>
+				<title>Enquanto Eles Permaneceram: O Mundo em Caos</title>
+				<link>https://cobalto.net/artigo/while-they-stayed/</link>
+				<pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
+				<guid>https://cobalto.net/artigo/while-they-stayed/</guid>
+				<description>Eles ficaram aqui por algumas horas, e o mundo não aguentou. Isso é como foi enquanto eles permaneceram.</description>
+			</item>
+			<item>
+				<title>O Dia em que Eles Chegaram: O Relato de um Estranho</title>
+				<link>https://cobalto.net/artigo/the-day-they-came/</link>
+				<pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+				<guid>https://cobalto.net/artigo/the-day-they-came/</guid>
+				<description>Eles vieram do céu, e nada foi igual desde então. Isso é o que consegui juntar sobre aquele dia.</description>
+			</item>
+			<item>
+				<title>Instalação do Xcode travada no status Instalando</title>
+				<link>https://cobalto.net/artigo/instala%C3%A7%C3%A3o-do-xcode-travada-no-status-instalando/</link>
+				<pubDate>Wed, 14 Sep 2022 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/artigo/instala%C3%A7%C3%A3o-do-xcode-travada-no-status-instalando/</guid>
+				<description>It just works, quer dizer, nem sempre.</description>
+			</item>
+			<item>
+				<title>Ensaios sobre correr</title>
+				<link>https://cobalto.net/artigo/ensaios-sobre-correr/</link>
+				<pubDate>Fri, 09 Apr 2021 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/artigo/ensaios-sobre-correr/</guid>
+				<description>Vários pensamentos corridos sobre um tema corrente (ba-dum-tisss)</description>
+			</item>
+			<item>
+				<title>A íncrivel história de como quase taquei fogo na minha casa usando apenas água</title>
+				<link>https://cobalto.net/artigo/a-%C3%ADncrivel-hist%C3%B3ria-de-como-quase-taquei-fogo-na-minha-casa-usando-apenas-%C3%A1gua/</link>
+				<pubDate>Sun, 04 Apr 2021 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/artigo/a-%C3%ADncrivel-hist%C3%B3ria-de-como-quase-taquei-fogo-na-minha-casa-usando-apenas-%C3%A1gua/</guid>
+				<description>A taça de plástico, o sol e a mesa de madeira.</description>
+			</item>
+			<item>
+				<title>Como Instalar Aplicativos Android Fora da Play Store: Um Guia Simples e Seguro</title>
+				<link>https://cobalto.net/artigo/como-instalar-aplicativos-android-fora-da-play-store-um-guia-simples-e-seguro/</link>
+				<pubDate>Sun, 21 Mar 2021 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/artigo/como-instalar-aplicativos-android-fora-da-play-store-um-guia-simples-e-seguro/</guid>
+				<description>Aprenda a baixar e instalar apps de fontes alternativas, configurar permissões e usar lojas e ferramentas como o F-Droid</description>
+			</item>
+			<item>
+				<title>Mini Review: Jujutsu Kaisen (呪術廻戦)</title>
+				<link>https://cobalto.net/artigo/mini-review-jujutsu-kaisen-%E5%91%AA%E8%A1%93%E5%BB%BB%E6%88%A6/</link>
+				<pubDate>Mon, 25 Jan 2021 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/artigo/mini-review-jujutsu-kaisen-%E5%91%AA%E8%A1%93%E5%BB%BB%E6%88%A6/</guid>
+				<description>Por que esse anime parece tão familiar se eu nunca cheguei nem perto dele? 🤔</description>
+			</item>
+			<item>
+				<title>Trailer: Evangelion: 3.0&#43;1.0 Thrice Upon a Time (2021)</title>
+				<link>https://cobalto.net/artigo/trailer-evangelion-3.0-1.0-thrice-upon-a-time-2021/</link>
+				<pubDate>Thu, 31 Dec 2020 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/artigo/trailer-evangelion-3.0-1.0-thrice-upon-a-time-2021/</guid>
+				<description>Sem pânico, mas parece que tá acontecendo mesmo.</description>
+			</item>
+			<item>
+				<title>Uma breve história sobre tudo isso que vem acontecendo em todo lugar</title>
+				<link>https://cobalto.net/artigo/uma-breve-hist%C3%B3ria-sobre-tudo-isso-que-vem-acontecendo-em-todo-lugar/</link>
+				<pubDate>Mon, 28 Dec 2020 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/artigo/uma-breve-hist%C3%B3ria-sobre-tudo-isso-que-vem-acontecendo-em-todo-lugar/</guid>
+				<description>50 anos em 3 ou talvez até mais. Mas não é só de pandemia que vivem as mudanças. Mas vamos com calma&amp;hellip;</description>
+			</item>
+			<item>
+				<title>Executando testes antes de um Commit</title>
+				<link>https://cobalto.net/artigo/executando-testes-antes-de-um-commit/</link>
+				<pubDate>Thu, 19 Nov 2020 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/artigo/executando-testes-antes-de-um-commit/</guid>
+				<description>&lt;p&gt;Esquecer de atualizar testes é sempre um problema, perceber que eles quebraram só quando as git actions reclamam durante um PR é ainda pior 😅&lt;/p&gt;&#xA;&lt;p&gt;A melhor forma de evitar que isso aconteça é agir &lt;em&gt;&lt;strong&gt;preemptivamente&lt;/strong&gt;&lt;/em&gt; e executarmos os testes sempre que formos fazer um commit, mas confiar na memória e no Visual Studio (been there, done that) não é 100% seguro, portanto precisamos automatizar.&lt;/p&gt;&#xA;&lt;h2 id=&#34;entram-em-cena-os-git-hooks&#34;&gt;Entram em cena os git hooks&lt;a href=&#34;#entram-em-cena-os-git-hooks&#34; class=&#34;heading-anchor&#34; aria-label=&#34;Link para esta seção&#34;&gt;&lt;svg class=&#34;h-4 w-4&#34; aria-hidden=&#34;true&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;g fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34;/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&#xA;&lt;figure&#xA;  class=&#34;image-figure not-prose my-8&#34;&#xA;  data-lightbox-enabled=&#34;&#xA;    true&#xA;  &#34;&#xA;  data-gallery-type=&#34;auto&#34;&#xA;  data-image-width=&#34;224&#34;&#xA;  data-image-height=&#34;300&#34;&#xA;  data-image-src=&#34;https://cobalto.net/artigo/executando-testes-antes-de-um-commit/git_hooks_windows.png&#34;&#xA;&gt;&#xA;  &lt;div class=&#34;image-container&#34;&gt;&#xA;    &lt;img&#xA;    src=&#34;https://cobalto.net/artigo/executando-testes-antes-de-um-commit/git_hooks_windows.png&#34;&#xA;    alt=&#34;hooks iniciais&#34;&#xA;    title=&#34;hooks iniciais&#34;&#xA;    &#xA;      &#xA;      &#xA;        &#xA;          width=&#34;224&#34; height=&#34;300&#34;&#xA;        &#xA;      &#xA;    &#xA;    loading=&#34;lazy&#34;&#xA;    decoding=&#34;async&#34;&#xA;    data-gallery-src=&#34;https://cobalto.net/artigo/executando-testes-antes-de-um-commit/git_hooks_windows.png&#34;&#xA;    data-gallery-alt=&#34;hooks iniciais&#34;&#xA;    data-gallery-title=&#34;hooks iniciais&#34;&#xA;  /&gt;&lt;/div&gt;&#xA;&#xA;  &lt;figcaption class=&#34;image-caption&#34;&gt;&#xA;      hooks iniciais&#xA;    &lt;/figcaption&gt;&lt;/figure&gt;&#xA;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Sobre carros velozes, estratégia, champanhe e Hannah Schmitz</title>
+				<link>https://cobalto.net/artigo/sobre-carros-velozes-estrat%C3%A9gia-champanhe-e-hannah-schmitz/</link>
+				<pubDate>Tue, 19 Nov 2019 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/artigo/sobre-carros-velozes-estrat%C3%A9gia-champanhe-e-hannah-schmitz/</guid>
+				<description>Quando uma coisa normal é tratada de forma tão normal que até soa&amp;hellip; curioso.</description>
+			</item>
+			<item>
+				<title>Olá mundo, outra vez.</title>
+				<link>https://cobalto.net/artigo/ol%C3%A1-mundo-outra-vez./</link>
+				<pubDate>Fri, 21 Dec 2018 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/artigo/ol%C3%A1-mundo-outra-vez./</guid>
+				<description>Mais um post de re-introdução que vai envelhecer extremamente mal, quer apostar?</description>
+			</item>
+			<item>
+				<title>Resolvendo o erro “VT-x is not available” do Virtual Box no Windows 10</title>
+				<link>https://cobalto.net/artigo/resolvendo-o-erro-vt-x-is-not-available-do-virtual-box-no-windows-10/</link>
+				<pubDate>Sun, 23 Sep 2018 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/artigo/resolvendo-o-erro-vt-x-is-not-available-do-virtual-box-no-windows-10/</guid>
+				<description>&lt;p&gt;Pra quem fica migrando pra lá e pra cá entre Hyper-V e Virtual box (se você já precisou usar o Docker e o Android Emulator na mesma máquina sabe do que estou falando) é muito comum dar aquele branco e esquecer que um não vive muito bem com o outro e acabar tendo que fazer uma reinicialização da máquina não programada porque esqueceu pra qual dos dois a máquina estava configurada (me disseram que isso é comum, nunca aconteceu comigo 🙄).&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>App Xamarin Forms fecha assim que é iniciado no Visual Studio Emulator, o que fazer?</title>
+				<link>https://cobalto.net/artigo/app-xamarin-forms-fecha-assim-que-%C3%A9-iniciado-no-visual-studio-emulator-o-que-fazer/</link>
+				<pubDate>Sat, 11 Feb 2017 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/artigo/app-xamarin-forms-fecha-assim-que-%C3%A9-iniciado-no-visual-studio-emulator-o-que-fazer/</guid>
+				<description>Continuando a #MaratonaXamarin, encontrei um novo problema ao tentar debugar meu app em Xarmarin Forms no emulador Android do Visual Studio.</description>
+			</item>
+			<item>
+				<title>Vamos escrever? Bora! Mas sobre o que (exatamente)?</title>
+				<link>https://cobalto.net/artigo/vamos-escrever-bora-mas-sobre-o-que-exatamente/</link>
+				<pubDate>Fri, 21 Oct 2016 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/artigo/vamos-escrever-bora-mas-sobre-o-que-exatamente/</guid>
+				<description>&lt;p&gt;E é assim, ou mais ou menos, nessa situação que toda vez que penso em escrever e aí fica por isso mesmo, cada um no seu canto (eu no meu canto e o blog largado, no caso) e ninguém entra nesse assunto. Parafraseando Aécio Neves, e ele falou muito isso durante as eleições, “infelizmente a verdade é essa”, eu não tenho mais o que escrever.&lt;/p&gt;&#xA;&lt;p&gt;Eu já não tenho mais saco pra tentar ser engraçadinho com tudo, o tempo me deu uma vergonha na cara grande demais para falar besteira por falar e isso seca a fonte de inspirações para postagens tal qual o Cantareira está agora.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Hello World</title>
+				<link>https://cobalto.net/artigo/hello-world/</link>
+				<pubDate>Sun, 16 Oct 2016 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/artigo/hello-world/</guid>
+				<description>E lá vamos nós mais uma vez.</description>
+			</item>
+			<item>
+				<title>Currículo</title>
+				<link>https://cobalto.net/resume/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://cobalto.net/resume/</guid>
+				<description>Com mais de 10 anos de experiência em engenharia de software, focando especialmente no desenvolvimento de back-end com .NET, aprimorei minhas habilidades para me tornar um profissional experiente, seguindo padrões modernos e melhores práticas.</description>
+			</item>
+	</channel>
 </rss>

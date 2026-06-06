@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>VirtualBox on Cobalto.net</title>
+		<link>https://cobalto.net/en/tag/virtualbox/</link>
+		<description>Recent content in VirtualBox on Cobalto.net</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 23 Sep 2018 00:00:00 -0300</lastBuildDate>
+		
+			<atom:link href="https://cobalto.net/en/tag/virtualbox/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Solving the “VT-x is not available” error in Virtual Box on Windows 10</title>
+				<link>https://cobalto.net/en/artigo/solving-the-vt-x-is-not-available-error-in-virtual-box-on-windows-10/</link>
+				<pubDate>Sun, 23 Sep 2018 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/en/artigo/solving-the-vt-x-is-not-available-error-in-virtual-box-on-windows-10/</guid>
+				<description>&lt;p&gt;For those who keep migrating back and forth between Hyper-V and Virtual Box (if you&amp;rsquo;ve ever needed to use Docker and the Android Emulator on the same machine, you know what I&amp;rsquo;m talking about), it&amp;rsquo;s very common to draw a blank and forget that one doesn&amp;rsquo;t work very well with the other, ending up having to do an unplanned machine restart because you forgot which of the two the machine was configured for (they told me this is common, never happened to me 🙄).&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
