@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Chaos on Cobalto.net</title>
+		<link>https://cobalto.net/en/tags/chaos/</link>
+		<description>Recent content in Chaos on Cobalto.net</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 02 Mar 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://cobalto.net/en/tags/chaos/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>While They Stayed: The World in Chaos</title>
+				<link>https://cobalto.net/en/posts/while-they-stayed/</link>
+				<pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
+				<guid>https://cobalto.net/en/posts/while-they-stayed/</guid>
+				<description>They were here for a few hours, and the world couldn&amp;rsquo;t handle it. This is what it was like while they stayed.</description>
+			</item>
+	</channel>
+</rss>

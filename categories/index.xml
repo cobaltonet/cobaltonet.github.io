@@ -15,72 +15,72 @@
 			<atom:link href="https://cobalto.net/categories/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Ficção</title>
-				<link>https://cobalto.net/categoria/fic%C3%A7%C3%A3o/</link>
+				<link>https://cobalto.net/categories/fic%C3%A7%C3%A3o/</link>
 				<pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
-				<guid>https://cobalto.net/categoria/fic%C3%A7%C3%A3o/</guid>
+				<guid>https://cobalto.net/categories/fic%C3%A7%C3%A3o/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Humor</title>
-				<link>https://cobalto.net/categoria/humor/</link>
+				<link>https://cobalto.net/categories/humor/</link>
 				<pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
-				<guid>https://cobalto.net/categoria/humor/</guid>
+				<guid>https://cobalto.net/categories/humor/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Idioma</title>
-				<link>https://cobalto.net/categoria/idioma/</link>
+				<link>https://cobalto.net/categories/idioma/</link>
 				<pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
-				<guid>https://cobalto.net/categoria/idioma/</guid>
+				<guid>https://cobalto.net/categories/idioma/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Programacao</title>
-				<link>https://cobalto.net/categoria/programacao/</link>
+				<link>https://cobalto.net/categories/programacao/</link>
 				<pubDate>Wed, 14 Sep 2022 00:00:00 -0300</pubDate>
-				<guid>https://cobalto.net/categoria/programacao/</guid>
+				<guid>https://cobalto.net/categories/programacao/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Tutorial</title>
-				<link>https://cobalto.net/categoria/tutorial/</link>
+				<link>https://cobalto.net/categories/tutorial/</link>
 				<pubDate>Wed, 14 Sep 2022 00:00:00 -0300</pubDate>
-				<guid>https://cobalto.net/categoria/tutorial/</guid>
+				<guid>https://cobalto.net/categories/tutorial/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Pessoal</title>
-				<link>https://cobalto.net/categoria/pessoal/</link>
+				<link>https://cobalto.net/categories/pessoal/</link>
 				<pubDate>Fri, 09 Apr 2021 00:00:00 -0300</pubDate>
-				<guid>https://cobalto.net/categoria/pessoal/</guid>
+				<guid>https://cobalto.net/categories/pessoal/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Otaku</title>
-				<link>https://cobalto.net/categoria/otaku/</link>
+				<link>https://cobalto.net/categories/otaku/</link>
 				<pubDate>Mon, 25 Jan 2021 00:00:00 -0300</pubDate>
-				<guid>https://cobalto.net/categoria/otaku/</guid>
+				<guid>https://cobalto.net/categories/otaku/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Review</title>
-				<link>https://cobalto.net/categoria/review/</link>
+				<link>https://cobalto.net/categories/review/</link>
 				<pubDate>Mon, 25 Jan 2021 00:00:00 -0300</pubDate>
-				<guid>https://cobalto.net/categoria/review/</guid>
+				<guid>https://cobalto.net/categories/review/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Meta</title>
-				<link>https://cobalto.net/categoria/meta/</link>
+				<link>https://cobalto.net/categories/meta/</link>
 				<pubDate>Mon, 28 Dec 2020 00:00:00 -0300</pubDate>
-				<guid>https://cobalto.net/categoria/meta/</guid>
+				<guid>https://cobalto.net/categories/meta/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Formula 1</title>
-				<link>https://cobalto.net/categoria/formula-1/</link>
+				<link>https://cobalto.net/categories/formula-1/</link>
 				<pubDate>Tue, 19 Nov 2019 00:00:00 -0300</pubDate>
-				<guid>https://cobalto.net/categoria/formula-1/</guid>
+				<guid>https://cobalto.net/categories/formula-1/</guid>
 				<description></description>
 			</item>
 	</channel>

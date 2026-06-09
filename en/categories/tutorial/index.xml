@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Tutorial on Cobalto.net</title>
+		<link>https://cobalto.net/en/categories/tutorial/</link>
+		<description>Recent content in Tutorial on Cobalto.net</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 14 Sep 2022 00:00:00 -0300</lastBuildDate>
+		
+			<atom:link href="https://cobalto.net/en/categories/tutorial/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Xcode installation stuck on Installing status</title>
+				<link>https://cobalto.net/en/posts/xcode-installation-stuck-on-installing-status/</link>
+				<pubDate>Wed, 14 Sep 2022 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/en/posts/xcode-installation-stuck-on-installing-status/</guid>
+				<description>It just works, well, not always.</description>
+			</item>
+			<item>
+				<title>How to Install Android Apps Outside the Play Store: A Simple and Safe Guide</title>
+				<link>https://cobalto.net/en/posts/how-to-install-android-apps-outside-the-play-store-a-simple-and-safe-guide/</link>
+				<pubDate>Sun, 21 Mar 2021 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/en/posts/how-to-install-android-apps-outside-the-play-store-a-simple-and-safe-guide/</guid>
+				<description>Learn to download and install apps from alternative sources, configure permissions and use stores and tools like F-Droid</description>
+			</item>
+			<item>
+				<title>Running Tests Before a Commit</title>
+				<link>https://cobalto.net/en/posts/running-tests-before-a-commit/</link>
+				<pubDate>Thu, 19 Nov 2020 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/en/posts/running-tests-before-a-commit/</guid>
+				<description>&lt;p&gt;Forgetting to update tests is always a problem, realizing they broke only when git actions complain during a PR is even worse 😅&lt;/p&gt;&#xA;&lt;p&gt;The best way to avoid this is to act &lt;em&gt;&lt;strong&gt;proactively&lt;/strong&gt;&lt;/em&gt; and run the tests whenever we are going to make a commit, but relying on memory and Visual Studio (been there, done that) is not 100% safe, therefore we need to automate.&lt;/p&gt;&#xA;&lt;h2 id=&#34;enter-git-hooks&#34;&gt;Enter git hooks&lt;a href=&#34;#enter-git-hooks&#34; class=&#34;heading-anchor&#34; aria-label=&#34;Link to this section&#34;&gt;&lt;svg class=&#34;h-4 w-4&#34; aria-hidden=&#34;true&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;g fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34;&gt;&lt;path d=&#34;M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71&#34;/&gt;&lt;path d=&#34;M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71&#34;/&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&#xA;&lt;figure&#xA;  class=&#34;image-figure not-prose my-8&#34;&#xA;  data-lightbox-enabled=&#34;&#xA;    true&#xA;  &#34;&#xA;  data-gallery-type=&#34;auto&#34;&#xA;  data-image-width=&#34;224&#34;&#xA;  data-image-height=&#34;300&#34;&#xA;  data-image-src=&#34;https://cobalto.net/posts/executando-testes-antes-de-um-commit/git_hooks_windows.png&#34;&#xA;&gt;&#xA;  &lt;div class=&#34;image-container&#34;&gt;&#xA;    &lt;img&#xA;    src=&#34;https://cobalto.net/posts/executando-testes-antes-de-um-commit/git_hooks_windows.png&#34;&#xA;    alt=&#34;initial hooks&#34;&#xA;    title=&#34;initial hooks&#34;&#xA;    &#xA;      &#xA;      &#xA;        &#xA;          width=&#34;224&#34; height=&#34;300&#34;&#xA;        &#xA;      &#xA;    &#xA;    loading=&#34;lazy&#34;&#xA;    decoding=&#34;async&#34;&#xA;    data-gallery-src=&#34;https://cobalto.net/posts/executando-testes-antes-de-um-commit/git_hooks_windows.png&#34;&#xA;    data-gallery-alt=&#34;initial hooks&#34;&#xA;    data-gallery-title=&#34;initial hooks&#34;&#xA;  /&gt;&lt;/div&gt;&#xA;&#xA;  &lt;figcaption class=&#34;image-caption&#34;&gt;&#xA;      initial hooks&#xA;    &lt;/figcaption&gt;&lt;/figure&gt;&#xA;&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

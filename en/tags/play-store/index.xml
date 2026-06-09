@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Play Store on Cobalto.net</title>
+		<link>https://cobalto.net/en/tags/play-store/</link>
+		<description>Recent content in Play Store on Cobalto.net</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 21 Mar 2021 00:00:00 -0300</lastBuildDate>
+		
+			<atom:link href="https://cobalto.net/en/tags/play-store/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>How to Install Android Apps Outside the Play Store: A Simple and Safe Guide</title>
+				<link>https://cobalto.net/en/posts/how-to-install-android-apps-outside-the-play-store-a-simple-and-safe-guide/</link>
+				<pubDate>Sun, 21 Mar 2021 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/en/posts/how-to-install-android-apps-outside-the-play-store-a-simple-and-safe-guide/</guid>
+				<description>Learn to download and install apps from alternative sources, configure permissions and use stores and tools like F-Droid</description>
+			</item>
+	</channel>
+</rss>

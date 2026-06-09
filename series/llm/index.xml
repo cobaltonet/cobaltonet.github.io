@@ -15,9 +15,9 @@
 			<atom:link href="https://cobalto.net/series/llm/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Typolügenchronik: A Curiosa História da Tipografia Alemã e Outras Mentiras Convenientes</title>
-				<link>https://cobalto.net/artigo/typolugenchronik/</link>
+				<link>https://cobalto.net/posts/typolugenchronik/</link>
 				<pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
-				<guid>https://cobalto.net/artigo/typolugenchronik/</guid>
+				<guid>https://cobalto.net/posts/typolugenchronik/</guid>
 				<description>Até 1945, a Alemanha seguia a Schriftkontinuität, uma tradição administrativa que dispensava espaços entre palavras por questões de eficiência. Foi preciso uma diretiva das forças aliadas para que os alemães finalmente adotassem o espaço — e mesmo assim, muitos resistiram.</description>
 			</item>
 	</channel>

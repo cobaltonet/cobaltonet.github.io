@@ -15,30 +15,30 @@
 			<atom:link href="https://cobalto.net/series/llm2/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Mensagem para casa: Uma rápida atualização sobre a viagem de volta</title>
-				<link>https://cobalto.net/artigo/message-home/</link>
+				<link>https://cobalto.net/posts/message-home/</link>
 				<pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
-				<guid>https://cobalto.net/artigo/message-home/</guid>
+				<guid>https://cobalto.net/posts/message-home/</guid>
 				<description>Os visitantes mandaram uma mensagem para casa durante a volta. O que eles disseram não tem nada a ver com o que vivemos.</description>
 			</item>
 			<item>
 				<title>Depois que eles partiram: vivendo nas sombras</title>
-				<link>https://cobalto.net/artigo/after-they-left/</link>
+				<link>https://cobalto.net/posts/after-they-left/</link>
 				<pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>https://cobalto.net/artigo/after-they-left/</guid>
+				<guid>https://cobalto.net/posts/after-they-left/</guid>
 				<description>Eles vieram, fizeram o deles, e foram embora. Agora só restam os escombros, o silêncio, e as perguntas que não calam.</description>
 			</item>
 			<item>
 				<title>Enquanto Eles Permaneceram: O Mundo em Caos</title>
-				<link>https://cobalto.net/artigo/while-they-stayed/</link>
+				<link>https://cobalto.net/posts/while-they-stayed/</link>
 				<pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
-				<guid>https://cobalto.net/artigo/while-they-stayed/</guid>
+				<guid>https://cobalto.net/posts/while-they-stayed/</guid>
 				<description>Eles ficaram aqui por algumas horas, e o mundo não aguentou. Isso é como foi enquanto eles permaneceram.</description>
 			</item>
 			<item>
 				<title>O Dia em que Eles Chegaram: O Relato de um Estranho</title>
-				<link>https://cobalto.net/artigo/the-day-they-came/</link>
+				<link>https://cobalto.net/posts/the-day-they-came/</link>
 				<pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-				<guid>https://cobalto.net/artigo/the-day-they-came/</guid>
+				<guid>https://cobalto.net/posts/the-day-they-came/</guid>
 				<description>Eles vieram do céu, e nada foi igual desde então. Isso é o que consegui juntar sobre aquele dia.</description>
 			</item>
 	</channel>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Formula 1 on Cobalto.net</title>
+		<link>https://cobalto.net/en/categories/formula-1/</link>
+		<description>Recent content in Formula 1 on Cobalto.net</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 19 Nov 2019 00:00:00 -0300</lastBuildDate>
+		
+			<atom:link href="https://cobalto.net/en/categories/formula-1/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>About fast cars, strategy, champagne and Hannah Schmitz</title>
+				<link>https://cobalto.net/en/posts/about-fast-cars-strategy-champagne-and-hannah-schmitz/</link>
+				<pubDate>Tue, 19 Nov 2019 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/en/posts/about-fast-cars-strategy-champagne-and-hannah-schmitz/</guid>
+				<description>When something normal is treated so normally that it even sounds&amp;hellip; curious.</description>
+			</item>
+	</channel>
+</rss>

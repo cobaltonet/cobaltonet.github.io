@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Vida Adulta on Cobalto.net</title>
+		<link>https://cobalto.net/tags/vida-adulta/</link>
+		<description>Recent content in Vida Adulta on Cobalto.net</description>
+		<generator>Hugo</generator>
+		<language>pt-BR</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 09 Apr 2021 00:00:00 -0300</lastBuildDate>
+		
+			<atom:link href="https://cobalto.net/tags/vida-adulta/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Ensaios sobre correr</title>
+				<link>https://cobalto.net/posts/ensaios-sobre-correr/</link>
+				<pubDate>Fri, 09 Apr 2021 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/posts/ensaios-sobre-correr/</guid>
+				<description>Vários pensamentos corridos sobre um tema corrente (ba-dum-tisss)</description>
+			</item>
+			<item>
+				<title>A íncrivel história de como quase taquei fogo na minha casa usando apenas água</title>
+				<link>https://cobalto.net/posts/a-%C3%ADncrivel-hist%C3%B3ria-de-como-quase-taquei-fogo-na-minha-casa-usando-apenas-%C3%A1gua/</link>
+				<pubDate>Sun, 04 Apr 2021 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/posts/a-%C3%ADncrivel-hist%C3%B3ria-de-como-quase-taquei-fogo-na-minha-casa-usando-apenas-%C3%A1gua/</guid>
+				<description>A taça de plástico, o sol e a mesa de madeira.</description>
+			</item>
+	</channel>
+</rss>
