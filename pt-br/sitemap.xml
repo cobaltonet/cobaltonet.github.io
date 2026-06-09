@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://cobalto.net/</loc>
-    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-08T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-BR"
@@ -15,11 +15,21 @@
                 href="https://cobalto.net/en/"
                 />
   </url><url>
-    <loc>https://cobalto.net/tag/alemanha/</loc>
-    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
+    <loc>https://cobalto.net/artigo/the-meeting-lessons-learned/</loc>
+    <lastmod>2026-06-08T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-BR"
+                href="https://cobalto.net/artigo/the-meeting-lessons-learned/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cobalto.net/en/artigo/the-meeting-lessons-learned/"
+                />
   </url><url>
     <loc>https://cobalto.net/posts/</loc>
-    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-08T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-BR"
@@ -32,7 +42,7 @@
                 />
   </url><url>
     <loc>https://cobalto.net/categories/</loc>
-    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-08T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-BR"
@@ -43,6 +53,118 @@
                 hreflang="en"
                 href="https://cobalto.net/en/categories/"
                 />
+  </url><url>
+    <loc>https://cobalto.net/tag/com%C3%A9dia/</loc>
+    <lastmod>2026-06-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cobalto.net/tag/conto/</loc>
+    <lastmod>2026-06-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cobalto.net/tag/corporativo/</loc>
+    <lastmod>2026-06-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cobalto.net/categoria/fic%C3%A7%C3%A3o/</loc>
+    <lastmod>2026-06-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cobalto.net/tag/fic%C3%A7%C3%A3o/</loc>
+    <lastmod>2026-06-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cobalto.net/tag/humor/</loc>
+    <lastmod>2026-06-08T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-BR"
+                href="https://cobalto.net/tag/humor/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cobalto.net/en/tag/humor/"
+                />
+  </url><url>
+    <loc>https://cobalto.net/series/llm3/</loc>
+    <lastmod>2026-06-08T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-BR"
+                href="https://cobalto.net/series/llm3/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cobalto.net/en/series/llm3/"
+                />
+  </url><url>
+    <loc>https://cobalto.net/series/</loc>
+    <lastmod>2026-06-08T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-BR"
+                href="https://cobalto.net/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cobalto.net/en/series/"
+                />
+  </url><url>
+    <loc>https://cobalto.net/tags/</loc>
+    <lastmod>2026-06-08T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-BR"
+                href="https://cobalto.net/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cobalto.net/en/tags/"
+                />
+  </url><url>
+    <loc>https://cobalto.net/artigo/the-meeting-3/</loc>
+    <lastmod>2026-06-07T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-BR"
+                href="https://cobalto.net/artigo/the-meeting-3/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cobalto.net/en/artigo/the-meeting-3/"
+                />
+  </url><url>
+    <loc>https://cobalto.net/tag/trabalho-remoto/</loc>
+    <lastmod>2026-06-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://cobalto.net/artigo/the-meeting-2/</loc>
+    <lastmod>2026-06-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-BR"
+                href="https://cobalto.net/artigo/the-meeting-2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cobalto.net/en/artigo/the-meeting-2/"
+                />
+  </url><url>
+    <loc>https://cobalto.net/artigo/the-meeting-1/</loc>
+    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-BR"
+                href="https://cobalto.net/artigo/the-meeting-1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cobalto.net/en/artigo/the-meeting-1/"
+                />
+  </url><url>
+    <loc>https://cobalto.net/tag/alemanha/</loc>
+    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cobalto.net/tag/hist%C3%B3ria/</loc>
     <lastmod>2026-06-05T00:00:00+00:00</lastmod>
@@ -82,32 +204,6 @@
     <loc>https://cobalto.net/tag/s%C3%A1tira/</loc>
     <lastmod>2026-06-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://cobalto.net/series/</loc>
-    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-BR"
-                href="https://cobalto.net/series/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cobalto.net/en/series/"
-                />
-  </url><url>
-    <loc>https://cobalto.net/tags/</loc>
-    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-BR"
-                href="https://cobalto.net/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cobalto.net/en/tags/"
-                />
-  </url><url>
     <loc>https://cobalto.net/tag/tipografia/</loc>
     <lastmod>2026-06-05T00:00:00+00:00</lastmod>
   </url><url>
@@ -137,13 +233,7 @@
                 href="https://cobalto.net/en/tag/aliens/"
                 />
   </url><url>
-    <loc>https://cobalto.net/tag/conto/</loc>
-    <lastmod>2026-05-04T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://cobalto.net/tag/epistolar/</loc>
-    <lastmod>2026-05-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cobalto.net/categoria/fic%C3%A7%C3%A3o/</loc>
     <lastmod>2026-05-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cobalto.net/tag/fic%C3%A7%C3%A3o-cient%C3%ADfica/</loc>
@@ -213,95 +303,8 @@
                 href="https://cobalto.net/en/artigo/while-they-stayed/"
                 />
   </url><url>
-    <loc>https://cobalto.net/artigo/the-meeting-2/</loc>
-    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-BR"
-                href="https://cobalto.net/artigo/the-meeting-2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cobalto.net/en/artigo/the-meeting-2/"
-                />
-  </url><url>
-    <loc>https://cobalto.net/artigo/the-meeting-lessons-learned/</loc>
-    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-BR"
-                href="https://cobalto.net/artigo/the-meeting-lessons-learned/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cobalto.net/en/artigo/the-meeting-lessons-learned/"
-                />
-  </url><url>
-    <loc>https://cobalto.net/artigo/the-meeting-1/</loc>
-    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-BR"
-                href="https://cobalto.net/artigo/the-meeting-1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cobalto.net/en/artigo/the-meeting-1/"
-                />
-  </url><url>
-    <loc>https://cobalto.net/artigo/the-meeting-3/</loc>
-    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-BR"
-                href="https://cobalto.net/artigo/the-meeting-3/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cobalto.net/en/artigo/the-meeting-3/"
-                />
-  </url><url>
     <loc>https://cobalto.net/tag/chegada/</loc>
     <lastmod>2026-02-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cobalto.net/tag/com%C3%A9dia/</loc>
-    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cobalto.net/tag/corporativo/</loc>
-    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cobalto.net/tag/fic%C3%A7%C3%A3o/</loc>
-    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cobalto.net/tag/humor/</loc>
-    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-BR"
-                href="https://cobalto.net/tag/humor/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cobalto.net/en/tag/humor/"
-                />
-  </url><url>
-    <loc>https://cobalto.net/series/llm3/</loc>
-    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-BR"
-                href="https://cobalto.net/series/llm3/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cobalto.net/en/series/llm3/"
-                />
   </url><url>
     <loc>https://cobalto.net/artigo/the-day-they-came/</loc>
     <lastmod>2026-02-01T00:00:00+00:00</lastmod>
@@ -317,9 +320,6 @@
                 />
   </url><url>
     <loc>https://cobalto.net/tag/primeiro-contato/</loc>
-    <lastmod>2026-02-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://cobalto.net/tag/trabalho-remoto/</loc>
     <lastmod>2026-02-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cobalto.net/about/</loc>

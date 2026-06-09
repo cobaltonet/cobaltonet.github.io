@@ -10,36 +10,36 @@
 		
 		
 		
-			<lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Mon, 08 Jun 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="https://cobalto.net/tag/fic%C3%A7%C3%A3o/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>A Reunião — Graham e a Grande Crise do Chá</title>
-				<link>https://cobalto.net/artigo/the-meeting-2/</link>
-				<pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-				<guid>https://cobalto.net/artigo/the-meeting-2/</guid>
-				<description>Graham fica sem saquinhos de chá no meio da reunião. O que se segue é uma crise de proporções nacionais, uma fila na mercearia da esquina e um microfone aberto acidental que desvia a pauta inteira para a economia do varejo.</description>
-			</item>
-			<item>
 				<title>A Reunião — Lições Aprendidas</title>
 				<link>https://cobalto.net/artigo/the-meeting-lessons-learned/</link>
-				<pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+				<pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
 				<guid>https://cobalto.net/artigo/the-meeting-lessons-learned/</guid>
 				<description>Três reuniões. Três paradigm shifts. Uma reflexão pessoal sobre por que as conversas mais impactantes acontecem fora da pauta — e como embracing the unexpected desbloqueou um novo nível de cross-functional engagement em toda a nossa organização.</description>
 			</item>
 			<item>
-				<title>A Reunião — Nigel e a Corrida ao Mercado</title>
-				<link>https://cobalto.net/artigo/the-meeting-1/</link>
-				<pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-				<guid>https://cobalto.net/artigo/the-meeting-1/</guid>
-				<description>Durante uma reunião interminável no Teams, Nigel descobre que ninguém está realmente prestando atenção — até que um caixa de autoatendimento o denuncia.</description>
-			</item>
-			<item>
 				<title>A Reunião — Rebecca e a Estratégia de Iluminação</title>
 				<link>https://cobalto.net/artigo/the-meeting-3/</link>
-				<pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+				<pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
 				<guid>https://cobalto.net/artigo/the-meeting-3/</guid>
 				<description>Rebecca sai de uma reunião entediante para recolher uma encomenda. Ela pediu uma luminária. Seis caem na calçada. A reunião está ouvindo. A lógica corporativa faz o resto.</description>
+			</item>
+			<item>
+				<title>A Reunião — Graham e a Grande Crise do Chá</title>
+				<link>https://cobalto.net/artigo/the-meeting-2/</link>
+				<pubDate>Sat, 06 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>https://cobalto.net/artigo/the-meeting-2/</guid>
+				<description>Graham fica sem saquinhos de chá no meio da reunião. O que se segue é uma crise de proporções nacionais, uma fila na mercearia da esquina e um microfone aberto acidental que desvia a pauta inteira para a economia do varejo.</description>
+			</item>
+			<item>
+				<title>A Reunião — Nigel e a Corrida ao Mercado</title>
+				<link>https://cobalto.net/artigo/the-meeting-1/</link>
+				<pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>https://cobalto.net/artigo/the-meeting-1/</guid>
+				<description>Durante uma reunião interminável no Teams, Nigel descobre que ninguém está realmente prestando atenção — até que um caixa de autoatendimento o denuncia.</description>
 			</item>
 	</channel>
 </rss>

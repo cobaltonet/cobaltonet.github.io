@@ -10,9 +10,51 @@
 		
 		
 		
-			<lastBuildDate>Fri, 05 Jun 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Mon, 08 Jun 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="https://cobalto.net/en/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Comedy</title>
+				<link>https://cobalto.net/en/tag/comedy/</link>
+				<pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>https://cobalto.net/en/tag/comedy/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Corporate</title>
+				<link>https://cobalto.net/en/tag/corporate/</link>
+				<pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>https://cobalto.net/en/tag/corporate/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Fiction</title>
+				<link>https://cobalto.net/en/tag/fiction/</link>
+				<pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>https://cobalto.net/en/tag/fiction/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Humor</title>
+				<link>https://cobalto.net/en/tag/humor/</link>
+				<pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>https://cobalto.net/en/tag/humor/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Short Story</title>
+				<link>https://cobalto.net/en/tag/short-story/</link>
+				<pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>https://cobalto.net/en/tag/short-story/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Remote Work</title>
+				<link>https://cobalto.net/en/tag/remote-work/</link>
+				<pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>https://cobalto.net/en/tag/remote-work/</guid>
+				<description></description>
+			</item>
 			<item>
 				<title>German</title>
 				<link>https://cobalto.net/en/tag/german/</link>
@@ -77,13 +119,6 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Short Story</title>
-				<link>https://cobalto.net/en/tag/short-story/</link>
-				<pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
-				<guid>https://cobalto.net/en/tag/short-story/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>Aftermath</title>
 				<link>https://cobalto.net/en/tag/aftermath/</link>
 				<pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
@@ -112,45 +147,10 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Comedy</title>
-				<link>https://cobalto.net/en/tag/comedy/</link>
-				<pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-				<guid>https://cobalto.net/en/tag/comedy/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Corporate</title>
-				<link>https://cobalto.net/en/tag/corporate/</link>
-				<pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-				<guid>https://cobalto.net/en/tag/corporate/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Fiction</title>
-				<link>https://cobalto.net/en/tag/fiction/</link>
-				<pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-				<guid>https://cobalto.net/en/tag/fiction/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>First Contact</title>
 				<link>https://cobalto.net/en/tag/first-contact/</link>
 				<pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
 				<guid>https://cobalto.net/en/tag/first-contact/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Humor</title>
-				<link>https://cobalto.net/en/tag/humor/</link>
-				<pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-				<guid>https://cobalto.net/en/tag/humor/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Remote Work</title>
-				<link>https://cobalto.net/en/tag/remote-work/</link>
-				<pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-				<guid>https://cobalto.net/en/tag/remote-work/</guid>
 				<description></description>
 			</item>
 			<item>

@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Fri, 05 Jun 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Mon, 08 Jun 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="https://cobalto.net/categories/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Ficção</title>
+				<link>https://cobalto.net/categoria/fic%C3%A7%C3%A3o/</link>
+				<pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>https://cobalto.net/categoria/fic%C3%A7%C3%A3o/</guid>
+				<description></description>
+			</item>
 			<item>
 				<title>Humor</title>
 				<link>https://cobalto.net/categoria/humor/</link>
@@ -25,13 +32,6 @@
 				<link>https://cobalto.net/categoria/idioma/</link>
 				<pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
 				<guid>https://cobalto.net/categoria/idioma/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Ficção</title>
-				<link>https://cobalto.net/categoria/fic%C3%A7%C3%A3o/</link>
-				<pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
-				<guid>https://cobalto.net/categoria/fic%C3%A7%C3%A3o/</guid>
 				<description></description>
 			</item>
 			<item>

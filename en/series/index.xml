@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Fri, 05 Jun 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Mon, 08 Jun 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="https://cobalto.net/en/series/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Leadership and Learning Management</title>
+				<link>https://cobalto.net/en/series/llm3/</link>
+				<pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>https://cobalto.net/en/series/llm3/</guid>
+				<description></description>
+			</item>
 			<item>
 				<title>Linear Literature Machine</title>
 				<link>https://cobalto.net/en/series/llm/</link>
@@ -25,13 +32,6 @@
 				<link>https://cobalto.net/en/series/llm2/</link>
 				<pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
 				<guid>https://cobalto.net/en/series/llm2/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Leadership and Learning Management</title>
-				<link>https://cobalto.net/en/series/llm3/</link>
-				<pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-				<guid>https://cobalto.net/en/series/llm3/</guid>
 				<description></description>
 			</item>
 	</channel>
