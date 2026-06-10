@@ -48,6 +48,7 @@
 	<meta itemprop="description" content="O que significa LLM? O RH diz que significa Living Leadership Mindset. O canal no Teams diz Logistics, Lamps &amp; Meal Deals. Mas não é oficial. Ele tem trezentos membros.">
 	<meta itemprop="datePublished" content="2026-06-08T00:00:00+00:00">
 	<meta itemprop="dateModified" content="2026-06-08T00:00:00+00:00">
+	<meta itemprop="wordCount" content="75">
 
 
 
@@ -948,6 +949,75 @@
       </h1>
     </div>
 
+    
+      <div class="prose prose-neutral dark:prose-invert mb-6 max-w-none">
+        <div
+    class="alert alert-important my-6 overflow-hidden rounded-lg transition-all duration-200 ease-out hover:-translate-y-0.5 hover:shadow-md"
+    style="background-color: color-mix(in srgb, var(--color-important) 10%, transparent);
+              border-left-color: var(--color-important);
+              --hover-bg: color-mix(in srgb, var(--color-important) 15%, transparent);"
+    onmouseover="this.style.backgroundColor = this.style.getPropertyValue('--hover-bg')"
+    onmouseout="this.style.backgroundColor = 'color-mix(in srgb, var(--color-important) 10%, transparent)'"
+    role="alert"
+    aria-labelledby="alert-0-title"
+  >
+    
+    <div
+      class=" flex items-center justify-between px-6 py-6"
+      
+    >
+      <div class="flex items-center gap-3">
+        
+        <h4 id="alert-0-title" class="text-foreground/90 m-0 font-semibold">
+          Importante
+        </h4>
+      </div>
+
+      
+      
+    </div>
+
+    
+    <div
+      id="alert-0-content"
+      class="alert-content  px-6 pb-6"
+    >
+      <div class="prose prose-sm text-foreground/90 max-w-none">
+        <p>Esta é uma série de posts publicados em ordem cronológica. Diferente de um livro, o blog mostra o post mais recente primeiro. Para ler na sequência correta, comece pelo post mais antigo (no final da lista) e vá subindo.</p>
+      </div>
+    </div>
+  </div><script>
+  function toggleAlert(alertId) {
+    const content = document.getElementById(alertId + "-content");
+    const chevron = document.getElementById(alertId + "-chevron");
+    const header = content.previousElementSibling;
+
+    if (content.classList.contains("hidden")) {
+      content.classList.remove("hidden");
+      chevron.style.transform = "rotate(0deg)";
+      header.setAttribute("aria-expanded", "true");
+    } else {
+      content.classList.add("hidden");
+      chevron.style.transform = "rotate(-90deg)";
+      header.setAttribute("aria-expanded", "false");
+    }
+  }
+
+  
+  document.addEventListener("DOMContentLoaded", function () {
+    const collapsedAlerts = document.querySelectorAll(".alert-content.hidden");
+    collapsedAlerts.forEach(function (content) {
+      const alertId = content.id.replace("-content", "");
+      const chevron = document.getElementById(alertId + "-chevron");
+      if (chevron) {
+        chevron.style.transform = "rotate(-90deg)";
+      }
+    });
+  });
+</script>
+<p>Quatro crônicas sobre reuniões corporativas que saíram do controle. Cada post acompanha um personagem diferente preso na mesma reunião interminável do Teams — e o caos que explode quando a vida real invade a pauta.</p>
+
+      </div>
     
 
 
