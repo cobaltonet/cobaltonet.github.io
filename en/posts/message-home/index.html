@@ -228,7 +228,7 @@
             aria-label="Cobalto.net"
           >
             <img
-              src="/images/coin.png"
+              src="/images/kamon.png"
               alt="Cobalto.net"
               class="h-full w-full object-cover"
             />
@@ -1504,17 +1504,15 @@
     <div id="disqus_thread"></div>
 
     <script>
+      var disqus_config = function () {
+        this.page.url = 'https:\/\/cobalto.net\/en\/posts\/message-home\/';
+        this.page.identifier = '\/en\/posts\/message-home\/';
+        this.page.title = 'Message Home: Quick Check-In on the Return Trip';
+      };
+
       (function() {
         'use strict';
 
-        
-        var disqus_config = function () {
-          this.page.url = 'https:\/\/cobalto.net\/en\/posts\/message-home\/';
-          this.page.identifier = '\/en\/posts\/message-home\/';
-          this.page.title = 'Message Home: Quick Check-In on the Return Trip';
-        };
-
-        
         function loadDisqus() {
           var d = document, s = d.createElement('script');
           s.src = 'https://cobalto.disqus.com/embed.js';
@@ -1522,7 +1520,6 @@
           (d.head || d.body).appendChild(s);
         }
 
-        
         if (document.readyState === 'loading') {
           document.addEventListener('DOMContentLoaded', loadDisqus);
         } else {

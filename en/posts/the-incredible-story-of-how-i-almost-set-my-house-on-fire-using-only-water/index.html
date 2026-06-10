@@ -234,7 +234,7 @@
             aria-label="Cobalto.net"
           >
             <img
-              src="/images/coin.png"
+              src="/images/kamon.png"
               alt="Cobalto.net"
               class="h-full w-full object-cover"
             />
@@ -1437,17 +1437,15 @@
     <div id="disqus_thread"></div>
 
     <script>
+      var disqus_config = function () {
+        this.page.url = 'https:\/\/cobalto.net\/en\/posts\/the-incredible-story-of-how-i-almost-set-my-house-on-fire-using-only-water\/';
+        this.page.identifier = '\/en\/posts\/the-incredible-story-of-how-i-almost-set-my-house-on-fire-using-only-water\/';
+        this.page.title = 'The incredible story of how I almost set my house on fire using only water';
+      };
+
       (function() {
         'use strict';
 
-        
-        var disqus_config = function () {
-          this.page.url = 'https:\/\/cobalto.net\/en\/posts\/the-incredible-story-of-how-i-almost-set-my-house-on-fire-using-only-water\/';
-          this.page.identifier = '\/en\/posts\/the-incredible-story-of-how-i-almost-set-my-house-on-fire-using-only-water\/';
-          this.page.title = 'The incredible story of how I almost set my house on fire using only water';
-        };
-
-        
         function loadDisqus() {
           var d = document, s = d.createElement('script');
           s.src = 'https://cobalto.disqus.com/embed.js';
@@ -1455,7 +1453,6 @@
           (d.head || d.body).appendChild(s);
         }
 
-        
         if (document.readyState === 'loading') {
           document.addEventListener('DOMContentLoaded', loadDisqus);
         } else {

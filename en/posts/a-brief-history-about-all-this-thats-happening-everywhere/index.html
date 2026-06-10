@@ -225,7 +225,7 @@
             aria-label="Cobalto.net"
           >
             <img
-              src="/images/coin.png"
+              src="/images/kamon.png"
               alt="Cobalto.net"
               class="h-full w-full object-cover"
             />
@@ -1372,17 +1372,15 @@
     <div id="disqus_thread"></div>
 
     <script>
+      var disqus_config = function () {
+        this.page.url = 'https:\/\/cobalto.net\/en\/posts\/a-brief-history-about-all-this-thats-happening-everywhere\/';
+        this.page.identifier = '\/en\/posts\/a-brief-history-about-all-this-thats-happening-everywhere\/';
+        this.page.title = 'A brief history about all this that\u0027s happening everywhere';
+      };
+
       (function() {
         'use strict';
 
-        
-        var disqus_config = function () {
-          this.page.url = 'https:\/\/cobalto.net\/en\/posts\/a-brief-history-about-all-this-thats-happening-everywhere\/';
-          this.page.identifier = '\/en\/posts\/a-brief-history-about-all-this-thats-happening-everywhere\/';
-          this.page.title = 'A brief history about all this that\u0027s happening everywhere';
-        };
-
-        
         function loadDisqus() {
           var d = document, s = d.createElement('script');
           s.src = 'https://cobalto.disqus.com/embed.js';
@@ -1390,7 +1388,6 @@
           (d.head || d.body).appendChild(s);
         }
 
-        
         if (document.readyState === 'loading') {
           document.addEventListener('DOMContentLoaded', loadDisqus);
         } else {

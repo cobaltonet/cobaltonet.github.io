@@ -221,7 +221,7 @@
             aria-label="Cobalto.net"
           >
             <img
-              src="/images/coin.png"
+              src="/images/kamon.png"
               alt="Cobalto.net"
               class="h-full w-full object-cover"
             />
@@ -1332,17 +1332,15 @@
     <div id="disqus_thread"></div>
 
     <script>
+      var disqus_config = function () {
+        this.page.url = 'https:\/\/cobalto.net\/en\/posts\/hello-world-again\/';
+        this.page.identifier = '\/en\/posts\/hello-world-again\/';
+        this.page.title = 'Hello world, again';
+      };
+
       (function() {
         'use strict';
 
-        
-        var disqus_config = function () {
-          this.page.url = 'https:\/\/cobalto.net\/en\/posts\/hello-world-again\/';
-          this.page.identifier = '\/en\/posts\/hello-world-again\/';
-          this.page.title = 'Hello world, again';
-        };
-
-        
         function loadDisqus() {
           var d = document, s = d.createElement('script');
           s.src = 'https://cobalto.disqus.com/embed.js';
@@ -1350,7 +1348,6 @@
           (d.head || d.body).appendChild(s);
         }
 
-        
         if (document.readyState === 'loading') {
           document.addEventListener('DOMContentLoaded', loadDisqus);
         } else {

@@ -906,18 +906,6 @@
                 href="https://cobalto.net/en/resume/"
                 />
   </url><url>
-    <loc>https://cobalto.net/timeline/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-BR"
-                href="https://cobalto.net/timeline/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cobalto.net/en/timeline/"
-                />
-  </url><url>
     <loc>https://cobalto.net/projects/</loc>
     <xhtml:link
                 rel="alternate"
@@ -928,6 +916,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://cobalto.net/en/projects/"
+                />
+  </url><url>
+    <loc>https://cobalto.net/timeline/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-BR"
+                href="https://cobalto.net/timeline/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cobalto.net/en/timeline/"
                 />
   </url><url>
     <loc>https://cobalto.net/uses/</loc>

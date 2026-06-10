@@ -235,7 +235,7 @@
             aria-label="Cobalto.net"
           >
             <img
-              src="/images/coin.png"
+              src="/images/kamon.png"
               alt="Cobalto.net"
               class="h-full w-full object-cover"
             />
@@ -1454,17 +1454,15 @@ And for taking Max to the top spot on the podium :)</p>
     <div id="disqus_thread"></div>
 
     <script>
+      var disqus_config = function () {
+        this.page.url = 'https:\/\/cobalto.net\/en\/posts\/about-fast-cars-strategy-champagne-and-hannah-schmitz\/';
+        this.page.identifier = '\/en\/posts\/about-fast-cars-strategy-champagne-and-hannah-schmitz\/';
+        this.page.title = 'About fast cars, strategy, champagne and Hannah Schmitz';
+      };
+
       (function() {
         'use strict';
 
-        
-        var disqus_config = function () {
-          this.page.url = 'https:\/\/cobalto.net\/en\/posts\/about-fast-cars-strategy-champagne-and-hannah-schmitz\/';
-          this.page.identifier = '\/en\/posts\/about-fast-cars-strategy-champagne-and-hannah-schmitz\/';
-          this.page.title = 'About fast cars, strategy, champagne and Hannah Schmitz';
-        };
-
-        
         function loadDisqus() {
           var d = document, s = d.createElement('script');
           s.src = 'https://cobalto.disqus.com/embed.js';
@@ -1472,7 +1470,6 @@ And for taking Max to the top spot on the podium :)</p>
           (d.head || d.body).appendChild(s);
         }
 
-        
         if (document.readyState === 'loading') {
           document.addEventListener('DOMContentLoaded', loadDisqus);
         } else {

@@ -223,7 +223,7 @@
             aria-label="Cobalto.net"
           >
             <img
-              src="/images/coin.png"
+              src="/images/kamon.png"
               alt="Cobalto.net"
               class="h-full w-full object-cover"
             />
@@ -1352,17 +1352,15 @@ It worked for me.</p>
     <div id="disqus_thread"></div>
 
     <script>
+      var disqus_config = function () {
+        this.page.url = 'https:\/\/cobalto.net\/en\/posts\/xamarin-forms-app-closes-immediately-when-started-in-visual-studio-emulator-what-to-do\/';
+        this.page.identifier = '\/en\/posts\/xamarin-forms-app-closes-immediately-when-started-in-visual-studio-emulator-what-to-do\/';
+        this.page.title = 'Xamarin Forms App Closes Immediately When Started in Visual Studio Emulator, What to Do?';
+      };
+
       (function() {
         'use strict';
 
-        
-        var disqus_config = function () {
-          this.page.url = 'https:\/\/cobalto.net\/en\/posts\/xamarin-forms-app-closes-immediately-when-started-in-visual-studio-emulator-what-to-do\/';
-          this.page.identifier = '\/en\/posts\/xamarin-forms-app-closes-immediately-when-started-in-visual-studio-emulator-what-to-do\/';
-          this.page.title = 'Xamarin Forms App Closes Immediately When Started in Visual Studio Emulator, What to Do?';
-        };
-
-        
         function loadDisqus() {
           var d = document, s = d.createElement('script');
           s.src = 'https://cobalto.disqus.com/embed.js';
@@ -1370,7 +1368,6 @@ It worked for me.</p>
           (d.head || d.body).appendChild(s);
         }
 
-        
         if (document.readyState === 'loading') {
           document.addEventListener('DOMContentLoaded', loadDisqus);
         } else {
