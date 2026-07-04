@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>KML on Cobalto.net</title>
+		<link>https://cobalto.net/tags/kml/</link>
+		<description>Recent content in KML on Cobalto.net</description>
+		<generator>Hugo</generator>
+		<language>pt-BR</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 04 Jul 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://cobalto.net/tags/kml/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Como transformei vários KML do Google MyMaps em um single-page map (com ajuda do Grok Build)</title>
+				<link>https://cobalto.net/posts/from-google-kml-to-github-with-grok/</link>
+				<pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>https://cobalto.net/posts/from-google-kml-to-github-with-grok/</guid>
+				<description>Recebi 2.280 marcadores do Google MyMaps e transformei num site de página única e um pouco de Grok Build.</description>
+			</item>
+	</channel>
+</rss>

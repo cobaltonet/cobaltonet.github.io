@@ -30,15 +30,45 @@
   </url><url>
     <loc>https://cobalto.net/en/tags/google-maps/</loc>
     <lastmod>2026-07-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-BR"
+                href="https://cobalto.net/tags/google-maps/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cobalto.net/en/tags/google-maps/"
+                />
   </url><url>
     <loc>https://cobalto.net/en/posts/from-google-kml-to-github-with-grok/</loc>
     <lastmod>2026-07-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-BR"
+                href="https://cobalto.net/posts/from-google-kml-to-github-with-grok/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cobalto.net/en/posts/from-google-kml-to-github-with-grok/"
+                />
   </url><url>
     <loc>https://cobalto.net/en/tags/japan/</loc>
     <lastmod>2026-07-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://cobalto.net/en/tags/kml/</loc>
     <lastmod>2026-07-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-BR"
+                href="https://cobalto.net/tags/kml/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cobalto.net/en/tags/kml/"
+                />
   </url><url>
     <loc>https://cobalto.net/en/posts/</loc>
     <lastmod>2026-07-04T00:00:00+00:00</lastmod>
@@ -58,6 +88,16 @@
   </url><url>
     <loc>https://cobalto.net/en/tags/python/</loc>
     <lastmod>2026-07-04T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-BR"
+                href="https://cobalto.net/tags/python/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cobalto.net/en/tags/python/"
+                />
   </url><url>
     <loc>https://cobalto.net/en/tags/</loc>
     <lastmod>2026-07-04T00:00:00+00:00</lastmod>

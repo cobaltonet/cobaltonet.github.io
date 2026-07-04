@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Mon, 08 Jun 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Sat, 04 Jul 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="https://cobalto.net/categories/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Programacao</title>
+				<link>https://cobalto.net/categories/programacao/</link>
+				<pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>https://cobalto.net/categories/programacao/</guid>
+				<description></description>
+			</item>
 			<item>
 				<title>Ficção</title>
 				<link>https://cobalto.net/categories/fic%C3%A7%C3%A3o/</link>
@@ -32,13 +39,6 @@
 				<link>https://cobalto.net/categories/idioma/</link>
 				<pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
 				<guid>https://cobalto.net/categories/idioma/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>Programacao</title>
-				<link>https://cobalto.net/categories/programacao/</link>
-				<pubDate>Wed, 14 Sep 2022 00:00:00 -0300</pubDate>
-				<guid>https://cobalto.net/categories/programacao/</guid>
 				<description></description>
 			</item>
 			<item>
