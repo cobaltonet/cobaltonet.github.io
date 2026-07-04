@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Python on Cobalto.net</title>
+		<link>https://cobalto.net/en/tags/python/</link>
+		<description>Recent content in Python on Cobalto.net</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 04 Jul 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://cobalto.net/en/tags/python/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>How I turned a bunch of Google MyMaps KML files into a single-page site (with help from Grok Build)</title>
+				<link>https://cobalto.net/en/posts/from-google-kml-to-github-with-grok/</link>
+				<pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
+				<guid>https://cobalto.net/en/posts/from-google-kml-to-github-with-grok/</guid>
+				<description>I received 2,280 markers from Google My Maps and turned them into a single-page site with a bit of Grok Build.</description>
+			</item>
+	</channel>
+</rss>

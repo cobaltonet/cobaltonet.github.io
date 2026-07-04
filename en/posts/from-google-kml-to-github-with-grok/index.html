@@ -5,16 +5,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-<title>Posts |
+<title>How I turned a bunch of Google MyMaps KML files into a single-page site (with help from Grok Build) |
     Cobalto.net</title>
 
 <meta
   name="description"
-  content="All published articles, sorted by date in descending order."
+  content="I received 2,280 markers from Google My Maps and turned them into a single-page site with a bit of Grok Build."
 />
 <meta
   name="keywords"
-  content="Tecnologia, Programação, Desenvolvimento, Blog, Cobalto, Japão, Tokusatsu"
+  content="KML, Google Maps, Python, Japan"
 />
 <meta
   name="author"
@@ -26,37 +26,39 @@
   name="robots"
   content="index, follow"
 />
-<link rel="canonical" href="https://cobalto.net/en/posts/" />
+<link rel="canonical" href="https://cobalto.net/en/posts/from-google-kml-to-github-with-grok/" />
 
 
   <link rel="icon" type="image/svg+xml" href="/images/kamon.png" />
 <link rel="manifest" href="/site.webmanifest" />
-<meta property="og:url" content="https://cobalto.net/en/posts/">
+<meta property="og:url" content="https://cobalto.net/en/posts/from-google-kml-to-github-with-grok/">
 	<meta property="og:site_name" content="Cobalto.net">
-	<meta property="og:title" content="Posts">
-	<meta property="og:description" content="All published articles, sorted by date in descending order.">
+	<meta property="og:title" content="How I turned a bunch of Google MyMaps KML files into a single-page site (with help from Grok Build)">
+	<meta property="og:description" content="I received 2,280 markers from Google My Maps and turned them into a single-page site with a bit of Grok Build.">
 	<meta property="og:locale" content="en">
-	<meta property="og:type" content="website">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2026-07-04T00:00:00+00:00">
+		<meta property="article:modified_time" content="2026-07-04T00:00:00+00:00">
+		<meta property="article:tag" content="KML">
+		<meta property="article:tag" content="Google Maps">
+		<meta property="article:tag" content="Python">
+		<meta property="article:tag" content="Japan">
 
 
 	<meta name="twitter:card" content="summary">
-	<meta name="twitter:title" content="Posts">
-	<meta name="twitter:description" content="All published articles, sorted by date in descending order.">
+	<meta name="twitter:title" content="How I turned a bunch of Google MyMaps KML files into a single-page site (with help from Grok Build)">
+	<meta name="twitter:description" content="I received 2,280 markers from Google My Maps and turned them into a single-page site with a bit of Grok Build.">
 
 
-	<meta itemprop="name" content="Posts">
-	<meta itemprop="description" content="All published articles, sorted by date in descending order.">
+	<meta itemprop="name" content="How I turned a bunch of Google MyMaps KML files into a single-page site (with help from Grok Build)">
+	<meta itemprop="description" content="I received 2,280 markers from Google My Maps and turned them into a single-page site with a bit of Grok Build.">
 	<meta itemprop="datePublished" content="2026-07-04T00:00:00+00:00">
 	<meta itemprop="dateModified" content="2026-07-04T00:00:00+00:00">
+	<meta itemprop="wordCount" content="1015">
+	<meta itemprop="keywords" content="KML,Google Maps,Python,Japan">
 
 
-
-  <link
-    rel="alternate"
-    type="application/rss+xml"
-    title="Cobalto.net"
-    href="https://cobalto.net/en/posts/index.xml"
-  />
 
 
 
@@ -128,6 +130,12 @@
 
 
 
+            <script
+              src="/js/toc.3026ef97e410bb3e98d57739bcabc32ac568e9001b2e42385de731663378ae85.js"
+              integrity="sha256-MCbvl&#43;QQuz6Y1Xc5vKvDKsVo6QAbLkI4XecxZjN4roU="
+              crossorigin="anonymous"
+              defer
+            ></script>
 
 
 
@@ -241,7 +249,7 @@
               <a
                 href="/en/posts/"
                 class="nav-link 
-                  nav-active-indicator bg-accent text-accent-foreground
+                  text-muted-foreground hover:text-primary hover:bg-primary/10
                  focus:ring-primary/20 relative flex items-center gap-2 rounded-lg px-4 py-2 text-sm font-medium transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none"
               >
                 
@@ -456,7 +464,7 @@
       
         role="menu" aria-labelledby="language-toggle"
       
-    ><a href="/posts/" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none" role="menuitem"><span class="font-medium">Português (BR)</span></a><a href="/en/posts/" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none" role="menuitem" aria-current="true"><span class="font-medium">English</span></a></div>
+    ><a href="/" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none" role="menuitem"><span class="font-medium">Português (BR)</span></a><a href="/en/posts/from-google-kml-to-github-with-grok/" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none" role="menuitem" aria-current="true"><span class="font-medium">English</span></a></div>
   </div>
 
 
@@ -565,7 +573,7 @@
       
         role="menu" aria-labelledby="language-toggle"
       
-    ><a href="/posts/" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none" role="menuitem"><span class="font-medium">Português (BR)</span></a><a href="/en/posts/" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none" role="menuitem" aria-current="true"><span class="font-medium">English</span></a></div>
+    ><a href="/" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none" role="menuitem"><span class="font-medium">Português (BR)</span></a><a href="/en/posts/from-google-kml-to-github-with-grok/" class="text-accent-foreground hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground flex w-full items-center rounded-md px-4 py-2 text-sm transition-all duration-200 ease-out focus:outline-none" role="menuitem" aria-current="true"><span class="font-medium">English</span></a></div>
   </div>
 
 
@@ -663,10 +671,10 @@
           <a
             href="/en/posts/"
             class="nav-panel-link 
-              bg-accent text-accent-foreground
+              text-muted-foreground hover:text-primary hover:bg-primary/10
              focus:ring-primary/20 flex items-center gap-3 rounded-lg px-4 py-3 text-sm font-medium transition-all duration-200 ease-out focus:ring-2 focus:outline-none"
             role="menuitem"
-            aria-current="page"
+            
           >
             
               <svg class="h-5 w-5" aria-label="Posts" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -896,6 +904,26 @@
           </li>
         
       
+        
+          
+          <li class="flex min-w-0 items-center gap-1 md:gap-2">
+            <span class="text-muted-foreground/50 shrink-0"
+              ><svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+</svg>
+            </span>
+            <a
+              href="/en/posts/"
+              class="text-muted-foreground hover:text-primary hover:bg-primary/10 flex shrink-0 items-center gap-1 rounded-lg px-1 py-0.5 transition-all duration-200 ease-out hover:-translate-y-0.5 hover:scale-[1.02] md:px-3 md:py-1.5"
+            >
+              <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+              <span class="max-w-16 truncate md:max-w-none">Posts</span>
+            </a>
+          </li>
+        
+      
 
 
       
@@ -909,7 +937,7 @@
           <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
 </svg>
-          <span class="max-w-32 truncate md:max-w-[16rem] lg:max-w-none">Posts</span>
+          <span class="max-w-32 truncate md:max-w-[16rem] lg:max-w-none">How I turned a bunch of Google MyMaps KML files into a single-page site (with help from Grok Build)</span>
         </span>
       </li>
     </ol>
@@ -917,831 +945,472 @@
 
 
         
+  <div class="mb-8 overflow-hidden rounded-2xl">
+        <img
+          src="/anime_google_maps.png"
+          alt="How I turned a bunch of Google MyMaps KML files into a single-page site (with help from Grok Build)"
+          class="aspect-video max-h-[50vh] w-full object-cover md:max-h-[60vh]"
+          loading="eager"
+        />
+      </div>
+
+
+  
+  <header class="mb-8">
+    
+
+
+
+
+<div class="post-meta mb-8">
+  
+  <h1 class="text-foreground mb-6 text-3xl leading-tight font-bold md:text-4xl">
+    How I turned a bunch of Google MyMaps KML files into a single-page site (with help from Grok Build)
+  </h1>
+
   
   
+  <div class="text-muted-foreground mb-6 text-lg leading-relaxed">
+    I received 2,280 markers from Google My Maps and turned them into a single-page site with a bit of Grok Build.
+  </div>
   
 
   
+  <div class="bg-card border-border rounded-xl border">
+
+    
+        
+        <div class="p-6">
+
+          
+          <div class="text-muted-foreground flex flex-wrap items-center gap-3 text-sm mb-4">
+            
+            <div class="flex items-center gap-2">
+              <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+
+              <time datetime="2026-07-04">
+                July 4, 2026
+              </time>
+            </div>
+
+            
+            
+            <div class="flex items-center gap-2">
+              <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+              <span>5 min</span>
+            </div>
+            
+
+            
+            
+            <div class="flex items-center gap-2">
+              <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" />
+</svg>
+
+              <span>1015 words</span>
+            </div>
+            
+          </div>
+
+          
+          <div class="text-muted-foreground space-y-3 pt-4 border-t border-border">
+            <div class="flex items-center gap-2">
+              <div class="shrink-0">
+                <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+</svg>
+
+              </div>
+              <div class="flex-1 min-w-0">
+                <div class="flex flex-wrap items-center gap-1.5">
+                  <span class="text-muted-foreground text-sm font-medium">
+                    Categories:
+                  </span>
+                  <a href="/en/categories/programming/"
+                    class="inline-flex items-center rounded-full px-2.5 py-1 text-sm font-medium transition-all duration-200 bg-muted/50 text-muted-foreground hover:bg-muted hover:text-foreground">
+                    Programming
+                  </a>
+                  <a href="/en/categories/tutorial/"
+                    class="inline-flex items-center rounded-full px-2.5 py-1 text-sm font-medium transition-all duration-200 bg-muted/50 text-muted-foreground hover:bg-muted hover:text-foreground">
+                    Tutorial
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="flex items-center gap-2">
+              <div class="shrink-0">
+                <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
+</svg>
+
+              </div>
+              <div class="flex-1 min-w-0">
+                <div class="flex flex-wrap items-center gap-1.5">
+                  <span class="text-muted-foreground text-sm font-medium">
+                    Tags:
+                  </span>
+                  <a href="/en/tags/kml/"
+                    class="inline-flex items-center rounded-full px-2.5 py-1 text-sm font-medium transition-all duration-200 bg-muted/50 text-muted-foreground hover:bg-muted hover:text-foreground">
+                    KML
+                  </a>
+                  <a href="/en/tags/google-maps/"
+                    class="inline-flex items-center rounded-full px-2.5 py-1 text-sm font-medium transition-all duration-200 bg-muted/50 text-muted-foreground hover:bg-muted hover:text-foreground">
+                    Google Maps
+                  </a>
+                  <a href="/en/tags/python/"
+                    class="inline-flex items-center rounded-full px-2.5 py-1 text-sm font-medium transition-all duration-200 bg-muted/50 text-muted-foreground hover:bg-muted hover:text-foreground">
+                    Python
+                  </a>
+                  <a href="/en/tags/japan/"
+                    class="inline-flex items-center rounded-full px-2.5 py-1 text-sm font-medium transition-all duration-200 bg-muted/50 text-muted-foreground hover:bg-muted hover:text-foreground">
+                    Japan
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+  </div>
+</div>
+
+  </header>
+
+  
+  <article class="prose prose-neutral dark:prose-invert mb-12 max-w-none">
+    <p><em>Or: 2,280 markers that I mostly didn&rsquo;t collect, won&rsquo;t visit all of, and still embedded into an HTML file.</em></p>
+<p>It wasn&rsquo;t exactly a secret, but I also wasn&rsquo;t going around telling people: I&rsquo;m planning a trip to Japan. What might deserve some context is that <strong>the mass cartographic madness didn&rsquo;t start with me</strong>.</p>
+<p>A friend who lived in Japan for a while, an otaku almost at my level, sent me the links to <strong><a
+    href="https://www.google.com/maps/about/mymaps/"target="_blank"
+    class="inline-flex items-center gap-1"
+  >Google My Maps<svg class="h-3 w-3 flex-shrink-0" id="external-link" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+  </a></strong>. She fed the maps with borderline manic zeal: temples, cafés, parks, and probably more categories that only make sense in her head. The maps came separated by region, plus one file just for TOKYO. Why is TOKYO separate? No idea, never asked, and life goes on.</p>
+<p>The only list that&rsquo;s <strong>mine</strong> in the package is the <strong><a
+    href="https://en.wikipedia.org/wiki/Tokusatsu"target="_blank"
+    class="inline-flex items-center gap-1"
+  >tokusatsu<svg class="h-3 w-3 flex-shrink-0" id="external-link" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+  </a></strong> one: filming locations I gathered from the internet, because yes, I also need to know where Ultraman &ldquo;stepped&rdquo; in 1973.</p>
+<p>I received everything like someone receiving a CIA dossier, except instead of state secrets it&rsquo;s coordinates for a ramen place that apparently I <em>needed</em> to know about.</p>
+<p>And yes: <strong>I know I won&rsquo;t go to all of them</strong>. She knows. You know. The map knows. The 2,280 markers know. Universal consensus. The trip is real; the idea of completing 100% of the itinerary is protagonist-of-an-overly-optimistic-anime stuff.</p>
+<h3 id="phase-1-exporting-the-kml-from-google-my-maps">Phase 1: Exporting the <a
+    href="https://en.wikipedia.org/wiki/Keyhole_Markup_Language"target="_blank"
+    class="inline-flex items-center gap-1"
+  >KML<svg class="h-3 w-3 flex-shrink-0" id="external-link" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+  </a> from Google My Maps<a href="#phase-1-exporting-the-kml-from-google-my-maps" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>My Maps exports <strong>KML</strong> by region. The files come out with messy names, a mix of numbering, romaji, and kanji. Each one carries hundreds of points accumulated over time.</p>
+<p>When you zoom out and look at everything together, the honesty is brutal: <strong>it looks like a regular map of Japan</strong>. It&rsquo;s not &ldquo;a travel itinerary&rdquo;, it&rsquo;s almost a representative sample of the entire archipelago in the form of a plague of markers. If Japan were a cake, this KML would be the slice where someone ran their finger through the icing and said &ldquo;no, still not enough&rdquo;.</p>
+<p>Exporting is easy. The hard part is <em>using</em> it outside the Google ecosystem in a way that:</p>
+<ol>
+<li>Doesn&rsquo;t require opening My Maps (because the mobile app is&hellip; an experience);</li>
+<li>Shows everything on a navigable map without the browser crying;</li>
+<li>Allows filtering by region without losing your sanity;</li>
+<li>Works when I want to check it, not when Google remembers the map exists.</li>
+</ol>
+<p>In other words: I wanted a <strong>site</strong>. A simple site. <em>Ridiculously</em> simple. One page. One HTML file. The minimalist style of 1997, but with <a
+    href="https://leafletjs.com/"target="_blank"
+    class="inline-flex items-center gap-1"
+  >Leaflet<svg class="h-3 w-3 flex-shrink-0" id="external-link" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+  </a> and without the GeoCities aesthetic (my nostalgia has limits).</p>
+<p>My contribution to the collection was modest (tokusatsu and shared guilt). My technical contribution started here.</p>
+<h3 id="phase-2-generating-the-site-with-grok-build">Phase 2: Generating the site with Grok Build<a href="#phase-2-generating-the-site-with-grok-build" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>The <strong>Grok Build</strong> (Grok&rsquo;s CLI for development) generated a good part of the code. The model that did the heavy lifting was Composer 2.5.</p>
+<p>The request was more or less: read some KMLs, throw the points on a map with Leaflet, allow filtering by region, and work by opening the HTML directly in the browser, no server.</p>
+<p>What came out of it:</p>
+<ul>
+<li>A <code>KML/</code> folder with the exports (the source of truth, or well-intentioned obsession);</li>
+<li>The <code>Tokusatsu.md</code> list, which is the part I chose and put together;</li>
+<li>A Python script that reads the KMLs, normalizes names (yes, there&rsquo;s romaji now, because <code>湯殿神社</code> deserves dignity);</li>
+<li>A <strong>single <code>index.html</code></strong> with all ~2,280 points <strong>embedded</strong> in the file.</li>
+</ul>
+<p>Why embedded? Because when you open HTML directly from a folder (<code>file://</code>), the browser blocks loading other local files for security. The solution is to put everything inside the HTML and let <a
+    href="https://jquery.com/"target="_blank"
+    class="inline-flex items-center gap-1"
+  >jQuery<svg class="h-3 w-3 flex-shrink-0" id="external-link" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+  </a> and <a
+    href="https://leafletjs.com/"target="_blank"
+    class="inline-flex items-center gap-1"
+  >Leaflet<svg class="h-3 w-3 flex-shrink-0" id="external-link" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+  </a> load from the internet. Spoiler: they load.</p>
+<h3 id="phase-3-the-resulting-site-and-the-bugs-that-came-with-it">Phase 3: The resulting site (and the bugs that came with it)<a href="#phase-3-the-resulting-site-and-the-bugs-that-came-with-it" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>The final result lives at <strong><a
+    href="https://cobalto.dev/japantravelplan"target="_blank"
+    class="inline-flex items-center gap-1"
+  >cobalto.dev/japantravelplan<svg class="h-3 w-3 flex-shrink-0" id="external-link" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+  </a></strong> and does the basics very well:</p>
+<ul>
+<li><a
+    href="https://www.openstreetmap.org/"target="_blank"
+    class="inline-flex items-center gap-1"
+  >OpenStreetMap<svg class="h-3 w-3 flex-shrink-0" id="external-link" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+  </a> map with all the markers (real cartography, not that monochromatic gray of &ldquo;dark mode&rdquo; that looks like a dungeon map);</li>
+<li>Sidebar list by region, with search;</li>
+<li>Checkboxes to show/hide sources on the map (&ldquo;only TOKYO&rdquo;, &ldquo;only Tokusatsu&rdquo;, &ldquo;I regret and show everything&rdquo;);</li>
+<li>Light/dark theme <strong>only on the interface</strong>, because the map is already pretty as is, thanks.</li>
+</ul>
+<p>There were iterations. There was a list bug that disappeared when the group was collapsed. There was real-time filtering on search that made the browser slow with 2,280 markers. There was me manually breaking the <code>&lt;title&gt;</code> and thinking the site had died. It works, meaning, <em>sometimes after three commits</em>.</p>
+<h3 id="what-remained-and-what-you-can-use">What remained and what you can use<a href="#what-remained-and-what-you-can-use" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>If you also received (or worse, <em>created</em>) a My Maps that ended up looking like a cartographic plague, the flow is simple:</p>
+<ol>
+<li><strong>Export KML</strong> from My Maps (one file per map/region, if you want organization);</li>
+<li><strong>Run the build</strong> (<code>python3 app/build-places.py</code>) when the list grows again;</li>
+<li><strong>Open <code>index.html</code></strong>, just that file already works anywhere with internet, including if you copy it to your phone.</li>
+</ol>
+<p>You don&rsquo;t need the entire repository to <em>see</em> the map. Just the HTML. It&rsquo;s almost magic, if you ignore the 270KB of inline JSON and the existence of <a
+    href="https://github.com/miurahr/pykakasi"target="_blank"
+    class="inline-flex items-center gap-1"
+  ><code>pykakasi</code><svg class="h-3 w-3 flex-shrink-0" id="external-link" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+  </a> in the pipeline.</p>
+<h3 id="what-i-learned-from-this">What I learned from this<a href="#what-i-learned-from-this" class="heading-anchor" aria-label="Link to this section"><svg class="h-4 w-4" aria-hidden="true" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g></svg></a></h3><p>I started wanting a better way to check the maps. I ended up with a mini-product: build script, Japanese name normalization, marker clustering, filters, dark theme on the sidebar.</p>
+<p>Google My Maps is still where the original collection was born. The site is where I <em>navigate</em> without guilt, filtering by region, accepting that I&rsquo;ll visit a statistically ridiculous fraction of the total. My 55 tokusatsu markers sit there in the corner, modest.</p>
+<p>And yes, <a
+    href="https://cursor.com/pt-BR/blog/composer-2-5"target="_blank"
+    class="inline-flex items-center gap-1"
+  >Composer 2.5<svg class="h-3 w-3 flex-shrink-0" id="external-link" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+  </a> via Grok Build did almost everything. I just managed the prompt and fixed the nonsense it invented.</p>
+<p>If this serves as inspiration for you: <strong>KML can be taken out, HTML just works, and a list of 2,000 places doesn&rsquo;t need to die trapped in an app that you only open when you remember you paid for <a
+    href="https://one.google.com/"target="_blank"
+    class="inline-flex items-center gap-1"
+  >Google One<svg class="h-3 w-3 flex-shrink-0" id="external-link" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+  </a></strong>, even when you know from the beginning that you won&rsquo;t step foot in all of them.</p>
+<p>Now if you&rsquo;ll excuse me, I need to choose <em>which</em> of the 530 TOKYO points are realistically visitable. That&rsquo;s it. I promise not to inflate the tokusatsu list. 🤥</p>
+
+  </article>
+
   
   
 
 
-  <div class="mx-auto py-6">
-    
-    <header class="mb-8">
-      <h1 class="text-foreground mb-4 text-3xl font-bold">
-        Posts
-      </h1>
-
-      
-        <p class="text-muted-foreground">
-          All published articles, sorted by date in descending order.
-        </p>
-      
 
 
+
+
+
+
+
+  
+
+
+
+
+  <div class="post-license bg-muted/30 border-border mb-8 rounded-xl border p-6">
+    <div class="flex items-start gap-4">
       
-      <div class="text-muted-foreground mt-4 flex items-center gap-4 text-sm">
-        <div class="flex items-center gap-1">
-          <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+      <div class="bg-primary/10 flex h-12 w-12 shrink-0 items-center justify-center rounded-lg">
+        <svg class="h-6 w-6" aria-label="许可证" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
 </svg>
-          <span>
-            
-              15 pages
-            
-          </span>
-        </div>
-        
-          <div class="flex items-center gap-1">
-            <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2l3.09 6.26L22 9l-5.91.74L12 16l-4.09-6.26L2 9l5.91-.74L12 2z" />
-<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2 17l10 5 10-5" />
-<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2 12l10 5 10-5" />
-</svg>
-            <span>
-              2 /
-              3
-            </span>
-          </div>
-        
       </div>
-    </header>
 
-    
-    
-    
       
-        <div class="space-y-4">
-          
-            
-
-
-
-
-<article class="group">
-  <a href="/en/posts/a-brief-history-about-all-this-thats-happening-everywhere/" class="block">
-    <div
-      class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none md:flex-row"
-    >
-      <div class="p-3 pb-0 md:order-last md:w-64 md:shrink-0 md:p-3 md:pl-0">
-          <div
-            class="relative aspect-video h-full w-full overflow-hidden rounded-lg md:aspect-video"
-          >
-            <img
-              src="/posts/uma-breve-hist%C3%B3ria-sobre-tudo-isso-que-vem-acontecendo-em-todo-lugar/timelapse.png"
-              alt="A brief history about all this that&#39;s happening everywhere"
-              class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
-              loading="lazy"
-            />
-          </div>
-        </div>
-      <div class="flex flex-1 flex-col justify-center gap-4 p-6">
-        
-        <h3
-          class="text-foreground group-hover:text-primary text-xl leading-tight font-bold transition-colors duration-200"
-        >
-          A brief history about all this that&#39;s happening everywhere
+      <div class="min-w-0 flex-1">
+        <h3 class="text-foreground mb-2 text-lg font-semibold">
+          License
         </h3>
 
-        
-        
-          <p class="text-muted-foreground line-clamp-3 text-sm leading-relaxed md:line-clamp-2">
-            50 years in 3 or maybe even more. But it&#39;s not just the pandemic that brings changes. But let&#39;s take it easy...
+        <div class="text-muted-foreground space-y-2 text-sm">
+          
+          
+            <p>
+              <strong>Author:</strong>
+              Cobalto
+            </p>
+          
+
+
+          
+          <p>
+            <strong>Link:</strong>
+            <a
+              href="https://cobalto.net/en/posts/from-google-kml-to-github-with-grok/"
+              class="text-primary hover:text-primary/80 break-all hyphens-auto transition-colors duration-200"
+            >
+              https://cobalto.net/en/posts/from-google-kml-to-github-with-grok/
+            </a>
           </p>
-        
-
-
-        
-        <div class="text-muted-foreground mt-2 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm">
-          
-          <div class="flex items-center gap-1.5">
-            <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-</svg>
-
-            <time datetime="2020-12-28" class="font-medium">
-              December 28, 2020
-            </time>
-          </div>
 
           
-          
-            <div class="flex items-center gap-1.5">
-              <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-</svg>
-
-              <span class="truncate font-medium"
-                >2 min</span
+          <p>
+            <strong>License:</strong>
+            
+              <a
+                href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-primary hover:text-primary/80 transition-colors duration-200"
               >
-            </div>
-          
+                CC BY-NC-SA 4.0
+              </a>
+            
+          </p>
 
-
           
           
-            <div class="ml-auto flex flex-wrap items-center gap-1.5 md:ml-0">
-              
-                <span
-                  class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs"
-                >
-                  <span class="font-medium">Corona</span>
-                </span>
-              
-                <span
-                  class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs"
-                >
-                  <span class="font-medium">Changes</span>
-                </span>
-              
-                <span
-                  class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs"
-                >
-                  <span class="font-medium">New Normal</span>
-                </span>
-              
-                <span
-                  class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs"
-                >
-                  <span class="font-medium">Great Reset</span>
-                </span>
-              
-                <span
-                  class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs"
-                >
-                  <span class="font-medium">AI Translated</span>
-                </span>
-              
-            </div>
+            <p class="text-xs">
+              This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Please attribute the source, use non-commercially, and maintain the same license.
+            </p>
           
         </div>
       </div>
     </div>
-  </a>
-</article>
+  </div>
 
-          
-            
 
 
 
+  
+  
 
-<article class="group">
-  <a href="/en/posts/running-tests-before-a-commit/" class="block">
-    <div
-      class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none md:flex-row"
-    >
-      <div class="p-3 pb-0 md:order-last md:w-64 md:shrink-0 md:p-3 md:pl-0">
-          <div
-            class="relative aspect-video h-full w-full overflow-hidden rounded-lg md:aspect-video"
-          >
-            <img
-              src="/posts/executando-testes-antes-de-um-commit/git_header.jpg"
-              alt="Running Tests Before a Commit"
-              class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
-              loading="lazy"
-            />
-          </div>
-        </div>
-      <div class="flex flex-1 flex-col justify-center gap-4 p-6">
-        
-        <h3
-          class="text-foreground group-hover:text-primary text-xl leading-tight font-bold transition-colors duration-200"
-        >
-          Running Tests Before a Commit
-        </h3>
 
-        
-        
-          <p class="text-muted-foreground line-clamp-3 text-sm leading-relaxed md:line-clamp-2">
-            Forgetting to update tests is always a problem, realizing they broke only when git actions complain during a PR is even worse 😅
-The best way …
-          </p>
-        
 
 
-        
-        <div class="text-muted-foreground mt-2 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm">
-          
-          <div class="flex items-center gap-1.5">
-            <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-</svg>
 
-            <time datetime="2020-11-19" class="font-medium">
-              November 19, 2020
-            </time>
-          </div>
-
-          
-          
-            <div class="flex items-center gap-1.5">
-              <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-</svg>
-
-              <span class="truncate font-medium"
-                >4 min</span
-              >
-            </div>
-          
-
-
-          
-          
-            <div class="ml-auto flex flex-wrap items-center gap-1.5 md:ml-0">
-              
-                <span
-                  class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs"
-                >
-                  <span class="font-medium">Git</span>
-                </span>
-              
-                <span
-                  class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs"
-                >
-                  <span class="font-medium">.Net</span>
-                </span>
-              
-                <span
-                  class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs"
-                >
-                  <span class="font-medium">AI Translated</span>
-                </span>
-              
-            </div>
-          
-        </div>
-      </div>
-    </div>
-  </a>
-</article>
-
-          
-            
-
-
-
-
-<article class="group">
-  <a href="/en/posts/about-fast-cars-strategy-champagne-and-hannah-schmitz/" class="block">
-    <div
-      class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none md:flex-row"
-    >
-      <div class="p-3 pb-0 md:order-last md:w-64 md:shrink-0 md:p-3 md:pl-0">
-          <div
-            class="relative aspect-video h-full w-full overflow-hidden rounded-lg md:aspect-video"
-          >
-            <img
-              src="/posts/sobre-carros-velozes-estrat%C3%A9gia-champanhe-e-hannah-schmitz/gp_brasil_2019_podio_talvez_photoshopado.jpg"
-              alt="About fast cars, strategy, champagne and Hannah Schmitz"
-              class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
-              loading="lazy"
-            />
-          </div>
-        </div>
-      <div class="flex flex-1 flex-col justify-center gap-4 p-6">
-        
-        <h3
-          class="text-foreground group-hover:text-primary text-xl leading-tight font-bold transition-colors duration-200"
-        >
-          About fast cars, strategy, champagne and Hannah Schmitz
-        </h3>
-
-        
-        
-          <p class="text-muted-foreground line-clamp-3 text-sm leading-relaxed md:line-clamp-2">
-            When something normal is treated so normally that it even sounds... curious.
-          </p>
-        
-
-
-        
-        <div class="text-muted-foreground mt-2 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm">
-          
-          <div class="flex items-center gap-1.5">
-            <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-</svg>
-
-            <time datetime="2019-11-19" class="font-medium">
-              November 19, 2019
-            </time>
-          </div>
-
-          
-          
-            <div class="flex items-center gap-1.5">
-              <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-</svg>
-
-              <span class="truncate font-medium"
-                >2 min</span
-              >
-            </div>
-          
-
-
-          
-          
-            <div class="ml-auto flex flex-wrap items-center gap-1.5 md:ml-0">
-              
-                <span
-                  class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs"
-                >
-                  <span class="font-medium">Red Bull</span>
-                </span>
-              
-                <span
-                  class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs"
-                >
-                  <span class="font-medium">Max Verstappen</span>
-                </span>
-              
-                <span
-                  class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs"
-                >
-                  <span class="font-medium">AI Translated</span>
-                </span>
-              
-            </div>
-          
-        </div>
-      </div>
-    </div>
-  </a>
-</article>
-
-          
-            
-
-
-
-
-<article class="group">
-  <a href="/en/posts/hello-world-again/" class="block">
-    <div
-      class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none md:flex-row"
-    >
-      <div class="p-3 pb-0 md:order-last md:w-64 md:shrink-0 md:p-3 md:pl-0">
-          <div
-            class="relative aspect-video h-full w-full overflow-hidden rounded-lg md:aspect-video"
-          >
-            <img
-              src="/posts/ola-mundo-outra-vez/hello.png"
-              alt="Hello world, again"
-              class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
-              loading="lazy"
-            />
-          </div>
-        </div>
-      <div class="flex flex-1 flex-col justify-center gap-4 p-6">
-        
-        <h3
-          class="text-foreground group-hover:text-primary text-xl leading-tight font-bold transition-colors duration-200"
-        >
-          Hello world, again
-        </h3>
-
-        
-        
-          <p class="text-muted-foreground line-clamp-3 text-sm leading-relaxed md:line-clamp-2">
-            Another re-introduction post that will age extremely badly, want to bet?
-          </p>
-        
-
-
-        
-        <div class="text-muted-foreground mt-2 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm">
-          
-          <div class="flex items-center gap-1.5">
-            <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-</svg>
-
-            <time datetime="2018-12-21" class="font-medium">
-              December 21, 2018
-            </time>
-          </div>
-
-          
-          
-            <div class="flex items-center gap-1.5">
-              <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-</svg>
-
-              <span class="truncate font-medium"
-                >1 min</span
-              >
-            </div>
-          
-
-
-          
-          
-            <div class="ml-auto flex flex-wrap items-center gap-1.5 md:ml-0">
-              
-                <span
-                  class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs"
-                >
-                  <span class="font-medium">AI Translated</span>
-                </span>
-              
-            </div>
-          
-        </div>
-      </div>
-    </div>
-  </a>
-</article>
-
-          
-            
-
-
-
-
-<article class="group">
-  <a href="/en/posts/solving-the-vt-x-is-not-available-error-in-virtual-box-on-windows-10/" class="block">
-    <div
-      class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none md:flex-row"
-    >
-      <div class="p-3 pb-0 md:order-last md:w-64 md:shrink-0 md:p-3 md:pl-0">
-          <div
-            class="relative aspect-video h-full w-full overflow-hidden rounded-lg md:aspect-video"
-          >
-            <img
-              src="/posts/resolvendo-o-erro-vt-x-is-not-available-do-virtual-box-no-windows-10/ms_xamarin.jpg"
-              alt="Solving the “VT-x is not available” error in Virtual Box on Windows 10"
-              class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
-              loading="lazy"
-            />
-          </div>
-        </div>
-      <div class="flex flex-1 flex-col justify-center gap-4 p-6">
-        
-        <h3
-          class="text-foreground group-hover:text-primary text-xl leading-tight font-bold transition-colors duration-200"
-        >
-          Solving the “VT-x is not available” error in Virtual Box on Windows 10
-        </h3>
-
-        
-        
-          <p class="text-muted-foreground line-clamp-3 text-sm leading-relaxed md:line-clamp-2">
-            For those who keep migrating back and forth between Hyper-V and Virtual Box (if you&rsquo;ve ever needed to use Docker and the Android …
-          </p>
-        
-
-
-        
-        <div class="text-muted-foreground mt-2 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm">
-          
-          <div class="flex items-center gap-1.5">
-            <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-</svg>
-
-            <time datetime="2018-09-23" class="font-medium">
-              September 23, 2018
-            </time>
-          </div>
-
-          
-          
-            <div class="flex items-center gap-1.5">
-              <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-</svg>
-
-              <span class="truncate font-medium"
-                >2 min</span
-              >
-            </div>
-          
-
-
-          
-          
-            <div class="ml-auto flex flex-wrap items-center gap-1.5 md:ml-0">
-              
-                <span
-                  class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs"
-                >
-                  <span class="font-medium">.Net</span>
-                </span>
-              
-                <span
-                  class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs"
-                >
-                  <span class="font-medium">VirtualBox</span>
-                </span>
-              
-                <span
-                  class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs"
-                >
-                  <span class="font-medium">AI Translated</span>
-                </span>
-              
-            </div>
-          
-        </div>
-      </div>
-    </div>
-  </a>
-</article>
-
-          
-            
-
-
-
-
-<article class="group">
-  <a href="/en/posts/xamarin-forms-app-closes-immediately-when-started-in-visual-studio-emulator-what-to-do/" class="block">
-    <div
-      class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none md:flex-row"
-    >
-      <div class="p-3 pb-0 md:order-last md:w-64 md:shrink-0 md:p-3 md:pl-0">
-          <div
-            class="relative aspect-video h-full w-full overflow-hidden rounded-lg md:aspect-video"
-          >
-            <img
-              src="/posts/app-xamarin-forms-fecha-assim-que-%C3%A9-iniciado-no-visual-studio-emulator-o-que-fazer/ms_xamarin.jpg"
-              alt="Xamarin Forms App Closes Immediately When Started in Visual Studio Emulator, What to Do?"
-              class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
-              loading="lazy"
-            />
-          </div>
-        </div>
-      <div class="flex flex-1 flex-col justify-center gap-4 p-6">
-        
-        <h3
-          class="text-foreground group-hover:text-primary text-xl leading-tight font-bold transition-colors duration-200"
-        >
-          Xamarin Forms App Closes Immediately When Started in Visual Studio Emulator, What to Do?
-        </h3>
-
-        
-        
-          <p class="text-muted-foreground line-clamp-3 text-sm leading-relaxed md:line-clamp-2">
-            Continuing with #XamarinMarathon, I encountered a new problem when trying to debug my app in Xamarin Forms on the Visual Studio Android emulator.
-          </p>
-        
-
-
-        
-        <div class="text-muted-foreground mt-2 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm">
-          
-          <div class="flex items-center gap-1.5">
-            <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-</svg>
-
-            <time datetime="2017-02-11" class="font-medium">
-              February 11, 2017
-            </time>
-          </div>
-
-          
-          
-            <div class="flex items-center gap-1.5">
-              <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-</svg>
-
-              <span class="truncate font-medium"
-                >1 min</span
-              >
-            </div>
-          
-
-
-          
-          
-            <div class="ml-auto flex flex-wrap items-center gap-1.5 md:ml-0">
-              
-                <span
-                  class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs"
-                >
-                  <span class="font-medium">.Net</span>
-                </span>
-              
-                <span
-                  class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs"
-                >
-                  <span class="font-medium">Xamarin</span>
-                </span>
-              
-                <span
-                  class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs"
-                >
-                  <span class="font-medium">AI Translated</span>
-                </span>
-              
-            </div>
-          
-        </div>
-      </div>
-    </div>
-  </a>
-</article>
-
-          
-            
-
-
-
-
-<article class="group">
-  <a href="/en/posts/lets-write-come-on-but-about-what-exactly/" class="block">
-    <div
-      class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none md:flex-row"
-    >
-      <div class="p-3 pb-0 md:order-last md:w-64 md:shrink-0 md:p-3 md:pl-0">
-          <div
-            class="relative aspect-video h-full w-full overflow-hidden rounded-lg md:aspect-video"
-          >
-            <img
-              src="/posts/vamos-escrever-bora-mas-sobre-o-que-exatamente/vamos_escrever.jpg"
-              alt="Let&#39;s write? Come on! But about what (exactly)?"
-              class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
-              loading="lazy"
-            />
-          </div>
-        </div>
-      <div class="flex flex-1 flex-col justify-center gap-4 p-6">
-        
-        <h3
-          class="text-foreground group-hover:text-primary text-xl leading-tight font-bold transition-colors duration-200"
-        >
-          Let&#39;s write? Come on! But about what (exactly)?
-        </h3>
-
-        
-        
-          <p class="text-muted-foreground line-clamp-3 text-sm leading-relaxed md:line-clamp-2">
-            And so it is, or more or less, in this situation that every time I think about writing and then it stays like that, each one in their corner …
-          </p>
-        
-
-
-        
-        <div class="text-muted-foreground mt-2 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm">
-          
-          <div class="flex items-center gap-1.5">
-            <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-</svg>
-
-            <time datetime="2016-10-21" class="font-medium">
-              October 21, 2016
-            </time>
-          </div>
-
-          
-          
-            <div class="flex items-center gap-1.5">
-              <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-</svg>
-
-              <span class="truncate font-medium"
-                >2 min</span
-              >
-            </div>
-          
-
-
-          
-          
-            <div class="ml-auto flex flex-wrap items-center gap-1.5 md:ml-0">
-              
-                <span
-                  class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs"
-                >
-                  <span class="font-medium">AI Translated</span>
-                </span>
-              
-            </div>
-          
-        </div>
-      </div>
-    </div>
-  </a>
-</article>
-
-          
-        </div>
+  <nav class="post-navigation mb-12">
+    <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
       
-    
-
-
-    
-    
-
-
-
-
-  <nav
-    class="pagination mt-12"
-    aria-label="Page 2 of 3"
-  >
-    <div class="flex items-center justify-center gap-2">
-      
-      
-        <a
-          href="/en/posts/"
-          class="bg-card border-border hover:bg-accent/50 hover:border-primary/20 inline-flex items-center gap-2 rounded-lg border px-4 py-2 font-medium transition-all duration-300"
-          aria-label="Previous"
-        >
-          <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <div class="nav-item">
+        
+          <a
+            href="/en/posts/the-meeting-lessons-learned/"
+            class="group bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 flex min-h-[140px] flex-col justify-between rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none"
+          >
+            <div>
+              <div class="mb-3 flex items-center gap-3">
+                <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
 </svg>
-          <span class="hidden sm:inline">Previous</span>
-        </a>
-      
+                <span class="text-muted-foreground text-sm font-medium">
+                  Previous
+                </span>
+              </div>
 
-
-      
-      <div class="flex items-center gap-1">
-        
-        
-
-
-        
-        
-
-
-        
-        
-          
-          
-            
-              
-              <a
-                href="/en/posts/"
-                class="border-border hover:bg-accent/50 hover:border-primary/20 flex h-10 w-10 items-center justify-center rounded-lg border font-medium transition-all duration-300"
+              <h3
+                class="text-foreground group-hover:text-primary mb-3 line-clamp-2 text-lg leading-tight font-semibold transition-colors duration-200"
               >
-                1
-              </a>
-            
-          
-        
-          
-          
-            
-              
-              <span
-                class="bg-primary text-primary-foreground flex h-10 w-10 items-center justify-center rounded-lg font-medium"
-                aria-current="page"
-              >
-                2
-              </span>
-            
-          
-        
-          
-          
-            
-              
-              <a
-                href="/en/posts/page/3/"
-                class="border-border hover:bg-accent/50 hover:border-primary/20 flex h-10 w-10 items-center justify-center rounded-lg border font-medium transition-all duration-300"
-              >
-                3
-              </a>
-            
-          
-        
+                The Meeting — Lessons Learned
+              </h3>
+            </div>
 
+            <div class="text-muted-foreground mt-auto flex items-center gap-2 text-xs">
+              <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
 
-        
+              <time datetime="2026-06-08">
+                06/08
+              </time>
+            </div>
+          </a>
         
       </div>
 
       
-      
-        <a
-          href="/en/posts/page/3/"
-          class="bg-card border-border hover:bg-accent/50 hover:border-primary/20 inline-flex items-center gap-2 rounded-lg border px-4 py-2 font-medium transition-all duration-300"
-          aria-label="Next"
-        >
-          <span class="hidden sm:inline">Next</span>
-          <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <div class="nav-item">
+        
+          <div
+            class="bg-muted/30 border-border/50 flex min-h-[140px] flex-col justify-center rounded-xl border p-6"
+          >
+            <div class="mb-3 flex items-center justify-end gap-3">
+              <span class="text-muted-foreground/50 text-sm font-medium">
+                No next
+              </span>
+              <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
 </svg>
-        </a>
-      
-
+            </div>
+          </div>
+        
+      </div>
     </div>
   </nav>
 
 
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+  <section
+    id="comments"
+    class="bg-card border-border mx-auto mt-12 rounded-2xl border p-8 px-4 shadow-sm"
+  >
+    <div class="bg-card">
+      <h2 class="text-foreground mb-6 flex items-center gap-3 text-2xl font-bold">
+        <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/>
+</svg>
+
+        Comments
+      </h2>
+
+      <div class="comments-container">
+
+
+
+
+
+  <div id="disqus-comments" class="disqus-container">
+    <div id="disqus_thread"></div>
+
+    <script>
+      (function() {
+        'use strict';
+
+        
+        var disqus_config = function () {
+          this.page.url = 'https:\/\/cobalto.net\/en\/posts\/from-google-kml-to-github-with-grok\/';
+          this.page.identifier = '\/en\/posts\/from-google-kml-to-github-with-grok\/';
+          this.page.title = 'How I turned a bunch of Google MyMaps KML files into a single-page site (with help from Grok Build)';
+        };
+
+        
+        function loadDisqus() {
+          var d = document, s = d.createElement('script');
+          s.src = 'https://cobalto.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        }
+
+        
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', loadDisqus);
+        } else {
+          loadDisqus();
+        }
+      })();
+    </script>
+
+    <noscript>
+      <div class="py-8 text-center">
+        <div
+          class="bg-muted/50 mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full"
+        >
+          <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/>
+</svg>
+
+        </div>
+        <h3 class="text-foreground mb-2 text-lg font-medium">
+          Comment system not configured
+        </h3>
+      </div>
+    </noscript>
   </div>
+
+</div>
+    </div>
+  </section>
+
 
       </div>
 
@@ -1987,6 +1656,22 @@ The best way …
     
     
     
+      <button
+        id="dock-comments"
+        class="text-muted-foreground hover:text-primary hover:bg-primary/10 focus:ring-primary/20 xs:px-2 xs:py-1.5 flex shrink-0 items-center gap-2 rounded-lg px-3 py-2 text-sm font-medium transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-105 focus:ring-2 focus:outline-none sm:px-3 sm:py-2"
+        title="Comments"
+        aria-label="Comments"
+      >
+        <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/>
+</svg>
+
+        <span class="hidden sm:inline">Comments</span>
+      </button>
+
+      
+      <div class="bg-border xs:mx-1 mx-2 h-6 w-px sm:mx-2"></div>
+    
 
 
     
@@ -2008,7 +1693,61 @@ The best way …
 
 
 
-      
+      <aside
+    id="toc-container"
+    class="toc-center"
+    data-position="center"
+  >
+      <div
+        id="toc-center"
+        class="pointer-events-none fixed top-28 right-0 left-0 z-40 mx-auto w-full max-w-4xl px-4 transition-all duration-300"
+      >
+        <div class="pointer-events-auto relative mx-auto w-fit">
+          <button
+            id="toc-center-toggle"
+            class="bg-card/80 border-border text-muted-foreground hover:text-primary hover:bg-primary/10 ring-offset-background focus-visible:ring-ring flex cursor-pointer items-center gap-2 rounded-full border px-4 py-1.5 text-sm shadow-sm backdrop-blur-sm transition-colors focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:outline-none"
+          >
+            <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <line x1="8" x2="21" y1="6" y2="6"/>
+  <line x1="8" x2="21" y1="12" y2="12"/>
+  <line x1="8" x2="21" y1="18" y2="18"/>
+  <line x1="3" x2="3.01" y1="6" y2="6"/>
+  <line x1="3" x2="3.01" y1="12" y2="12"/>
+  <line x1="3" x2="3.01" y1="18" y2="18"/>
+</svg>
+
+            <span id="toc-center-title" class="max-w-[200px] truncate">Table of contents</span>
+            <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+</svg>
+          </button>
+
+          
+          <div
+            id="toc-center-dropdown"
+            class="bg-card border-border scrollbar-hide absolute top-full left-1/2 mt-2 hidden max-h-[60vh] w-[280px] origin-top -translate-x-1/2 scale-95 overflow-y-auto rounded-xl border p-4 opacity-0 shadow-lg transition-all"
+          >
+            <div
+              id="toc-center-content"
+              class="[&_a]:text-muted-foreground [&_a:hover]:bg-primary/10 [&_a:hover]:text-primary [&_a.active]:bg-primary/10 [&_a.active]:text-primary text-sm [&_a]:block [&_a]:truncate [&_a]:rounded-md [&_a]:px-2 [&_a]:py-1 [&_a]:transition-colors [&_a.active]:font-medium [&_li]:my-1.5 [&_nav>ul]:pl-0 [&_ul]:list-none [&_ul]:pl-4"
+            >
+              <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#phase-1-exporting-the-kml-from-google-my-maps">Phase 1: Exporting the KML from Google My Maps</a></li>
+        <li><a href="#phase-2-generating-the-site-with-grok-build">Phase 2: Generating the site with Grok Build</a></li>
+        <li><a href="#phase-3-the-resulting-site-and-the-bugs-that-came-with-it">Phase 3: The resulting site (and the bugs that came with it)</a></li>
+        <li><a href="#what-remained-and-what-you-can-use">What remained and what you can use</a></li>
+        <li><a href="#what-i-learned-from-this">What I learned from this</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+            </div>
+          </div>
+        </div>
+      </div></aside>
       
 <div
   id="search-overlay"
