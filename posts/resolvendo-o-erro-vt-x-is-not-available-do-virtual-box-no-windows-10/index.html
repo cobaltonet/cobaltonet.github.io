@@ -1327,15 +1327,17 @@
     <div id="disqus_thread"></div>
 
     <script>
-      var disqus_config = function () {
-        this.page.url = 'https:\/\/cobalto.net\/posts\/resolvendo-o-erro-vt-x-is-not-available-do-virtual-box-no-windows-10\/';
-        this.page.identifier = '\/posts\/resolvendo-o-erro-vt-x-is-not-available-do-virtual-box-no-windows-10\/';
-        this.page.title = 'Resolvendo o erro “VT-x is not available” do Virtual Box no Windows 10';
-      };
-
       (function() {
         'use strict';
 
+        
+        var disqus_config = function () {
+          this.page.url = 'https:\/\/cobalto.net\/posts\/resolvendo-o-erro-vt-x-is-not-available-do-virtual-box-no-windows-10\/';
+          this.page.identifier = '\/posts\/resolvendo-o-erro-vt-x-is-not-available-do-virtual-box-no-windows-10\/';
+          this.page.title = 'Resolvendo o erro “VT-x is not available” do Virtual Box no Windows 10';
+        };
+
+        
         function loadDisqus() {
           var d = document, s = d.createElement('script');
           s.src = 'https://cobalto.disqus.com/embed.js';
@@ -1343,6 +1345,7 @@
           (d.head || d.body).appendChild(s);
         }
 
+        
         if (document.readyState === 'loading') {
           document.addEventListener('DOMContentLoaded', loadDisqus);
         } else {

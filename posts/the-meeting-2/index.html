@@ -1906,15 +1906,17 @@
     <div id="disqus_thread"></div>
 
     <script>
-      var disqus_config = function () {
-        this.page.url = 'https:\/\/cobalto.net\/posts\/the-meeting-2\/';
-        this.page.identifier = '\/posts\/the-meeting-2\/';
-        this.page.title = 'A Reunião — Graham e a Grande Crise do Chá';
-      };
-
       (function() {
         'use strict';
 
+        
+        var disqus_config = function () {
+          this.page.url = 'https:\/\/cobalto.net\/posts\/the-meeting-2\/';
+          this.page.identifier = '\/posts\/the-meeting-2\/';
+          this.page.title = 'A Reunião — Graham e a Grande Crise do Chá';
+        };
+
+        
         function loadDisqus() {
           var d = document, s = d.createElement('script');
           s.src = 'https://cobalto.disqus.com/embed.js';
@@ -1922,6 +1924,7 @@
           (d.head || d.body).appendChild(s);
         }
 
+        
         if (document.readyState === 'loading') {
           document.addEventListener('DOMContentLoaded', loadDisqus);
         } else {

@@ -1308,15 +1308,17 @@
     <div id="disqus_thread"></div>
 
     <script>
-      var disqus_config = function () {
-        this.page.url = 'https:\/\/cobalto.net\/posts\/uma-breve-hist%C3%B3ria-sobre-tudo-isso-que-vem-acontecendo-em-todo-lugar\/';
-        this.page.identifier = '\/posts\/uma-breve-hist%C3%B3ria-sobre-tudo-isso-que-vem-acontecendo-em-todo-lugar\/';
-        this.page.title = 'Uma breve história sobre tudo isso que vem acontecendo em todo lugar';
-      };
-
       (function() {
         'use strict';
 
+        
+        var disqus_config = function () {
+          this.page.url = 'https:\/\/cobalto.net\/posts\/uma-breve-hist%C3%B3ria-sobre-tudo-isso-que-vem-acontecendo-em-todo-lugar\/';
+          this.page.identifier = '\/posts\/uma-breve-hist%C3%B3ria-sobre-tudo-isso-que-vem-acontecendo-em-todo-lugar\/';
+          this.page.title = 'Uma breve história sobre tudo isso que vem acontecendo em todo lugar';
+        };
+
+        
         function loadDisqus() {
           var d = document, s = d.createElement('script');
           s.src = 'https://cobalto.disqus.com/embed.js';
@@ -1324,6 +1326,7 @@
           (d.head || d.body).appendChild(s);
         }
 
+        
         if (document.readyState === 'loading') {
           document.addEventListener('DOMContentLoaded', loadDisqus);
         } else {

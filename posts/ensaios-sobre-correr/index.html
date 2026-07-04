@@ -1416,15 +1416,17 @@ Esse é um pensamento que constantemente tenho quando estou subindo a Goethe (a 
     <div id="disqus_thread"></div>
 
     <script>
-      var disqus_config = function () {
-        this.page.url = 'https:\/\/cobalto.net\/posts\/ensaios-sobre-correr\/';
-        this.page.identifier = '\/posts\/ensaios-sobre-correr\/';
-        this.page.title = 'Ensaios sobre correr';
-      };
-
       (function() {
         'use strict';
 
+        
+        var disqus_config = function () {
+          this.page.url = 'https:\/\/cobalto.net\/posts\/ensaios-sobre-correr\/';
+          this.page.identifier = '\/posts\/ensaios-sobre-correr\/';
+          this.page.title = 'Ensaios sobre correr';
+        };
+
+        
         function loadDisqus() {
           var d = document, s = d.createElement('script');
           s.src = 'https://cobalto.disqus.com/embed.js';
@@ -1432,6 +1434,7 @@ Esse é um pensamento que constantemente tenho quando estou subindo a Goethe (a 
           (d.head || d.body).appendChild(s);
         }
 
+        
         if (document.readyState === 'loading') {
           document.addEventListener('DOMContentLoaded', loadDisqus);
         } else {

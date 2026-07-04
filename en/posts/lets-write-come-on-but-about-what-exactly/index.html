@@ -1355,15 +1355,17 @@ I no longer have the patience to try to be funny with everything, time gave me t
     <div id="disqus_thread"></div>
 
     <script>
-      var disqus_config = function () {
-        this.page.url = 'https:\/\/cobalto.net\/en\/posts\/lets-write-come-on-but-about-what-exactly\/';
-        this.page.identifier = '\/en\/posts\/lets-write-come-on-but-about-what-exactly\/';
-        this.page.title = 'Let\u0027s write? Come on! But about what (exactly)?';
-      };
-
       (function() {
         'use strict';
 
+        
+        var disqus_config = function () {
+          this.page.url = 'https:\/\/cobalto.net\/en\/posts\/lets-write-come-on-but-about-what-exactly\/';
+          this.page.identifier = '\/en\/posts\/lets-write-come-on-but-about-what-exactly\/';
+          this.page.title = 'Let\u0027s write? Come on! But about what (exactly)?';
+        };
+
+        
         function loadDisqus() {
           var d = document, s = d.createElement('script');
           s.src = 'https://cobalto.disqus.com/embed.js';
@@ -1371,6 +1373,7 @@ I no longer have the patience to try to be funny with everything, time gave me t
           (d.head || d.body).appendChild(s);
         }
 
+        
         if (document.readyState === 'loading') {
           document.addEventListener('DOMContentLoaded', loadDisqus);
         } else {

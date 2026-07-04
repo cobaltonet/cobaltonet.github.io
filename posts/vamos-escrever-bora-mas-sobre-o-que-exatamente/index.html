@@ -1304,15 +1304,17 @@ Eu já não tenho mais saco pra tentar ser engraçadinho com tudo, o tempo me de
     <div id="disqus_thread"></div>
 
     <script>
-      var disqus_config = function () {
-        this.page.url = 'https:\/\/cobalto.net\/posts\/vamos-escrever-bora-mas-sobre-o-que-exatamente\/';
-        this.page.identifier = '\/posts\/vamos-escrever-bora-mas-sobre-o-que-exatamente\/';
-        this.page.title = 'Vamos escrever? Bora! Mas sobre o que (exatamente)?';
-      };
-
       (function() {
         'use strict';
 
+        
+        var disqus_config = function () {
+          this.page.url = 'https:\/\/cobalto.net\/posts\/vamos-escrever-bora-mas-sobre-o-que-exatamente\/';
+          this.page.identifier = '\/posts\/vamos-escrever-bora-mas-sobre-o-que-exatamente\/';
+          this.page.title = 'Vamos escrever? Bora! Mas sobre o que (exatamente)?';
+        };
+
+        
         function loadDisqus() {
           var d = document, s = d.createElement('script');
           s.src = 'https://cobalto.disqus.com/embed.js';
@@ -1320,6 +1322,7 @@ Eu já não tenho mais saco pra tentar ser engraçadinho com tudo, o tempo me de
           (d.head || d.body).appendChild(s);
         }
 
+        
         if (document.readyState === 'loading') {
           document.addEventListener('DOMContentLoaded', loadDisqus);
         } else {

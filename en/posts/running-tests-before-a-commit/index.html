@@ -1872,15 +1872,17 @@ git config --global alias.uncommit &#34;reset HEAD^&#34;</div>
     <div id="disqus_thread"></div>
 
     <script>
-      var disqus_config = function () {
-        this.page.url = 'https:\/\/cobalto.net\/en\/posts\/running-tests-before-a-commit\/';
-        this.page.identifier = '\/en\/posts\/running-tests-before-a-commit\/';
-        this.page.title = 'Running Tests Before a Commit';
-      };
-
       (function() {
         'use strict';
 
+        
+        var disqus_config = function () {
+          this.page.url = 'https:\/\/cobalto.net\/en\/posts\/running-tests-before-a-commit\/';
+          this.page.identifier = '\/en\/posts\/running-tests-before-a-commit\/';
+          this.page.title = 'Running Tests Before a Commit';
+        };
+
+        
         function loadDisqus() {
           var d = document, s = d.createElement('script');
           s.src = 'https://cobalto.disqus.com/embed.js';
@@ -1888,6 +1890,7 @@ git config --global alias.uncommit &#34;reset HEAD^&#34;</div>
           (d.head || d.body).appendChild(s);
         }
 
+        
         if (document.readyState === 'loading') {
           document.addEventListener('DOMContentLoaded', loadDisqus);
         } else {

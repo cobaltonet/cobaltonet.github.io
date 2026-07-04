@@ -1572,15 +1572,17 @@ Atualmente no que talvez possa ser chamado de <strong>segundo arco</strong>.</p>
     <div id="disqus_thread"></div>
 
     <script>
-      var disqus_config = function () {
-        this.page.url = 'https:\/\/cobalto.net\/posts\/mini-review-jujutsu-kaisen-%E5%91%AA%E8%A1%93%E5%BB%BB%E6%88%A6\/';
-        this.page.identifier = '\/posts\/mini-review-jujutsu-kaisen-%E5%91%AA%E8%A1%93%E5%BB%BB%E6%88%A6\/';
-        this.page.title = 'Mini Review: Jujutsu Kaisen (呪術廻戦)';
-      };
-
       (function() {
         'use strict';
 
+        
+        var disqus_config = function () {
+          this.page.url = 'https:\/\/cobalto.net\/posts\/mini-review-jujutsu-kaisen-%E5%91%AA%E8%A1%93%E5%BB%BB%E6%88%A6\/';
+          this.page.identifier = '\/posts\/mini-review-jujutsu-kaisen-%E5%91%AA%E8%A1%93%E5%BB%BB%E6%88%A6\/';
+          this.page.title = 'Mini Review: Jujutsu Kaisen (呪術廻戦)';
+        };
+
+        
         function loadDisqus() {
           var d = document, s = d.createElement('script');
           s.src = 'https://cobalto.disqus.com/embed.js';
@@ -1588,6 +1590,7 @@ Atualmente no que talvez possa ser chamado de <strong>segundo arco</strong>.</p>
           (d.head || d.body).appendChild(s);
         }
 
+        
         if (document.readyState === 'loading') {
           document.addEventListener('DOMContentLoaded', loadDisqus);
         } else {

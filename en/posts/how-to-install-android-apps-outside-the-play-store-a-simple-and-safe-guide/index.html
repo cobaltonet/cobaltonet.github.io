@@ -1570,15 +1570,17 @@
     <div id="disqus_thread"></div>
 
     <script>
-      var disqus_config = function () {
-        this.page.url = 'https:\/\/cobalto.net\/en\/posts\/how-to-install-android-apps-outside-the-play-store-a-simple-and-safe-guide\/';
-        this.page.identifier = '\/en\/posts\/how-to-install-android-apps-outside-the-play-store-a-simple-and-safe-guide\/';
-        this.page.title = 'How to Install Android Apps Outside the Play Store: A Simple and Safe Guide';
-      };
-
       (function() {
         'use strict';
 
+        
+        var disqus_config = function () {
+          this.page.url = 'https:\/\/cobalto.net\/en\/posts\/how-to-install-android-apps-outside-the-play-store-a-simple-and-safe-guide\/';
+          this.page.identifier = '\/en\/posts\/how-to-install-android-apps-outside-the-play-store-a-simple-and-safe-guide\/';
+          this.page.title = 'How to Install Android Apps Outside the Play Store: A Simple and Safe Guide';
+        };
+
+        
         function loadDisqus() {
           var d = document, s = d.createElement('script');
           s.src = 'https://cobalto.disqus.com/embed.js';
@@ -1586,6 +1588,7 @@
           (d.head || d.body).appendChild(s);
         }
 
+        
         if (document.readyState === 'loading') {
           document.addEventListener('DOMContentLoaded', loadDisqus);
         } else {

@@ -1397,15 +1397,17 @@
     <div id="disqus_thread"></div>
 
     <script>
-      var disqus_config = function () {
-        this.page.url = 'https:\/\/cobalto.net\/posts\/instala%C3%A7%C3%A3o-do-xcode-travada-no-status-instalando\/';
-        this.page.identifier = '\/posts\/instala%C3%A7%C3%A3o-do-xcode-travada-no-status-instalando\/';
-        this.page.title = 'Instalação do Xcode travada no status Instalando';
-      };
-
       (function() {
         'use strict';
 
+        
+        var disqus_config = function () {
+          this.page.url = 'https:\/\/cobalto.net\/posts\/instala%C3%A7%C3%A3o-do-xcode-travada-no-status-instalando\/';
+          this.page.identifier = '\/posts\/instala%C3%A7%C3%A3o-do-xcode-travada-no-status-instalando\/';
+          this.page.title = 'Instalação do Xcode travada no status Instalando';
+        };
+
+        
         function loadDisqus() {
           var d = document, s = d.createElement('script');
           s.src = 'https://cobalto.disqus.com/embed.js';
@@ -1413,6 +1415,7 @@
           (d.head || d.body).appendChild(s);
         }
 
+        
         if (document.readyState === 'loading') {
           document.addEventListener('DOMContentLoaded', loadDisqus);
         } else {
