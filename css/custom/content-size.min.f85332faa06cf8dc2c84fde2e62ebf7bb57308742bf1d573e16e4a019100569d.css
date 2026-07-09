@@ -1,0 +1,1 @@
+html{--content-size-scale:1;font-size:calc(100% * var(--content-size-scale))}html[data-content-size=compact]{--content-size-scale:1}html[data-content-size=medium]{--content-size-scale:1.125}html[data-content-size=large]{--content-size-scale:1.25}html{transition:font-size .15s ease-out}@media(prefers-reduced-motion:reduce){html{transition:none}}
