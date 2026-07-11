@@ -1417,33 +1417,28 @@
   <div id="disqus-comments" class="disqus-container">
     <div id="disqus_thread"></div>
 
-    <script>
-      (function() {
-        'use strict';
-
-        
-        var disqus_config = function () {
+    
+      <script>
+        window.disqus_config = function () {
           this.page.url = 'https:\/\/cobalto.net\/en\/posts\/from-google-kml-to-github-with-grok\/';
           this.page.identifier = '\/en\/posts\/from-google-kml-to-github-with-grok\/';
           this.page.title = 'How I turned a bunch of Google MyMaps KML files into a single-page site (with help from Grok Build)';
         };
 
-        
-        function loadDisqus() {
-          var d = document, s = d.createElement('script');
-          s.src = 'https://cobalto.disqus.com/embed.js';
-          s.setAttribute('data-timestamp', +new Date());
-          (d.head || d.body).appendChild(s);
-        }
+        (function () {
+          var host = window.location.hostname;
+          if (host === "localhost" || host === "127.0.0.1") {
+            return;
+          }
 
-        
-        if (document.readyState === 'loading') {
-          document.addEventListener('DOMContentLoaded', loadDisqus);
-        } else {
-          loadDisqus();
-        }
-      })();
-    </script>
+          var d = document;
+          var s = d.createElement("script");
+          s.src = "https://cobalto.disqus.com/embed.js";
+          s.setAttribute("data-timestamp", +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+    
 
     <noscript>
       <div class="py-8 text-center">
@@ -1461,7 +1456,6 @@
       </div>
     </noscript>
   </div>
-
 </div>
     </div>
   </section>

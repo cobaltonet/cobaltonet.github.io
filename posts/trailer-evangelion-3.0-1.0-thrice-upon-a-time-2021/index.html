@@ -1346,33 +1346,28 @@ Musica tema「One Last Kiss」super gostosa, porém com cara de Rádio Smartfit*
   <div id="disqus-comments" class="disqus-container">
     <div id="disqus_thread"></div>
 
-    <script>
-      (function() {
-        'use strict';
-
-        
-        var disqus_config = function () {
+    
+      <script>
+        window.disqus_config = function () {
           this.page.url = 'https:\/\/cobalto.net\/posts\/trailer-evangelion-3.0-1.0-thrice-upon-a-time-2021\/';
           this.page.identifier = '\/posts\/trailer-evangelion-3.0-1.0-thrice-upon-a-time-2021\/';
           this.page.title = 'Trailer: Evangelion: 3.0\u002b1.0 Thrice Upon a Time (2021)';
         };
 
-        
-        function loadDisqus() {
-          var d = document, s = d.createElement('script');
-          s.src = 'https://cobalto.disqus.com/embed.js';
-          s.setAttribute('data-timestamp', +new Date());
-          (d.head || d.body).appendChild(s);
-        }
+        (function () {
+          var host = window.location.hostname;
+          if (host === "localhost" || host === "127.0.0.1") {
+            return;
+          }
 
-        
-        if (document.readyState === 'loading') {
-          document.addEventListener('DOMContentLoaded', loadDisqus);
-        } else {
-          loadDisqus();
-        }
-      })();
-    </script>
+          var d = document;
+          var s = d.createElement("script");
+          s.src = "https://cobalto.disqus.com/embed.js";
+          s.setAttribute("data-timestamp", +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+    
 
     <noscript>
       <div class="py-8 text-center">
@@ -1390,7 +1385,6 @@ Musica tema「One Last Kiss」super gostosa, porém com cara de Rádio Smartfit*
       </div>
     </noscript>
   </div>
-
 </div>
     </div>
   </section>

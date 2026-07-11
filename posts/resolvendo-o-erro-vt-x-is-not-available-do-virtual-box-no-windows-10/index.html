@@ -1381,33 +1381,28 @@
   <div id="disqus-comments" class="disqus-container">
     <div id="disqus_thread"></div>
 
-    <script>
-      (function() {
-        'use strict';
-
-        
-        var disqus_config = function () {
+    
+      <script>
+        window.disqus_config = function () {
           this.page.url = 'https:\/\/cobalto.net\/posts\/resolvendo-o-erro-vt-x-is-not-available-do-virtual-box-no-windows-10\/';
           this.page.identifier = '\/posts\/resolvendo-o-erro-vt-x-is-not-available-do-virtual-box-no-windows-10\/';
           this.page.title = 'Resolvendo o erro “VT-x is not available” do Virtual Box no Windows 10';
         };
 
-        
-        function loadDisqus() {
-          var d = document, s = d.createElement('script');
-          s.src = 'https://cobalto.disqus.com/embed.js';
-          s.setAttribute('data-timestamp', +new Date());
-          (d.head || d.body).appendChild(s);
-        }
+        (function () {
+          var host = window.location.hostname;
+          if (host === "localhost" || host === "127.0.0.1") {
+            return;
+          }
 
-        
-        if (document.readyState === 'loading') {
-          document.addEventListener('DOMContentLoaded', loadDisqus);
-        } else {
-          loadDisqus();
-        }
-      })();
-    </script>
+          var d = document;
+          var s = d.createElement("script");
+          s.src = "https://cobalto.disqus.com/embed.js";
+          s.setAttribute("data-timestamp", +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+    
 
     <noscript>
       <div class="py-8 text-center">
@@ -1425,7 +1420,6 @@
       </div>
     </noscript>
   </div>
-
 </div>
     </div>
   </section>

@@ -1427,33 +1427,28 @@
   <div id="disqus-comments" class="disqus-container">
     <div id="disqus_thread"></div>
 
-    <script>
-      (function() {
-        'use strict';
-
-        
-        var disqus_config = function () {
+    
+      <script>
+        window.disqus_config = function () {
           this.page.url = 'https:\/\/cobalto.net\/posts\/a-%C3%ADncrivel-hist%C3%B3ria-de-como-quase-taquei-fogo-na-minha-casa-usando-apenas-%C3%A1gua\/';
           this.page.identifier = '\/posts\/a-%C3%ADncrivel-hist%C3%B3ria-de-como-quase-taquei-fogo-na-minha-casa-usando-apenas-%C3%A1gua\/';
           this.page.title = 'A íncrivel história de como quase taquei fogo na minha casa usando apenas água';
         };
 
-        
-        function loadDisqus() {
-          var d = document, s = d.createElement('script');
-          s.src = 'https://cobalto.disqus.com/embed.js';
-          s.setAttribute('data-timestamp', +new Date());
-          (d.head || d.body).appendChild(s);
-        }
+        (function () {
+          var host = window.location.hostname;
+          if (host === "localhost" || host === "127.0.0.1") {
+            return;
+          }
 
-        
-        if (document.readyState === 'loading') {
-          document.addEventListener('DOMContentLoaded', loadDisqus);
-        } else {
-          loadDisqus();
-        }
-      })();
-    </script>
+          var d = document;
+          var s = d.createElement("script");
+          s.src = "https://cobalto.disqus.com/embed.js";
+          s.setAttribute("data-timestamp", +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+    
 
     <noscript>
       <div class="py-8 text-center">
@@ -1471,7 +1466,6 @@
       </div>
     </noscript>
   </div>
-
 </div>
     </div>
   </section>
