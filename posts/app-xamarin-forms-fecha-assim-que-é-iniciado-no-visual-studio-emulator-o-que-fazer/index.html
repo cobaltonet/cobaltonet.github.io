@@ -1353,8 +1353,11 @@ Funcionou comigo.</p>
 
 
 
-  <div id="disqus-comments" class="disqus-container">
-    <div id="disqus_thread"></div>
+  <div
+    id="disqus-comments"
+    class="disqus-container border-border/70 bg-muted/20 overflow-hidden rounded-xl border p-3 sm:p-4"
+  >
+    <div id="disqus_thread" class="disqus-thread min-h-[120px]"></div>
 
     
       <script>
@@ -1363,34 +1366,96 @@ Funcionou comigo.</p>
 
           
           
+          function toParseableColor(value, fallback) {
+            if (!value) return fallback;
+            var v = String(value).trim().toLowerCase();
+            if (
+              v === "transparent" ||
+              v === "rgba(0, 0, 0, 0)" ||
+              v === "rgb(0, 0, 0, 0)"
+            ) {
+              return fallback;
+            }
+            if (/^#([0-9a-f]{3,8})$/i.test(v)) return v;
+            if (/^rgba?\(/.test(v) || /^hsla?\(/.test(v)) return v;
+
+            try {
+              var ctx = document.createElement("canvas").getContext("2d");
+              if (!ctx) return fallback;
+              ctx.fillStyle = "#000000";
+              ctx.fillStyle = value;
+              var out = ctx.fillStyle;
+              
+              if (out && out !== value && !/oklch|oklab|lab\(|color\(/i.test(out)) {
+                return out;
+              }
+            } catch (e) {
+               
+            }
+            return fallback;
+          }
+
+          function resolveBackground(el, fallback) {
+            var node = el;
+            while (node && node.nodeType === 1) {
+              var bg = getComputedStyle(node).backgroundColor;
+              var parsed = toParseableColor(bg, null);
+              if (parsed) return parsed;
+              if (node === document.documentElement) break;
+              node = node.parentElement;
+            }
+            return fallback;
+          }
+
           function forceDisqusSafeColors() {
             var isDark = document.documentElement.classList.contains("dark");
-            var color = isDark ? "#e8e8e8" : "#111111";
-            var bg = isDark ? "#1a1a1a" : "#ffffff";
+            var fallbackFg = isDark ? "#e8e8e8" : "#111111";
+            var fallbackBg = isDark ? "#18181b" : "#ffffff";
+
             var thread = document.getElementById("disqus_thread");
             var comments = document.getElementById("comments");
-            var container = document.querySelector(".comments-container");
+            var container = document.querySelector(".disqus-container");
+            var source = comments || document.body;
 
+            var cs = getComputedStyle(source);
+            var color = toParseableColor(cs.color, fallbackFg);
+            var bg = resolveBackground(source, fallbackBg);
+
+            
             if (thread) {
               thread.style.setProperty("color", color, "important");
+              
               thread.style.setProperty("background-color", bg, "important");
-            }
-            
-            if (comments) {
-              comments.style.setProperty("color", color, "important");
             }
             if (container) {
               container.style.setProperty("color", color, "important");
+              
+              container.style.setProperty("background-color", bg, "important");
             }
           }
 
           forceDisqusSafeColors();
 
-          
+          var resetTimer = null;
+          function onThemeChange() {
+            forceDisqusSafeColors();
+            
+            if (!window.DISQUS) return;
+            if (resetTimer) clearTimeout(resetTimer);
+            resetTimer = setTimeout(function () {
+              try {
+                window.DISQUS.reset({
+                  reload: true,
+                  config: window.disqus_config,
+                });
+              } catch (e) {
+                 
+              }
+            }, 150);
+          }
+
           try {
-            var themeObserver = new MutationObserver(function () {
-              forceDisqusSafeColors();
-            });
+            var themeObserver = new MutationObserver(onThemeChange);
             themeObserver.observe(document.documentElement, {
               attributes: true,
               attributeFilter: ["class", "data-theme"],
