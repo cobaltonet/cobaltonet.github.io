@@ -1358,22 +1358,16 @@ Funcionou comigo.</p>
 
     
       <script>
-        window.disqus_config = function () {
+        var disqus_config = function () {
           this.page.url = 'https:\/\/cobalto.net\/posts\/app-xamarin-forms-fecha-assim-que-%C3%A9-iniciado-no-visual-studio-emulator-o-que-fazer\/';
           this.page.identifier = '\/posts\/app-xamarin-forms-fecha-assim-que-%C3%A9-iniciado-no-visual-studio-emulator-o-que-fazer\/';
           this.page.title = 'App Xamarin Forms fecha assim que é iniciado no Visual Studio Emulator, o que fazer?';
         };
 
         (function () {
-          var host = window.location.hostname;
-          if (host === "localhost" || host === "127.0.0.1") {
-            return;
-          }
-
-          var d = document;
-          var s = d.createElement("script");
-          s.src = "https://cobalto.disqus.com/embed.js";
-          s.setAttribute("data-timestamp", +new Date());
+          var d = document, s = d.createElement('script');
+          s.src = 'https://cobalto.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
           (d.head || d.body).appendChild(s);
         })();
       </script>

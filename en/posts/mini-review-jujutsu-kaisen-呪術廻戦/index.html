@@ -1661,22 +1661,16 @@ Currently in what could be called the <strong>second arc</strong>.</p>
 
     
       <script>
-        window.disqus_config = function () {
+        var disqus_config = function () {
           this.page.url = 'https:\/\/cobalto.net\/en\/posts\/mini-review-jujutsu-kaisen-%E5%91%AA%E8%A1%93%E5%BB%BB%E6%88%A6\/';
           this.page.identifier = '\/en\/posts\/mini-review-jujutsu-kaisen-%E5%91%AA%E8%A1%93%E5%BB%BB%E6%88%A6\/';
           this.page.title = 'Mini Review: Jujutsu Kaisen (呪術廻戦)';
         };
 
         (function () {
-          var host = window.location.hostname;
-          if (host === "localhost" || host === "127.0.0.1") {
-            return;
-          }
-
-          var d = document;
-          var s = d.createElement("script");
-          s.src = "https://cobalto.disqus.com/embed.js";
-          s.setAttribute("data-timestamp", +new Date());
+          var d = document, s = d.createElement('script');
+          s.src = 'https://cobalto.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
           (d.head || d.body).appendChild(s);
         })();
       </script>

@@ -1453,22 +1453,16 @@
 
     
       <script>
-        window.disqus_config = function () {
+        var disqus_config = function () {
           this.page.url = 'https:\/\/cobalto.net\/posts\/instala%C3%A7%C3%A3o-do-xcode-travada-no-status-instalando\/';
           this.page.identifier = '\/posts\/instala%C3%A7%C3%A3o-do-xcode-travada-no-status-instalando\/';
           this.page.title = 'Instalação do Xcode travada no status Instalando';
         };
 
         (function () {
-          var host = window.location.hostname;
-          if (host === "localhost" || host === "127.0.0.1") {
-            return;
-          }
-
-          var d = document;
-          var s = d.createElement("script");
-          s.src = "https://cobalto.disqus.com/embed.js";
-          s.setAttribute("data-timestamp", +new Date());
+          var d = document, s = d.createElement('script');
+          s.src = 'https://cobalto.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
           (d.head || d.body).appendChild(s);
         })();
       </script>

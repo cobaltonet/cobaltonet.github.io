@@ -1383,22 +1383,16 @@
 
     
       <script>
-        window.disqus_config = function () {
+        var disqus_config = function () {
           this.page.url = 'https:\/\/cobalto.net\/posts\/resolvendo-o-erro-vt-x-is-not-available-do-virtual-box-no-windows-10\/';
           this.page.identifier = '\/posts\/resolvendo-o-erro-vt-x-is-not-available-do-virtual-box-no-windows-10\/';
           this.page.title = 'Resolvendo o erro “VT-x is not available” do Virtual Box no Windows 10';
         };
 
         (function () {
-          var host = window.location.hostname;
-          if (host === "localhost" || host === "127.0.0.1") {
-            return;
-          }
-
-          var d = document;
-          var s = d.createElement("script");
-          s.src = "https://cobalto.disqus.com/embed.js";
-          s.setAttribute("data-timestamp", +new Date());
+          var d = document, s = d.createElement('script');
+          s.src = 'https://cobalto.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
           (d.head || d.body).appendChild(s);
         })();
       </script>

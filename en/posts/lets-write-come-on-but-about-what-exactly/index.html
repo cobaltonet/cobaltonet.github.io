@@ -1411,22 +1411,16 @@ I no longer have the patience to try to be funny with everything, time gave me t
 
     
       <script>
-        window.disqus_config = function () {
+        var disqus_config = function () {
           this.page.url = 'https:\/\/cobalto.net\/en\/posts\/lets-write-come-on-but-about-what-exactly\/';
           this.page.identifier = '\/en\/posts\/lets-write-come-on-but-about-what-exactly\/';
           this.page.title = 'Let\u0027s write? Come on! But about what (exactly)?';
         };
 
         (function () {
-          var host = window.location.hostname;
-          if (host === "localhost" || host === "127.0.0.1") {
-            return;
-          }
-
-          var d = document;
-          var s = d.createElement("script");
-          s.src = "https://cobalto.disqus.com/embed.js";
-          s.setAttribute("data-timestamp", +new Date());
+          var d = document, s = d.createElement('script');
+          s.src = 'https://cobalto.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
           (d.head || d.body).appendChild(s);
         })();
       </script>

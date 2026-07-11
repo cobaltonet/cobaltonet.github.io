@@ -1493,22 +1493,16 @@
 
     
       <script>
-        window.disqus_config = function () {
+        var disqus_config = function () {
           this.page.url = 'https:\/\/cobalto.net\/en\/posts\/the-incredible-story-of-how-i-almost-set-my-house-on-fire-using-only-water\/';
           this.page.identifier = '\/en\/posts\/the-incredible-story-of-how-i-almost-set-my-house-on-fire-using-only-water\/';
           this.page.title = 'The incredible story of how I almost set my house on fire using only water';
         };
 
         (function () {
-          var host = window.location.hostname;
-          if (host === "localhost" || host === "127.0.0.1") {
-            return;
-          }
-
-          var d = document;
-          var s = d.createElement("script");
-          s.src = "https://cobalto.disqus.com/embed.js";
-          s.setAttribute("data-timestamp", +new Date());
+          var d = document, s = d.createElement('script');
+          s.src = 'https://cobalto.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
           (d.head || d.body).appendChild(s);
         })();
       </script>
