@@ -1440,34 +1440,74 @@ E por levar o Max ao posto máximo no pódio :)</p>
 
 
 
-  <div id="disqus_thread"></div>
 
-  
-    <script>
-      var disqus_shortname = 'cobalto';
-      var disqus_url = 'https:\/\/cobalto.net\/posts\/sobre-carros-velozes-estrat%C3%A9gia-champanhe-e-hannah-schmitz\/';
-      var disqus_identifier = '\/posts\/sobre-carros-velozes-estrat%C3%A9gia-champanhe-e-hannah-schmitz\/';
-      var disqus_title = 'Sobre carros velozes, estratégia, champanhe e Hannah Schmitz';
+  <div id="disqus-comments" class="disqus-container">
+    <div id="disqus_thread"></div>
 
-      var disqus_config = function () {
-        this.page.url = disqus_url;
-        this.page.identifier = disqus_identifier;
-        this.page.title = disqus_title;
-      };
+    
+      <script>
+        (function () {
+          "use strict";
 
-      (function () {
-        var d = document, s = d.createElement('script');
-        s.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-      })();
-    </script>
+          
+          
+          function forceDisqusSafeColors() {
+            var isDark = document.documentElement.classList.contains("dark");
+            var color = isDark ? "#e8e8e8" : "#111111";
+            var bg = isDark ? "#1a1a1a" : "#ffffff";
+            var thread = document.getElementById("disqus_thread");
+            var comments = document.getElementById("comments");
+            var container = document.querySelector(".comments-container");
 
-    <noscript>
-      Please enable JavaScript to view the
-      <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
-    </noscript>
-  
+            if (thread) {
+              thread.style.setProperty("color", color, "important");
+              thread.style.setProperty("background-color", bg, "important");
+            }
+            
+            if (comments) {
+              comments.style.setProperty("color", color, "important");
+            }
+            if (container) {
+              container.style.setProperty("color", color, "important");
+            }
+          }
+
+          forceDisqusSafeColors();
+
+          
+          try {
+            var themeObserver = new MutationObserver(function () {
+              forceDisqusSafeColors();
+            });
+            themeObserver.observe(document.documentElement, {
+              attributes: true,
+              attributeFilter: ["class", "data-theme"],
+            });
+          } catch (e) {
+             
+          }
+
+          window.disqus_config = function () {
+            this.page.url = "https://cobalto.net/posts/sobre-carros-velozes-estrat%C3%A9gia-champanhe-e-hannah-schmitz/";
+            this.page.identifier = "/posts/sobre-carros-velozes-estrat%C3%A9gia-champanhe-e-hannah-schmitz/";
+            this.page.title = "Sobre carros velozes, estratégia, champanhe e Hannah Schmitz";
+          };
+
+          var d = document,
+            s = d.createElement("script");
+          s.src = "https://cobalto.disqus.com/embed.js";
+          s.setAttribute("data-timestamp", +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+
+      <noscript>
+        Please enable JavaScript to view the
+        <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+      </noscript>
+    
+  </div>
+
 </div>
     </div>
   </section>
