@@ -1903,43 +1903,34 @@ git config --global alias.uncommit &#34;reset HEAD^&#34;</div>
 
 
 
+  <div id="disqus_thread"></div>
 
-  <div id="disqus-comments" class="disqus-container">
-    <div id="disqus_thread"></div>
+  
+    <script>
+      var disqus_shortname = 'cobalto';
+      var disqus_url = 'https:\/\/cobalto.net\/posts\/executando-testes-antes-de-um-commit\/';
+      var disqus_identifier = '\/posts\/executando-testes-antes-de-um-commit\/';
+      var disqus_title = 'Executando testes antes de um Commit';
 
-    
-      <script>
-        var disqus_config = function () {
-          this.page.url = 'https:\/\/cobalto.net\/posts\/executando-testes-antes-de-um-commit\/';
-          this.page.identifier = '\/posts\/executando-testes-antes-de-um-commit\/';
-          this.page.title = 'Executando testes antes de um Commit';
-        };
+      var disqus_config = function () {
+        this.page.url = disqus_url;
+        this.page.identifier = disqus_identifier;
+        this.page.title = disqus_title;
+      };
 
-        (function () {
-          var d = document, s = d.createElement('script');
-          s.src = 'https://cobalto.disqus.com/embed.js';
-          s.setAttribute('data-timestamp', +new Date());
-          (d.head || d.body).appendChild(s);
-        })();
-      </script>
-    
+      (function () {
+        var d = document, s = d.createElement('script');
+        s.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
 
     <noscript>
-      <div class="py-8 text-center">
-        <div
-          class="bg-muted/50 mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full"
-        >
-          <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/>
-</svg>
-
-        </div>
-        <h3 class="text-foreground mb-2 text-lg font-medium">
-          Sistema de comentários não configurado
-        </h3>
-      </div>
+      Please enable JavaScript to view the
+      <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
     </noscript>
-  </div>
+  
 </div>
     </div>
   </section>
