@@ -1460,17 +1460,35 @@
   <section
     id="comments"
     class="bg-card border-border mx-auto mt-12 rounded-2xl border p-8 px-4 shadow-sm"
+    data-comments-system="disqus"
   >
     <div class="bg-card">
-      <h2 class="text-foreground mb-6 flex items-center gap-3 text-2xl font-bold">
-        <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <button
+        type="button"
+        id="comments-toggle"
+        class="comments-toggle text-foreground flex w-full cursor-pointer items-center gap-3 border-0 bg-transparent p-0 text-left shadow-none outline-none focus-visible:outline-none"
+        aria-expanded="false"
+        aria-controls="comments-panel"
+      >
+        <span class="flex min-w-0 flex-1 items-center gap-3 text-2xl font-bold">
+          <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
   <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/>
 </svg>
 
-        Comments
-      </h2>
+          <span>Comments</span>
+        </span>
+        <svg class="h-5 w-5 comments-chevron text-muted-foreground shrink-0 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+</svg>
+      </button>
 
-      <div class="comments-container">
+      <div
+        id="comments-panel"
+        class="comments-panel grid grid-rows-[0fr] transition-[grid-template-rows] duration-300 ease-out"
+        aria-hidden="true"
+      >
+        <div class="overflow-hidden">
+          <div class="comments-container pt-4">
 
 
 
@@ -1479,6 +1497,8 @@
   <div
     id="disqus-comments"
     class="disqus-container border-border/70 bg-muted/20 overflow-hidden rounded-xl border p-3 sm:p-4"
+    data-disqus-shortname="cobalto"
+    data-disqus-loaded="false"
   >
     <div id="disqus_thread" class="disqus-thread min-h-[120px]"></div>
 
@@ -1487,8 +1507,14 @@
         (function () {
           "use strict";
 
-          
-          
+          var shortname = "cobalto";
+          var pageUrl = "https://cobalto.net/en/posts/typolugenchronik/";
+          var pageId = "/en/posts/typolugenchronik/";
+          var pageTitle = "Typolügenchronik: The Curious History of German Typography and Other Convenient Lies";
+          var loaded = false;
+          var loading = false;
+          var resetTimer = null;
+
           function toParseableColor(value, fallback) {
             if (!value) return fallback;
             var v = String(value).trim().toLowerCase();
@@ -1508,7 +1534,6 @@
               ctx.fillStyle = "#000000";
               ctx.fillStyle = value;
               var out = ctx.fillStyle;
-              
               if (out && out !== value && !/oklch|oklab|lab\(|color\(/i.test(out)) {
                 return out;
               }
@@ -1544,25 +1569,50 @@
             var color = toParseableColor(cs.color, fallbackFg);
             var bg = resolveBackground(source, fallbackBg);
 
-            
             if (thread) {
               thread.style.setProperty("color", color, "important");
-              
               thread.style.setProperty("background-color", bg, "important");
             }
             if (container) {
               container.style.setProperty("color", color, "important");
-              
               container.style.setProperty("background-color", bg, "important");
             }
           }
 
-          forceDisqusSafeColors();
+          function configureDisqus() {
+            window.disqus_config = function () {
+              this.page.url = pageUrl;
+              this.page.identifier = pageId;
+              this.page.title = pageTitle;
+            };
+          }
 
-          var resetTimer = null;
+          function loadDisqus() {
+            if (loaded || loading) return;
+            loading = true;
+
+            forceDisqusSafeColors();
+            configureDisqus();
+
+            var d = document,
+              s = d.createElement("script");
+            s.src = "https://" + shortname + ".disqus.com/embed.js";
+            s.setAttribute("data-timestamp", +new Date());
+            s.async = true;
+            s.onload = function () {
+              loaded = true;
+              loading = false;
+              var container = document.querySelector(".disqus-container");
+              if (container) container.setAttribute("data-disqus-loaded", "true");
+            };
+            s.onerror = function () {
+              loading = false;
+            };
+            (d.head || d.body).appendChild(s);
+          }
+
           function onThemeChange() {
             forceDisqusSafeColors();
-            
             if (!window.DISQUS) return;
             if (resetTimer) clearTimeout(resetTimer);
             resetTimer = setTimeout(function () {
@@ -1577,6 +1627,29 @@
             }, 150);
           }
 
+          
+          document.addEventListener("comments:open", function () {
+            
+            requestAnimationFrame(function () {
+              requestAnimationFrame(loadDisqus);
+            });
+          });
+
+          
+          document.addEventListener("comments:reopen", function () {
+            forceDisqusSafeColors();
+            if (window.DISQUS) {
+              try {
+                window.DISQUS.reset({
+                  reload: true,
+                  config: window.disqus_config,
+                });
+              } catch (e) {
+                 
+              }
+            }
+          });
+
           try {
             var themeObserver = new MutationObserver(onThemeChange);
             themeObserver.observe(document.documentElement, {
@@ -1587,30 +1660,105 @@
              
           }
 
-          window.disqus_config = function () {
-            this.page.url = "https://cobalto.net/en/posts/typolugenchronik/";
-            this.page.identifier = "/en/posts/typolugenchronik/";
-            this.page.title = "Typolügenchronik: The Curious History of German Typography and Other Convenient Lies";
-          };
-
-          var d = document,
-            s = d.createElement("script");
-          s.src = "https://cobalto.disqus.com/embed.js";
-          s.setAttribute("data-timestamp", +new Date());
-          (d.head || d.body).appendChild(s);
+          
+          var toggle = document.getElementById("comments-toggle");
+          if (toggle && toggle.getAttribute("aria-expanded") === "true") {
+            loadDisqus();
+          }
         })();
       </script>
 
       <noscript>
-        Please enable JavaScript to view the
-        <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        <p class="text-muted-foreground py-2 text-sm">
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </p>
       </noscript>
     
   </div>
 
 </div>
+        </div>
+      </div>
     </div>
   </section>
+
+  <script>
+    (function () {
+      "use strict";
+
+      var section = document.getElementById("comments");
+      var toggle = document.getElementById("comments-toggle");
+      var panel = document.getElementById("comments-panel");
+      if (!section || !toggle || !panel) return;
+
+      var chevron = toggle.querySelector(".comments-chevron");
+      var openedOnce = false;
+
+      function setOpen(open) {
+        toggle.setAttribute("aria-expanded", open ? "true" : "false");
+        panel.setAttribute("aria-hidden", open ? "false" : "true");
+        panel.style.gridTemplateRows = open ? "1fr" : "0fr";
+
+        if (chevron) {
+          if (open) {
+            chevron.classList.add("rotate-180");
+          } else {
+            chevron.classList.remove("rotate-180");
+          }
+        }
+
+        if (open) {
+          if (!openedOnce) {
+            openedOnce = true;
+            document.dispatchEvent(
+              new CustomEvent("comments:open", {
+                detail: { system: section.getAttribute("data-comments-system") || "" },
+              })
+            );
+          } else {
+            document.dispatchEvent(new CustomEvent("comments:reopen"));
+          }
+        }
+      }
+
+      function openComments() {
+        setOpen(true);
+      }
+
+      toggle.addEventListener("click", function () {
+        var isOpen = toggle.getAttribute("aria-expanded") === "true";
+        setOpen(!isOpen);
+      });
+
+      
+      var dockBtn = document.getElementById("dock-comments");
+      if (dockBtn) {
+        dockBtn.addEventListener("click", function () {
+          openComments();
+        });
+      }
+
+      
+      if (window.location.hash === "#comments") {
+        openComments();
+        
+        requestAnimationFrame(function () {
+          section.scrollIntoView({ behavior: "smooth", block: "start" });
+        });
+      }
+
+      window.CommentsAccordion = {
+        open: openComments,
+        close: function () {
+          setOpen(false);
+        },
+        isOpen: function () {
+          return toggle.getAttribute("aria-expanded") === "true";
+        },
+      };
+    })();
+  </script>
 
 
       </div>
