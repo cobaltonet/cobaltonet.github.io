@@ -10,9 +10,23 @@
 		
 		
 		
-			<lastBuildDate>Sat, 04 Jul 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Thu, 16 Jul 2026 00:00:00 -0300</lastBuildDate>
 		
 			<atom:link href="https://cobalto.net/categories/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Opinião</title>
+				<link>https://cobalto.net/categories/opini%C3%A3o/</link>
+				<pubDate>Thu, 16 Jul 2026 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/categories/opini%C3%A3o/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Tecnologia</title>
+				<link>https://cobalto.net/categories/tecnologia/</link>
+				<pubDate>Thu, 16 Jul 2026 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/categories/tecnologia/</guid>
+				<description></description>
+			</item>
 			<item>
 				<title>Programacao</title>
 				<link>https://cobalto.net/categories/programacao/</link>

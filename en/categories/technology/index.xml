@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Technology on Cobalto.net</title>
+		<link>https://cobalto.net/en/categories/technology/</link>
+		<description>Recent content in Technology on Cobalto.net</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Thu, 16 Jul 2026 00:00:00 -0300</lastBuildDate>
+		
+			<atom:link href="https://cobalto.net/en/categories/technology/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Watching digital history get rewritten</title>
+				<link>https://cobalto.net/en/posts/assistindo-a-historia-digital-ser-reescrita/</link>
+				<pubDate>Thu, 16 Jul 2026 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/en/posts/assistindo-a-historia-digital-ser-reescrita/</guid>
+				<description>When the digital past is buried under generic text, the archive becomes a hostage of whoever bought the domain.</description>
+			</item>
+	</channel>
+</rss>

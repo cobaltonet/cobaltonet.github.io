@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://cobalto.net/en/</loc>
-    <lastmod>2026-07-04T00:00:00+00:00</lastmod>
+    <lastmod>2026-07-16T00:00:00-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-BR"
@@ -15,8 +15,11 @@
                 href="https://cobalto.net/en/"
                 />
   </url><url>
+    <loc>https://cobalto.net/en/tags/ai/</loc>
+    <lastmod>2026-07-16T00:00:00-03:00</lastmod>
+  </url><url>
     <loc>https://cobalto.net/en/categories/</loc>
-    <lastmod>2026-07-04T00:00:00+00:00</lastmod>
+    <lastmod>2026-07-16T00:00:00-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-BR"
@@ -26,6 +29,67 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://cobalto.net/en/categories/"
+                />
+  </url><url>
+    <loc>https://cobalto.net/en/tags/digital-archiving/</loc>
+    <lastmod>2026-07-16T00:00:00-03:00</lastmod>
+  </url><url>
+    <loc>https://cobalto.net/en/tags/internet/</loc>
+    <lastmod>2026-07-16T00:00:00-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-BR"
+                href="https://cobalto.net/tags/internet/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cobalto.net/en/tags/internet/"
+                />
+  </url><url>
+    <loc>https://cobalto.net/en/categories/opinion/</loc>
+    <lastmod>2026-07-16T00:00:00-03:00</lastmod>
+  </url><url>
+    <loc>https://cobalto.net/en/posts/</loc>
+    <lastmod>2026-07-16T00:00:00-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-BR"
+                href="https://cobalto.net/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cobalto.net/en/posts/"
+                />
+  </url><url>
+    <loc>https://cobalto.net/en/tags/</loc>
+    <lastmod>2026-07-16T00:00:00-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-BR"
+                href="https://cobalto.net/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cobalto.net/en/tags/"
+                />
+  </url><url>
+    <loc>https://cobalto.net/en/categories/technology/</loc>
+    <lastmod>2026-07-16T00:00:00-03:00</lastmod>
+  </url><url>
+    <loc>https://cobalto.net/en/posts/assistindo-a-historia-digital-ser-reescrita/</loc>
+    <lastmod>2026-07-16T00:00:00-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-BR"
+                href="https://cobalto.net/posts/assistindo-a-historia-digital-ser-reescrita/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cobalto.net/en/posts/assistindo-a-historia-digital-ser-reescrita/"
                 />
   </url><url>
     <loc>https://cobalto.net/en/tags/google-maps/</loc>
@@ -70,19 +134,6 @@
                 href="https://cobalto.net/en/tags/kml/"
                 />
   </url><url>
-    <loc>https://cobalto.net/en/posts/</loc>
-    <lastmod>2026-07-04T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-BR"
-                href="https://cobalto.net/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cobalto.net/en/posts/"
-                />
-  </url><url>
     <loc>https://cobalto.net/en/categories/programming/</loc>
     <lastmod>2026-07-04T00:00:00+00:00</lastmod>
   </url><url>
@@ -97,19 +148,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://cobalto.net/en/tags/python/"
-                />
-  </url><url>
-    <loc>https://cobalto.net/en/tags/</loc>
-    <lastmod>2026-07-04T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-BR"
-                href="https://cobalto.net/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cobalto.net/en/tags/"
                 />
   </url><url>
     <loc>https://cobalto.net/en/categories/tutorial/</loc>

@@ -10,9 +10,30 @@
 		
 		
 		
-			<lastBuildDate>Sat, 04 Jul 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Thu, 16 Jul 2026 00:00:00 -0300</lastBuildDate>
 		
 			<atom:link href="https://cobalto.net/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Arquivamento Digital</title>
+				<link>https://cobalto.net/tags/arquivamento-digital/</link>
+				<pubDate>Thu, 16 Jul 2026 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/tags/arquivamento-digital/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Ia</title>
+				<link>https://cobalto.net/tags/ia/</link>
+				<pubDate>Thu, 16 Jul 2026 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/tags/ia/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Internet</title>
+				<link>https://cobalto.net/tags/internet/</link>
+				<pubDate>Thu, 16 Jul 2026 00:00:00 -0300</pubDate>
+				<guid>https://cobalto.net/tags/internet/</guid>
+				<description></description>
+			</item>
 			<item>
 				<title>Google Maps</title>
 				<link>https://cobalto.net/tags/google-maps/</link>
